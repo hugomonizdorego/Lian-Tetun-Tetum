@@ -1,0 +1,268 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Edukasaun OS Tetun Language Pack
+Source: Source release prepared for GitHub; repository URL to be set by maintainer.
+
+Files: *
+Copyright: 2026 Edukasaun OS contributors
+License: GPL-3+
+Comment: Original AI-assisted code, documentation and locale draft. No INL or
+ ISO approval is claimed. No protected dictionary, book, audio or thesis is
+ redistributed. References and inspected rights are recorded in SOURCES.md
+ and data/source-manifest.json.
+
+Files: data/glossary.csv
+Copyright: 2026 Edukasaun OS contributors
+License: GPL-3+ or GPL-2+ or LGPL-2+
+Comment: Original project terminology is additionally offered under GPL-2+
+ or LGPL-2+ for source-compatible native catalog contributions. This grant
+ does not cover third-party material.
+
+Files: upstream/mainmenu_tet.ts upstream/liblxqt-2.1.0-tet-locale.patch
+       build/qt/mainmenu_tet.qm
+Copyright: 2010-2011 Razor team
+           2013 LXQt team, Alexander Sokoloff, Luis Pereira
+           2026 Edukasaun OS contributors (original Tetun translations/changes)
+License: LGPL-2.1+
+Comment: Sources/contexts derive from lxqt-panel 2.1.4 and liblxqt 2.1.0.
+ Original notices are retained; exact URLs/hashes are in upstream/provenance.json.
+ The installer does not apply the optional source patch.
+
+Files: native/gtk20.po build/locale/tet/LC_MESSAGES/gtk20.mo
+Copyright: Original upstream copyright notices retained below
+           2026 Edukasaun OS contributors (original Tetun translations)
+License: LGPL-2+
+Comment: Exact upstream IDs/contexts; partial catalog. Native English
+ translations are not reused. Source URL/hash and counts: native-manifest.json.
+ Verbatim upstream header notices:
+ English (British) translation
+ Copyright (C) 2004 GTK+'s COPYRIGHT HOLDER
+ This file is distributed under the same licence as the gtk+ package.
+ Abigail Brady <morwen@evilmagic.org>, Gareth Owen <gowen72@yahoo.com> 2004
+ Bruce Cowan <bruce@bcowan.me.uk>, 2009, 2010, 2011.
+ Philip Withnall <philip@tecnocode.co.uk>, 2010.
+
+Files: native/gtk30.po build/locale/tet/LC_MESSAGES/gtk30.mo
+Copyright: Original upstream copyright notices retained below
+           2026 Edukasaun OS contributors (original Tetun translations)
+License: LGPL-2+
+Comment: Exact upstream IDs/contexts; partial catalog. Native English
+ translations are not reused. Source URL/hash and counts: native-manifest.json.
+ Verbatim upstream header notices:
+ English (British) translation
+ Copyright (C) 2004 GTK+'s COPYRIGHT HOLDER
+ This file is distributed under the same licence as the gtk+ package.
+ Abigail Brady <morwen@evilmagic.org>, Gareth Owen <gowen72@yahoo.com> 2004
+ Philip Withnall <philip@tecnocode.co.uk>, 2010, 2012.
+ Zander Brown <zbrown@gnome.org>, 2019-2020.
+ Bruce Cowan <bruce@bcowan.me.uk>, 2009-2023.
+
+Files: native/gtk40.po build/locale/tet/LC_MESSAGES/gtk40.mo
+Copyright: Original upstream copyright notices retained below
+           2026 Edukasaun OS contributors (original Tetun translations)
+License: LGPL-2+
+Comment: Exact upstream IDs/contexts; partial catalog. Native English
+ translations are not reused. Source URL/hash and counts: native-manifest.json.
+ Verbatim upstream header notices:
+ English (British) translation
+ Copyright (C) 2004 GTK+'s COPYRIGHT HOLDER
+ This file is distributed under the same licence as the gtk+ package.
+ Abigail Brady <morwen@evilmagic.org>, Gareth Owen <gowen72@yahoo.com> 2004
+ Philip Withnall <philip@tecnocode.co.uk>, 2010, 2012.
+ Zander Brown <zbrown@gnome.org>, 2020-2021.
+ Bruce Cowan <bruce@bcowan.me.uk>, 2009-2025.
+ Andi Chandler <andi@gowling.com>, 2024.
+
+Files: native/gnome-shell.po build/locale/tet/LC_MESSAGES/gnome-shell.mo
+Copyright: Original upstream copyright notices retained below
+           2026 Edukasaun OS contributors (original Tetun translations)
+License: GPL-2+
+Comment: Exact upstream IDs/contexts; partial catalog. Native English
+ translations are not reused. Source URL/hash and counts: native-manifest.json.
+ Verbatim upstream header notices:
+ British English translation for gnome-shell.
+ Copyright (C) 2009 gnome-shell's COPYRIGHT HOLDER
+ This file is distributed under the same license as the gnome-shell package.
+ Philip Withnall <philip@tecnocode.co.uk>, 2009, 2010, 2014.
+ Chris Leonard <cjlhomeaddress@gmail.com>, 2012.
+ Zander Brown <zbrown@gnome.org>, 2019-2021.
+ Andi Chandler <andi@gowling.com>, 2024.
+ Bruce Cowan <bruce@bcowan.me.uk>, 2010-2025.
+
+Files: native/cinnamon.po build/locale/tet/LC_MESSAGES/cinnamon.mo
+Copyright: Original upstream copyright notices retained below
+           2026 Edukasaun OS contributors (original Tetun translations)
+License: GPL-2+
+Comment: Exact upstream IDs/contexts; partial catalog. Native English
+ translations are not reused. Source URL/hash and counts: native-manifest.json.
+ Verbatim upstream header notices:
+ English (United Kingdom) translation for linuxmint
+ Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+ This file is distributed under the same license as the linuxmint package.
+ FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+
+Files: native/nemo.po build/locale/tet/LC_MESSAGES/nemo.mo
+Copyright: Original upstream copyright notices retained below
+           2026 Edukasaun OS contributors (original Tetun translations)
+License: GPL-2+
+Comment: Exact upstream IDs/contexts; partial catalog. Native English
+ translations are not reused. Source URL/hash and counts: native-manifest.json.
+ Verbatim upstream header notices:
+ English (United Kingdom) translation for linuxmint
+ Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+ This file is distributed under the same license as the linuxmint package.
+ FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+
+Files: native/xfce4-panel.po build/locale/tet/LC_MESSAGES/xfce4-panel.mo
+Copyright: Original upstream copyright notices retained below
+           2026 Edukasaun OS contributors (original Tetun translations)
+License: GPL-2+
+Comment: Exact upstream IDs/contexts; partial catalog. Native English
+ translations are not reused. Source URL/hash and counts: native-manifest.json.
+ Verbatim upstream header notices:
+ SOME DESCRIPTIVE TITLE.
+ Copyright (C) YEAR Xfce
+ This file is distributed under the same license as the xfce4-panel.xfce-4-20 package.
+ FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+ .
+ Translators:
+ Xfce Bot <transifex@xfce.org>, 2025
+ .
+
+Files: native/Thunar.po build/locale/tet/LC_MESSAGES/Thunar.mo
+Copyright: Original upstream copyright notices retained below
+           2026 Edukasaun OS contributors (original Tetun translations)
+License: GPL-2+
+Comment: Exact upstream IDs/contexts; partial catalog. Native English
+ translations are not reused. Source URL/hash and counts: native-manifest.json.
+ Verbatim upstream header notices:
+ SOME DESCRIPTIVE TITLE.
+ Copyright (C) YEAR Xfce
+ This file is distributed under the same license as the thunar.xfce-4-20 package.
+ FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+ .
+ Translators:
+ Xfce Bot <transifex@xfce.org>, 2024
+ Andi Chandler <andi@gowling.com>, 2025
+ .
+
+Files: native/lxpanel.po build/locale/tet/LC_MESSAGES/lxpanel.mo
+Copyright: Original upstream copyright notices retained below
+           2026 Edukasaun OS contributors (original Tetun translations)
+License: GPL-2+
+Comment: Exact upstream IDs/contexts; partial catalog. Native English
+ translations are not reused. Source URL/hash and counts: native-manifest.json.
+ Verbatim upstream header notices:
+ SOME DESCRIPTIVE TITLE.
+ Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ This file is distributed under the same license as the PACKAGE package.
+ FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+
+Files: native/pcmanfm.po build/locale/tet/LC_MESSAGES/pcmanfm.mo
+Copyright: Original upstream copyright notices retained below
+           2026 Edukasaun OS contributors (original Tetun translations)
+License: GPL-2+
+Comment: Exact upstream IDs/contexts; partial catalog. Native English
+ translations are not reused. Source URL/hash and counts: native-manifest.json.
+ Verbatim upstream header notices:
+ English (British) translation for PCManFM.
+ Copyright (C) LXDE translation team.
+ This file is distributed under the same license as the pcmanfm package.
+ Steve Cook <yorvik.ubunto@gmail.com>, 2010.
+
+Files: native/mate-panel.po build/locale/tet/LC_MESSAGES/mate-panel.mo
+Copyright: Original upstream copyright notices retained below
+           2026 Edukasaun OS contributors (original Tetun translations)
+License: GPL-2+
+Comment: Exact upstream IDs/contexts; partial catalog. Native English
+ translations are not reused. Source URL/hash and counts: native-manifest.json.
+ Verbatim upstream header notices:
+ SOME DESCRIPTIVE TITLE.
+ Copyright (C) YEAR MATE Desktop Environment team
+ This file is distributed under the same license as the mate-panel package.
+ FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+ .
+ Translators:
+ Stefano Karapetsas <stefano@karapetsas.com>, 2018
+ Martin Wimpress <code@flexion.org>, 2021
+ Andi Chandler <andi@gowling.com>, 2023
+ .
+
+Files: native/caja.po build/locale/tet/LC_MESSAGES/caja.mo
+Copyright: Original upstream copyright notices retained below
+           2026 Edukasaun OS contributors (original Tetun translations)
+License: GPL-2+
+Comment: Exact upstream IDs/contexts; partial catalog. Native English
+ translations are not reused. Source URL/hash and counts: native-manifest.json.
+ Verbatim upstream header notices:
+ SOME DESCRIPTIVE TITLE.
+ Copyright (C) YEAR MATE Desktop Environment team
+ This file is distributed under the same license as the caja package.
+ FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+ .
+ Translators:
+ Stefano Karapetsas <stefano@karapetsas.com>, 2021
+ Martin Wimpress <code@flexion.org>, 2021
+ Steven Maddox <s.maddox@lantizia.me.uk>, 2021
+ Andi Chandler <andi@gowling.com>, 2023
+ .
+
+Files: native/dolphin.po build/locale/tet/LC_MESSAGES/dolphin.mo
+Copyright: Original upstream copyright notices retained below
+           2026 Edukasaun OS contributors (original Tetun translations)
+License: GPL-2+
+Comment: Exact upstream IDs/contexts; partial catalog. Native English
+ translations are not reused. Source URL/hash and counts: native-manifest.json.
+ Verbatim upstream header notices:
+ translation of dolphin.po to British English
+ Copyright (C) YEAR This_file_is_part_of_KDE
+ This file is distributed under the same license as the PACKAGE package.
+ Malcolm Hunter <malcolm.hunter@gmx.co.uk>, 2008, 2009.
+ Andrew Coles <andrew_coles@yahoo.co.uk>, 2009, 2010, 2011.
+ SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Steve Allewell <steve.allewell@gmail.com>
+
+Files: LICENSE LICENSES/*
+Copyright: Free Software Foundation, Inc.
+License: license-text
+ Permission is granted to distribute verbatim copies of these license texts.
+
+Files: upstream/native-notices/*
+Copyright: Upstream application and translator contributors
+           Free Software Foundation, Inc.
+License: license-text
+ Permission is granted to distribute verbatim copies of these license texts.
+Comment: Verbatim upstream headers/license texts. GTK notices retain LGPL-2+;
+ LXPanel also retains its included MIT permission notice for the code to which
+ that notice applies. These attribution/reference notices grant no additional
+ rights over unrelated third-party dictionaries.
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify it under
+ the GNU General Public License as published by the Free Software Foundation,
+ either version 3, or (at your option) any later version.
+ .
+ This program is distributed without any warranty; see LICENSE for the full
+ terms. On Debian the verbatim text is in /usr/share/common-licenses/GPL-3.
+
+License: GPL-2+
+ This program is free software: you can redistribute it and/or modify it under
+ the GNU General Public License as published by the Free Software Foundation,
+ either version 2, or (at your option) any later version.
+ .
+ This program is distributed without any warranty; see LICENSES/GPL-2.txt for
+ full terms. On Debian the text is in /usr/share/common-licenses/GPL-2.
+
+License: LGPL-2+
+ This library is free software: you can redistribute it and/or modify it under
+ the GNU Library General Public License as published by the Free Software
+ Foundation, either version 2, or (at your option) any later version.
+ .
+ This library is distributed without any warranty; see LICENSES/LGPL-2.txt
+ for full terms. On Debian the text is in /usr/share/common-licenses/LGPL-2.
+
+License: LGPL-2.1+
+ This library is free software: you can redistribute it and/or modify it under
+ the GNU Lesser General Public License as published by the Free Software
+ Foundation, either version 2.1, or (at your option) any later version.
+ .
+ This library is distributed without any warranty; see LICENSES/LGPL-2.1.txt
+ for full terms. On Debian the text is in /usr/share/common-licenses/LGPL-2.1.

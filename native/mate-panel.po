@@ -1,0 +1,385 @@
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Edukasaun OS contributors (original Tetun translations)
+# Partial draft; exact upstream IDs/contexts. Not endorsed by INL.
+# Original upstream notices and license: upstream/native-notices/mate-panel.txt
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-panel package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Martin Wimpress <code@flexion.org>, 2021
+# Andi Chandler <andi@gowling.com>, 2023
+# 
+msgid ""
+msgstr "Project-Id-Version: mate-panel Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: applets/clock/calendar-window.c:257 applets/clock/clock.ui:708
+#. TET-0424; needs-INL-review
+msgid "Locations"
+msgstr "Fatin sira"
+
+#: applets/clock/calendar-window.c:257
+#. TET-0024; needs-INL-review
+msgid "Edit"
+msgstr "Edita"
+
+#: applets/clock/calendar-window.c:484
+#. TET-0423; needs-INL-review
+msgid "Calendar"
+msgstr "Kalendáriu"
+
+#: applets/clock/clock.c:2011 applets/fish/fish.c:1690
+#: applets/notification_area/main.c:290 applets/wncklet/window-list.c:551
+#: applets/wncklet/workspace-switcher.c:468
+#. TET-0058; needs-INL-review
+msgid "_Preferences"
+msgstr "_Preferénsia"
+
+#: applets/clock/clock.c:2014 applets/clock/clock.ui:312
+#: applets/fish/fish.c:1693 applets/fish/fish.ui:46
+#: applets/notification_area/main.c:293 applets/wncklet/showdesktop.c:239
+#: applets/wncklet/window-list.c:559 applets/wncklet/window-list.ui:37
+#: applets/wncklet/window-menu.c:105 applets/wncklet/workspace-switcher.c:476
+#: applets/wncklet/workspace-switcher.ui:46 mate-panel/drawer.c:558
+#: mate-panel/panel-action-button.c:730 mate-panel/panel-addto.c:1267
+#: mate-panel/panel-context-menu.c:320
+#: mate-panel/panel-ditem-editor-dialog.ui:45 mate-panel/panel-menu-bar.c:355
+#: mate-panel/panel-menu-button.c:699 mate-panel/panel-properties-dialog.ui:78
+#: mate-panel/panel-properties-dialog.ui:724 mate-panel/panel-run-dialog.ui:39
+#. TET-0054; needs-INL-review
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: applets/clock/clock.c:2017 applets/fish/fish.c:1696
+#: applets/notification_area/main.c:296 applets/wncklet/showdesktop.c:247
+#: applets/wncklet/window-list.c:567 applets/wncklet/window-menu.c:113
+#: applets/wncklet/workspace-switcher.c:484
+#. TET-0055; needs-INL-review
+msgid "_About"
+msgstr "_Kona-ba"
+
+#: applets/clock/clock.c:3581
+#: applets/clock/org.mate.panel.ClockApplet.mate-panel-applet.desktop.in.in:10
+#. TET-0178; needs-INL-review
+msgid "Clock"
+msgstr "Relójiu"
+
+#: applets/clock/clock.ui:46 applets/clock/clock.ui:952
+#: mate-panel/libpanel-util/panel-gtk.c:137
+#: mate-panel/panel-context-menu.c:214
+#: mate-panel/panel-ditem-editor-dialog.ui:92
+#: mate-panel/panel-force-quit.c:241 mate-panel/panel-recent.c:154
+#: mate-panel/panel-run-dialog.ui:55 mate-panel/panel.c:688
+#: mate-panel/panel.c:1491
+#. TET-0005; needs-INL-review
+msgid "_Cancel"
+msgstr "_Kansela"
+
+#: applets/clock/clock.ui:198
+#. TET-0422; needs-INL-review
+msgid "_Time:"
+msgstr "_Oras:"
+
+#: applets/clock/clock.ui:343 applets/fish/fish.c:849 applets/fish/fish.ui:62
+#: applets/notification_area/notification-area-preferences-dialog.ui:65
+#: applets/wncklet/window-list.ui:53 applets/wncklet/workspace-switcher.ui:62
+#: mate-panel/panel-addto.c:1278 mate-panel/panel-ditem-editor-dialog.ui:76
+#: mate-panel/panel-properties-dialog.ui:94
+#: mate-panel/panel-properties-dialog.ui:740
+#: mate-panel/panel-test-applets.ui:52
+#. TET-0002; needs-INL-review
+msgid "_Close"
+msgstr "_Taka"
+
+#: applets/clock/clock.ui:587 applets/fish/fish.ui:102
+#: mate-panel/panel-properties-dialog.ui:384
+#. TET-0062; needs-INL-review
+msgid "General"
+msgstr "Jerál"
+
+#: applets/clock/clock.ui:639 mate-panel/panel-addto.c:1274
+#. TET-0021; needs-INL-review
+msgid "_Add"
+msgstr "_Aumenta"
+
+#: applets/clock/clock.ui:655
+#. TET-0024; needs-INL-review
+msgid "_Edit"
+msgstr "_Edita"
+
+#: applets/clock/clock.ui:671
+#. TET-0022; needs-INL-review
+msgid "_Remove"
+msgstr "_Hasai"
+
+#: applets/clock/clock.ui:732
+#. TET-0167; needs-INL-review
+msgid "Display"
+msgstr "Ekrán"
+
+#: applets/clock/clock.ui:968 mate-panel/libpanel-util/panel-gtk.c:141
+#: mate-panel/panel-applet-frame.c:959
+#. TET-0007; needs-INL-review
+msgid "_OK"
+msgstr "_Di'ak"
+
+#: applets/fish/fish.ui:300
+#. TET-0075; needs-INL-review
+msgid "_File:"
+msgstr "_Arkivu:"
+
+#: applets/notification_area/main.c:274
+#: applets/notification_area/org.mate.panel.NotificationAreaApplet.mate-panel-applet.desktop.in.in:10
+#. TET-0397; needs-INL-review
+msgid "Notification Area"
+msgstr "Área notifikasaun"
+
+#: applets/wncklet/org.mate.panel.Wncklet.mate-panel-applet.desktop.in.in:23
+#: applets/wncklet/workspace-switcher.c:725
+#. TET-0335; needs-INL-review
+msgid "Workspace Switcher"
+msgstr "Troka espasu traballu"
+
+#: applets/wncklet/org.mate.panel.Wncklet.mate-panel-applet.desktop.in.in:36
+#: applets/wncklet/window-list.c:1042
+#. TET-0336; needs-INL-review
+msgid "Window List"
+msgstr "Lista janela"
+
+#: applets/wncklet/org.mate.panel.Wncklet.mate-panel-applet.desktop.in.in:49
+#. TET-0157; needs-INL-review
+msgid "Show Desktop"
+msgstr "Hatudu ambiente de traballu"
+
+#: applets/wncklet/window-list.ui:574
+#: applets/wncklet/workspace-switcher.ui:356
+#. TET-0334; needs-INL-review
+msgid "Workspaces"
+msgstr "Espasu traballu sira"
+
+#: mate-panel/mate-submodules/libegg/eggsmclient.c:239
+#. TET-0075; needs-INL-review
+msgid "FILE"
+msgstr "Arkivu"
+
+#: mate-panel/libpanel-util/panel-gtk.c:139
+#. TET-0001; needs-INL-review
+msgid "_Open"
+msgstr "_Loke"
+
+#: mate-panel/libpanel-util/panel-error.c:77
+#: mate-panel/panel-applet-frame.c:797 mate-panel/panel-applet-frame.c:985
+#. TET-0279; needs-INL-review
+msgid "Error"
+msgstr "Erru"
+
+#: mate-panel/applet.c:554 libmate-panel-applet/mate-panel-applet.c:143
+#. TET-0082; needs-INL-review
+msgid "_Move"
+msgstr "_Muda"
+
+#: mate-panel/drawer.c:552 mate-panel/launcher.c:607
+#: mate-panel/panel-action-button.c:173 mate-panel/panel-context-menu.c:248
+#. TET-0057; needs-INL-review
+msgid "_Properties"
+msgstr "_Propriedade"
+
+#: mate-panel/mate-panel.desktop.in:4 mate-panel/main.c:167
+#. TET-0149; needs-INL-review
+msgid "Panel"
+msgstr "Painél"
+
+#: mate-panel/panel-action-button.c:167
+#. TET-0158; needs-INL-review
+msgid "_Lock Screen"
+msgstr "_Xave ekrán"
+
+#: mate-panel/panel-action-button.c:342
+#. TET-0158; needs-INL-review
+msgid "Lock Screen"
+msgstr "Xave ekrán"
+
+#: mate-panel/panel-action-button.c:357
+#. TET-0159; needs-INL-review
+msgid "Log Out..."
+msgstr "Sai husi sesaun..."
+
+#: mate-panel/panel-action-button.c:405
+#. TET-0161; needs-INL-review
+msgid "Shut Down..."
+msgstr "Desliga..."
+
+#: mate-panel/panel-addto.c:1019
+#. TET-0320; needs-INL-review
+msgid "Add to Panel"
+msgstr "Aumenta ba painél"
+
+#: mate-panel/panel-addto.c:1270
+#. TET-0010; needs-INL-review
+msgid "_Back"
+msgstr "_Fila fali"
+
+#: mate-panel/panel-applet-frame.c:774
+#. TET-0023; needs-INL-review
+msgid "D_elete"
+msgstr "_Apaga"
+
+#: mate-panel/panel-applet-frame.c:776 mate-panel/panel-applet-frame.c:781
+#. TET-0432; needs-INL-review
+msgid "_Reload"
+msgstr "_Karga fali"
+
+#: mate-panel/panel-applet-frame.c:969 mate-panel/panel.c:1495
+#. TET-0023; needs-INL-review
+msgid "_Delete"
+msgstr "_Apaga"
+
+#: mate-panel/panel-context-menu.c:237
+#. TET-0320; needs-INL-review
+msgid "_Add to Panel…"
+msgstr "_Aumenta ba painél…"
+
+#: mate-panel/panel-ditem-editor.c:121
+#. TET-0096; needs-INL-review
+msgid "Location"
+msgstr "Fatin"
+
+#: mate-panel/panel-ditem-editor.c:1021
+#. TET-0096; needs-INL-review
+msgid "_Location:"
+msgstr "_Fatin:"
+
+#: mate-panel/panel-ditem-editor-dialog.ui:108
+#. TET-0007; needs-INL-review
+msgid "_Ok"
+msgstr "_Di'ak"
+
+#: mate-panel/panel-ditem-editor-dialog.ui:163
+#. TET-0099; needs-INL-review
+msgid "_Type:"
+msgstr "_Tipu:"
+
+#: mate-panel/panel-ditem-editor-dialog.ui:180
+#. TET-0064; needs-INL-review
+msgid "_Name:"
+msgstr "_Naran:"
+
+#: mate-panel/panel-ditem-editor-dialog.ui:269
+#. TET-0040; needs-INL-review
+msgid "_Browse..."
+msgstr "_Buka arkivu..."
+
+#: mate-panel/panel-menu-bar.c:170
+#. TET-0121; needs-INL-review
+msgid "Applications"
+msgstr "Aplikasaun sira"
+
+#: mate-panel/panel-menu-items.c:464
+#. TET-0353; needs-INL-review
+msgid "Bookmarks"
+msgstr "Markadór sira"
+
+#. Translators: Desktop is used here as in
+#. * "Desktop Folder" (this is not the Desktop
+#. * environment).
+#: mate-panel/panel-menu-items.c:1056
+#. TET-0087; needs-INL-review
+msgctxt "Desktop Folder"
+msgid "Desktop"
+msgstr "Ambiente de traballu"
+
+#: mate-panel/panel-menu-items.c:1074
+#. TET-0343; needs-INL-review
+msgid "Computer"
+msgstr "Komputadór"
+
+#: mate-panel/panel-menu-items.c:1093
+#. TET-0216; needs-INL-review
+msgid "Network"
+msgstr "Rede"
+
+#: mate-panel/panel-menu-items.c:1457
+#. TET-0342; needs-INL-review
+msgid "Places"
+msgstr "Fatin sira"
+
+#: mate-panel/panel-properties-dialog.c:120 mate-panel/panel-test-applets.c:59
+#. TET-0407; needs-INL-review
+msgctxt "Orientation"
+msgid "Top"
+msgstr "Leten"
+
+#: mate-panel/panel-properties-dialog.c:121 mate-panel/panel-test-applets.c:60
+#. TET-0408; needs-INL-review
+msgctxt "Orientation"
+msgid "Bottom"
+msgstr "Kraik"
+
+#: mate-panel/panel-properties-dialog.c:122 mate-panel/panel-test-applets.c:61
+#. TET-0409; needs-INL-review
+msgctxt "Orientation"
+msgid "Left"
+msgstr "Karuk"
+
+#: mate-panel/panel-properties-dialog.c:123 mate-panel/panel-test-applets.c:62
+#. TET-0410; needs-INL-review
+msgctxt "Orientation"
+msgid "Right"
+msgstr "Loos"
+
+#: mate-panel/panel-properties-dialog.ui:189
+#. TET-0145; needs-INL-review
+msgid "_Icon:"
+msgstr "_Íkone:"
+
+#: mate-panel/panel-properties-dialog.ui:249
+#: mate-panel/panel-test-applets.ui:116
+#. TET-0402; needs-INL-review
+msgid "_Orientation:"
+msgstr "_Orientasaun:"
+
+#: mate-panel/panel-properties-dialog.ui:263
+#: mate-panel/panel-test-applets.ui:86
+#. TET-0098; needs-INL-review
+msgid "_Size:"
+msgstr "_Tamañu:"
+
+#: mate-panel/panel-properties-dialog.ui:281
+#. TET-0416; needs-INL-review
+msgid "E_xpand"
+msgstr "_Habelar"
+
+#: mate-panel/panel-properties-dialog.ui:678
+#. TET-0400; needs-INL-review
+msgid "Background"
+msgstr "Fundu"
+
+#: mate-panel/panel-stock-icons.c:99
+#. TET-0031; needs-INL-review
+msgid "C_lear"
+msgstr "_Hamoos"
+
+#: mate-panel/panel-test-applets.ui:35
+#. TET-0106; needs-INL-review
+msgid "_Execute"
+msgstr "_Ezekuta"
+
+#: mate-panel/panel-util.c:702
+#. TET-0075; needs-INL-review
+msgid "file"
+msgstr "Arkivu"
+
+#. Translators: this is the same string as the one found in
+#. * caja
+#: mate-panel/panel-util.c:882
+#. TET-0344; needs-INL-review
+msgid "File System"
+msgstr "Sistema arkivu"
+
+#: mate-panel/panel-util.c:1045
+#. TET-0032; needs-INL-review
+msgid "Search"
+msgstr "Buka"
+

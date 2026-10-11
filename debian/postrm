@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+case "$1" in
+ purge)
+  target=/usr/lib/locale/tet_TL.utf8
+  if [ ! -L "$target" ] && [ ! -L "$target/.eduka-tet-owner" ] && [ -f "$target/.eduka-tet-owner" ]; then
+   if [ "$(cat "$target/.eduka-tet-owner")" = eduka-language-pack-tet ]; then
+    rm -rf -- "$target"
+   fi
+  fi
+ ;;
+esac
+exit 0

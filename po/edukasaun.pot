@@ -1,0 +1,1738 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Original AI-assisted draft; no third-party dictionary copied.
+msgid ""
+msgstr "Project-Id-Version: eduka-language-pack-tet 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community\nLanguage-Team: Tetun (community draft; INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#. TET-0001: needs-INL-review
+msgid "Open"
+msgstr ""
+
+#. TET-0002: needs-INL-review
+msgid "Close"
+msgstr ""
+
+#. TET-0003: needs-INL-review
+msgid "Save"
+msgstr ""
+
+#. TET-0004: needs-INL-review
+msgid "Save As"
+msgstr ""
+
+#. TET-0005: needs-INL-review
+msgid "Cancel"
+msgstr ""
+
+#. TET-0006: needs-INL-review
+msgid "Apply"
+msgstr ""
+
+#. TET-0007: needs-INL-review
+msgid "OK"
+msgstr ""
+
+#. TET-0008: needs-INL-review
+msgid "Yes"
+msgstr ""
+
+#. TET-0009: needs-INL-review
+msgid "No"
+msgstr ""
+
+#. TET-0010: needs-INL-review
+msgid "Back"
+msgstr ""
+
+#. TET-0011: needs-INL-review
+msgid "Next"
+msgstr ""
+
+#. TET-0012: needs-INL-review
+msgid "Finish"
+msgstr ""
+
+#. TET-0013: needs-INL-review
+msgid "Continue"
+msgstr ""
+
+#. TET-0014: needs-INL-review
+msgid "Stop"
+msgstr ""
+
+#. TET-0015: needs-INL-review
+msgid "Pause"
+msgstr ""
+
+#. TET-0016: needs-INL-review
+msgid "Resume"
+msgstr ""
+
+#. TET-0017: needs-INL-review
+msgid "Retry"
+msgstr ""
+
+#. TET-0018: needs-INL-review
+msgid "Refresh"
+msgstr ""
+
+#. TET-0019: needs-INL-review
+msgid "Reset"
+msgstr ""
+
+#. TET-0020: needs-INL-review
+msgid "Restore Defaults"
+msgstr ""
+
+#. TET-0021: needs-INL-review
+msgid "Add"
+msgstr ""
+
+#. TET-0022: needs-INL-review
+msgid "Remove"
+msgstr ""
+
+#. TET-0023: needs-INL-review
+msgid "Delete"
+msgstr ""
+
+#. TET-0024: needs-INL-review
+msgid "Edit"
+msgstr ""
+
+#. TET-0025: needs-INL-review
+msgid "Copy"
+msgstr ""
+
+#. TET-0026: needs-INL-review
+msgid "Cut"
+msgstr ""
+
+#. TET-0027: needs-INL-review
+msgid "Paste"
+msgstr ""
+
+#. TET-0028: needs-INL-review
+msgid "Undo"
+msgstr ""
+
+#. TET-0029: needs-INL-review
+msgid "Redo"
+msgstr ""
+
+#. TET-0030: needs-INL-review
+msgid "Select All"
+msgstr ""
+
+#. TET-0031: needs-INL-review
+msgid "Clear"
+msgstr ""
+
+#. TET-0032: needs-INL-review
+msgid "Search"
+msgstr ""
+
+#. TET-0033: needs-INL-review
+msgid "Search..."
+msgstr ""
+
+#. TET-0034: needs-INL-review
+msgid "Find"
+msgstr ""
+
+#. TET-0035: needs-INL-review
+msgid "Replace"
+msgstr ""
+
+#. TET-0036: needs-INL-review
+msgid "Print"
+msgstr ""
+
+#. TET-0037: needs-INL-review
+msgid "Preview"
+msgstr ""
+
+#. TET-0038: needs-INL-review
+msgid "Import"
+msgstr ""
+
+#. TET-0039: needs-INL-review
+msgid "Export"
+msgstr ""
+
+#. TET-0040: needs-INL-review
+msgid "Browse"
+msgstr ""
+
+#. TET-0041: needs-INL-review
+msgid "Choose"
+msgstr ""
+
+#. TET-0042: needs-INL-review
+msgid "Confirm"
+msgstr ""
+
+#. TET-0043: needs-INL-review
+msgid "Send"
+msgstr ""
+
+#. TET-0044: needs-INL-review
+msgid "Receive"
+msgstr ""
+
+#. TET-0045: needs-INL-review
+msgid "Download"
+msgstr ""
+
+#. TET-0046: needs-INL-review
+msgid "Upload"
+msgstr ""
+
+#. TET-0047: needs-INL-review
+msgid "Install"
+msgstr ""
+
+#. TET-0048: needs-INL-review
+msgid "Uninstall"
+msgstr ""
+
+#. TET-0049: needs-INL-review
+msgid "Update"
+msgstr ""
+
+#. TET-0050: needs-INL-review
+msgid "Enable"
+msgstr ""
+
+#. TET-0051: needs-INL-review
+msgid "Disable"
+msgstr ""
+
+#. TET-0052: needs-INL-review
+msgid "Start"
+msgstr ""
+
+#. TET-0053: needs-INL-review
+msgid "Exit"
+msgstr ""
+
+#. TET-0054: needs-INL-review
+msgid "Help"
+msgstr ""
+
+#. TET-0055: needs-INL-review
+msgid "About"
+msgstr ""
+
+#. TET-0056: needs-INL-review
+msgid "Details"
+msgstr ""
+
+#. TET-0057: needs-INL-review
+msgid "Properties"
+msgstr ""
+
+#. TET-0058: needs-INL-review
+msgid "Preferences"
+msgstr ""
+
+#. TET-0059: needs-INL-review
+msgid "Settings"
+msgstr ""
+
+#. TET-0060: needs-INL-review
+msgid "Options"
+msgstr ""
+
+#. TET-0061: needs-INL-review
+msgid "Advanced"
+msgstr ""
+
+#. TET-0062: needs-INL-review
+msgid "General"
+msgstr ""
+
+#. TET-0063: needs-INL-review
+msgid "Default"
+msgstr ""
+
+#. TET-0064: needs-INL-review
+msgid "Name"
+msgstr ""
+
+#. TET-0065: needs-INL-review
+msgid "Description"
+msgstr ""
+
+#. TET-0066: needs-INL-review
+msgid "Version"
+msgstr ""
+
+#. TET-0067: needs-INL-review
+msgid "License"
+msgstr ""
+
+#. TET-0068: needs-INL-review
+msgid "Language"
+msgstr ""
+
+#. TET-0069: needs-INL-review
+msgid "Languages"
+msgstr ""
+
+#. TET-0070: needs-INL-review
+msgid "Author"
+msgstr ""
+
+#. TET-0071: needs-INL-review
+msgid "Contributors"
+msgstr ""
+
+#. TET-0072: needs-INL-review
+msgid "Copyright"
+msgstr ""
+
+#. TET-0073: needs-INL-review
+msgid "Website"
+msgstr ""
+
+#. TET-0074: needs-INL-review
+msgid "Documentation"
+msgstr ""
+
+#. TET-0075: needs-INL-review
+msgid "File"
+msgstr ""
+
+#. TET-0076: needs-INL-review
+msgid "Files"
+msgstr ""
+
+#. TET-0077: needs-INL-review
+msgid "Folder"
+msgstr ""
+
+#. TET-0078: needs-INL-review
+msgid "Folders"
+msgstr ""
+
+#. TET-0079: needs-INL-review
+msgid "New File"
+msgstr ""
+
+#. TET-0080: needs-INL-review
+msgid "New Folder"
+msgstr ""
+
+#. TET-0081: needs-INL-review
+msgid "Rename"
+msgstr ""
+
+#. TET-0082: needs-INL-review
+msgid "Move"
+msgstr ""
+
+#. TET-0083: needs-INL-review
+msgid "Move to Trash"
+msgstr ""
+
+#. TET-0084: needs-INL-review
+msgid "Trash"
+msgstr ""
+
+#. TET-0085: needs-INL-review
+msgid "Empty Trash"
+msgstr ""
+
+#. TET-0086: needs-INL-review
+msgid "Home"
+msgstr ""
+
+#. TET-0087: needs-INL-review
+msgid "Desktop"
+msgstr ""
+
+#. TET-0088: needs-INL-review
+msgid "Documents"
+msgstr ""
+
+#. TET-0089: needs-INL-review
+msgid "Downloads"
+msgstr ""
+
+#. TET-0090: needs-INL-review
+msgid "Pictures"
+msgstr ""
+
+#. TET-0091: needs-INL-review
+msgid "Music"
+msgstr ""
+
+#. TET-0092: needs-INL-review
+msgid "Videos"
+msgstr ""
+
+#. TET-0093: needs-INL-review
+msgid "Recent Files"
+msgstr ""
+
+#. TET-0094: needs-INL-review
+msgid "Hidden Files"
+msgstr ""
+
+#. TET-0095: needs-INL-review
+msgid "Show Hidden Files"
+msgstr ""
+
+#. TET-0096: needs-INL-review
+msgid "Location"
+msgstr ""
+
+#. TET-0097: needs-INL-review
+msgid "Path"
+msgstr ""
+
+#. TET-0098: needs-INL-review
+msgid "Size"
+msgstr ""
+
+#. TET-0099: needs-INL-review
+msgid "Type"
+msgstr ""
+
+#. TET-0100: needs-INL-review
+msgid "Modified"
+msgstr ""
+
+#. TET-0101: needs-INL-review
+msgid "Created"
+msgstr ""
+
+#. TET-0102: needs-INL-review
+msgid "Owner"
+msgstr ""
+
+#. TET-0103: needs-INL-review
+msgid "Permissions"
+msgstr ""
+
+#. TET-0104: needs-INL-review
+msgid "Read"
+msgstr ""
+
+#. TET-0105: needs-INL-review
+msgid "Write"
+msgstr ""
+
+#. TET-0106: needs-INL-review
+msgid "Execute"
+msgstr ""
+
+#. TET-0107: needs-INL-review
+msgid "Read Only"
+msgstr ""
+
+#. TET-0108: needs-INL-review
+msgid "Mount"
+msgstr ""
+
+#. TET-0109: needs-INL-review
+msgid "Unmount"
+msgstr ""
+
+#. TET-0110: needs-INL-review
+msgid "Eject"
+msgstr ""
+
+#. TET-0111: needs-INL-review
+msgid "Storage"
+msgstr ""
+
+#. TET-0112: needs-INL-review
+msgid "Disk"
+msgstr ""
+
+#. TET-0113: needs-INL-review
+msgid "Free Space"
+msgstr ""
+
+#. TET-0114: needs-INL-review
+msgid "Used Space"
+msgstr ""
+
+#. TET-0115: needs-INL-review
+msgid "File Manager"
+msgstr ""
+
+#. TET-0116: needs-INL-review
+msgid "Open With"
+msgstr ""
+
+#. TET-0117: needs-INL-review
+msgid "Overwrite"
+msgstr ""
+
+#. TET-0118: needs-INL-review
+msgid "File not found"
+msgstr ""
+
+#. TET-0119: needs-INL-review
+msgid "Permission denied"
+msgstr ""
+
+#. TET-0120: needs-INL-review
+msgid "A file with this name already exists."
+msgstr ""
+
+#. TET-0121: needs-INL-review
+msgid "Applications"
+msgstr ""
+
+#. TET-0122: needs-INL-review
+msgid "All Applications"
+msgstr ""
+
+#. TET-0123: needs-INL-review
+msgid "Favorites"
+msgstr ""
+
+#. TET-0124: needs-INL-review
+msgid "Add to Favorites"
+msgstr ""
+
+#. TET-0125: needs-INL-review
+msgid "Remove from Favorites"
+msgstr ""
+
+#. TET-0126: needs-INL-review
+msgid "Add to Desktop"
+msgstr ""
+
+#. TET-0127: needs-INL-review
+msgid "Accessories"
+msgstr ""
+
+#. TET-0128: needs-INL-review
+msgid "Education"
+msgstr ""
+
+#. TET-0129: needs-INL-review
+msgid "Graphics"
+msgstr ""
+
+#. TET-0130: needs-INL-review
+msgid "Internet"
+msgstr ""
+
+#. TET-0131: needs-INL-review
+msgid "Office"
+msgstr ""
+
+#. TET-0132: needs-INL-review
+msgid "Programming"
+msgstr ""
+
+#. TET-0133: needs-INL-review
+msgid "Sound & Video"
+msgstr ""
+
+#. TET-0134: needs-INL-review
+msgid "System Tools"
+msgstr ""
+
+#. TET-0135: needs-INL-review
+msgid "Universal Access"
+msgstr ""
+
+#. TET-0136: needs-INL-review
+msgid "Accessibility"
+msgstr ""
+
+#. TET-0137: needs-INL-review
+msgid "Terminal"
+msgstr ""
+
+#. TET-0138: needs-INL-review
+msgid "Calculator"
+msgstr ""
+
+#. TET-0139: needs-INL-review
+msgid "Text Editor"
+msgstr ""
+
+#. TET-0140: needs-INL-review
+msgid "Web Browser"
+msgstr ""
+
+#. TET-0141: needs-INL-review
+msgid "System Information"
+msgstr ""
+
+#. TET-0142: needs-INL-review
+msgid "Appearance"
+msgstr ""
+
+#. TET-0143: needs-INL-review
+msgid "Theme"
+msgstr ""
+
+#. TET-0144: needs-INL-review
+msgid "Wallpaper"
+msgstr ""
+
+#. TET-0145: needs-INL-review
+msgid "Icon"
+msgstr ""
+
+#. TET-0146: needs-INL-review
+msgid "Icons"
+msgstr ""
+
+#. TET-0147: needs-INL-review
+msgid "Font"
+msgstr ""
+
+#. TET-0148: needs-INL-review
+msgid "Font Size"
+msgstr ""
+
+#. TET-0149: needs-INL-review
+msgid "Panel"
+msgstr ""
+
+#. TET-0150: needs-INL-review
+msgid "Taskbar"
+msgstr ""
+
+#. TET-0151: needs-INL-review
+msgid "Notification"
+msgstr ""
+
+#. TET-0152: needs-INL-review
+msgid "Notifications"
+msgstr ""
+
+#. TET-0153: needs-INL-review
+msgid "Window"
+msgstr ""
+
+#. TET-0154: needs-INL-review
+msgid "Minimize"
+msgstr ""
+
+#. TET-0155: needs-INL-review
+msgid "Maximize"
+msgstr ""
+
+#. TET-0156: needs-INL-review
+msgid "Fullscreen"
+msgstr ""
+
+#. TET-0157: needs-INL-review
+msgid "Show Desktop"
+msgstr ""
+
+#. TET-0158: needs-INL-review
+msgid "Lock Screen"
+msgstr ""
+
+#. TET-0159: needs-INL-review
+msgid "Log Out"
+msgstr ""
+
+#. TET-0160: needs-INL-review
+msgid "Restart"
+msgstr ""
+
+#. TET-0161: needs-INL-review
+msgid "Shut Down"
+msgstr ""
+
+#. TET-0162: needs-INL-review
+msgid "Suspend"
+msgstr ""
+
+#. TET-0163: needs-INL-review
+msgid "Hibernate"
+msgstr ""
+
+#. TET-0164: needs-INL-review
+msgid "Power"
+msgstr ""
+
+#. TET-0165: needs-INL-review
+msgid "Battery"
+msgstr ""
+
+#. TET-0166: needs-INL-review
+msgid "Charging"
+msgstr ""
+
+#. TET-0167: needs-INL-review
+msgid "Display"
+msgstr ""
+
+#. TET-0168: needs-INL-review
+msgid "Resolution"
+msgstr ""
+
+#. TET-0169: needs-INL-review
+msgid "Brightness"
+msgstr ""
+
+#. TET-0170: needs-INL-review
+msgid "Volume"
+msgstr ""
+
+#. TET-0171: needs-INL-review
+msgid "Mute"
+msgstr ""
+
+#. TET-0172: needs-INL-review
+msgid "Keyboard"
+msgstr ""
+
+#. TET-0173: needs-INL-review
+msgid "Mouse"
+msgstr ""
+
+#. TET-0174: needs-INL-review
+msgid "Touchpad"
+msgstr ""
+
+#. TET-0175: needs-INL-review
+msgid "Keyboard Shortcut"
+msgstr ""
+
+#. TET-0176: needs-INL-review
+msgid "Date and Time"
+msgstr ""
+
+#. TET-0177: needs-INL-review
+msgid "Time Zone"
+msgstr ""
+
+#. TET-0178: needs-INL-review
+msgid "Clock"
+msgstr ""
+
+#. TET-0179: needs-INL-review
+msgid "Check for Updates"
+msgstr ""
+
+#. TET-0180: needs-INL-review
+msgid "Check Update"
+msgstr ""
+
+#. TET-0181: needs-INL-review
+msgid "Check Again"
+msgstr ""
+
+#. TET-0182: needs-INL-review
+msgid "Install Updates"
+msgstr ""
+
+#. TET-0183: needs-INL-review
+msgid "Updates Available"
+msgstr ""
+
+#. TET-0184: needs-INL-review
+msgid "No Updates Available"
+msgstr ""
+
+#. TET-0185: needs-INL-review
+msgid "Checking for updates..."
+msgstr ""
+
+#. TET-0186: needs-INL-review
+msgid "Downloading..."
+msgstr ""
+
+#. TET-0187: needs-INL-review
+msgid "Installing..."
+msgstr ""
+
+#. TET-0188: needs-INL-review
+msgid "Updating..."
+msgstr ""
+
+#. TET-0189: needs-INL-review
+msgid "Completed"
+msgstr ""
+
+#. TET-0190: needs-INL-review
+msgid "Update completed successfully."
+msgstr ""
+
+#. TET-0191: needs-INL-review
+msgid "Update failed."
+msgstr ""
+
+#. TET-0192: needs-INL-review
+msgid "Restart Required"
+msgstr ""
+
+#. TET-0193: needs-INL-review
+msgid "Restart Now"
+msgstr ""
+
+#. TET-0194: needs-INL-review
+msgid "Restart Later"
+msgstr ""
+
+#. TET-0195: needs-INL-review
+msgid "Critical Updates"
+msgstr ""
+
+#. TET-0196: needs-INL-review
+msgid "Kernel Updates"
+msgstr ""
+
+#. TET-0197: needs-INL-review
+msgid "Normal Updates"
+msgstr ""
+
+#. TET-0198: needs-INL-review
+msgid "Flatpak Updates"
+msgstr ""
+
+#. TET-0199: needs-INL-review
+msgid "Package"
+msgstr ""
+
+#. TET-0200: needs-INL-review
+msgid "Packages"
+msgstr ""
+
+#. TET-0201: needs-INL-review
+msgid "Installed Version"
+msgstr ""
+
+#. TET-0202: needs-INL-review
+msgid "New Version"
+msgstr ""
+
+#. TET-0203: needs-INL-review
+msgid "Repository"
+msgstr ""
+
+#. TET-0204: needs-INL-review
+msgid "Repositories"
+msgstr ""
+
+#. TET-0205: needs-INL-review
+msgid "History"
+msgstr ""
+
+#. TET-0206: needs-INL-review
+msgid "Clear History"
+msgstr ""
+
+#. TET-0207: needs-INL-review
+msgid "Last Check"
+msgstr ""
+
+#. TET-0208: needs-INL-review
+msgid "Progress"
+msgstr ""
+
+#. TET-0209: needs-INL-review
+msgid "Status"
+msgstr ""
+
+#. TET-0210: needs-INL-review
+msgid "Success"
+msgstr ""
+
+#. TET-0211: needs-INL-review
+msgid "Failed"
+msgstr ""
+
+#. TET-0212: needs-INL-review
+msgid "Pending"
+msgstr ""
+
+#. TET-0213: needs-INL-review
+msgid "Running"
+msgstr ""
+
+#. TET-0214: needs-INL-review
+msgid "Up to date"
+msgstr ""
+
+#. TET-0215: needs-INL-review
+msgid "Please wait..."
+msgstr ""
+
+#. TET-0216: needs-INL-review
+msgid "Network"
+msgstr ""
+
+#. TET-0217: needs-INL-review
+msgid "Connection"
+msgstr ""
+
+#. TET-0218: needs-INL-review
+msgid "Connect"
+msgstr ""
+
+#. TET-0219: needs-INL-review
+msgid "Disconnect"
+msgstr ""
+
+#. TET-0220: needs-INL-review
+msgid "Connected"
+msgstr ""
+
+#. TET-0221: needs-INL-review
+msgid "Disconnected"
+msgstr ""
+
+#. TET-0222: needs-INL-review
+msgid "Offline"
+msgstr ""
+
+#. TET-0223: needs-INL-review
+msgid "Online"
+msgstr ""
+
+#. TET-0224: needs-INL-review
+msgid "Wireless"
+msgstr ""
+
+#. TET-0225: needs-INL-review
+msgid "Wired"
+msgstr ""
+
+#. TET-0226: needs-INL-review
+msgid "IP Address"
+msgstr ""
+
+#. TET-0227: needs-INL-review
+msgid "Server"
+msgstr ""
+
+#. TET-0228: needs-INL-review
+msgid "Port"
+msgstr ""
+
+#. TET-0229: needs-INL-review
+msgid "Proxy"
+msgstr ""
+
+#. TET-0230: needs-INL-review
+msgid "Share"
+msgstr ""
+
+#. TET-0231: needs-INL-review
+msgid "Sharing"
+msgstr ""
+
+#. TET-0232: needs-INL-review
+msgid "Signal Strength"
+msgstr ""
+
+#. TET-0233: needs-INL-review
+msgid "Connection failed."
+msgstr ""
+
+#. TET-0234: needs-INL-review
+msgid "No network connection."
+msgstr ""
+
+#. TET-0235: needs-INL-review
+msgid "Refresh People"
+msgstr ""
+
+#. TET-0236: needs-INL-review
+msgid "People Online"
+msgstr ""
+
+#. TET-0237: needs-INL-review
+msgid "Teachers Online"
+msgstr ""
+
+#. TET-0238: needs-INL-review
+msgid "Message"
+msgstr ""
+
+#. TET-0239: needs-INL-review
+msgid "Messages"
+msgstr ""
+
+#. TET-0240: needs-INL-review
+msgid "New Message"
+msgstr ""
+
+#. TET-0241: needs-INL-review
+msgid "Edit Message"
+msgstr ""
+
+#. TET-0242: needs-INL-review
+msgid "Delete Message"
+msgstr ""
+
+#. TET-0243: needs-INL-review
+msgid "Attach File"
+msgstr ""
+
+#. TET-0244: needs-INL-review
+msgid "Group"
+msgstr ""
+
+#. TET-0245: needs-INL-review
+msgid "Broadcast"
+msgstr ""
+
+#. TET-0246: needs-INL-review
+msgid "Profile"
+msgstr ""
+
+#. TET-0247: needs-INL-review
+msgid "Full Name"
+msgstr ""
+
+#. TET-0248: needs-INL-review
+msgid "School"
+msgstr ""
+
+#. TET-0249: needs-INL-review
+msgid "Class"
+msgstr ""
+
+#. TET-0250: needs-INL-review
+msgid "Room"
+msgstr ""
+
+#. TET-0251: needs-INL-review
+msgid "Role"
+msgstr ""
+
+#. TET-0252: needs-INL-review
+msgid "Teacher"
+msgstr ""
+
+#. TET-0253: needs-INL-review
+msgid "Student"
+msgstr ""
+
+#. TET-0254: needs-INL-review
+msgid "Subject"
+msgstr ""
+
+#. TET-0255: needs-INL-review
+msgid "Microphone"
+msgstr ""
+
+#. TET-0256: needs-INL-review
+msgid "Camera"
+msgstr ""
+
+#. TET-0257: needs-INL-review
+msgid "Security"
+msgstr ""
+
+#. TET-0258: needs-INL-review
+msgid "Privacy"
+msgstr ""
+
+#. TET-0259: needs-INL-review
+msgid "Username"
+msgstr ""
+
+#. TET-0260: needs-INL-review
+msgid "Password"
+msgstr ""
+
+#. TET-0261: needs-INL-review
+msgid "Confirm Password"
+msgstr ""
+
+#. TET-0262: needs-INL-review
+msgid "Change Password"
+msgstr ""
+
+#. TET-0263: needs-INL-review
+msgid "Change Username"
+msgstr ""
+
+#. TET-0264: needs-INL-review
+msgid "Sign In"
+msgstr ""
+
+#. TET-0265: needs-INL-review
+msgid "Authentication"
+msgstr ""
+
+#. TET-0266: needs-INL-review
+msgid "Administrator"
+msgstr ""
+
+#. TET-0267: needs-INL-review
+msgid "User"
+msgstr ""
+
+#. TET-0268: needs-INL-review
+msgid "Users"
+msgstr ""
+
+#. TET-0269: needs-INL-review
+msgid "Blocked"
+msgstr ""
+
+#. TET-0270: needs-INL-review
+msgid "Allowed"
+msgstr ""
+
+#. TET-0271: needs-INL-review
+msgid "Block Website"
+msgstr ""
+
+#. TET-0272: needs-INL-review
+msgid "Unblock Website"
+msgstr ""
+
+#. TET-0273: needs-INL-review
+msgid "Blocked Websites"
+msgstr ""
+
+#. TET-0274: needs-INL-review
+msgid "Filter"
+msgstr ""
+
+#. TET-0275: needs-INL-review
+msgid "Protection"
+msgstr ""
+
+#. TET-0276: needs-INL-review
+msgid "Backup"
+msgstr ""
+
+#. TET-0277: needs-INL-review
+msgid "Restore Backup"
+msgstr ""
+
+#. TET-0278: needs-INL-review
+msgid "Warning"
+msgstr ""
+
+#. TET-0279: needs-INL-review
+msgid "Error"
+msgstr ""
+
+#. TET-0280: needs-INL-review
+msgid "Information"
+msgstr ""
+
+#. TET-0281: needs-INL-review
+msgid "Question"
+msgstr ""
+
+#. TET-0282: needs-INL-review
+msgid "Are you sure?"
+msgstr ""
+
+#. TET-0283: needs-INL-review
+msgid "Passwords do not match."
+msgstr ""
+
+#. TET-0284: needs-INL-review
+msgid "Password must contain at least 5 characters."
+msgstr ""
+
+#. TET-0285: needs-INL-review
+msgid "Incorrect password."
+msgstr ""
+
+#. TET-0286: needs-INL-review
+msgid "Access denied."
+msgstr ""
+
+#. TET-0287: needs-INL-review
+msgid "Tetun Language Pack"
+msgstr ""
+
+#. TET-0288: needs-INL-review
+msgid "Community draft; INL review pending."
+msgstr ""
+
+#. TET-0289: needs-INL-review
+msgid "Enable Tetun for this user"
+msgstr ""
+
+#. TET-0290: needs-INL-review
+msgid "Disable Tetun for this user"
+msgstr ""
+
+#. TET-0291: needs-INL-review
+msgid "Log out and log in again to apply."
+msgstr ""
+
+#. TET-0292: needs-INL-review
+msgid "Test Translation"
+msgstr ""
+
+#. TET-0293: needs-INL-review
+msgid "Glossary"
+msgstr ""
+
+#. TET-0294: needs-INL-review
+msgid "Review Status"
+msgstr ""
+
+#. TET-0295: needs-INL-review
+msgid "Needs Review"
+msgstr ""
+
+#. TET-0296: needs-INL-review
+msgid "Approved"
+msgstr ""
+
+#. TET-0297: needs-INL-review
+msgid "Not Yet Reviewed by INL"
+msgstr ""
+
+#. TET-0298: needs-INL-review
+msgid "Locale"
+msgstr ""
+
+#. TET-0299: needs-INL-review
+msgid "Encoding"
+msgstr ""
+
+#. TET-0300: needs-INL-review
+msgid "Fallback Language"
+msgstr ""
+
+#. TET-0301: needs-INL-review
+msgid "Date Format"
+msgstr ""
+
+#. TET-0302: needs-INL-review
+msgid "Number Format"
+msgstr ""
+
+#. TET-0303: needs-INL-review
+msgid "Translation"
+msgstr ""
+
+#. TET-0304: needs-INL-review
+msgid "Translations"
+msgstr ""
+
+#. TET-0305: needs-INL-review
+msgid "Original Text"
+msgstr ""
+
+#. TET-0306: needs-INL-review
+msgid "Translated Text"
+msgstr ""
+
+#. TET-0307: needs-INL-review
+msgid "Character"
+msgstr ""
+
+#. TET-0308: needs-INL-review
+msgid "Normalize Text"
+msgstr ""
+
+#. TET-0309: needs-INL-review
+msgid "No results found."
+msgstr ""
+
+#. TET-0310: needs-INL-review
+msgid "Search terms..."
+msgstr ""
+
+#. TET-0311: needs-INL-review
+msgid "Ready"
+msgstr ""
+
+#. TET-0312: needs-INL-review
+msgid "Welcome to Edukasaun OS"
+msgstr ""
+
+#. TET-0313: needs-INL-review
+msgid "Free and open-source software"
+msgstr ""
+
+#. TET-0314: needs-INL-review
+msgid "Developed in Timor-Leste"
+msgstr ""
+
+#. TET-0315: needs-INL-review
+msgid "Education for everyone"
+msgstr ""
+
+#. TET-0316: needs-INL-review
+msgid "Activities"
+msgstr ""
+
+#. TET-0317: needs-INL-review
+msgid "Panels"
+msgstr ""
+
+#. TET-0318: needs-INL-review
+msgid "Launcher"
+msgstr ""
+
+#. TET-0319: needs-INL-review
+msgid "Launchers"
+msgstr ""
+
+#. TET-0320: needs-INL-review
+msgid "Add to Panel"
+msgstr ""
+
+#. TET-0321: needs-INL-review
+msgid "Power Off"
+msgstr ""
+
+#. TET-0322: needs-INL-review
+msgid "System Settings"
+msgstr ""
+
+#. TET-0323: needs-INL-review
+msgid "Screen Lock"
+msgstr ""
+
+#. TET-0324: needs-INL-review
+msgid "Lock"
+msgstr ""
+
+#. TET-0325: needs-INL-review
+msgid "Unlock"
+msgstr ""
+
+#. TET-0326: needs-INL-review
+msgid "Muted"
+msgstr ""
+
+#. TET-0327: needs-INL-review
+msgid "Unmute"
+msgstr ""
+
+#. TET-0328: needs-INL-review
+msgid "Airplane Mode"
+msgstr ""
+
+#. TET-0329: needs-INL-review
+msgid "Bluetooth"
+msgstr ""
+
+#. TET-0330: needs-INL-review
+msgid "VPN"
+msgstr ""
+
+#. TET-0331: needs-INL-review
+msgid "Wi-Fi"
+msgstr ""
+
+#. TET-0332: needs-INL-review
+msgid "Overview"
+msgstr ""
+
+#. TET-0333: needs-INL-review
+msgid "Workspace"
+msgstr ""
+
+#. TET-0334: needs-INL-review
+msgid "Workspaces"
+msgstr ""
+
+#. TET-0335: needs-INL-review
+msgid "Workspace Switcher"
+msgstr ""
+
+#. TET-0336: needs-INL-review
+msgid "Window List"
+msgstr ""
+
+#. TET-0337: needs-INL-review
+msgid "Window Buttons"
+msgstr ""
+
+#. TET-0338: needs-INL-review
+msgid "Applications Menu"
+msgstr ""
+
+#. TET-0339: needs-INL-review
+msgid "Application Menu"
+msgstr ""
+
+#. TET-0340: needs-INL-review
+msgid "Unmaximize"
+msgstr ""
+
+#. TET-0341: needs-INL-review
+msgid "Close Window"
+msgstr ""
+
+#. TET-0342: needs-INL-review
+msgid "Places"
+msgstr ""
+
+#. TET-0343: needs-INL-review
+msgid "Computer"
+msgstr ""
+
+#. TET-0344: needs-INL-review
+msgid "File System"
+msgstr ""
+
+#. TET-0345: needs-INL-review
+msgid "Remove Safely"
+msgstr ""
+
+#. TET-0346: needs-INL-review
+msgid "Safely Remove"
+msgstr ""
+
+#. TET-0347: needs-INL-review
+msgid "File Operations"
+msgstr ""
+
+#. TET-0348: needs-INL-review
+msgid "Copy Location"
+msgstr ""
+
+#. TET-0349: needs-INL-review
+msgid "Open Location"
+msgstr ""
+
+#. TET-0350: needs-INL-review
+msgid "Open in Terminal"
+msgstr ""
+
+#. TET-0351: needs-INL-review
+msgid "Open in New Window"
+msgstr ""
+
+#. TET-0352: needs-INL-review
+msgid "Open in New Tab"
+msgstr ""
+
+#. TET-0353: needs-INL-review
+msgid "Bookmarks"
+msgstr ""
+
+#. TET-0354: needs-INL-review
+msgid "Bookmark"
+msgstr ""
+
+#. TET-0355: needs-INL-review
+msgid "Add Bookmark"
+msgstr ""
+
+#. TET-0356: needs-INL-review
+msgid "Sidebar"
+msgstr ""
+
+#. TET-0357: needs-INL-review
+msgid "Compact View"
+msgstr ""
+
+#. TET-0358: needs-INL-review
+msgid "Icon View"
+msgstr ""
+
+#. TET-0359: needs-INL-review
+msgid "List View"
+msgstr ""
+
+#. TET-0360: needs-INL-review
+msgid "Arrange Items"
+msgstr ""
+
+#. TET-0361: needs-INL-review
+msgid "Sort"
+msgstr ""
+
+#. TET-0362: needs-INL-review
+msgid "Sort By"
+msgstr ""
+
+#. TET-0363: needs-INL-review
+msgid "Ascending"
+msgstr ""
+
+#. TET-0364: needs-INL-review
+msgid "Descending"
+msgstr ""
+
+#. TET-0365: needs-INL-review
+msgid "Date Modified"
+msgstr ""
+
+#. TET-0366: needs-INL-review
+msgid "Executable"
+msgstr ""
+
+#. TET-0367: needs-INL-review
+msgid "Access"
+msgstr ""
+
+#. TET-0368: needs-INL-review
+msgid "Destination"
+msgstr ""
+
+#. TET-0369: needs-INL-review
+msgid "Source"
+msgstr ""
+
+#. TET-0370: needs-INL-review
+msgid "Filesystem"
+msgstr ""
+
+#. TET-0371: needs-INL-review
+msgid "Format"
+msgstr ""
+
+#. TET-0372: needs-INL-review
+msgid "Formatting"
+msgstr ""
+
+#. TET-0373: needs-INL-review
+msgid "Root"
+msgstr ""
+
+#. TET-0374: needs-INL-review
+msgid "Symbolic Link"
+msgstr ""
+
+#. TET-0375: needs-INL-review
+msgid "Create Link"
+msgstr ""
+
+#. TET-0376: needs-INL-review
+msgid "Make Link"
+msgstr ""
+
+#. TET-0377: needs-INL-review
+msgid "Symlink"
+msgstr ""
+
+#. TET-0378: needs-INL-review
+msgid "Navigation"
+msgstr ""
+
+#. TET-0379: needs-INL-review
+msgid "Other Locations"
+msgstr ""
+
+#. TET-0380: needs-INL-review
+msgid "All Files"
+msgstr ""
+
+#. TET-0381: needs-INL-review
+msgid "All folders"
+msgstr ""
+
+#. TET-0382: needs-INL-review
+msgid "Select Folder"
+msgstr ""
+
+#. TET-0383: needs-INL-review
+msgid "Create Folder"
+msgstr ""
+
+#. TET-0384: needs-INL-review
+msgid "Create Document"
+msgstr ""
+
+#. TET-0385: needs-INL-review
+msgid "Empty Document"
+msgstr ""
+
+#. TET-0386: needs-INL-review
+msgid "Recent"
+msgstr ""
+
+#. TET-0387: needs-INL-review
+msgid "Other"
+msgstr ""
+
+#. TET-0388: needs-INL-review
+msgid "None"
+msgstr ""
+
+#. TET-0389: needs-INL-review
+msgid "Automatic"
+msgstr ""
+
+#. TET-0390: needs-INL-review
+msgid "Enabled"
+msgstr ""
+
+#. TET-0391: needs-INL-review
+msgid "Disabled"
+msgstr ""
+
+#. TET-0392: needs-INL-review
+msgid "On"
+msgstr ""
+
+#. TET-0393: needs-INL-review
+msgid "Off"
+msgstr ""
+
+#. TET-0394: needs-INL-review
+msgid "Log In"
+msgstr ""
+
+#. TET-0395: needs-INL-review
+msgid "Sign Out"
+msgstr ""
+
+#. TET-0396: needs-INL-review
+msgid "Switch User"
+msgstr ""
+
+#. TET-0397: needs-INL-review
+msgid "Notification Area"
+msgstr ""
+
+#. TET-0398: needs-INL-review
+msgid "Sound"
+msgstr ""
+
+#. TET-0399: needs-INL-review
+msgid "Themes"
+msgstr ""
+
+#. TET-0400: needs-INL-review
+msgid "Background"
+msgstr ""
+
+#. TET-0401: needs-INL-review
+msgid "Backgrounds"
+msgstr ""
+
+#. TET-0402: needs-INL-review
+msgid "Orientation"
+msgstr ""
+
+#. TET-0403: needs-INL-review
+msgid "Horizontal"
+msgstr ""
+
+#. TET-0404: needs-INL-review
+msgid "Vertical"
+msgstr ""
+
+#. TET-0405: needs-INL-review
+msgid "Alignment"
+msgstr ""
+
+#. TET-0406: needs-INL-review
+msgid "Position"
+msgstr ""
+
+#. TET-0407: needs-INL-review
+msgid "Top"
+msgstr ""
+
+#. TET-0408: needs-INL-review
+msgid "Bottom"
+msgstr ""
+
+#. TET-0409: needs-INL-review
+msgid "Left"
+msgstr ""
+
+#. TET-0410: needs-INL-review
+msgid "Right"
+msgstr ""
+
+#. TET-0411: needs-INL-review
+msgid "Center"
+msgstr ""
+
+#. TET-0412: needs-INL-review
+msgid "Border"
+msgstr ""
+
+#. TET-0413: needs-INL-review
+msgid "Opacity"
+msgstr ""
+
+#. TET-0414: needs-INL-review
+msgid "Always"
+msgstr ""
+
+#. TET-0415: needs-INL-review
+msgid "Never"
+msgstr ""
+
+#. TET-0416: needs-INL-review
+msgid "Expand"
+msgstr ""
+
+#. TET-0417: needs-INL-review
+msgid "Collapse"
+msgstr ""
+
+#. TET-0418: needs-INL-review
+msgid "Disk Usage"
+msgstr ""
+
+#. TET-0419: needs-INL-review
+msgid "Search Files"
+msgstr ""
+
+#. TET-0420: needs-INL-review
+msgid "Menus"
+msgstr ""
+
+#. TET-0421: needs-INL-review
+msgid "Date"
+msgstr ""
+
+#. TET-0422: needs-INL-review
+msgid "Time"
+msgstr ""
+
+#. TET-0423: needs-INL-review
+msgid "Calendar"
+msgstr ""
+
+#. TET-0424: needs-INL-review
+msgid "Locations"
+msgstr ""
+
+#. TET-0425: needs-INL-review
+msgid "Leave"
+msgstr ""
+
+#. TET-0426: needs-INL-review
+msgid "Logout"
+msgstr ""
+
+#. TET-0427: needs-INL-review
+msgid "Save Changes"
+msgstr ""
+
+#. TET-0428: needs-INL-review
+msgid "Discard Changes"
+msgstr ""
+
+#. TET-0429: needs-INL-review
+msgid "Replace All"
+msgstr ""
+
+#. TET-0430: needs-INL-review
+msgid "Rename All"
+msgstr ""
+
+#. TET-0431: needs-INL-review
+msgid "Duplicate"
+msgstr ""
+
+#. TET-0432: needs-INL-review
+msgid "Reload"
+msgstr ""
+
+#. Count-neutral Tetun phrase; one draft gettext plural form.
+#, python-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] ""

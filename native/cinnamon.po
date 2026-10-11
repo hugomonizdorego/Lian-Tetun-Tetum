@@ -1,0 +1,1146 @@
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Edukasaun OS contributors (original Tetun translations)
+# Partial draft; exact upstream IDs/contexts. Not endorsed by INL.
+# Original upstream notices and license: upstream/native-notices/cinnamon.txt
+# English (United Kingdom) translation for linuxmint
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr "Project-Id-Version: cinnamon Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#. menu@cinnamon.org->settings-schema.json->show-home->description
+#: src/cinnamon-util.c:96
+#. TET-0086; needs-INL-review
+msgid "Home"
+msgstr "Pasta pesoál"
+
+#: src/cinnamon-util.c:106
+#. TET-0344; needs-INL-review
+msgid "File System"
+msgstr "Sistema arkivu"
+
+#: src/cinnamon-util.c:259
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2577
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:302
+#: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:446
+#: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:860
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:225
+#. TET-0032; needs-INL-review
+msgid "Search"
+msgstr "Buka"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:24
+#. TET-0037; needs-INL-review
+msgid "Preview"
+msgstr "Pré-vizualizasaun"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:39
+#: js/ui/audioDeviceSelection.js:72 js/ui/endSessionDialog.js:108
+#: js/ui/networkAgent.js:112 js/ui/polkitAuthenticationAgent.js:304
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:78
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:239
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:385
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:451
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:656
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:158
+#: files/usr/share/cinnamon/cinnamon-settings/bin/XkbSettings.py:224
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:768
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:771
+#. TET-0005; needs-INL-review
+msgid "Cancel"
+msgstr "Kansela"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:52
+#: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:221
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.ui:59
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.ui:163
+#: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:54
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:385
+#: files/usr/share/cinnamon/cinnamon-settings/bin/XkbSettings.py:176
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_applets.py:55
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_desklets.py:79
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:763
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:425
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:775
+#. TET-0021; needs-INL-review
+msgid "Add"
+msgstr "Aumenta"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:234
+#: js/ui/panel.js:1746
+#: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:62
+#: files/usr/share/cinnamon/cinnamon-settings/bin/XkbSettings.py:181
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_applets.py:56
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_desklets.py:80
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:438
+#. TET-0022; needs-INL-review
+msgid "Remove"
+msgstr "Hasai"
+
+#. Display name                         ID              Show it? Always False
+#. to start              Icon
+#. menu@cinnamon.org->settings-schema.json->appearance->title
+#. printers@cinnamon.org->settings-schema.json->section1->description
+#: files/usr/share/cinnamon/cinnamon-settings/themes.ui:26
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:64
+#. TET-0142; needs-INL-review
+msgid "Appearance"
+msgstr "Aparénsia"
+
+#: files/usr/share/cinnamon/cinnamon-desktop-editor/launcher-editor.ui:97
+#: files/usr/share/cinnamon/cinnamon-desktop-editor/directory-editor.ui:97
+#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:104
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:772
+#. TET-0064; needs-INL-review
+msgid "Name:"
+msgstr "Naran:"
+
+#: files/usr/share/cinnamon/cinnamon-desktop-editor/launcher-editor.ui:171
+#. TET-0040; needs-INL-review
+msgid "Browse"
+msgstr "Buka arkivu"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:45
+#: js/ui/workspace.js:1169
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:341
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:1031
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:483
+#. TET-0002; needs-INL-review
+msgid "Close"
+msgstr "Taka"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:208
+#. TET-0026; needs-INL-review
+msgid "Cut"
+msgstr "Korta"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:222
+#: js/ui/cinnamonEntry.js:33
+#. TET-0025; needs-INL-review
+msgid "Copy"
+msgstr "Kopia"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:236
+#: js/ui/cinnamonEntry.js:38
+#. TET-0027; needs-INL-review
+msgid "Paste"
+msgstr "Kola"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:250
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.ui:72
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.ui:189
+#. TET-0023; needs-INL-review
+msgid "Delete"
+msgstr "Apaga"
+
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cinnamon-menu-editor.ui:278
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:534
+#. TET-0057; needs-INL-review
+msgid "Properties"
+msgstr "Propriedade"
+
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.ui:176
+#: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:58
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:431
+#. TET-0024; needs-INL-review
+msgid "Edit"
+msgstr "Edita"
+
+#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/editorDialog.ui:87
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:506
+#. TET-0099; needs-INL-review
+msgid "Type:"
+msgstr "Tipu:"
+
+#: js/ui/applet.js:591 js/ui/desklet.js:230
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:159
+#: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:71
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:959
+#. TET-0055; needs-INL-review
+msgid "About..."
+msgstr "Kona-ba..."
+
+#: js/ui/audioDeviceSelection.js:90
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1084
+#. TET-0255; needs-INL-review
+msgid "Microphone"
+msgstr "Mikrofóne"
+
+#: js/ui/endSessionDialog.js:135
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:102
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:111
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:119
+#. TET-0396; needs-INL-review
+msgid "Switch User"
+msgstr "Troka utilizadór"
+
+#: js/ui/endSessionDialog.js:142 js/ui/endSessionDialog.js:149
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2410
+#. TET-0159; needs-INL-review
+msgid "Log Out"
+msgstr "Sai husi sesaun"
+
+#: js/ui/endSessionDialog.js:157
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:212
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:12
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:607
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:616
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:624
+#. TET-0162; needs-INL-review
+msgid "Suspend"
+msgstr "Suspende"
+
+#: js/ui/endSessionDialog.js:167
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:213
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:14
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:609
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:618
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:626
+#. TET-0163; needs-INL-review
+msgid "Hibernate"
+msgstr "Hiberna"
+
+#: js/ui/endSessionDialog.js:177 js/ui/endSessionDialog.js:208
+#: js/ui/endSessionDialog.js:215
+#. TET-0160; needs-INL-review
+msgid "Restart"
+msgstr "Reinísia"
+
+#: js/ui/endSessionDialog.js:185 js/ui/endSessionDialog.js:193
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2423
+#. TET-0161; needs-INL-review
+msgid "Shut Down"
+msgstr "Desliga"
+
+#: js/ui/extension.js:528
+#. TET-0279; needs-INL-review
+msgid "Error"
+msgstr "Erru"
+
+#: js/ui/main.js:661
+#. TET-0333; needs-INL-review
+msgid "Workspace"
+msgstr "Espasu traballu"
+
+#: js/ui/messageTray.js:1109
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:85
+#. TET-0141; needs-INL-review
+msgid "System Information"
+msgstr "Informasaun sistema"
+
+#: js/ui/modalDialog.js:392
+#. TET-0042; needs-INL-review
+msgid "Confirm"
+msgstr "Konfirma"
+
+#: js/ui/modalDialog.js:400 files/usr/bin/cinnamon-launcher:172
+#. TET-0009; needs-INL-review
+msgid "No"
+msgstr "Lae"
+
+#: js/ui/modalDialog.js:405 files/usr/bin/cinnamon-launcher:173
+#. TET-0008; needs-INL-review
+msgid "Yes"
+msgstr "Sin"
+
+#: js/ui/modalDialog.js:445
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:78
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:451
+#. TET-0007; needs-INL-review
+msgid "OK"
+msgstr "Di'ak"
+
+#: js/ui/networkAgent.js:106
+#. TET-0218; needs-INL-review
+msgid "Connect"
+msgstr "Liga"
+
+#: js/ui/networkAgent.js:207 js/ui/networkAgent.js:219
+#: js/ui/networkAgent.js:243 js/ui/networkAgent.js:264
+#: js/ui/networkAgent.js:284 js/ui/networkAgent.js:294
+#: js/ui/polkitAuthenticationAgent.js:454
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:591
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_user.py:93
+#. TET-0260; needs-INL-review
+msgid "Password"
+msgstr "Seña"
+
+#: js/ui/networkAgent.js:239 js/ui/networkAgent.js:262
+#: js/ui/networkAgent.js:280
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:376
+#. TET-0259; needs-INL-review
+msgid "Username"
+msgstr "Naran utilizadór"
+
+#: js/ui/panel.js:1739
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_effects.py:54
+#. TET-0082; needs-INL-review
+msgid "Move"
+msgstr "Muda"
+
+#. i18n for menu item
+#. set up larger components.
+#: js/ui/panel.js:1820
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:72
+#: generate_additional_files.py:24
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:41
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:196
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:390
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:734
+#. TET-0322; needs-INL-review
+msgid "System Settings"
+msgstr "Konfigurasaun sistema"
+
+#: js/ui/placesManager.js:168
+#. TET-0017; needs-INL-review
+msgid "Retry"
+msgstr "Koko fali"
+
+#. Translators: If a language-specific mnemonic doesn't make sense, add one
+#. after the label itself:
+#. i.e. <translated>(_n). See
+#. https://github.com/linuxmint/muffin/blob/b9a6f3fe43e/po .po files
+#: js/ui/windowMenu.js:196
+#. TET-0154; needs-INL-review
+msgid "Mi_nimize"
+msgstr "_Minimiza"
+
+#. Translators: If a language-specific mnemonic doesn't make sense, add one
+#. after the label itself:
+#. i.e. <translated>(_n). See
+#. https://github.com/linuxmint/muffin/blob/b9a6f3fe43e/po .po files
+#: js/ui/windowMenu.js:207
+#. TET-0340; needs-INL-review
+msgid "Unma_ximize"
+msgstr "_Hasai maksimizasaun"
+
+#. Translators: If a language-specific mnemonic doesn't make sense, add one
+#. after the label itself:
+#. i.e. <translated>(_n). See
+#. https://github.com/linuxmint/muffin/blob/b9a6f3fe43e/po .po files
+#: js/ui/windowMenu.js:213
+#. TET-0155; needs-INL-review
+msgid "Ma_ximize"
+msgstr "_Maksimiza"
+
+#. Translators: If a language-specific mnemonic doesn't make sense, add one
+#. after the label itself:
+#. i.e. <translated>(_n). See
+#. https://github.com/linuxmint/muffin/blob/b9a6f3fe43e/po .po files
+#: js/ui/windowMenu.js:223
+#. TET-0082; needs-INL-review
+msgid "_Move"
+msgstr "_Muda"
+
+#. Translators: If a language-specific mnemonic doesn't make sense, add one
+#. after the label itself:
+#. i.e. <translated>(_n). See
+#. https://github.com/linuxmint/muffin/blob/b9a6f3fe43e/po .po files
+#: js/ui/windowMenu.js:339
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:950
+#. TET-0002; needs-INL-review
+msgid "_Close"
+msgstr "_Taka"
+
+#: js/ui/workspace.js:1175
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:293
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:1010
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:57
+#. TET-0154; needs-INL-review
+msgid "Minimize"
+msgstr "Minimiza"
+
+#: js/ui/workspace.js:1178 js/ui/workspace.js:1252
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:306
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:1023
+#. TET-0155; needs-INL-review
+msgid "Maximize"
+msgstr "Maksimiza"
+
+#: js/ui/workspace.js:1250
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:299
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:1018
+#. TET-0340; needs-INL-review
+msgid "Unmaximize"
+msgstr "Hasai maksimizasaun"
+
+#. a11y@cinnamon.org->metadata.json->name
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:45
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:149
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:31
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:41
+#. TET-0136; needs-INL-review
+msgid "Accessibility"
+msgstr "Asesibilidade"
+
+#. menu@cinnamon.org->settings-schema.json->show-favorites->description
+#. favorites@cinnamon.org->metadata.json->name
+#: files/usr/share/cinnamon/applets/favorites@cinnamon.org/applet.js:46
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2284
+#. TET-0123; needs-INL-review
+msgid "Favorites"
+msgstr "Favoritu sira"
+
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:188
+#. TET-0386; needs-INL-review
+msgid "Recent"
+msgstr "Foin uza"
+
+#. notifications@cinnamon.org->metadata.json->name
+#: files/usr/share/cinnamon/applets/inhibit@cinnamon.org/applet.js:398
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:74
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_notifications.py:39
+#. TET-0152; needs-INL-review
+msgid "Notifications"
+msgstr "Notifikasaun sira"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:414
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:524
+#. TET-0125; needs-INL-review
+msgid "Remove from favorites"
+msgstr "Hasai husi favoritu sira"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:421
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:527
+#. TET-0124; needs-INL-review
+msgid "Add to favorites"
+msgstr "Aumenta ba favoritu sira"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:515
+#. TET-0320; needs-INL-review
+msgid "Add to panel"
+msgstr "Aumenta ba painél"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:519
+#. TET-0126; needs-INL-review
+msgid "Add to desktop"
+msgstr "Aumenta ba ambiente de traballu"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:539
+#: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:912
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_actions.py:84
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_applets.py:57
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_desklets.py:81
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_extensions.py:56
+#. TET-0048; needs-INL-review
+msgid "Uninstall"
+msgstr "Dezinstala"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2221
+#. TET-0093; needs-INL-review
+msgid "Recent Files"
+msgstr "Arkivu foin loke"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2334
+#. TET-0122; needs-INL-review
+msgid "All Applications"
+msgstr "Aplikasaun hotu"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2384
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:80
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:610
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:615
+#. TET-0158; needs-INL-review
+msgid "Lock Screen"
+msgstr "Xave ekrán"
+
+#. Translators: this indicates that wireless or wwan is disabled by hardware
+#. killswitch
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:306
+#. TET-0391; needs-INL-review
+msgid "disabled"
+msgstr "Dezativadu"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:714
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:99
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:100
+#. TET-0329; needs-INL-review
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1859
+#. TET-0225; needs-INL-review
+msgid "Wired"
+msgstr "Rede ho fiu"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1870
+#. TET-0224; needs-INL-review
+msgid "Wireless"
+msgstr "Rede sem fiu"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:61
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:325
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:84
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:86
+#. TET-0173; needs-INL-review
+msgid "Mouse"
+msgstr "Ratu"
+
+#. keyboard@cinnamon.org->metadata.json->name
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:63
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:70
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:147
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:35
+#. TET-0172; needs-INL-review
+msgid "Keyboard"
+msgstr "Tekladu"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:73
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:492
+#. TET-0343; needs-INL-review
+msgid "Computer"
+msgstr "Komputadór"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:79
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:138
+#. TET-0174; needs-INL-review
+msgid "Touchpad"
+msgstr "Painél tátil"
+
+#. Label                              Module ID                Icon
+#. Category      Keywords for filter
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:83
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:72
+#. TET-0216; needs-INL-review
+msgid "Network"
+msgstr "Rede"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:101
+#. TET-0256; needs-INL-review
+msgid "Camera"
+msgstr "Kámara"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:386
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:808
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:263
+#. TET-0169; needs-INL-review
+msgid "Brightness"
+msgstr "Brillu"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:526
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:440
+#. TET-0166; needs-INL-review
+msgid "Charging"
+msgstr "Karrega bateria"
+
+#. show-desktop@cinnamon.org->settings-schema.json->head->description
+#. favorites@cinnamon.org->settings-schema.json->head->description
+#. cornerbar@cinnamon.org->settings-schema.json->head->description
+#: files/usr/share/cinnamon/applets/settings@cinnamon.org/applet.js:8
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_backgrounds.py:291
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_display.py:47
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_display.py:48
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_gestures.py:244
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:73
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py:270
+#. TET-0059; needs-INL-review
+msgid "Settings"
+msgstr "Konfigurasaun"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:97
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1381
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1520
+#. TET-0170; needs-INL-review
+msgid "Volume"
+msgstr "Volume"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:606
+#. TET-0014; needs-INL-review
+msgid "Stop"
+msgstr "Para"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:609
+#. TET-0011; needs-INL-review
+msgid "Next"
+msgstr "Tuir mai"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:822
+#. TET-0015; needs-INL-review
+msgid "Pause"
+msgstr "Pauza"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1076
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py:614
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py:620
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:910
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py:251
+#. TET-0121; needs-INL-review
+msgid "Applications"
+msgstr "Aplikasaun sira"
+
+#. trash@cinnamon.org->metadata.json->name
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:18
+#. TET-0084; needs-INL-review
+msgid "Trash"
+msgstr "Lixu"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:37
+#. TET-0085; needs-INL-review
+msgid "Empty Trash"
+msgstr "Hamoos lixu"
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:128
+#. TET-0159; needs-INL-review
+msgid "Log Out..."
+msgstr "Sai husi sesaun..."
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:136
+#. TET-0321; needs-INL-review
+msgid "Power Off..."
+msgstr "Dezliga..."
+
+#: files/usr/share/cinnamon/applets/xrandr@cinnamon.org/applet.js:16
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_gestures.py:318
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py:274
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:40
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:44
+#. TET-0409; needs-INL-review
+msgid "Left"
+msgstr "Karuk"
+
+#: files/usr/share/cinnamon/applets/xrandr@cinnamon.org/applet.js:17
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_gestures.py:318
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py:275
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:41
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:43
+#. TET-0410; needs-INL-review
+msgid "Right"
+msgstr "Loos"
+
+#. window-list@cinnamon.org->settings-schema.json->section2->description
+#. notifications@cinnamon.org->settings-schema.json->section2->description
+#. calendar@cinnamon.org->settings-schema.json->section1->description
+#. xrandr@cinnamon.org->metadata.json->name
+#. power@cinnamon.org->settings-schema.json->labelinfo->description
+#: files/usr/share/cinnamon/applets/xrandr@cinnamon.org/applet.js:26
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_display.py:15
+#. TET-0167; needs-INL-review
+msgid "Display"
+msgstr "Ekrán"
+
+#: files/usr/share/cinnamon/desklets/clock@cinnamon.org/desklet.js:13
+#. TET-0178; needs-INL-review
+msgid "Clock"
+msgstr "Relójiu"
+
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:65
+#. TET-0058; needs-INL-review
+msgid "Preferences"
+msgstr "Preferénsia"
+
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:83
+#. TET-0069; needs-INL-review
+msgid "Languages"
+msgstr "Lian sira"
+
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:195
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_user.py:253
+#. TET-0262; needs-INL-review
+msgid "Change Password"
+msgstr "Troka seña"
+
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:198
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_user.py:268
+#. TET-0261; needs-INL-review
+msgid "Confirm password"
+msgstr "Konfirma seña"
+
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:366
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:562
+#. TET-0266; needs-INL-review
+msgid "Administrator"
+msgstr "Administradór"
+
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:376
+#. TET-0247; needs-INL-review
+msgid "Full Name"
+msgstr "Naran kompletu"
+
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:473
+#. TET-0268; needs-INL-review
+msgid "Users"
+msgstr "Utilizadór sira"
+
+#. bool is unused, just a placeholder
+#. so object is the same index for
+#. settings-example@cinnamon.org->settings-schema.json->tree->columns->title
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:591
+#: files/usr/share/cinnamon/cinnamon-menu-editor/cme/MainWindow.py:179
+#: files/usr/share/cinnamon/cinnamon-settings/bin/AddKeyboardLayout.py:79
+#: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:849
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:792
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_user.py:83
+#. TET-0064; needs-INL-review
+msgid "Name"
+msgstr "Naran"
+
+#: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:656
+#. TET-0001; needs-INL-review
+msgid "Open"
+msgstr "Loke"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:532
+#. TET-0055; needs-INL-review
+msgid "About"
+msgstr "Kona-ba"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:790
+#. TET-0047; needs-INL-review
+msgid "Install"
+msgstr "Instala"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:796
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:761
+#. TET-0049; needs-INL-review
+msgid "Update"
+msgstr "Atualiza"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:839
+#. TET-0362; needs-INL-review
+msgid "Sort by"
+msgstr "Ordena tuir"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:851
+#. TET-0421; needs-INL-review
+msgid "Date"
+msgstr "Data"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:925
+#. TET-0018; needs-INL-review
+msgid "Refresh"
+msgstr "Karga fali"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:1043
+#. TET-0184; needs-INL-review
+msgid "No updates available"
+msgstr "La iha atualizasaun disponivel"
+
+#. menu@cinnamon.org->settings-schema.json->appearance-menu->title
+#: files/usr/share/cinnamon/cinnamon-settings/bin/InputSources.py:59
+#. TET-0060; needs-INL-review
+msgid "Options"
+msgstr "Opsaun"
+
+#. grouped-window-list@cinnamon.org->settings-schema.json->generalPage->title
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:42
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_general.py:15
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_gestures.py:248
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:33
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:103
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:143
+#. TET-0062; needs-INL-review
+msgid "General"
+msgstr "Jerál"
+
+#. show-desktop@cinnamon.org->metadata.json->name
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:59
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_gestures.py:39
+#. TET-0157; needs-INL-review
+msgid "Show desktop"
+msgstr "Hatudu ambiente de traballu"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:139
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_gestures.py:30
+#. TET-0341; needs-INL-review
+msgid "Close window"
+msgstr "Taka janela"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:154
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_workspaces.py:14
+#. TET-0334; needs-INL-review
+msgid "Workspaces"
+msgstr "Espasu traballu sira"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:209
+#. TET-0159; needs-INL-review
+msgid "Log out"
+msgstr "Sai husi sesaun"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:210
+#. TET-0161; needs-INL-review
+msgid "Shut down"
+msgstr "Desliga"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:211
+#. TET-0158; needs-INL-review
+msgid "Lock screen"
+msgstr "Xave ekrán"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:217
+#. TET-0319; needs-INL-review
+msgid "Launchers"
+msgstr "Lansadór sira"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:249
+#. TET-0110; needs-INL-review
+msgid "Eject"
+msgstr "Hasai dispozitivu"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:256
+#. TET-0135; needs-INL-review
+msgid "Universal Access"
+msgstr "Asesu universál"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingWidgets.py:159
+#. TET-0013; needs-INL-review
+msgid "Continue"
+msgstr "Kontinua"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/SettingsWidgets.py:379
+#. TET-0005; needs-INL-review
+msgid "_Cancel"
+msgstr "_Kansela"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/SettingsWidgets.py:380
+#. TET-0001; needs-INL-review
+msgid "_Open"
+msgstr "_Loke"
+
+#: files/usr/share/cinnamon/cinnamon-settings/bin/XkbSettings.py:219
+#. TET-0010; needs-INL-review
+msgid "Back"
+msgstr "Fila fali"
+
+#. Action, Label, Allow phase selection, extra widget type
+#. [entry|slider|none], default custom val
+#. workspace-switcher@cinnamon.org->settings-schema.json->scroll-
+#. behavior->options
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:94
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_gestures.py:21
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:92
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:114
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:153
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:141
+#. TET-0391; needs-INL-review
+msgid "Disabled"
+msgstr "Dezativadu"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_actions.py:53
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_applets.py:49
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_desklets.py:48
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_extensions.py:48
+#. TET-0045; needs-INL-review
+msgid "Download"
+msgstr "Deskarga"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_actions.py:81
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_extensions.py:54
+#. TET-0050; needs-INL-review
+msgid "Enable"
+msgstr "Ativa"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_actions.py:82
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_extensions.py:55
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_gestures.py:130
+#. TET-0051; needs-INL-review
+msgid "Disable"
+msgstr "Dezativa"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_backgrounds.py:170
+#. TET-0401; needs-INL-review
+msgid "Backgrounds"
+msgstr "Fundu sira"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_calendar.py:34
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:101
+#. TET-0176; needs-INL-review
+msgid "Date and Time"
+msgstr "Data no oras"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_calendar.py:58
+#. TET-0371; needs-INL-review
+msgid "Format"
+msgstr "Formatu"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:42
+#. TET-0130; needs-INL-review
+msgid "Internet"
+msgstr "Internet"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:44
+#. TET-0131; needs-INL-review
+msgid "Office"
+msgstr "Eskritóriu"
+
+#. menu@cinnamon.org->settings-schema.json->show-music->description
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:59
+#. TET-0091; needs-INL-review
+msgid "Music"
+msgstr "Múzika"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:72
+#. TET-0115; needs-INL-review
+msgid "File Manager"
+msgstr "Jestór arkivu"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:631
+#. TET-0138; needs-INL-review
+msgid "Calculator"
+msgstr "Kalkuladora"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:640
+#. TET-0137; needs-INL-review
+msgid "Terminal"
+msgstr "Terminál"
+
+#. menu@cinnamon.org->settings-schema.json->show-desktop->description
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_desktop.py:23
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py:257
+#. TET-0087; needs-INL-review
+msgid "Desktop"
+msgstr "Ambiente de traballu"
+
+#. MAPPING WINDOWS
+#. CLOSING WINDOWS
+#. MINIMIZING WINDOWS
+#. grouped-window-list@cinnamon.org->settings-schema.json->scroll-
+#. behavior->options
+#. grouped-window-list@cinnamon.org->settings-schema.json->left-click-
+#. action->options
+#. grouped-window-list@cinnamon.org->settings-schema.json->middle-click-
+#. action->options
+#. grouped-window-list@cinnamon.org->settings-schema.json->title-
+#. display->options
+#. grouped-window-list@cinnamon.org->settings-schema.json->launcher-animation-
+#. effect->options
+#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
+#. out->options
+#. photoframe@cinnamon.org->settings-schema.json->effect->options
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_effects.py:51
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_effects.py:59
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_effects.py:66
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_fonts.py:49
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_fonts.py:50
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:57
+#. TET-0388; needs-INL-review
+msgid "None"
+msgstr "La iha"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_gestures.py:126
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_thunderbolt.py:285
+#. TET-0181; needs-INL-review
+msgid "Check again"
+msgstr "Verifika fali"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:55
+#. TET-0098; needs-INL-review
+msgid "Size"
+msgstr "Tamañu"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:91
+#. TET-0390; needs-INL-review
+msgid "Enabled"
+msgstr "Ativadu"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_nightlight.py:61
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:137
+#. TET-0389; needs-INL-review
+msgid "Automatic"
+msgstr "Automátiku"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_notifications.py:38
+#. TET-0152; needs-INL-review
+msgid "notifications"
+msgstr "Notifikasaun sira"
+
+#. clock@cinnamon.org->settings-schema.json->font-size->description
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:128
+#. TET-0148; needs-INL-review
+msgid "Font size"
+msgstr "Tamañu fonte"
+
+#. menu@cinnamon.org->settings-schema.json->behavior-panel->title
+#. menu@cinnamon.org->settings-schema.json->appearance-panel->title
+#. sound@cinnamon.org->settings-schema.json->section2->description
+#. grouped-window-list@cinnamon.org->settings-schema.json->panelPage->title
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:162
+#. TET-0149; needs-INL-review
+msgid "Panel"
+msgstr "Painél"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:45
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:29
+#. TET-0415; needs-INL-review
+msgid "Never"
+msgstr "Nunka"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:252
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:258
+#. TET-0164; needs-INL-review
+msgid "Power"
+msgstr "Enerjia"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:454
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:495
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:498
+#. TET-0165; needs-INL-review
+msgid "Battery"
+msgstr "Bateria"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_privacy.py:21
+#. TET-0258; needs-INL-review
+msgid "Privacy"
+msgstr "Privasidade"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_privacy.py:50
+#. TET-0093; needs-INL-review
+msgid "Recent files"
+msgstr "Arkivu foin loke"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:115
+#. TET-0301; needs-INL-review
+msgid "Date Format: "
+msgstr "Formatu data:"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:137
+#. TET-0147; needs-INL-review
+msgid "Font"
+msgstr "Fonte"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py:154
+#. TET-0170; needs-INL-review
+msgid "Volume: "
+msgstr "Volume:"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py:259
+#. TET-0326; needs-INL-review
+msgid "Muted"
+msgstr "La iha lian"
+
+#. sound@cinnamon.org->metadata.json->name
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py:493
+#. TET-0398; needs-INL-review
+msgid "Sound"
+msgstr "Lian"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:778
+#. TET-0003; needs-INL-review
+msgid "Save"
+msgstr "Rai"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:815
+#. TET-0040; needs-INL-review
+msgid "Browse..."
+msgstr "Buka arkivu..."
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py:101
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py:244
+#. TET-0399; needs-INL-review
+msgid "Themes"
+msgstr "Tema sira"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py:254
+#. TET-0146; needs-INL-review
+msgid "Icons"
+msgstr "Íkone sira"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_thunderbolt.py:155
+#. TET-0056; needs-INL-review
+msgid "Details"
+msgstr "Detalle"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_thunderbolt.py:177
+#. TET-0099; needs-INL-review
+msgid "Type"
+msgstr "Tipu"
+
+#. Update the status label
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_thunderbolt.py:204
+#. TET-0221; needs-INL-review
+msgid "Disconnected"
+msgstr "La ligadu"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_thunderbolt.py:206
+#. TET-0220; needs-INL-review
+msgid "Connected"
+msgstr "Ligadu"
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:137
+#. TET-0411; needs-INL-review
+msgid "Center"
+msgstr "Klaran"
+
+#: files/usr/bin/cinnamon-hover-click:170
+#. TET-0146; needs-INL-review
+msgid "_Icons"
+msgstr "_Íkone sira"
+
+#: files/usr/bin/cinnamon-hover-click:184
+#. TET-0403; needs-INL-review
+msgid "_Horizontal"
+msgstr "_Orizontál"
+
+#: files/usr/bin/cinnamon-hover-click:188
+#. TET-0404; needs-INL-review
+msgid "_Vertical"
+msgstr "_Vertikál"
+
+#. menu@cinnamon.org->settings-schema.json->content-places->title
+#. TET-0342; needs-INL-review
+msgid "Places"
+msgstr "Fatin sira"
+
+#. menu@cinnamon.org->settings-schema.json->menu-icon->description
+#. settings-example@cinnamon.org->settings-schema.json->tree->columns->title
+#. TET-0145; needs-INL-review
+msgid "Icon"
+msgstr "Íkone"
+
+#. menu@cinnamon.org->settings-schema.json->show-sidebar->description
+#. TET-0356; needs-INL-review
+msgid "Sidebar"
+msgstr "Painél sorin"
+
+#. menu@cinnamon.org->settings-schema.json->show-documents->description
+#. TET-0088; needs-INL-review
+msgid "Documents"
+msgstr "Dokumentu sira"
+
+#. menu@cinnamon.org->settings-schema.json->show-downloads->description
+#. TET-0089; needs-INL-review
+msgid "Downloads"
+msgstr "Deskarga sira"
+
+#. menu@cinnamon.org->settings-schema.json->show-pictures->description
+#. TET-0090; needs-INL-review
+msgid "Pictures"
+msgstr "Imajen sira"
+
+#. menu@cinnamon.org->settings-schema.json->show-videos->description
+#. TET-0092; needs-INL-review
+msgid "Videos"
+msgstr "Vídeu sira"
+
+#. workspace-switcher@cinnamon.org->metadata.json->name
+#. TET-0335; needs-INL-review
+msgid "Workspace switcher"
+msgstr "Troka espasu traballu"
+
+#. window-list@cinnamon.org->metadata.json->name
+#. TET-0336; needs-INL-review
+msgid "Window list"
+msgstr "Lista janela"
+
+#. printers@cinnamon.org->settings-schema.json->show-icon->options
+#. TET-0414; needs-INL-review
+msgid "Always"
+msgstr "Sempre"
+
+#. calendar@cinnamon.org->metadata.json->name
+#. TET-0423; needs-INL-review
+msgid "Calendar"
+msgstr "Kalendáriu"
+
+#. calendar@cinnamon.org->settings-schema.json->custom-format->description
+#. clock@cinnamon.org->settings-schema.json->date-format->description
+#. TET-0301; needs-INL-review
+msgid "Date format"
+msgstr "Formatu data"
+
+#. photoframe@cinnamon.org->settings-schema.json->directory->description
+#. TET-0077; needs-INL-review
+msgid "Folder"
+msgstr "Pasta"
+

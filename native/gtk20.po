@@ -1,0 +1,717 @@
+# SPDX-License-Identifier: LGPL-2.0-or-later
+# Copyright (C) 2026 Edukasaun OS contributors (original Tetun translations)
+# Partial draft; exact upstream IDs/contexts. Not endorsed by INL.
+# Original upstream notices and license: upstream/native-notices/gtk20.txt
+# English (British) translation
+# Copyright (C) 2004 GTK+'s COPYRIGHT HOLDER
+# This file is distributed under the same licence as the gtk+ package.
+# Abigail Brady <morwen@evilmagic.org>, Gareth Owen <gowen72@yahoo.com> 2004
+# Bruce Cowan <bruce@bcowan.me.uk>, 2009, 2010, 2011.
+# Philip Withnall <philip@tecnocode.co.uk>, 2010.
+msgid ""
+msgstr "Project-Id-Version: gtk20 Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#. Placeholder in --class=CLASS in --help output
+#: ../gdk/gdk.c:152
+#. TET-0249; needs-INL-review
+msgid "CLASS"
+msgstr "Turma"
+
+#. Placeholder in --name=NAME in --help output
+#: ../gdk/gdk.c:155
+#. TET-0064; needs-INL-review
+msgid "NAME"
+msgstr "Naran"
+
+#. Placeholder in --display=DISPLAY in --help output
+#: ../gdk/gdk.c:158
+#. TET-0167; needs-INL-review
+msgid "DISPLAY"
+msgstr "Ekrán"
+
+#: ../gdk/keyname-table.h:3943
+#. TET-0015; needs-INL-review
+msgctxt "keyboard label"
+msgid "Pause"
+msgstr "Pauza"
+
+#: ../gdk/keyname-table.h:3948
+#. TET-0086; needs-INL-review
+msgctxt "keyboard label"
+msgid "Home"
+msgstr "Pasta pesoál"
+
+#: ../gdk/keyname-table.h:3949
+#. TET-0409; needs-INL-review
+msgctxt "keyboard label"
+msgid "Left"
+msgstr "Karuk"
+
+#: ../gdk/keyname-table.h:3951
+#. TET-0410; needs-INL-review
+msgctxt "keyboard label"
+msgid "Right"
+msgstr "Loos"
+
+#: ../gdk/keyname-table.h:3957
+#. TET-0036; needs-INL-review
+msgctxt "keyboard label"
+msgid "Print"
+msgstr "Imprime"
+
+#: ../gdk/keyname-table.h:3976
+#. TET-0023; needs-INL-review
+msgctxt "keyboard label"
+msgid "Delete"
+msgstr "Apaga"
+
+#: ../gtk/gtkaboutdialog.c:399 ../gtk/gtkaboutdialog.c:2286
+#. TET-0067; needs-INL-review
+msgid "License"
+msgstr "Lisensa"
+
+#. Add the license button
+#: ../gtk/gtkaboutdialog.c:660
+#. TET-0067; needs-INL-review
+msgid "_License"
+msgstr "_Lisensa"
+
+#. This label is displayed in a treeview cell displaying
+#. * a disabled accelerator key combination.
+#.
+#: ../gtk/gtkcellrendereraccel.c:244
+#. TET-0391; needs-INL-review
+msgctxt "Accelerator"
+msgid "Disabled"
+msgstr "Dezativadu"
+
+#: ../gtk/gtkcolorsel.c:411
+#. TET-0413; needs-INL-review
+msgid "Op_acity:"
+msgstr "_Opasidade:"
+
+#: ../gtk/gtkcustompaperunixdialog.c:1087
+#. TET-0407; needs-INL-review
+msgid "_Top:"
+msgstr "_Leten:"
+
+#: ../gtk/gtkcustompaperunixdialog.c:1099
+#. TET-0408; needs-INL-review
+msgid "_Bottom:"
+msgstr "_Kraik:"
+
+#: ../gtk/gtkcustompaperunixdialog.c:1111
+#. TET-0409; needs-INL-review
+msgid "_Left:"
+msgstr "_Karuk:"
+
+#: ../gtk/gtkcustompaperunixdialog.c:1123
+#. TET-0410; needs-INL-review
+msgid "_Right:"
+msgstr "_Loos:"
+
+#: ../gtk/gtkfilechooserbutton.c:65 ../gtk/gtkfilechooserdefault.c:1852
+#. TET-0087; needs-INL-review
+msgid "Desktop"
+msgstr "Ambiente de traballu"
+
+#: ../gtk/gtkfilechooserbutton.c:2024
+#. TET-0387; needs-INL-review
+msgid "Other..."
+msgstr "Seluk..."
+
+#: ../gtk/gtkfilechooserdefault.c:1771
+#. TET-0032; needs-INL-review
+msgid "Search"
+msgstr "Buka"
+
+#: ../gtk/gtkfilechooserdefault.c:3610
+#. TET-0022; needs-INL-review
+msgid "Remove"
+msgstr "Hasai"
+
+#: ../gtk/gtkfilechooserdefault.c:3619
+#. TET-0081; needs-INL-review
+msgid "Rename..."
+msgstr "Troka naran..."
+
+#. Accessible object name for the file chooser's shortcuts pane
+#: ../gtk/gtkfilechooserdefault.c:3782
+#. TET-0342; needs-INL-review
+msgid "Places"
+msgstr "Fatin sira"
+
+#. Column header for the file chooser's shortcuts pane
+#: ../gtk/gtkfilechooserdefault.c:3839
+#. TET-0342; needs-INL-review
+msgid "_Places"
+msgstr "_Fatin sira"
+
+#: ../gtk/gtkfilechooserdefault.c:3895
+#. TET-0021; needs-INL-review
+msgid "_Add"
+msgstr "_Aumenta"
+
+#: ../gtk/gtkfilechooserdefault.c:3907
+#. TET-0022; needs-INL-review
+msgid "_Remove"
+msgstr "_Hasai"
+
+#: ../gtk/gtkfilechooserdefault.c:4230
+#. TET-0095; needs-INL-review
+msgid "Show _Hidden Files"
+msgstr "_Hatudu arkivu subar"
+
+#: ../gtk/gtkfilechooserdefault.c:4457 ../gtk/gtkfilesel.c:730
+#. TET-0076; needs-INL-review
+msgid "Files"
+msgstr "Arkivu sira"
+
+#: ../gtk/gtkfilechooserdefault.c:4508
+#. TET-0064; needs-INL-review
+msgid "Name"
+msgstr "Naran"
+
+#: ../gtk/gtkfilechooserdefault.c:4531
+#. TET-0098; needs-INL-review
+msgid "Size"
+msgstr "Tamañu"
+
+#: ../gtk/gtkfilechooserdefault.c:4545
+#. TET-0100; needs-INL-review
+msgid "Modified"
+msgstr "Modifikadu"
+
+#. Label
+#: ../gtk/gtkfilechooserdefault.c:4800 ../gtk/gtkprinteroptionwidget.c:801
+#. TET-0064; needs-INL-review
+msgid "_Name:"
+msgstr "_Naran:"
+
+#. Create Folder
+#: ../gtk/gtkfilechooserdefault.c:5156
+#. TET-0383; needs-INL-review
+msgid "Create Fo_lder"
+msgstr "_Kria pasta"
+
+#: ../gtk/gtkfilechooserdefault.c:5166
+#. TET-0096; needs-INL-review
+msgid "_Location:"
+msgstr "_Fatin:"
+
+#: ../gtk/gtkfilechooserdefault.c:8190 ../gtk/gtkprintunixdialog.c:491
+#. TET-0035; needs-INL-review
+msgid "_Replace"
+msgstr "_Troka"
+
+#: ../gtk/gtkfilechooserdefault.c:9131
+#. TET-0032; needs-INL-review
+msgid "Search:"
+msgstr "Buka:"
+
+#: ../gtk/gtkfilesel.c:694
+#. TET-0078; needs-INL-review
+msgid "Folders"
+msgstr "Pasta sira"
+
+#: ../gtk/gtkfilesel.c:698
+#. TET-0078; needs-INL-review
+msgid "Fol_ders"
+msgstr "_Pasta sira"
+
+#: ../gtk/gtkfilesel.c:734
+#. TET-0076; needs-INL-review
+msgid "_Files"
+msgstr "_Arkivu sira"
+
+#: ../gtk/gtkfilesel.c:1020
+#. TET-0080; needs-INL-review
+msgid "_New Folder"
+msgstr "_Pasta foun"
+
+#: ../gtk/gtkfilesel.c:1394
+#. TET-0080; needs-INL-review
+msgid "New Folder"
+msgstr "Pasta foun"
+
+#: ../gtk/gtkfilesel.c:1702
+#. TET-0081; needs-INL-review
+msgid "_Rename"
+msgstr "_Troka naran"
+
+#. The pointers we return for a GtkFileSystemVolume are opaque tokens; they are
+#. * really pointers to GDrive, GVolume or GMount objects.  We need an extra
+#. * token for the fake "File System" volume.  So, we'll return a pointer to
+#. * this particular string.
+#.
+#: ../gtk/gtkfilesystem.c:52
+#. TET-0344; needs-INL-review
+msgid "File System"
+msgstr "Sistema arkivu"
+
+#: ../gtk/gtkfontbutton.c:785
+#. TET-0147; needs-INL-review
+msgid "Font"
+msgstr "Fonte"
+
+#: ../gtk/gtkfontsel.c:355
+#. TET-0098; needs-INL-review
+msgid "Si_ze:"
+msgstr "_Tamañu:"
+
+#. create the text entry widget
+#: ../gtk/gtkfontsel.c:532
+#. TET-0037; needs-INL-review
+msgid "_Preview:"
+msgstr "_Pré-vizualizasaun:"
+
+#: ../gtk/gtkimmulticontext.c:573
+#. TET-0388; needs-INL-review
+msgctxt "input method menu"
+msgid "None"
+msgstr "La iha"
+
+#: ../gtk/gtkinputdialog.c:237
+#. TET-0391; needs-INL-review
+msgid "Disabled"
+msgstr "Dezativadu"
+
+#: ../gtk/gtkinputdialog.c:251
+#. TET-0153; needs-INL-review
+msgid "Window"
+msgstr "Janela"
+
+#: ../gtk/gtkinputdialog.c:581
+#. TET-0388; needs-INL-review
+msgid "none"
+msgstr "La iha"
+
+#. and clear button
+#: ../gtk/gtkinputdialog.c:751
+#. TET-0031; needs-INL-review
+msgid "Cl_ear"
+msgstr "_Hamoos"
+
+#: ../gtk/gtkmountoperation.c:489
+#. TET-0218; needs-INL-review
+msgid "Co_nnect"
+msgstr "_Liga"
+
+#: ../gtk/gtkmountoperation.c:603
+#. TET-0259; needs-INL-review
+msgid "_Username:"
+msgstr "_Naran utilizadór:"
+
+#: ../gtk/gtkmountoperation.c:614
+#. TET-0260; needs-INL-review
+msgid "_Password:"
+msgstr "_Seña:"
+
+#: ../gtk/gtkpagesetupunixdialog.c:947
+#. TET-0402; needs-INL-review
+msgid "_Orientation:"
+msgstr "_Orientasaun:"
+
+#: ../gtk/gtkprintbackend.c:749
+#. TET-0265; needs-INL-review
+msgid "Authentication"
+msgstr "Autentikasaun"
+
+#. Translators: this is the header for the location column in the print dialog
+#: ../gtk/gtkprintunixdialog.c:2142
+#. TET-0096; needs-INL-review
+msgid "Location"
+msgstr "Fatin"
+
+#. Translators: this is the header for the printer status column in the print dialog
+#: ../gtk/gtkprintunixdialog.c:2153
+#. TET-0209; needs-INL-review
+msgid "Status"
+msgstr "Estadu"
+
+#: ../gtk/gtkprintunixdialog.c:2284
+#. TET-0062; needs-INL-review
+msgid "General"
+msgstr "Jerál"
+
+#: ../gtk/gtkprintunixdialog.c:3480
+#. TET-0402; needs-INL-review
+msgid "Or_ientation:"
+msgstr "_Orientasaun:"
+
+#: ../gtk/gtkprintunixdialog.c:3766
+#. TET-0061; needs-INL-review
+msgid "Advanced"
+msgstr "Avansadu"
+
+#: ../gtk/gtkprintunixdialog.c:3843
+#. TET-0036; needs-INL-review
+msgid "Print"
+msgstr "Imprime"
+
+#: ../gtk/gtkrecentchooserdefault.c:1779
+#. TET-0348; needs-INL-review
+msgid "Copy _Location"
+msgstr "_Kopia fatin"
+
+#. KEEP IN SYNC with gtkiconfactory.c stock icons, when appropriate
+#: ../gtk/gtkstock.c:314
+#. TET-0280; needs-INL-review
+msgctxt "Stock label"
+msgid "Information"
+msgstr "Informasaun"
+
+#: ../gtk/gtkstock.c:315
+#. TET-0278; needs-INL-review
+msgctxt "Stock label"
+msgid "Warning"
+msgstr "Avizu"
+
+#: ../gtk/gtkstock.c:316
+#. TET-0279; needs-INL-review
+msgctxt "Stock label"
+msgid "Error"
+msgstr "Erru"
+
+#: ../gtk/gtkstock.c:317
+#. TET-0281; needs-INL-review
+msgctxt "Stock label"
+msgid "Question"
+msgstr "Pergunta"
+
+#. FIXME these need accelerators when appropriate, and
+#. * need the mnemonics to be rationalized
+#.
+#: ../gtk/gtkstock.c:322
+#. TET-0055; needs-INL-review
+msgctxt "Stock label"
+msgid "_About"
+msgstr "_Kona-ba"
+
+#: ../gtk/gtkstock.c:323
+#. TET-0021; needs-INL-review
+msgctxt "Stock label"
+msgid "_Add"
+msgstr "_Aumenta"
+
+#: ../gtk/gtkstock.c:324
+#. TET-0006; needs-INL-review
+msgctxt "Stock label"
+msgid "_Apply"
+msgstr "_Aplika"
+
+#: ../gtk/gtkstock.c:326
+#. TET-0005; needs-INL-review
+msgctxt "Stock label"
+msgid "_Cancel"
+msgstr "_Kansela"
+
+#: ../gtk/gtkstock.c:328
+#. TET-0031; needs-INL-review
+msgctxt "Stock label"
+msgid "_Clear"
+msgstr "_Hamoos"
+
+#: ../gtk/gtkstock.c:329
+#. TET-0002; needs-INL-review
+msgctxt "Stock label"
+msgid "_Close"
+msgstr "_Taka"
+
+#: ../gtk/gtkstock.c:330
+#. TET-0218; needs-INL-review
+msgctxt "Stock label"
+msgid "C_onnect"
+msgstr "_Liga"
+
+#: ../gtk/gtkstock.c:332
+#. TET-0025; needs-INL-review
+msgctxt "Stock label"
+msgid "_Copy"
+msgstr "_Kopia"
+
+#: ../gtk/gtkstock.c:333
+#. TET-0026; needs-INL-review
+msgctxt "Stock label"
+msgid "Cu_t"
+msgstr "_Korta"
+
+#: ../gtk/gtkstock.c:334
+#. TET-0023; needs-INL-review
+msgctxt "Stock label"
+msgid "_Delete"
+msgstr "_Apaga"
+
+#: ../gtk/gtkstock.c:336
+#. TET-0219; needs-INL-review
+msgctxt "Stock label"
+msgid "_Disconnect"
+msgstr "_Desliga ligasaun"
+
+#: ../gtk/gtkstock.c:337
+#. TET-0106; needs-INL-review
+msgctxt "Stock label"
+msgid "_Execute"
+msgstr "_Ezekuta"
+
+#: ../gtk/gtkstock.c:338
+#. TET-0024; needs-INL-review
+msgctxt "Stock label"
+msgid "_Edit"
+msgstr "_Edita"
+
+#: ../gtk/gtkstock.c:339
+#. TET-0034; needs-INL-review
+msgctxt "Stock label"
+msgid "_Find"
+msgstr "_Buka"
+
+#: ../gtk/gtkstock.c:342
+#. TET-0156; needs-INL-review
+msgctxt "Stock label"
+msgid "_Fullscreen"
+msgstr "_Ekrán tomak"
+
+#. This is a navigation label as in "go to the bottom of the page"
+#: ../gtk/gtkstock.c:345
+#. TET-0408; needs-INL-review
+msgctxt "Stock label, navigation"
+msgid "_Bottom"
+msgstr "_Kraik"
+
+#. This is a navigation label as in "go to the top of the page"
+#: ../gtk/gtkstock.c:351
+#. TET-0407; needs-INL-review
+msgctxt "Stock label, navigation"
+msgid "_Top"
+msgstr "_Leten"
+
+#. This is a navigation label as in "go back"
+#: ../gtk/gtkstock.c:353
+#. TET-0010; needs-INL-review
+msgctxt "Stock label, navigation"
+msgid "_Back"
+msgstr "_Fila fali"
+
+#: ../gtk/gtkstock.c:361
+#. TET-0054; needs-INL-review
+msgctxt "Stock label"
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: ../gtk/gtkstock.c:362
+#. TET-0086; needs-INL-review
+msgctxt "Stock label"
+msgid "_Home"
+msgstr "_Pasta pesoál"
+
+#: ../gtk/gtkstock.c:366
+#. TET-0280; needs-INL-review
+msgctxt "Stock label"
+msgid "_Information"
+msgstr "_Informasaun"
+
+#. This is about text justification, "centered text"
+#: ../gtk/gtkstock.c:370
+#. TET-0411; needs-INL-review
+msgctxt "Stock label"
+msgid "_Center"
+msgstr "_Klaran"
+
+#. This is about text justification, "left-justified text"
+#: ../gtk/gtkstock.c:374
+#. TET-0409; needs-INL-review
+msgctxt "Stock label"
+msgid "_Left"
+msgstr "_Karuk"
+
+#. This is about text justification, "right-justified text"
+#: ../gtk/gtkstock.c:376
+#. TET-0410; needs-INL-review
+msgctxt "Stock label"
+msgid "_Right"
+msgstr "_Loos"
+
+#. Media label, as in "next song"
+#: ../gtk/gtkstock.c:381
+#. TET-0011; needs-INL-review
+msgctxt "Stock label, media"
+msgid "_Next"
+msgstr "_Tuir mai"
+
+#. Media label, as in "pause music"
+#: ../gtk/gtkstock.c:383
+#. TET-0015; needs-INL-review
+msgctxt "Stock label, media"
+msgid "P_ause"
+msgstr "_Pauza"
+
+#. Media label
+#: ../gtk/gtkstock.c:393
+#. TET-0014; needs-INL-review
+msgctxt "Stock label, media"
+msgid "_Stop"
+msgstr "_Para"
+
+#: ../gtk/gtkstock.c:394
+#. TET-0216; needs-INL-review
+msgctxt "Stock label"
+msgid "_Network"
+msgstr "_Rede"
+
+#: ../gtk/gtkstock.c:396
+#. TET-0009; needs-INL-review
+msgctxt "Stock label"
+msgid "_No"
+msgstr "_Lae"
+
+#: ../gtk/gtkstock.c:397
+#. TET-0007; needs-INL-review
+msgctxt "Stock label"
+msgid "_OK"
+msgstr "_Di'ak"
+
+#: ../gtk/gtkstock.c:398
+#. TET-0001; needs-INL-review
+msgctxt "Stock label"
+msgid "_Open"
+msgstr "_Loke"
+
+#: ../gtk/gtkstock.c:408
+#. TET-0027; needs-INL-review
+msgctxt "Stock label"
+msgid "_Paste"
+msgstr "_Kola"
+
+#: ../gtk/gtkstock.c:409
+#. TET-0058; needs-INL-review
+msgctxt "Stock label"
+msgid "_Preferences"
+msgstr "_Preferénsia"
+
+#: ../gtk/gtkstock.c:410
+#. TET-0036; needs-INL-review
+msgctxt "Stock label"
+msgid "_Print"
+msgstr "_Imprime"
+
+#: ../gtk/gtkstock.c:412
+#. TET-0057; needs-INL-review
+msgctxt "Stock label"
+msgid "_Properties"
+msgstr "_Propriedade"
+
+#: ../gtk/gtkstock.c:414
+#. TET-0029; needs-INL-review
+msgctxt "Stock label"
+msgid "_Redo"
+msgstr "_Refaz"
+
+#: ../gtk/gtkstock.c:415
+#. TET-0018; needs-INL-review
+msgctxt "Stock label"
+msgid "_Refresh"
+msgstr "_Karga fali"
+
+#: ../gtk/gtkstock.c:416
+#. TET-0022; needs-INL-review
+msgctxt "Stock label"
+msgid "_Remove"
+msgstr "_Hasai"
+
+#: ../gtk/gtkstock.c:418
+#. TET-0003; needs-INL-review
+msgctxt "Stock label"
+msgid "_Save"
+msgstr "_Rai"
+
+#: ../gtk/gtkstock.c:419
+#. TET-0004; needs-INL-review
+msgctxt "Stock label"
+msgid "Save _As"
+msgstr "_Rai hanesan"
+
+#: ../gtk/gtkstock.c:420
+#. TET-0030; needs-INL-review
+msgctxt "Stock label"
+msgid "Select _All"
+msgstr "_Hili hotu"
+
+#: ../gtk/gtkstock.c:422
+#. TET-0147; needs-INL-review
+msgctxt "Stock label"
+msgid "_Font"
+msgstr "_Fonte"
+
+#. Sorting direction
+#: ../gtk/gtkstock.c:424
+#. TET-0363; needs-INL-review
+msgctxt "Stock label"
+msgid "_Ascending"
+msgstr "_Sa'e"
+
+#. Sorting direction
+#: ../gtk/gtkstock.c:426
+#. TET-0364; needs-INL-review
+msgctxt "Stock label"
+msgid "_Descending"
+msgstr "_Tun"
+
+#: ../gtk/gtkstock.c:428
+#. TET-0014; needs-INL-review
+msgctxt "Stock label"
+msgid "_Stop"
+msgstr "_Para"
+
+#: ../gtk/gtkstock.c:434
+#. TET-0028; needs-INL-review
+msgctxt "Stock label"
+msgid "_Undo"
+msgstr "_Dezfaz"
+
+#: ../gtk/gtkstock.c:435
+#. TET-0008; needs-INL-review
+msgctxt "Stock label"
+msgid "_Yes"
+msgstr "_Sin"
+
+#: ../gtk/gtkvolumebutton.c:83
+#. TET-0170; needs-INL-review
+msgid "Volume"
+msgstr "Volume"
+
+#: ../gtk/gtkvolumebutton.c:157
+#. TET-0326; needs-INL-review
+msgid "Muted"
+msgstr "La iha lian"
+
+#: ../modules/printbackends/cups/gtkprintbackendcups.c:815
+#: ../modules/printbackends/cups/gtkprintbackendcups.c:1025
+#. TET-0259; needs-INL-review
+msgid "Username:"
+msgstr "Naran utilizadór:"
+
+#: ../modules/printbackends/cups/gtkprintbackendcups.c:816
+#: ../modules/printbackends/cups/gtkprintbackendcups.c:1034
+#. TET-0260; needs-INL-review
+msgid "Password:"
+msgstr "Seña:"
+
+#: ../modules/printbackends/cups/gtkprintbackendcups.c:2786
+#. TET-0168; needs-INL-review
+msgid "Resolution"
+msgstr "Resolusaun"
+
+#. Translators, these strings are names for various 'standard' cover
+#. * pages that the printing system may support.
+#.
+#: ../modules/printbackends/cups/gtkprintbackendcups.c:3621
+#. TET-0388; needs-INL-review
+msgid "None"
+msgstr "La iha"
+
+#: ../modules/printbackends/file/gtkprintbackendfile.c:691
+#. TET-0075; needs-INL-review
+msgid "File"
+msgstr "Arkivu"
+

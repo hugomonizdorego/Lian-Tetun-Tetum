@@ -1,0 +1,1167 @@
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Edukasaun OS contributors (original Tetun translations)
+# Partial draft; exact upstream IDs/contexts. Not endorsed by INL.
+# Original upstream notices and license: upstream/native-notices/nemo.txt
+# English (United Kingdom) translation for linuxmint
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr "Project-Id-Version: nemo Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: libnemo-private/nemo-file-operations.c:1553
+#. TET-0083; needs-INL-review
+msgid "Move to _Trash"
+msgstr "_Muda ba lixu"
+
+#. hardcode "Desktop"
+#: src/nemo-blank-desktop-window.c:320 src/nemo-desktop-window.c:125
+#: src/nemo-desktop-window.c:279 src/nemo-pathbar.c:1439
+#: src/nemo-places-sidebar.c:800 libnemo-private/nemo-action.c:1394
+#: gresources/nemo-file-management-properties.glade:4235
+#. TET-0087; needs-INL-review
+msgid "Desktop"
+msgstr "Ambiente de traballu"
+
+#: src/nemo-connect-server-dialog.c:426
+#. TET-0013; needs-INL-review
+msgid "Continue"
+msgstr "Kontinua"
+
+#: src/nemo-connect-server-dialog.c:700 src/nemo-connect-server-dialog.c:1094
+#. TET-0218; needs-INL-review
+msgid "C_onnect"
+msgstr "_Liga"
+
+#. first row: server entry + port spinbutton
+#: src/nemo-connect-server-dialog.c:872
+#. TET-0227; needs-INL-review
+msgid "_Server:"
+msgstr "_Servidór:"
+
+#. port
+#: src/nemo-connect-server-dialog.c:892
+#. TET-0228; needs-INL-review
+msgid "_Port:"
+msgstr "_Porta:"
+
+#. second row: type combobox
+#: src/nemo-connect-server-dialog.c:910
+#. TET-0099; needs-INL-review
+msgid "_Type:"
+msgstr "_Tipu:"
+
+#. third row: share entry
+#: src/nemo-connect-server-dialog.c:980
+#. TET-0230; needs-INL-review
+msgid "Sh_are:"
+msgstr "_Partilla:"
+
+#. fourth row: folder entry
+#: src/nemo-connect-server-dialog.c:995
+#. TET-0077; needs-INL-review
+msgid "_Folder:"
+msgstr "_Pasta:"
+
+#. third row: password entry
+#: src/nemo-connect-server-dialog.c:1067
+#. TET-0260; needs-INL-review
+msgid "Pass_word:"
+msgstr "_Seña:"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:917 src/nemo-desktop-icon-view.c:682
+#: src/nemo-view.c:8274 src/nemo-view.c:9907
+#. TET-0085; needs-INL-review
+msgid "E_mpty Trash"
+msgstr "_Hamoos lixu"
+
+#: src/nemo-desktop-icon-grid-view.c:1063
+#. TET-0404; needs-INL-review
+msgid "_Vertical"
+msgstr "_Vertikál"
+
+#: src/nemo-desktop-icon-grid-view.c:1067
+#. TET-0403; needs-INL-review
+msgid "_Horizontal"
+msgstr "_Orizontál"
+
+#: src/nemo-desktop-icon-grid-view.c:1074 src/nemo-list-view.c:2688
+#: libnemo-private/nemo-column-utilities.c:43
+#: gresources/nemo-desktop-overlay.glade:116
+#. TET-0064; needs-INL-review
+msgid "Name"
+msgstr "Naran"
+
+#: src/nemo-desktop-icon-grid-view.c:1078
+#: libnemo-private/nemo-column-utilities.c:50
+#: gresources/nemo-desktop-overlay.glade:121
+#. TET-0098; needs-INL-review
+msgid "Size"
+msgstr "Tamañu"
+
+#: src/nemo-desktop-icon-grid-view.c:1082
+#: libnemo-private/nemo-column-utilities.c:58
+#: gresources/nemo-desktop-overlay.glade:126
+#. TET-0099; needs-INL-review
+msgid "Type"
+msgstr "Tipu"
+
+#: src/nemo-desktop-icon-grid-view.c:1086
+#: gresources/nemo-desktop-overlay.glade:131
+#. TET-0421; needs-INL-review
+msgid "Date"
+msgstr "Data"
+
+#. name, stock id, label
+#: src/nemo-desktop-icon-grid-view.c:1092
+#. TET-0361; needs-INL-review
+msgid "_Sort"
+msgstr "_Ordena"
+
+#. label, accelerator
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:1097 src/nemo-desktop-icon-view.c:723
+#. TET-0085; needs-INL-review
+msgid "Empty Trash"
+msgstr "Hamoos lixu"
+
+#: src/nemo-desktop-item-properties.c:414
+#: src/nemo-desktop-item-properties.c:424 src/nemo-image-properties-page.c:361
+#: src/nemo-image-properties-page.c:414
+#. TET-0065; needs-INL-review
+msgid "Description"
+msgstr "Deskrisaun"
+
+#. Translators: this is referred to captions under icons.
+#. Translators: this is referred to the permissions
+#. * the user has in a directory.
+#. 
+#: src/nemo-file-management-properties.c:306 src/nemo-properties-window.c:4024
+#: src/nemo-properties-window.c:4035
+#. TET-0388; needs-INL-review
+msgid "None"
+msgstr "La iha"
+
+#. name, stock id, label
+#: src/nemo-icon-view.c:1401
+#: gresources/nemo-file-management-properties.glade:4178
+#. TET-0360; needs-INL-review
+msgid "Arran_ge Items"
+msgstr "_Organiza item sira"
+
+#. translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/nemo-icon-view.c:2849 src/nemo-icon-view-container.c:2157
+#: src/nemo-icon-view-grid-container.c:1593 src/nemo-window-menus.c:1594
+#: src/nemo-window-menus.c:1753
+#: gresources/nemo-file-management-properties.glade:132
+#: gresources/nemo-file-management-properties.glade:4155
+#. TET-0358; needs-INL-review
+msgid "Icon View"
+msgstr "Vizaun íkone"
+
+#. translators: this is used in the view menu
+#: src/nemo-icon-view.c:2851
+#. TET-0146; needs-INL-review
+msgid "_Icons"
+msgstr "_Íkone sira"
+
+#. translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/nemo-icon-view.c:2863 src/nemo-window-menus.c:1600
+#: src/nemo-window-menus.c:1776
+#: gresources/nemo-file-management-properties.glade:138
+#. TET-0357; needs-INL-review
+msgid "Compact View"
+msgstr "Vizaun kompaktu"
+
+#: src/nemo-image-properties-page.c:358 src/nemo-image-properties-page.c:359
+#. TET-0070; needs-INL-review
+msgid "Author"
+msgstr "Autór"
+
+#: src/nemo-image-properties-page.c:362 src/nemo-image-properties-page.c:417
+#. TET-0072; needs-INL-review
+msgid "Copyright"
+msgstr "Direitu autór"
+
+#: src/nemo-image-properties-page.c:366
+#. TET-0278; needs-INL-review
+msgid "Warning"
+msgstr "Avizu"
+
+#: src/nemo-image-properties-page.c:367
+#. TET-0369; needs-INL-review
+msgid "Source"
+msgstr "Orijen"
+
+#: src/nemo-image-properties-page.c:388
+#: libnemo-private/nemo-column-utilities.c:72
+#. TET-0365; needs-INL-review
+msgid "Date Modified"
+msgstr "Data modifikasaun"
+
+#: src/nemo-image-properties-page.c:413 src/nemo-window-menus.c:1718
+#: libnemo-private/nemo-column-utilities.c:159
+#. TET-0096; needs-INL-review
+msgid "Location"
+msgstr "Fatin"
+
+#. translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/nemo-list-view.c:2790 src/nemo-list-view.c:4493
+#: src/nemo-window-menus.c:1597 src/nemo-window-menus.c:1764
+#: gresources/nemo-file-management-properties.glade:135
+#. TET-0359; needs-INL-review
+msgid "List View"
+msgstr "Vizaun lista"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-mime-actions.c:664 src/nemo-tree-sidebar.c:1360
+#: src/nemo-view.c:8326 src/nemo-view.c:8435 src/nemo-view.c:9492
+#: src/nemo-view.c:9829 gresources/nemo-file-management-properties.glade:3912
+#. TET-0083; needs-INL-review
+msgid "Mo_ve to Trash"
+msgstr "_Muda ba lixu"
+
+#: src/nemo-mime-actions.c:733
+#. TET-0167; needs-INL-review
+msgid "_Display"
+msgstr "_Ekrán"
+
+#: src/nemo-mime-actions.c:1167 src/nemo-open-with-main.c:151
+#: src/nemo-view.c:1394
+#. TET-0116; needs-INL-review
+msgid "Open with"
+msgstr "Loke ho"
+
+#: src/nemo-places-sidebar.c:783 src/nemo-tree-sidebar.c:1493
+#: libnemo-private/nemo-bookmark.c:130 libnemo-private/nemo-desktop-link.c:118
+#: libnemo-private/nemo-file-utilities.c:66
+#: libnemo-private/nemo-file-utilities.c:114 generate_additional_file:41
+#: gresources/nemo-desktop-preferences.glade:211
+#: gresources/nemo-file-management-properties.glade:3161
+#. TET-0086; needs-INL-review
+msgid "Home"
+msgstr "Pasta pesoál"
+
+#: src/nemo-places-sidebar.c:855 src/nemo-tree-sidebar.c:1498
+#. TET-0123; needs-INL-review
+msgid "Favorites"
+msgstr "Favoritu sira"
+
+#: src/nemo-places-sidebar.c:872
+#. TET-0386; needs-INL-review
+msgid "Recent"
+msgstr "Foin uza"
+
+#: src/nemo-places-sidebar.c:874
+#. TET-0093; needs-INL-review
+msgid "Recent files"
+msgstr "Arkivu foin loke"
+
+#: src/nemo-places-sidebar.c:893 src/nemo-tree-sidebar.c:1502
+#. TET-0344; needs-INL-review
+msgid "File System"
+msgstr "Sistema arkivu"
+
+#: src/nemo-places-sidebar.c:909 src/nemo-trash-bar.c:211
+#: libnemo-private/nemo-desktop-link.c:135 generate_additional_file:55
+#: gresources/nemo-desktop-preferences.glade:289
+#. TET-0084; needs-INL-review
+msgid "Trash"
+msgstr "Lixu"
+
+#: src/nemo-places-sidebar.c:917
+#. TET-0353; needs-INL-review
+msgid "Bookmarks"
+msgstr "Markadór sira"
+
+#: src/nemo-places-sidebar.c:1214 src/nemo-places-sidebar.c:1269
+#: src/nemo-tree-sidebar.c:1506 libnemo-private/nemo-desktop-link.c:146
+#: gresources/nemo-desktop-preferences.glade:445
+#. TET-0216; needs-INL-review
+msgid "Network"
+msgstr "Rede"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:2352 src/nemo-places-sidebar.c:3499
+#: src/nemo-view.c:8372 src/nemo-view.c:8396 src/nemo-view.c:8459
+#: src/nemo-view.c:9113 src/nemo-view.c:9117 src/nemo-view.c:9200
+#: src/nemo-view.c:9204 src/nemo-view.c:9304 src/nemo-view.c:9308
+#. TET-0052; needs-INL-review
+msgid "_Start"
+msgstr "_Hahú"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:2353 src/nemo-places-sidebar.c:3500
+#: src/nemo-view.c:8376 src/nemo-view.c:8400 src/nemo-view.c:8463
+#: src/nemo-view.c:9142 src/nemo-view.c:9229 src/nemo-view.c:9333
+#: src/nemo-window-menus.c:1408
+#. TET-0014; needs-INL-review
+msgid "_Stop"
+msgstr "_Para"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3489 src/nemo-tree-sidebar.c:1351
+#: src/nemo-view.c:8233 src/nemo-view.c:9761
+#: libnemo-private/nemo-mime-application-chooser.c:483
+#: gresources/nemo-file-management-properties.glade:3610
+#. TET-0001; needs-INL-review
+msgid "_Open"
+msgstr "_Loke"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3490 src/nemo-tree-sidebar.c:1352
+#: src/nemo-view.c:8245 src/nemo-view.c:8417 src/nemo-view.c:9439
+#: src/nemo-view.c:9807 gresources/nemo-file-management-properties.glade:3629
+#. TET-0352; needs-INL-review
+msgid "Open in New _Tab"
+msgstr "_Loke iha separadór foun"
+
+#: src/nemo-places-sidebar.c:3491 src/nemo-tree-sidebar.c:1353
+#: src/nemo-view.c:9430 src/nemo-view.c:9787
+#: gresources/nemo-file-management-properties.glade:3648
+#. TET-0351; needs-INL-review
+msgid "Open in New _Window"
+msgstr "_Loke iha janela foun"
+
+#. name, stock id, label
+#: src/nemo-places-sidebar.c:3492 src/nemo-window-menus.c:1518
+#. TET-0355; needs-INL-review
+msgid "_Add Bookmark"
+msgstr "_Aumenta markadór"
+
+#: src/nemo-places-sidebar.c:3493 src/nemo-template-config-widget.c:610
+#: gresources/nemo-action-layout-editor.glade:112
+#. TET-0022; needs-INL-review
+msgid "Remove"
+msgstr "Hasai"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3494 src/nemo-view.c:8318
+#: gresources/nemo-file-management-properties.glade:3819
+#. TET-0081; needs-INL-review
+msgid "_Rename..."
+msgstr "_Troka naran..."
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3495 src/nemo-view.c:8360 src/nemo-view.c:8384
+#: src/nemo-view.c:8447
+#. TET-0108; needs-INL-review
+msgid "_Mount"
+msgstr "_Monta"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3496 src/nemo-tree-sidebar.c:1362
+#: src/nemo-view.c:8364 src/nemo-view.c:8388 src/nemo-view.c:8451
+#. TET-0109; needs-INL-review
+msgid "_Unmount"
+msgstr "_Desmonta"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3497 src/nemo-tree-sidebar.c:1363
+#: src/nemo-view.c:8368 src/nemo-view.c:8392 src/nemo-view.c:8455
+#. TET-0110; needs-INL-review
+msgid "_Eject"
+msgstr "_Hasai dispozitivu"
+
+#: src/nemo-places-sidebar.c:3501
+#. TET-0085; needs-INL-review
+msgid "_Empty _Trash"
+msgstr "_Hamoos lixu"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3502 src/nemo-tree-sidebar.c:1364
+#: src/nemo-view.c:8215 src/nemo-view.c:8472
+#: gresources/nemo-file-management-properties.glade:3931
+#: gresources/nemo-file-management-properties.glade:4117
+#. TET-0057; needs-INL-review
+msgid "_Properties"
+msgstr "_Propriedade"
+
+#: src/nemo-places-sidebar.c:3804
+#. TET-0109; needs-INL-review
+msgid "Unmount"
+msgstr "Desmonta"
+
+#: src/nemo-places-sidebar.c:3808
+#. TET-0110; needs-INL-review
+msgid "Eject"
+msgstr "Hasai dispozitivu"
+
+#: src/nemo-places-sidebar.c:3812
+#. TET-0014; needs-INL-review
+msgid "Stop"
+msgstr "Para"
+
+#: src/nemo-progress-ui-handler.c:210 src/nemo-progress-ui-handler.c:267
+#. TET-0347; needs-INL-review
+msgid "File Operations"
+msgstr "Operasaun arkivu"
+
+#: src/nemo-properties-window.c:848
+#. TET-0057; needs-INL-review
+msgid "Properties"
+msgstr "Propriedade"
+
+#: src/nemo-properties-window.c:2323
+#: libnemo-private/nemo-file-conflict-dialog.c:269
+#: libnemo-private/nemo-file-conflict-dialog.c:301
+#. TET-0098; needs-INL-review
+msgid "Size:"
+msgstr "Tamañu:"
+
+#: src/nemo-properties-window.c:3141
+#: libnemo-private/nemo-file-conflict-dialog.c:272
+#: libnemo-private/nemo-file-conflict-dialog.c:304
+#. TET-0099; needs-INL-review
+msgid "Type:"
+msgstr "Tipu:"
+
+#: src/nemo-properties-window.c:3175
+#. TET-0096; needs-INL-review
+msgid "Location:"
+msgstr "Fatin:"
+
+#: src/nemo-properties-window.c:3182
+#. TET-0170; needs-INL-review
+msgid "Volume:"
+msgstr "Volume:"
+
+#: src/nemo-properties-window.c:3200
+#. TET-0101; needs-INL-review
+msgid "Created:"
+msgstr "Kriadu:"
+
+#: src/nemo-properties-window.c:3207
+#. TET-0100; needs-INL-review
+msgid "Modified:"
+msgstr "Modifikadu:"
+
+#: src/nemo-properties-window.c:3216
+#. TET-0113; needs-INL-review
+msgid "Free space:"
+msgstr "Espasu livre:"
+
+#: src/nemo-properties-window.c:3660
+#. TET-0104; needs-INL-review
+msgid "_Read"
+msgstr "_Lee"
+
+#: src/nemo-properties-window.c:3662
+#. TET-0105; needs-INL-review
+msgid "_Write"
+msgstr "_Hakerek"
+
+#: src/nemo-properties-window.c:3664
+#. TET-0106; needs-INL-review
+msgid "E_xecute"
+msgstr "_Ezekuta"
+
+#. translators: this gets concatenated to "no read",
+#. * "no access", etc. (see following strings)
+#. 
+#: src/nemo-properties-window.c:3932 src/nemo-properties-window.c:3943
+#: src/nemo-properties-window.c:3955
+#. TET-0009; needs-INL-review
+msgid "no "
+msgstr "Lae"
+
+#: src/nemo-properties-window.c:3937
+#. TET-0104; needs-INL-review
+msgid "read"
+msgstr "Lee"
+
+#: src/nemo-properties-window.c:3948
+#. TET-0105; needs-INL-review
+msgid "write"
+msgstr "Hakerek"
+
+#: src/nemo-properties-window.c:3957
+#. TET-0367; needs-INL-review
+msgid "access"
+msgstr "Asesu"
+
+#: src/nemo-properties-window.c:4005
+#. TET-0367; needs-INL-review
+msgid "Access:"
+msgstr "Asesu:"
+
+#: src/nemo-properties-window.c:4183 src/nemo-properties-window.c:4375
+#. TET-0102; needs-INL-review
+msgid "_Owner:"
+msgstr "_Na'in:"
+
+#: src/nemo-properties-window.c:4191 src/nemo-properties-window.c:4280
+#: src/nemo-properties-window.c:4385
+#. TET-0102; needs-INL-review
+msgid "Owner:"
+msgstr "Na'in:"
+
+#: src/nemo-properties-window.c:4213 src/nemo-properties-window.c:4397
+#. TET-0244; needs-INL-review
+msgid "_Group:"
+msgstr "_Grupu:"
+
+#: src/nemo-properties-window.c:4221 src/nemo-properties-window.c:4281
+#: src/nemo-properties-window.c:4405
+#. TET-0244; needs-INL-review
+msgid "Group:"
+msgstr "Grupu:"
+
+#: src/nemo-properties-window.c:4260
+#. TET-0106; needs-INL-review
+msgid "Execute:"
+msgstr "Ezekuta:"
+
+#: src/nemo-properties-window.c:4572
+#: libnemo-private/nemo-column-utilities.c:127
+#. TET-0103; needs-INL-review
+msgid "Permissions"
+msgstr "Permisaun sira"
+
+#: src/nemo-properties-window.c:4876
+#. TET-0116; needs-INL-review
+msgid "Open With"
+msgstr "Loke ho"
+
+#: src/nemo-properties-window.c:5014
+#. TET-0054; needs-INL-review
+msgid "Help"
+msgstr "Ajuda"
+
+#: src/nemo-properties-window.c:5015
+#. TET-0002; needs-INL-review
+msgid "Close"
+msgstr "Taka"
+
+#. Add buttons
+#: src/nemo-template-config-widget.c:322
+#: libnemo-private/nemo-file-conflict-dialog.c:556
+#: libnemo-private/nemo-mime-application-chooser.c:481
+#. TET-0005; needs-INL-review
+msgid "_Cancel"
+msgstr "_Kansela"
+
+#: src/nemo-template-config-widget.c:324
+#. TET-0081; needs-INL-review
+msgid "_Rename"
+msgstr "_Troka naran"
+
+#: src/nemo-template-config-widget.c:415 libnemo-private/nemo-dnd.c:899
+#: gresources/nemo-action-layout-editor.glade:309
+#. TET-0005; needs-INL-review
+msgid "Cancel"
+msgstr "Kansela"
+
+#: src/nemo-template-config-widget.c:620
+#. TET-0081; needs-INL-review
+msgid "Rename"
+msgstr "Troka naran"
+
+#: src/nemo-trash-bar.c:224 libnemo-private/nemo-file-operations.c:1311
+#: libnemo-private/nemo-file-operations.c:1626
+#: libnemo-private/nemo-file-operations.c:2568
+#. TET-0085; needs-INL-review
+msgid "Empty _Trash"
+msgstr "_Hamoos lixu"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1355 src/nemo-view.c:8278 src/nemo-view.c:8422
+#: gresources/nemo-file-management-properties.glade:3686
+#. TET-0026; needs-INL-review
+msgid "Cu_t"
+msgstr "_Korta"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1356 src/nemo-view.c:8282 src/nemo-view.c:8426
+#: gresources/nemo-file-management-properties.glade:3705
+#. TET-0025; needs-INL-review
+msgid "_Copy"
+msgstr "_Kopia"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1361 src/nemo-view.c:8330 src/nemo-view.c:8439
+#: src/nemo-view.c:9853
+#. TET-0023; needs-INL-review
+msgid "_Delete"
+msgstr "_Apaga"
+
+#: src/nemo-tree-sidebar.c:1488 libnemo-private/nemo-desktop-link.c:126
+#: generate_additional_file:48 gresources/nemo-desktop-preferences.glade:133
+#: gresources/nemo-file-management-properties.glade:3124
+#. TET-0343; needs-INL-review
+msgid "Computer"
+msgstr "Komputadór"
+
+#. Reset to default info
+#: src/nemo-view.c:2624 libnemo-private/nemo-file-undo-operations.c:147
+#. TET-0028; needs-INL-review
+msgid "Undo"
+msgstr "Dezfaz"
+
+#. Reset to default info
+#: src/nemo-view.c:2643 libnemo-private/nemo-file-undo-operations.c:154
+#. TET-0029; needs-INL-review
+msgid "Redo"
+msgstr "Refaz"
+
+#: src/nemo-view.c:7990 src/nemo-view.c:9121 src/nemo-view.c:9208
+#: src/nemo-view.c:9312
+#. TET-0218; needs-INL-review
+msgid "_Connect"
+msgstr "_Liga"
+
+#. name, stock id, label
+#: src/nemo-view.c:8212
+#. TET-0116; needs-INL-review
+msgid "Open Wit_h"
+msgstr "_Loke ho"
+
+#. name, stock id
+#. translators: this is used to indicate that a document doesn't contain anything
+#. label, accelerator
+#: src/nemo-view.c:8229
+#. TET-0385; needs-INL-review
+msgid "_Empty Document"
+msgstr "_Dokumentu mamuk"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8249 src/nemo-window-menus.c:1741
+#: gresources/nemo-file-management-properties.glade:3876
+#: gresources/nemo-file-management-properties.glade:4043
+#. TET-0350; needs-INL-review
+msgid "Open in Terminal"
+msgstr "Loke iha terminál"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8286 gresources/nemo-file-management-properties.glade:3724
+#: gresources/nemo-file-management-properties.glade:4098
+#. TET-0027; needs-INL-review
+msgid "_Paste"
+msgstr "_Kola"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8298 libnemo-private/nemo-clipboard.c:444
+#. TET-0030; needs-INL-review
+msgid "Select _All"
+msgstr "_Hili hotu"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8310 libnemo-private/nemo-file-conflict-dialog.c:561
+#: gresources/nemo-file-management-properties.glade:3743
+#. TET-0431; needs-INL-review
+msgid "D_uplicate"
+msgstr "_Halo kópia"
+
+#. name, stock id
+#. label, accelerator
+#. name, stock id, label
+#: src/nemo-view.c:8338 src/nemo-window-menus.c:1397
+#. TET-0028; needs-INL-review
+msgid "_Undo"
+msgstr "_Dezfaz"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8342
+#. TET-0029; needs-INL-review
+msgid "_Redo"
+msgstr "_Refaz"
+
+#. name, stock id, label
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8483 src/nemo-view.c:8487 src/nemo-window-menus.c:1472
+#: src/nemo-window-menus.c:1691 src/nemo-window-menus.c:1957
+#. TET-0086; needs-INL-review
+msgid "_Home"
+msgstr "_Pasta pesoál"
+
+#. name, stock id, label
+#: src/nemo-view.c:8491 src/nemo-view.c:8495
+#. TET-0087; needs-INL-review
+msgid "_Desktop"
+msgstr "_Ambiente de traballu"
+
+#: src/nemo-view.c:8499 src/nemo-view.c:8503
+#. TET-0040; needs-INL-review
+msgid "Browse..."
+msgstr "Buka arkivu..."
+
+#: src/nemo-view.c:8515
+#. TET-0124; needs-INL-review
+msgid "Add to favorites"
+msgstr "Aumenta ba favoritu sira"
+
+#: src/nemo-view.c:8519
+#. TET-0125; needs-INL-review
+msgid "Remove from favorites"
+msgstr "Hasai husi favoritu sira"
+
+#: src/nemo-view.c:9150 src/nemo-view.c:9237 src/nemo-view.c:9341
+#. TET-0219; needs-INL-review
+msgid "_Disconnect"
+msgstr "_Desliga ligasaun"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1384
+#. TET-0075; needs-INL-review
+msgid "_File"
+msgstr "_Arkivu"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1385
+#. TET-0024; needs-INL-review
+msgid "_Edit"
+msgstr "_Edita"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1387
+#. TET-0054; needs-INL-review
+msgid "_Help"
+msgstr "_Ajuda"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1389
+#. TET-0002; needs-INL-review
+msgid "_Close"
+msgstr "_Taka"
+
+#: src/nemo-window-menus.c:1393
+#. TET-0058; needs-INL-review
+msgid "Prefere_nces"
+msgstr "_Preferénsia"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1412 src/nemo-window-menus.c:1677
+#. TET-0432; needs-INL-review
+msgid "_Reload"
+msgstr "_Karga fali"
+
+#. * name, stock id          { "NemoHelpSearch", NULL,
+#. label, accelerator        N_("Search for files"), NULL,
+#. tooltip                   N_("Locate files based on file name and type. Save your searches for later use."),
+#. G_CALLBACK (action_nemo_manual_callback) },
+#. name, stock id          { "NemoHelpSort", NULL,
+#. label, accelerator        N_("Sort files and folders"), NULL,
+#. tooltip                   N_("Arrange files by name, size, type, or when they were changed."),
+#. G_CALLBACK (action_nemo_manual_callback) },
+#. name, stock id          { "NemoHelpLost", NULL,
+#. label, accelerator        N_("Find a lost file"), NULL,
+#. tooltip                   N_("Follow these tips if you can't find a file you created or downloaded."),
+#. G_CALLBACK (action_nemo_manual_callback) },
+#. name, stock id          { "NemoHelpShare", NULL,
+#. label, accelerator        N_("Share and transfer files"), NULL,
+#. tooltip                   N_("Easily transfer files to your contacts and devices from the file manager."),
+#. G_CALLBACK (action_nemo_manual_callback) }, *
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1440
+#. TET-0055; needs-INL-review
+msgid "_About"
+msgstr "_Kona-ba"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1476 src/nemo-window-menus.c:1705
+#. TET-0343; needs-INL-review
+msgid "_Computer"
+msgstr "_Komputadór"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1480
+#. TET-0216; needs-INL-review
+msgid "_Network"
+msgstr "_Rede"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1488
+#. TET-0084; needs-INL-review
+msgid "_Trash"
+msgstr "_Lixu"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1492
+#. TET-0353; needs-INL-review
+msgid "_Bookmarks"
+msgstr "_Markadór sira"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1503 src/nemo-window-menus.c:1627
+#. TET-0010; needs-INL-review
+msgid "_Back"
+msgstr "_Fila fali"
+
+#: src/nemo-window-menus.c:1536
+#. TET-0356; needs-INL-review
+msgid "Sidebar"
+msgstr "Painél sorin"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1542
+#: gresources/nemo-file-management-properties.glade:4079
+#. TET-0095; needs-INL-review
+msgid "Show _Hidden Files"
+msgstr "_Hatudu arkivu subar"
+
+#: src/nemo-window-menus.c:1585
+#. TET-0342; needs-INL-review
+msgid "Places"
+msgstr "Fatin sira"
+
+#: src/nemo-window-menus.c:1731
+#: gresources/nemo-file-management-properties.glade:3272
+#. TET-0080; needs-INL-review
+msgid "New folder"
+msgstr "Pasta foun"
+
+#: src/nemo-window-menus.c:1752
+#. TET-0146; needs-INL-review
+msgid "Icons"
+msgstr "Íkone sira"
+
+#: src/nemo-window-menus.c:1787 libnemo-private/nemo-query.c:198
+#: libnemo-private/nemo-search-directory-file.c:164
+#: libnemo-private/nemo-search-directory-file.c:198
+#: libnemo-private/nemo-search-directory-file.c:232
+#: gresources/nemo-file-management-properties.glade:3309
+#. TET-0032; needs-INL-review
+msgid "Search"
+msgstr "Buka"
+
+#: src/nemo-window-menus.c:1960
+#. TET-0096; needs-INL-review
+msgid "_Location"
+msgstr "_Fatin"
+
+#: libnemo-private/nemo-column-utilities.c:111
+#. TET-0102; needs-INL-review
+msgid "Owner"
+msgstr "Na'in"
+
+#: libnemo-private/nemo-column-utilities.c:119
+#. TET-0244; needs-INL-review
+msgid "Group"
+msgstr "Grupu"
+
+#: libnemo-private/nemo-file.c:1934
+#. TET-0118; needs-INL-review
+msgid "File not found"
+msgstr "Arkivu la hetan"
+
+#: libnemo-private/nemo-file.c:7000
+#. TET-0147; needs-INL-review
+msgid "Font"
+msgstr "Fonte"
+
+#: libnemo-private/nemo-file.c:7009
+#. TET-0423; needs-INL-review
+msgid "Calendar"
+msgstr "Kalendáriu"
+
+#: libnemo-private/nemo-file.c:7060
+#. TET-0077; needs-INL-review
+msgid "Folder"
+msgstr "Pasta"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:535
+#. TET-0019; needs-INL-review
+msgid "Reset"
+msgstr "Restaura"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:566
+#. TET-0081; needs-INL-review
+msgid "Re_name"
+msgstr "_Troka naran"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:572
+#. TET-0035; needs-INL-review
+msgid "Replace"
+msgstr "Troka"
+
+#: libnemo-private/nemo-file-operations.c:199
+#. TET-0017; needs-INL-review
+msgid "_Retry"
+msgstr "_Koko fali"
+
+#: libnemo-private/nemo-file-operations.c:201
+#. TET-0035; needs-INL-review
+msgid "_Replace"
+msgstr "_Troka"
+
+#: libnemo-private/nemo-file-operations.c:202
+#. TET-0429; needs-INL-review
+msgid "Replace _All"
+msgstr "_Troka hotu"
+
+#: libnemo-private/nemo-program-choosing.c:395
+#. TET-0056; needs-INL-review
+msgid "Details: "
+msgstr "Detalle:"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:173
+#. TET-0024; needs-INL-review
+msgid "Edit"
+msgstr "Edita"
+
+#: eel/eel-editable-label.c:3106
+#. TET-0030; needs-INL-review
+msgid "Select All"
+msgstr "Hili hotu"
+
+#: generate_additional_file:33
+#. TET-0076; needs-INL-review
+msgid "Files"
+msgstr "Arkivu sira"
+
+#: gresources/nemo-desktop-overlay.glade:95
+#. TET-0404; needs-INL-review
+msgid "Vertical"
+msgstr "Vertikál"
+
+#: gresources/nemo-desktop-overlay.glade:99
+#. TET-0403; needs-INL-review
+msgid "Horizontal"
+msgstr "Orizontál"
+
+#: gresources/nemo-desktop-preferences.glade:503
+#. TET-0060; needs-INL-review
+msgid "Options"
+msgstr "Opsaun"
+
+#: gresources/nemo-file-management-properties.glade:149
+#: gresources/nemo-file-management-properties.glade:302
+#: gresources/nemo-file-management-properties.glade:4416
+#. TET-0414; needs-INL-review
+msgid "Always"
+msgstr "Sempre"
+
+#: gresources/nemo-file-management-properties.glade:155
+#: gresources/nemo-file-management-properties.glade:308
+#: gresources/nemo-file-management-properties.glade:4422
+#. TET-0415; needs-INL-review
+msgid "Never"
+msgstr "Nunka"
+
+#: gresources/nemo-file-management-properties.glade:369
+#. TET-0008; needs-INL-review
+msgid "Yes"
+msgstr "Sin"
+
+#: gresources/nemo-file-management-properties.glade:375
+#. TET-0009; needs-INL-review
+msgid "No"
+msgstr "Lae"
+
+#: gresources/nemo-file-management-properties.glade:528
+#. TET-0360; needs-INL-review
+msgid "_Arrange items:"
+msgstr "_Organiza item sira:"
+
+#: gresources/nemo-file-management-properties.glade:1939
+#. TET-0371; needs-INL-review
+msgid "_Format:"
+msgstr "_Formatu:"
+
+#: gresources/nemo-file-management-properties.glade:2323
+#. TET-0167; needs-INL-review
+msgid "Display"
+msgstr "Ekrán"
+
+#: gresources/nemo-file-management-properties.glade:2900
+#. TET-0037; needs-INL-review
+msgid "Preview"
+msgstr "Pré-vizualizasaun"
+
+#: gresources/nemo-file-management-properties.glade:3013
+#. TET-0011; needs-INL-review
+msgid "Next"
+msgstr "Tuir mai"
+
+#: gresources/nemo-file-management-properties.glade:3087
+#. TET-0018; needs-INL-review
+msgid "Refresh"
+msgstr "Karga fali"
+
+#: gresources/nemo-file-management-properties.glade:3235
+#. TET-0350; needs-INL-review
+msgid "Open in terminal"
+msgstr "Loke iha terminál"
+
+#: gresources/nemo-file-management-properties.glade:3346
+#: gresources/nemo-shortcuts.ui:308
+#. TET-0358; needs-INL-review
+msgid "Icon view"
+msgstr "Vizaun íkone"
+
+#: gresources/nemo-file-management-properties.glade:3383
+#. TET-0359; needs-INL-review
+msgid "List view"
+msgstr "Vizaun lista"
+
+#: gresources/nemo-file-management-properties.glade:3420
+#. TET-0357; needs-INL-review
+msgid "Compact view"
+msgstr "Vizaun kompaktu"
+
+#: gresources/nemo-file-management-properties.glade:3982
+#. TET-0400; needs-INL-review
+msgid "Background"
+msgstr "Fundu"
+
+#: gresources/nemo-shortcuts.ui:13
+#. TET-0062; needs-INL-review
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Jerál"
+
+#: gresources/nemo-shortcuts.ui:45
+#. TET-0032; needs-INL-review
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Buka"
+
+#: gresources/nemo-shortcuts.ui:66
+#. TET-0376; needs-INL-review
+msgctxt "shortcut window"
+msgid "Make link"
+msgstr "Kria ligasaun"
+
+#: gresources/nemo-shortcuts.ui:100
+#. TET-0001; needs-INL-review
+msgctxt "shortcut window"
+msgid "Open"
+msgstr "Loke"
+
+#: gresources/nemo-shortcuts.ui:107
+#. TET-0352; needs-INL-review
+msgctxt "shortcut window"
+msgid "Open in new tab"
+msgstr "Loke iha separadór foun"
+
+#: gresources/nemo-shortcuts.ui:114
+#. TET-0351; needs-INL-review
+msgctxt "shortcut window"
+msgid "Open in new window"
+msgstr "Loke iha janela foun"
+
+#: gresources/nemo-shortcuts.ui:179
+#. TET-0378; needs-INL-review
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Navegasaun"
+
+#: gresources/nemo-shortcuts.ui:314
+#. TET-0359; needs-INL-review
+msgctxt "shortcut window"
+msgid "List view"
+msgstr "Vizaun lista"
+
+#: gresources/nemo-shortcuts.ui:322
+#. TET-0357; needs-INL-review
+msgctxt "shortcut window"
+msgid "Compact view"
+msgstr "Vizaun kompaktu"
+
+#: gresources/nemo-shortcuts.ui:335
+#. TET-0383; needs-INL-review
+msgctxt "shortcut window"
+msgid "Create folder"
+msgstr "Kria pasta"
+
+#: gresources/nemo-shortcuts.ui:342
+#. TET-0081; needs-INL-review
+msgctxt "shortcut window"
+msgid "Rename"
+msgstr "Troka naran"
+
+#: gresources/nemo-shortcuts.ui:349
+#. TET-0083; needs-INL-review
+msgctxt "shortcut window"
+msgid "Move to trash"
+msgstr "Muda ba lixu"
+
+#: gresources/nemo-shortcuts.ui:363
+#. TET-0026; needs-INL-review
+msgctxt "shortcut window"
+msgid "Cut"
+msgstr "Korta"
+
+#: gresources/nemo-shortcuts.ui:370
+#. TET-0025; needs-INL-review
+msgctxt "shortcut window"
+msgid "Copy"
+msgstr "Kopia"
+
+#: gresources/nemo-shortcuts.ui:377
+#. TET-0027; needs-INL-review
+msgctxt "shortcut window"
+msgid "Paste"
+msgstr "Kola"
+
+#: gresources/nemo-shortcuts.ui:384
+#. TET-0030; needs-INL-review
+msgctxt "shortcut window"
+msgid "Select all"
+msgstr "Hili hotu"
+
+#: gresources/nemo-shortcuts.ui:405
+#. TET-0028; needs-INL-review
+msgctxt "shortcut window"
+msgid "Undo"
+msgstr "Dezfaz"
+
+#: gresources/nemo-shortcuts.ui:412
+#. TET-0029; needs-INL-review
+msgctxt "shortcut window"
+msgid "Redo"
+msgstr "Refaz"
+
+#: gresources/nemo-action-layout-editor.glade:193
+#. TET-0145; needs-INL-review
+msgid "Icon"
+msgstr "Íkone"
+
+#: gresources/nemo-action-layout-editor.glade:237
+#. TET-0142; needs-INL-review
+msgid "Appearance:"
+msgstr "Aparénsia:"
+
+#: gresources/nemo-action-layout-editor.glade:292
+#. TET-0003; needs-INL-review
+msgid "Save"
+msgstr "Rai"
+
+#: action-layout-editor/nemo_action_layout_editor.py:211
+#. TET-0041; needs-INL-review
+msgid "Choose..."
+msgstr "Hili..."
+

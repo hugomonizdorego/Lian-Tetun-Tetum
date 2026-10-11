@@ -1,0 +1,3 @@
+interest-noawait /usr/share/i18n/locales
+interest-noawait /usr/share/i18n/charmaps
+interest-noawait /usr/bin/localedef

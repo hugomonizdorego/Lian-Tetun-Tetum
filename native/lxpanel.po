@@ -1,0 +1,264 @@
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Edukasaun OS contributors (original Tetun translations)
+# Partial draft; exact upstream IDs/contexts. Not endorsed by INL.
+# Original upstream notices and license: upstream/native-notices/lxpanel.txt
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr "Project-Id-Version: lxpanel Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: ../src/configurator.c:1643
+#. TET-0040; needs-INL-review
+msgid "_Browse"
+msgstr "_Buka arkivu"
+
+#: ../src/panel.c:1378
+#. TET-0042; needs-INL-review
+msgid "Confirm"
+msgstr "Konfirma"
+
+#: ../src/panel.c:1544
+#. TET-0055; needs-INL-review
+msgid "About"
+msgstr "Kona-ba"
+
+#: ../src/panel.c:1551
+#. TET-0149; needs-INL-review
+msgid "Panel"
+msgstr "Painél"
+
+#: ../src/panel.c:1771 ../data/ui/panel-pref.glade.h:13
+#. TET-0409; needs-INL-review
+msgid "Left"
+msgstr "Karuk"
+
+#: ../src/panel.c:1772 ../data/ui/panel-pref.glade.h:14
+#. TET-0410; needs-INL-review
+msgid "Right"
+msgstr "Loos"
+
+#: ../src/panel.c:1778 ../data/ui/panel-pref.glade.h:12
+#. TET-0407; needs-INL-review
+msgid "Top"
+msgstr "Leten"
+
+#: ../src/panel.c:1779 ../data/ui/panel-pref.glade.h:11
+#. TET-0408; needs-INL-review
+msgid "Bottom"
+msgstr "Kraik"
+
+#: ../src/main.c:70 ../plugins/menu.c:719
+#. TET-0160; needs-INL-review
+msgid "Restart"
+msgstr "Reinísia"
+
+#: ../src/main.c:71 ../plugins/menu.c:720
+#. TET-0426; needs-INL-review
+msgid "Logout"
+msgstr "Sai husi sesaun"
+
+#: ../src/input-button.c:231 ../src/input-button.c:415
+#: ../plugins/netstatus/netstatus-iface.c:192
+#: ../plugins/netstatus/netstatus-util.c:167
+#. TET-0279; needs-INL-review
+msgid "Error"
+msgstr "Erru"
+
+#: ../src/input-button.c:329 ../data/ui/panel-pref.glade.h:5
+#. TET-0388; needs-INL-review
+msgid "None"
+msgstr "La iha"
+
+#: ../src/space.c:396 ../plugins/batt/batt.c:740
+#. TET-0098; needs-INL-review
+msgctxt "Width"
+msgid "Size"
+msgstr "Tamañu"
+
+#: ../data/ui/launchtaskbar.glade.h:4
+#. TET-0319; needs-INL-review
+msgid "Launchers"
+msgstr "Lansadór sira"
+
+#: ../data/ui/netstatus.glade.h:2
+#. TET-0209; needs-INL-review
+msgid "Status:"
+msgstr "Estadu:"
+
+#: ../data/ui/netstatus.glade.h:3
+#. TET-0064; needs-INL-review
+msgid "_Name:"
+msgstr "_Naran:"
+
+#: ../data/ui/netstatus.glade.h:10
+#. TET-0062; needs-INL-review
+msgid "General"
+msgstr "Jerál"
+
+#: ../data/ui/netstatus.glade.h:13
+#. TET-0368; needs-INL-review
+msgid "Destination:"
+msgstr "Destinu:"
+
+#: ../data/ui/netstatus.glade.h:14 ../plugins/netstat/netstat.c:372
+#: ../plugins/netstat/netstat.c:383
+#. TET-0245; needs-INL-review
+msgid "Broadcast:"
+msgstr "Haruka ba hotu:"
+
+#: ../data/ui/netstatus.glade.h:19
+#. TET-0099; needs-INL-review
+msgid "Type:"
+msgstr "Tipu:"
+
+#: ../data/ui/panel-pref.glade.h:16 ../plugins/volumealsa/volumealsa.c:1331
+#. TET-0411; needs-INL-review
+msgid "Center"
+msgstr "Klaran"
+
+#: ../data/ui/panel-pref.glade.h:17
+#. TET-0405; needs-INL-review
+msgid "Alignment:"
+msgstr "Aliñamentu:"
+
+#: ../data/ui/panel-pref.glade.h:32
+#. TET-0098; needs-INL-review
+msgctxt "Font"
+msgid "Size"
+msgstr "Tamañu"
+
+#: ../data/ui/panel-pref.glade.h:34
+#. TET-0142; needs-INL-review
+msgid "Appearance"
+msgstr "Aparénsia"
+
+#: ../data/ui/panel-pref.glade.h:38
+#. TET-0115; needs-INL-review
+msgid "File Manager:"
+msgstr "Jestór arkivu:"
+
+#: ../data/ui/panel-pref.glade.h:49
+#. TET-0061; needs-INL-review
+msgid "Advanced"
+msgstr "Avansadu"
+
+#: ../plugins/task-button.c:362
+#. TET-0155; needs-INL-review
+msgid "Ma_ximize"
+msgstr "_Maksimiza"
+
+#: ../plugins/task-button.c:433
+#. TET-0341; needs-INL-review
+msgid "_Close Window"
+msgstr "_Taka janela"
+
+#: ../plugins/menu.c:360
+#. TET-0126; needs-INL-review
+msgid "Add to desktop"
+msgstr "Aumenta ba ambiente de traballu"
+
+#: ../plugins/menu.c:367
+#. TET-0057; needs-INL-review
+msgid "Properties"
+msgstr "Propriedade"
+
+#: ../plugins/menu.c:990 ../plugins/dirmenu.c:359
+#. TET-0145; needs-INL-review
+msgid "Icon"
+msgstr "Íkone"
+
+#: ../plugins/menu.c:998
+#. TET-0339; needs-INL-review
+msgid "Application Menu"
+msgstr "Menu aplikasaun"
+
+#: ../plugins/xkb/xkb-plugin.c:642 ../plugins/xkb/xkb-plugin.c:786
+#: ../plugins/xkb/xkb-plugin.c:965
+#. TET-0065; needs-INL-review
+msgid "Description"
+msgstr "Deskrisaun"
+
+#: ../plugins/dirmenu.c:213
+#. TET-0350; needs-INL-review
+msgid "Open in _Terminal"
+msgstr "_Loke iha terminál"
+
+#: ../plugins/volumealsa/volumealsa.c:911
+#. TET-0170; needs-INL-review
+msgid "Volume"
+msgstr "Volume"
+
+#: ../plugins/volumealsa/volumealsa.c:929
+#. TET-0171; needs-INL-review
+msgid "Mute"
+msgstr "Silensia"
+
+#: ../plugins/volumealsa/volumealsa.c:1371
+#. TET-0063; needs-INL-review
+msgid "default"
+msgstr "Padraun"
+
+#: ../plugins/netstat/netstat.c:261
+#. TET-0051; needs-INL-review
+msgid "Disable"
+msgstr "Dezativa"
+
+#: ../plugins/netstat/netstat.c:360 ../plugins/netstat/netstat.c:371
+#: ../plugins/netstat/netstat.c:382
+#. TET-0226; needs-INL-review
+msgid "IP Address:"
+msgstr "Enderesu IP:"
+
+#: ../plugins/netstat/netstat.c:368 ../plugins/netstatus/netstatus-iface.c:174
+#. TET-0224; needs-INL-review
+msgid "Wireless"
+msgstr "Rede sem fiu"
+
+#: ../plugins/netstatus/netstatus-icon.c:857
+#. TET-0402; needs-INL-review
+msgid "Orientation"
+msgstr "Orientasaun"
+
+#: ../plugins/netstatus/netstatus-iface.c:149
+#. TET-0064; needs-INL-review
+msgid "Name"
+msgstr "Naran"
+
+#: ../plugins/netstatus/netstatus-util.c:152
+#. TET-0221; needs-INL-review
+msgid "Disconnected"
+msgstr "La ligadu"
+
+#: ../plugins/weather/weatherwidget.c:1075
+#. TET-0058; needs-INL-review
+msgid "Preferences"
+msgstr "Preferénsia"
+
+#: ../plugins/weather/weatherwidget.c:1081
+#. TET-0018; needs-INL-review
+msgid "Refresh"
+msgstr "Karga fali"
+
+#: ../plugins/weather/weatherwidget.c:1295
+#. TET-0167; needs-INL-review
+msgid "Display"
+msgstr "Ekrán"
+
+#: ../plugins/weather/weatherwidget.c:1299
+#. TET-0064; needs-INL-review
+msgid "Name:"
+msgstr "Naran:"
+
+#: ../plugins/weather/weatherwidget.c:1386
+#. TET-0369; needs-INL-review
+msgid "Source:"
+msgstr "Orijen:"
+
+#: ../plugins/weather/weatherwidget.c:1637
+#. TET-0096; needs-INL-review
+msgid "Location:"
+msgstr "Fatin:"
+

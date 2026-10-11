@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+# SPDX-License-Identifier: GPL-3.0-or-later
+import sys
+from pathlib import Path
+source=Path(__file__).resolve().parent.parent/'src'
+installed=Path(__file__).resolve().parent.parent/'share/eduka-language-pack-tet/src'
+sys.path.insert(0,str(source if (source/'eduka_tet.py').is_file() else installed))
+from eduka_tet import main
+sys.exit(main())

@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+export SOURCE_DATE_EPOCH ?= 1790985600
+
+.PHONY: clean build build-indep build-arch binary binary-indep binary-arch
+clean:
+	rm -rf build dist
+	rm -f debian/files debian/*.substvars
+	find . -type d -name __pycache__ -prune -exec rm -rf {} +
+build build-indep:
+	python3 scripts/build.py --catalogs-only
+ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
+	python3 -m unittest discover -s tests -v
+endif
+build-arch:
+	@true
+binary binary-indep: build-indep
+	python3 scripts/build.py --output ..
+	dpkg-distaddfile eduka-language-pack-tet_0.2.0_all.deb localization optional
+binary-arch:
+	@true

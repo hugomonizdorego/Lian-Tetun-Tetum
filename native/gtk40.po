@@ -1,0 +1,963 @@
+# SPDX-License-Identifier: LGPL-2.0-or-later
+# Copyright (C) 2026 Edukasaun OS contributors (original Tetun translations)
+# Partial draft; exact upstream IDs/contexts. Not endorsed by INL.
+# Original upstream notices and license: upstream/native-notices/gtk40.txt
+# English (British) translation
+# Copyright (C) 2004 GTK+'s COPYRIGHT HOLDER
+# This file is distributed under the same licence as the gtk+ package.
+# Abigail Brady <morwen@evilmagic.org>, Gareth Owen <gowen72@yahoo.com> 2004
+# Philip Withnall <philip@tecnocode.co.uk>, 2010, 2012.
+# Zander Brown <zbrown@gnome.org>, 2020-2021.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2009-2025.
+# Andi Chandler <andi@gowling.com>, 2024.
+#
+msgid ""
+msgstr "Project-Id-Version: gtk40 Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: gdk/keynamesprivate.h:6864
+#. TET-0015; needs-INL-review
+msgctxt "keyboard label"
+msgid "Pause"
+msgstr "Pauza"
+
+#: gdk/keynamesprivate.h:6869
+#. TET-0086; needs-INL-review
+msgctxt "keyboard label"
+msgid "Home"
+msgstr "Pasta pesoál"
+
+#: gdk/keynamesprivate.h:6870
+#. TET-0409; needs-INL-review
+msgctxt "keyboard label"
+msgid "Left"
+msgstr "Karuk"
+
+#: gdk/keynamesprivate.h:6872
+#. TET-0410; needs-INL-review
+msgctxt "keyboard label"
+msgid "Right"
+msgstr "Loos"
+
+#: gdk/keynamesprivate.h:6878
+#. TET-0036; needs-INL-review
+msgctxt "keyboard label"
+msgid "Print"
+msgstr "Imprime"
+
+#: gdk/keynamesprivate.h:6898
+#. TET-0023; needs-INL-review
+msgctxt "keyboard label"
+msgid "Delete"
+msgstr "Apaga"
+
+#: gdk/keynamesprivate.h:6915
+#. TET-0110; needs-INL-review
+msgctxt "keyboard label"
+msgid "Eject"
+msgstr "Hasai dispozitivu"
+
+#: gdk/keynamesprivate.h:6917
+#. TET-0138; needs-INL-review
+msgctxt "keyboard label"
+msgid "Calculator"
+msgstr "Kalkuladora"
+
+#: gdk/keynamesprivate.h:6920
+#. TET-0032; needs-INL-review
+msgctxt "keyboard label"
+msgid "Search"
+msgstr "Buka"
+
+#: gdk/keynamesprivate.h:6923
+#. TET-0165; needs-INL-review
+msgctxt "keyboard label"
+msgid "Battery"
+msgstr "Bateria"
+
+#: gdk/keynamesprivate.h:6926
+#. TET-0010; needs-INL-review
+msgctxt "keyboard label"
+msgid "Back"
+msgstr "Fila fali"
+
+#: gdk/keynamesprivate.h:6928
+#. TET-0163; needs-INL-review
+msgctxt "keyboard label"
+msgid "Hibernate"
+msgstr "Hiberna"
+
+#: gdk/keynamesprivate.h:6931
+#. TET-0167; needs-INL-review
+msgctxt "keyboard label"
+msgid "Display"
+msgstr "Ekrán"
+
+#: gdk/keynamesprivate.h:6934
+#. TET-0162; needs-INL-review
+msgctxt "keyboard label"
+msgid "Suspend"
+msgstr "Suspende"
+
+#: gtk/a11y/gtkatspiaction.c:746
+#. TET-0031; needs-INL-review
+msgctxt "accessibility"
+msgid "Clear"
+msgstr "Hamoos"
+
+#. This label is displayed in a treeview cell displaying
+#. * a disabled accelerator key combination.
+#.
+#: gtk/deprecated/gtkcellrendereraccel.c:294
+#. TET-0391; needs-INL-review
+msgctxt "Accelerator"
+msgid "Disabled"
+msgstr "Dezativadu"
+
+#: gtk/deprecated/gtkfontbutton.c:603 gtk/gtkfilechooserwidget.c:3818
+#: gtk/gtkfontdialogbutton.c:128 gtk/inspector/visual.ui:284
+#. TET-0147; needs-INL-review
+msgid "Font"
+msgstr "Fonte"
+
+#: gtk/deprecated/gtkfontbutton.c:1158 gtk/gtkfontdialogbutton.c:657
+#. TET-0388; needs-INL-review
+msgctxt "font"
+msgid "None"
+msgstr "La iha"
+
+#: gtk/deprecated/gtklockbutton.c:306 gtk/ui/gtklockbutton.ui:20
+#. TET-0324; needs-INL-review
+msgid "Lock"
+msgstr "Xave"
+
+#: gtk/deprecated/gtklockbutton.c:320 gtk/ui/gtklockbutton.ui:26
+#. TET-0325; needs-INL-review
+msgid "Unlock"
+msgstr "Loke xave"
+
+#: gtk/deprecated/gtkvolumebutton.c:239
+#. TET-0326; needs-INL-review
+msgid "Muted"
+msgstr "La iha lian"
+
+#: gtk/gtkaboutdialog.c:127 gtk/ui/gtkaboutdialog.ui:173
+#: gtk/ui/gtkaboutdialog.ui:192
+#. TET-0067; needs-INL-review
+msgid "License"
+msgstr "Lisensa"
+
+#: gtk/gtkaboutdialog.c:1029
+#. TET-0073; needs-INL-review
+msgid "Website"
+msgstr "Sítio web"
+
+#: gtk/gtkaccessible.c:845
+#. TET-0244; needs-INL-review
+msgctxt "accessibility"
+msgid "group"
+msgstr "Grupu"
+
+#: gtk/gtkaccessible.c:866
+#. TET-0378; needs-INL-review
+msgctxt "accessibility"
+msgid "navigation"
+msgstr "Navegasaun"
+
+#: gtk/gtkaccessible.c:867
+#. TET-0388; needs-INL-review
+msgctxt "accessibility"
+msgid "none"
+msgstr "La iha"
+
+#: gtk/gtkaccessible.c:880
+#. TET-0032; needs-INL-review
+msgctxt "accessibility"
+msgid "search"
+msgstr "Buka"
+
+#: gtk/gtkaccessible.c:888
+#. TET-0209; needs-INL-review
+msgctxt "accessibility"
+msgid "status"
+msgstr "Estadu"
+
+#: gtk/gtkaccessible.c:896
+#. TET-0422; needs-INL-review
+msgctxt "accessibility"
+msgid "time"
+msgstr "Oras"
+
+#: gtk/gtkaccessible.c:904
+#. TET-0153; needs-INL-review
+msgctxt "accessibility"
+msgid "window"
+msgstr "Janela"
+
+#: gtk/gtkaccessible.c:911
+#. TET-0137; needs-INL-review
+msgctxt "accessibility"
+msgid "terminal"
+msgstr "Terminál"
+
+#: gtk/gtkalertdialog.c:666 gtk/print/gtkcustompaperunixdialog.c:322
+#: gtk/gtkmessagedialog.c:169 gtk/ui/gtkassistant.ui:40
+#. TET-0002; needs-INL-review
+msgid "_Close"
+msgstr "_Taka"
+
+#: gtk/print/gtkcustompaperunixdialog.c:933
+#. TET-0407; needs-INL-review
+msgid "_Top:"
+msgstr "_Leten:"
+
+#: gtk/print/gtkcustompaperunixdialog.c:942
+#. TET-0408; needs-INL-review
+msgid "_Bottom:"
+msgstr "_Kraik:"
+
+#: gtk/print/gtkcustompaperunixdialog.c:951
+#. TET-0409; needs-INL-review
+msgid "_Left:"
+msgstr "_Karuk:"
+
+#: gtk/print/gtkcustompaperunixdialog.c:960
+#. TET-0410; needs-INL-review
+msgid "_Right:"
+msgstr "_Loos:"
+
+#: gtk/gtkeditablelabel.c:170 gtk/ui/gtkapplication-quartz.ui:50
+#. TET-0024; needs-INL-review
+msgid "_Edit"
+msgstr "_Edita"
+
+#: gtk/gtkeditablelabel.c:171 gtk/gtklabel.c:5902 gtk/gtktext.c:6322
+#: gtk/gtktextview.c:9327
+#. TET-0025; needs-INL-review
+msgid "_Copy"
+msgstr "_Kopia"
+
+#. Translators: Label for a search button and entry, should be translated as a verb
+#: gtk/gtkfilechooserdialog.c:481 gtk/ui/gtkfilechooserwidget.ui:123
+#. TET-0032; needs-INL-review
+msgid "Search"
+msgstr "Buka"
+
+#: gtk/gtkfilechooserdialog.c:562
+#. TET-0064; needs-INL-review
+msgid "_Name"
+msgstr "_Naran"
+
+#: gtk/gtkfilechoosernative.c:521 gtk/gtkfilechoosernative.c:594
+#: gtk/gtkfilechooserwidget.c:1214 gtk/gtkfilechooserwidget.c:4988
+#: gtk/gtkfiledialog.c:913 gtk/gtkmessagedialog.c:173
+#: gtk/gtkmessagedialog.c:182 gtk/gtkmountoperation.c:608
+#: gtk/print/gtkpagesetupunixdialog.c:285 gtk/print/gtkprintbackend.c:638
+#: gtk/print/gtkprintunixdialog.c:683 gtk/print/gtkprintunixdialog.c:840
+#: gtk/gtkwindow.c:6333 gtk/ui/gtkappchooserdialog.ui:48
+#: gtk/ui/gtkassistant.ui:52 gtk/ui/gtkcolorchooserdialog.ui:36
+#: gtk/ui/gtkfontchooserdialog.ui:29
+#. TET-0005; needs-INL-review
+msgid "_Cancel"
+msgstr "_Kansela"
+
+#: gtk/gtkfilechoosernative.c:522 gtk/gtkfilechoosernative.c:588
+#: gtk/gtkfiledialog.c:885 gtk/gtkplacessidebar.c:3149
+#: gtk/gtkplacessidebar.c:3234 gtk/gtkplacesview.c:1646
+#. TET-0001; needs-INL-review
+msgid "_Open"
+msgstr "_Loke"
+
+#: gtk/gtkfilechoosernative.c:588 gtk/gtkfiledialog.c:890
+#. TET-0003; needs-INL-review
+msgid "_Save"
+msgstr "_Rai"
+
+#: gtk/gtkfilechooserwidget.c:1214 gtk/gtkfilechooserwidget.c:1816
+#: gtk/gtklabel.c:5904 gtk/gtktext.c:6330 gtk/gtktextview.c:9335
+#. TET-0023; needs-INL-review
+msgid "_Delete"
+msgstr "_Apaga"
+
+#: gtk/gtkfilechooserwidget.c:1733
+#. TET-0359; needs-INL-review
+msgid "List View"
+msgstr "Vizaun lista"
+
+#: gtk/gtkfilechooserwidget.c:1804
+#. TET-0348; needs-INL-review
+msgid "_Copy Location"
+msgstr "_Kopia fatin"
+
+#: gtk/gtkfilechooserwidget.c:1812 gtk/gtkplacessidebar.c:2312
+#: gtk/gtkplacessidebar.c:3270 gtk/ui/gtkfilechooserwidget.ui:417
+#. TET-0081; needs-INL-review
+msgid "_Rename"
+msgstr "_Troka naran"
+
+#: gtk/gtkfilechooserwidget.c:1820
+#. TET-0083; needs-INL-review
+msgid "_Move to Trash"
+msgstr "_Muda ba lixu"
+
+#: gtk/gtkfilechooserwidget.c:1829
+#. TET-0095; needs-INL-review
+msgid "Show _Hidden Files"
+msgstr "_Hatudu arkivu subar"
+
+#: gtk/gtkfilechooserwidget.c:2041 gtk/gtkplacessidebar.c:1025
+#. TET-0086; needs-INL-review
+msgid "Home"
+msgstr "Pasta pesoál"
+
+#. this is the header for the location column in the print dialog
+#: gtk/gtkfilechooserwidget.c:2196 gtk/gtkfilechooserwidget.c:7420
+#: gtk/inspector/css-node-tree.ui:76 gtk/print/ui/gtkprintunixdialog.ui:111
+#. TET-0096; needs-INL-review
+msgid "Location"
+msgstr "Fatin"
+
+#. Label
+#: gtk/gtkfilechooserwidget.c:2303
+#. TET-0064; needs-INL-review
+msgid "_Name:"
+msgstr "_Naran:"
+
+#: gtk/gtkfilechooserwidget.c:3445 gtk/gtkfilechooserwidget.c:5775
+#: gtk/gtkfilechooserwidget.c:7442
+#. TET-0100; needs-INL-review
+msgid "Modified"
+msgstr "Modifikadu"
+
+#: gtk/gtkfilechooserwidget.c:3827
+#. TET-0423; needs-INL-review
+msgid "Calendar"
+msgstr "Kalendáriu"
+
+#: gtk/gtkfilechooserwidget.c:4988 gtk/print/gtkprintunixdialog.c:686
+#. TET-0035; needs-INL-review
+msgid "_Replace"
+msgstr "_Troka"
+
+#: gtk/gtkfilechooserwidget.c:7398
+#. TET-0098; needs-INL-review
+msgid "_Size"
+msgstr "_Tamañu"
+
+#: gtk/gtkfilechooserwidget.c:7402
+#. TET-0099; needs-INL-review
+msgid "T_ype"
+msgstr "_Tipu"
+
+#: gtk/gtkfilechooserwidget.c:7406
+#. TET-0422; needs-INL-review
+msgid "_Time"
+msgstr "_Oras"
+
+#: gtk/gtkfilechooserwidget.c:7412 gtk/gtkplacessidebar.c:2306
+#: gtk/inspector/a11y.ui:43 gtk/inspector/actions.ui:18
+#: gtk/inspector/css-node-tree.ui:22 gtk/inspector/prop-list.ui:24
+#: gtk/ui/gtkfilechooserwidget.ui:394 gtk/print/ui/gtkprintunixdialog.ui:80
+#. TET-0064; needs-INL-review
+msgid "Name"
+msgstr "Naran"
+
+#: gtk/gtkfilechooserwidget.c:7429 gtk/inspector/resource-list.ui:82
+#: gtk/ui/gtkfontchooserwidget.ui:217 gtk/ui/gtkfontchooserwidget.ui:383
+#. TET-0098; needs-INL-review
+msgid "Size"
+msgstr "Tamañu"
+
+#: gtk/gtkfilechooserwidget.c:7435 gtk/inspector/misc-info.ui:57
+#: gtk/inspector/prop-list.ui:35 gtk/inspector/statistics.ui:36
+#. TET-0099; needs-INL-review
+msgid "Type"
+msgstr "Tipu"
+
+#: gtk/gtkfiledialog.c:1397 gtk/gtkfiledialog.c:1514 gtk/gtkfiledialog.c:1623
+#. TET-0299; needs-INL-review
+msgid "Encoding"
+msgstr "Kodifikasaun"
+
+#: gtk/gtkfontchooserwidget.c:2053
+#. TET-0063; needs-INL-review
+msgctxt "Font feature value"
+msgid "Default"
+msgstr "Padraun"
+
+#: gtk/gtkfontchooserwidget.c:2070
+#. TET-0050; needs-INL-review
+msgctxt "Font feature value"
+msgid "Enable"
+msgstr "Ativa"
+
+#: gtk/gtkfontchooserwidget.c:2406
+#. TET-0063; needs-INL-review
+msgid "Default"
+msgstr "Padraun"
+
+#: gtk/deprecated/gtkinfobar.c:501 gtk/gtkwindowcontrols.c:409
+#: gtk/gtkwindowhandle.c:253
+#. TET-0002; needs-INL-review
+msgid "Close"
+msgstr "Taka"
+
+#: gtk/gtklabel.c:5901 gtk/gtktext.c:6318 gtk/gtktextview.c:9323
+#. TET-0026; needs-INL-review
+msgid "Cu_t"
+msgstr "_Korta"
+
+#: gtk/gtklabel.c:5903 gtk/gtktext.c:6326 gtk/gtktextview.c:9331
+#. TET-0027; needs-INL-review
+msgid "_Paste"
+msgstr "_Kola"
+
+#: gtk/gtklabel.c:5909 gtk/gtktext.c:6339 gtk/gtktextview.c:9356
+#. TET-0030; needs-INL-review
+msgid "Select _All"
+msgstr "_Hili hotu"
+
+#: gtk/gtkmediacontrols.c:415
+#. TET-0014; needs-INL-review
+msgctxt "media controls tooltip"
+msgid "Stop"
+msgstr "Para"
+
+#: gtk/gtkmessagedialog.c:165 gtk/gtkmessagedialog.c:183
+#: gtk/print/gtkprintbackend.c:639 gtk/gtkwindow.c:6334
+#. TET-0007; needs-INL-review
+msgid "_OK"
+msgstr "_Di'ak"
+
+#: gtk/gtkmessagedialog.c:177
+#. TET-0009; needs-INL-review
+msgid "_No"
+msgstr "_Lae"
+
+#: gtk/gtkmessagedialog.c:178
+#. TET-0008; needs-INL-review
+msgid "_Yes"
+msgstr "_Sin"
+
+#: gtk/gtkmountoperation.c:609
+#. TET-0218; needs-INL-review
+msgid "Co_nnect"
+msgstr "_Liga"
+
+#: gtk/gtkmountoperation.c:702
+#. TET-0259; needs-INL-review
+msgid "_Username"
+msgstr "_Naran utilizadór"
+
+#: gtk/gtkmountoperation.c:738
+#. TET-0260; needs-INL-review
+msgid "_Password"
+msgstr "_Seña"
+
+#: gtk/print/gtkpagesetupunixdialog.c:286 gtk/ui/gtkassistant.ui:98
+#. TET-0006; needs-INL-review
+msgid "_Apply"
+msgstr "_Aplika"
+
+#: gtk/gtkplacessidebar.c:1003
+#. TET-0386; needs-INL-review
+msgid "Recent"
+msgstr "Foin uza"
+
+#: gtk/gtkplacessidebar.c:1005
+#. TET-0093; needs-INL-review
+msgid "Recent files"
+msgstr "Arkivu foin loke"
+
+#: gtk/gtkplacessidebar.c:1040
+#. TET-0087; needs-INL-review
+msgid "Desktop"
+msgstr "Ambiente de traballu"
+
+#: gtk/gtkplacessidebar.c:1068
+#. TET-0084; needs-INL-review
+msgid "Trash"
+msgstr "Lixu"
+
+#: gtk/gtkplacessidebar.c:1454
+#. TET-0379; needs-INL-review
+msgid "Other Locations"
+msgstr "Fatin seluk"
+
+#: gtk/gtkplacessidebar.c:3155 gtk/gtkplacessidebar.c:3242
+#: gtk/gtkplacesview.c:1650
+#. TET-0352; needs-INL-review
+msgid "Open in New _Tab"
+msgstr "_Loke iha separadór foun"
+
+#: gtk/gtkplacessidebar.c:3161 gtk/gtkplacessidebar.c:3251
+#: gtk/gtkplacesview.c:1655
+#. TET-0351; needs-INL-review
+msgid "Open in New _Window"
+msgstr "_Loke iha janela foun"
+
+#: gtk/gtkplacessidebar.c:3262
+#. TET-0355; needs-INL-review
+msgid "_Add Bookmark"
+msgstr "_Aumenta markadór"
+
+#: gtk/gtkplacessidebar.c:3266
+#. TET-0022; needs-INL-review
+msgid "_Remove"
+msgstr "_Hasai"
+
+#: gtk/gtkplacessidebar.c:3282 gtk/gtkplacesview.c:1680
+#. TET-0108; needs-INL-review
+msgid "_Mount"
+msgstr "_Monta"
+
+#: gtk/gtkplacessidebar.c:3291 gtk/gtkplacesview.c:1669
+#. TET-0109; needs-INL-review
+msgid "_Unmount"
+msgstr "_Desmonta"
+
+#: gtk/gtkplacessidebar.c:3298
+#. TET-0110; needs-INL-review
+msgid "_Eject"
+msgstr "_Hasai dispozitivu"
+
+#: gtk/gtkplacessidebar.c:3317
+#. TET-0052; needs-INL-review
+msgid "_Start"
+msgstr "_Hahú"
+
+#: gtk/gtkplacessidebar.c:3332
+#. TET-0014; needs-INL-review
+msgid "_Stop"
+msgstr "_Para"
+
+#: gtk/gtkplacessidebar.c:3828 gtk/gtkplacesview.c:1090
+#. TET-0343; needs-INL-review
+msgid "Computer"
+msgstr "Komputadór"
+
+#. Restore from Cancel to Connect
+#: gtk/gtkplacesview.c:1215 gtk/ui/gtkplacesview.ui:237
+#. TET-0218; needs-INL-review
+msgid "Con_nect"
+msgstr "_Liga"
+
+#. Allow to cancel the operation
+#: gtk/gtkplacesview.c:1446
+#. TET-0005; needs-INL-review
+msgid "Cance_l"
+msgstr "_Kansela"
+
+#: gtk/gtkplacesview.c:1664
+#. TET-0219; needs-INL-review
+msgid "_Disconnect"
+msgstr "_Desliga ligasaun"
+
+#: gtk/gtkplacesview.c:1675
+#. TET-0218; needs-INL-review
+msgid "_Connect"
+msgstr "_Liga"
+
+#: gtk/gtkplacesviewrow.c:471
+#. TET-0219; needs-INL-review
+msgid "Disconnect"
+msgstr "Desliga ligasaun"
+
+#: gtk/gtkplacesviewrow.c:471 gtk/ui/gtkplacesviewrow.ui:53
+#: gtk/ui/gtksidebarrow.ui:54
+#. TET-0109; needs-INL-review
+msgid "Unmount"
+msgstr "Desmonta"
+
+#: gtk/print/gtkprintbackend.c:637
+#. TET-0265; needs-INL-review
+msgid "Authentication"
+msgstr "Autentikasaun"
+
+#. window
+#: gtk/print/gtkprintoperation-portal.c:273
+#: gtk/print/gtkprintoperation-portal.c:603
+#: gtk/print/gtkprintoperation-portal.c:672 gtk/print/gtkprintunixdialog.c:2992
+#. TET-0036; needs-INL-review
+msgid "Print"
+msgstr "Imprime"
+
+#: gtk/print/gtkprintunixdialog.c:839
+#. TET-0037; needs-INL-review
+msgid "Pre_view"
+msgstr "_Pré-vizualizasaun"
+
+#: gtk/print/gtkprintunixdialog.c:841
+#. TET-0036; needs-INL-review
+msgid "_Print"
+msgstr "_Imprime"
+
+#: gtk/gtkstacksidebar.c:160
+#. TET-0356; needs-INL-review
+msgctxt "accessibility"
+msgid "Sidebar"
+msgstr "Painél sorin"
+
+#: gtk/gtktextview.c:9343
+#. TET-0028; needs-INL-review
+msgid "_Undo"
+msgstr "_Dezfaz"
+
+#: gtk/gtktextview.c:9347
+#. TET-0029; needs-INL-review
+msgid "_Redo"
+msgstr "_Refaz"
+
+#: gtk/gtkwindowcontrols.c:361 gtk/gtkwindowhandle.c:237
+#. TET-0154; needs-INL-review
+msgid "Minimize"
+msgstr "Minimiza"
+
+#: gtk/gtkwindowcontrols.c:387 gtk/gtkwindowhandle.c:243
+#. TET-0155; needs-INL-review
+msgid "Maximize"
+msgstr "Maksimiza"
+
+#: gtk/inspector/a11y.ui:17
+#. TET-0251; needs-INL-review
+msgid "Role"
+msgstr "Funsaun"
+
+#: gtk/inspector/a11y.ui:71
+#. TET-0065; needs-INL-review
+msgid "Description"
+msgstr "Deskrisaun"
+
+#: gtk/inspector/actions.ui:30
+#. TET-0390; needs-INL-review
+msgid "Enabled"
+msgstr "Ativadu"
+
+#: gtk/inspector/controllers.c:126
+#. TET-0388; needs-INL-review
+msgctxt "event phase"
+msgid "None"
+msgstr "La iha"
+
+#: gtk/inspector/general.c:577
+#. TET-0388; needs-INL-review
+msgctxt "GL renderer"
+msgid "None"
+msgstr "La iha"
+
+#: gtk/inspector/general.c:928 gtk/inspector/general.c:967
+#. TET-0388; needs-INL-review
+msgctxt "Vulkan device"
+msgid "None"
+msgstr "La iha"
+
+#: gtk/inspector/general.ui:405
+#. TET-0167; needs-INL-review
+msgid "Display"
+msgstr "Ekrán"
+
+#: gtk/inspector/menu.ui:41
+#. TET-0145; needs-INL-review
+msgid "Icon"
+msgstr "Íkone"
+
+#: gtk/inspector/misc-info.ui:253
+#. TET-0416; needs-INL-review
+msgid "Expand"
+msgstr "Habelar"
+
+#: gtk/inspector/misc-info.ui:365 gtk/inspector/misc-info.ui:400
+#: gtk/inspector/misc-info.ui:435 gtk/inspector/prop-editor.c:1199
+#: gtk/inspector/prop-editor.c:1594 gtk/inspector/window.ui:394
+#. TET-0057; needs-INL-review
+msgid "Properties"
+msgstr "Propriedade"
+
+#: gtk/inspector/prop-editor.c:1446
+#. TET-0388; needs-INL-review
+msgctxt "column number"
+msgid "None"
+msgstr "La iha"
+
+#: gtk/inspector/prop-editor.c:1645
+#. TET-0019; needs-INL-review
+msgid "Reset"
+msgstr "Restaura"
+
+#: gtk/inspector/prop-editor.c:1653
+#. TET-0063; needs-INL-review
+msgctxt "GtkSettings source"
+msgid "Default"
+msgstr "Padraun"
+
+#: gtk/inspector/prop-editor.c:1656
+#. TET-0143; needs-INL-review
+msgctxt "GtkSettings source"
+msgid "Theme"
+msgstr "Tema"
+
+#: gtk/inspector/prop-editor.c:1669
+#. TET-0369; needs-INL-review
+msgid "Source:"
+msgstr "Orijen:"
+
+#: gtk/inspector/resource-list.ui:59
+#. TET-0097; needs-INL-review
+msgid "Path"
+msgstr "Dalan"
+
+#: gtk/inspector/resource-list.ui:121
+#. TET-0064; needs-INL-review
+msgid "Name:"
+msgstr "Naran:"
+
+#: gtk/inspector/resource-list.ui:143
+#. TET-0099; needs-INL-review
+msgid "Type:"
+msgstr "Tipu:"
+
+#: gtk/inspector/resource-list.ui:164 tools/gtk-image-tool-info.c:56
+#. TET-0098; needs-INL-review
+msgid "Size:"
+msgstr "Tamañu:"
+
+#: gtk/inspector/size-groups.c:228
+#. TET-0388; needs-INL-review
+msgctxt "sizegroup mode"
+msgid "None"
+msgstr "La iha"
+
+#: gtk/inspector/size-groups.c:229
+#. TET-0403; needs-INL-review
+msgctxt "sizegroup mode"
+msgid "Horizontal"
+msgstr "Orizontál"
+
+#: gtk/inspector/size-groups.c:230
+#. TET-0404; needs-INL-review
+msgctxt "sizegroup mode"
+msgid "Vertical"
+msgstr "Vertikál"
+
+#: gtk/inspector/strv-editor.c:115
+#. TET-0021; needs-INL-review
+msgid "Add"
+msgstr "Aumenta"
+
+#: gtk/inspector/window.ui:506
+#. TET-0136; needs-INL-review
+msgid "Accessibility"
+msgstr "Asesibilidade"
+
+#: gtk/inspector/window.ui:543
+#. TET-0280; needs-INL-review
+msgid "Information"
+msgstr "Informasaun"
+
+#: gtk/inspector/window.ui:552
+#. TET-0059; needs-INL-review
+msgid "Settings"
+msgstr "Konfigurasaun"
+
+#: gtk/ui/gtkaboutdialog.ui:68
+#. TET-0055; needs-INL-review
+msgid "About"
+msgstr "Kona-ba"
+
+#: gtk/ui/gtkaboutdialog.ui:240
+#. TET-0141; needs-INL-review
+msgid "System Information"
+msgstr "Informasaun sistema"
+
+#: gtk/ui/gtkapplication-quartz.ui:13
+#. TET-0058; needs-INL-review
+msgid "Preferences"
+msgstr "Preferénsia"
+
+#: gtk/ui/gtkapplication-quartz.ui:53
+#. TET-0028; needs-INL-review
+msgid "Undo"
+msgstr "Dezfaz"
+
+#: gtk/ui/gtkapplication-quartz.ui:57
+#. TET-0029; needs-INL-review
+msgid "Redo"
+msgstr "Refaz"
+
+#: gtk/ui/gtkapplication-quartz.ui:63
+#. TET-0026; needs-INL-review
+msgid "Cut"
+msgstr "Korta"
+
+#: gtk/ui/gtkapplication-quartz.ui:67
+#. TET-0025; needs-INL-review
+msgid "Copy"
+msgstr "Kopia"
+
+#: gtk/ui/gtkapplication-quartz.ui:71
+#. TET-0027; needs-INL-review
+msgid "Paste"
+msgstr "Kola"
+
+#: gtk/ui/gtkapplication-quartz.ui:75
+#. TET-0023; needs-INL-review
+msgid "Delete"
+msgstr "Apaga"
+
+#: gtk/ui/gtkapplication-quartz.ui:79
+#. TET-0030; needs-INL-review
+msgid "Select All"
+msgstr "Hili hotu"
+
+#: gtk/ui/gtkassistant.ui:64
+#. TET-0012; needs-INL-review
+msgid "_Finish"
+msgstr "_Remata"
+
+#: gtk/ui/gtkassistant.ui:75
+#. TET-0010; needs-INL-review
+msgid "_Back"
+msgstr "_Fila fali"
+
+#: gtk/ui/gtkassistant.ui:86
+#. TET-0011; needs-INL-review
+msgid "_Next"
+msgstr "_Tuir mai"
+
+#: gtk/ui/gtkdropdown.ui:78
+#. TET-0032; needs-INL-review
+msgid "Search…"
+msgstr "Buka…"
+
+#: gtk/ui/gtkemojichooser.ui:162 gtk/ui/gtkemojichooser.ui:285
+#. TET-0316; needs-INL-review
+msgctxt "emoji category"
+msgid "Activities"
+msgstr "Atividade sira"
+
+#: gtk/ui/gtkemojichooser.ui:231
+#. TET-0386; needs-INL-review
+msgctxt "emoji category"
+msgid "Recent"
+msgstr "Foin uza"
+
+#: gtk/ui/gtkfilechooserwidget.ui:71
+#. TET-0383; needs-INL-review
+msgid "Create Folder"
+msgstr "Kria pasta"
+
+#: gtk/ui/gtkfilechooserwidget.ui:301
+#. TET-0274; needs-INL-review
+msgid "Filter"
+msgstr "Filtru"
+
+#: gtk/ui/gtkfontchooserwidget.ui:107
+#. TET-0068; needs-INL-review
+msgid "Language"
+msgstr "Lian"
+
+#: gtk/ui/gtkmediacontrols.ui:45
+#. TET-0406; needs-INL-review
+msgctxt "media controls"
+msgid "Position"
+msgstr "Pozisaun"
+
+#: gtk/ui/gtkmediacontrols.ui:61
+#. TET-0170; needs-INL-review
+msgctxt "media controls"
+msgid "Volume"
+msgstr "Volume"
+
+#: gtk/print/ui/gtkpagesetupunixdialog.ui:89
+#. TET-0402; needs-INL-review
+msgid "_Orientation:"
+msgstr "_Orientasaun:"
+
+#. this is the header for the printer status column in the print dialog
+#: gtk/print/ui/gtkprintunixdialog.ui:142
+#. TET-0209; needs-INL-review
+msgid "Status"
+msgstr "Estadu"
+
+#: gtk/print/ui/gtkprintunixdialog.ui:424
+#. TET-0062; needs-INL-review
+msgid "General"
+msgstr "Jerál"
+
+#: gtk/print/ui/gtkprintunixdialog.ui:727
+#. TET-0402; needs-INL-review
+msgid "Or_ientation:"
+msgstr "_Orientasaun:"
+
+#: gtk/print/ui/gtkprintunixdialog.ui:1148
+#. TET-0061; needs-INL-review
+msgid "Advanced"
+msgstr "Avansadu"
+
+#: modules/printbackends/gtkprintbackendcups.c:1142
+#: modules/printbackends/gtkprintbackendcups.c:1449
+#. TET-0259; needs-INL-review
+msgid "Username:"
+msgstr "Naran utilizadór:"
+
+#: modules/printbackends/gtkprintbackendcups.c:1143
+#: modules/printbackends/gtkprintbackendcups.c:1458
+#. TET-0260; needs-INL-review
+msgid "Password:"
+msgstr "Seña:"
+
+#: modules/printbackends/gtkprintbackendcups.c:4615
+#. TET-0168; needs-INL-review
+msgctxt "printing option"
+msgid "Resolution"
+msgstr "Resolusaun"
+
+#. Translators, these strings are names for various 'standard' cover
+#. * pages that the printing system may support.
+#.
+#: modules/printbackends/gtkprintbackendcups.c:5739
+#. TET-0388; needs-INL-review
+msgctxt "cover page"
+msgid "None"
+msgstr "La iha"
+
+#: modules/printbackends/gtkprintbackendfile.c:758
+#. TET-0075; needs-INL-review
+msgid "File"
+msgstr "Arkivu"
+
+#: tools/gtk-builder-tool-enumerate.c:56 tools/gtk-builder-tool-preview.c:179
+#: tools/gtk-builder-tool-preview.c:180 tools/gtk-builder-tool-screenshot.c:360
+#: tools/gtk-builder-tool-simplify.c:2709 tools/gtk-builder-tool-validate.c:267
+#: tools/gtk-image-tool-compare.c:43 tools/gtk-image-tool-info.c:79
+#: tools/gtk-path-tool-render.c:121 tools/gtk-rendernode-tool-compare.c:67
+#: tools/gtk-rendernode-tool-extract.c:294 tools/gtk-rendernode-tool-info.c:226
+#: tools/gtk-rendernode-tool-show.c:116
+#. TET-0075; needs-INL-review
+msgid "FILE"
+msgstr "Arkivu"
+
+#: tools/gtk-builder-tool-screenshot.c:363 tools/gtk-image-tool-compare.c:46
+#: tools/gtk-image-tool-convert.c:89 tools/gtk-image-tool-relabel.c:86
+#: tools/gtk-image-tool-show.c:119 tools/gtk-rendernode-tool-benchmark.c:99
+#: tools/gtk-rendernode-tool-render.c:255
+#. TET-0075; needs-INL-review
+msgid "FILE…"
+msgstr "Arkivu…"
+
+#: tools/gtk-image-tool-convert.c:86
+#. TET-0371; needs-INL-review
+msgid "FORMAT"
+msgstr "Formatu"
+
+#: tools/gtk-image-tool-info.c:57
+#. TET-0371; needs-INL-review
+msgid "Format:"
+msgstr "Formatu:"
+
+#: tools/gtk-path-tool-decompose.c:87 tools/gtk-path-tool-info.c:88
+#: tools/gtk-path-tool-render.c:125 tools/gtk-path-tool-restrict.c:38
+#: tools/gtk-path-tool-reverse.c:34 tools/gtk-path-tool-show.c:147
+#. TET-0097; needs-INL-review
+msgid "PATH"
+msgstr "Dalan"
+

@@ -1,0 +1,10 @@
+This is a 3.0 (native) community source package, not a Debian archive release.
+Builds are offline; Python's standard library generates catalogs/resources.
+The custom rules use a deterministic Python staging script instead of dh to keep
+this small all-data package's generated output explicit and reusable for prefix
+installation. dpkg-source/dpkg-buildpackage and dpkg-deb handle Debian artifacts.
+Canonical inputs are glossary.csv, native-templates.json, locale/tet_TL and
+upstream/mainmenu_tet.ts. Full third-party dictionary PDFs are intentionally
+excluded. Metadata/source notices and license texts are included. make test
+validates source/catalog behavior; install/purge CI and graphical acceptance on
+Debian/Edukasaun OS must also be run before distribution. See docs/VALIDATION.md.

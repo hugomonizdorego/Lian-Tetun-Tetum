@@ -1,0 +1,21 @@
+eduka-language-pack-tet (0.2.0) unstable; urgency=medium
+
+  * Add 13 partial native GTK and desktop application catalogs with exact
+    upstream message contexts, source hashes, copyright notices and licenses.
+  * Expand the original community glossary to 432 draft terms.
+  * Add reversible profile and Plasma settings, optional AccountsService
+    integration for GNOME/GDM, XDG paths, conflict checks and a session journal.
+  * Document all requested desktop families and GNU/Linux portability limits.
+  * Record the three supplied dictionaries as permission-required references;
+    do not redistribute their protected contents or claim INL endorsement.
+
+ -- Hugo Moniz do Rego <ideaofficial@fdsl.tl>  Sat, 03 Oct 2026 00:00:00 +0000
+
+eduka-language-pack-tet (0.1.0) unstable; urgency=medium
+
+  * Initial community draft: target-compiled Tetun locale, 315 original
+    terminology entries, gettext/Qt catalogs and reversible user tools.
+  * Add draft LXQt main-menu catalog and optional liblxqt integration patch.
+  * Record references and license boundaries; INL review remains pending.
+
+ -- Hugo Moniz do Rego <ideaofficial@fdsl.tl>  Sat, 03 Oct 2026 00:00:00 +0000

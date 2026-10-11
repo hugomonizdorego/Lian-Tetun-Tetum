@@ -1,0 +1,807 @@
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Edukasaun OS contributors (original Tetun translations)
+# Partial draft; exact upstream IDs/contexts. Not endorsed by INL.
+# Original upstream notices and license: upstream/native-notices/Thunar.txt
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Xfce
+# This file is distributed under the same license as the thunar.xfce-4-20 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Xfce Bot <transifex@xfce.org>, 2024
+# Andi Chandler <andi@gowling.com>, 2025
+# 
+msgid ""
+msgstr "Project-Id-Version: Thunar Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#. change the accept button label text
+#: thunar/thunar-action-manager.c:322 thunar/thunar-chooser-dialog.c:907
+#: thunar/thunar-chooser-dialog.c:1318 thunar/thunar-dialogs.c:1282
+#: thunar/thunar-renamer-dialog.c:1108
+#: plugins/thunar-uca/thunar-uca-editor.c:203
+#. TET-0001; needs-INL-review
+msgid "_Open"
+msgstr "_Loke"
+
+#: thunar/thunar-action-manager.c:323 thunar/thunar-dialogs.c:1276
+#. TET-0106; needs-INL-review
+msgid "_Execute"
+msgstr "_Ezekuta"
+
+#: thunar/thunar-action-manager.c:325
+#. TET-0352; needs-INL-review
+msgid "Open in new _Tab"
+msgstr "_Loke iha separadór foun"
+
+#: thunar/thunar-action-manager.c:326
+#. TET-0351; needs-INL-review
+msgid "Open in new _Window"
+msgstr "_Loke iha janela foun"
+
+#: thunar/thunar-action-manager.c:334
+#. TET-0355; needs-INL-review
+msgid "_Add Bookmark"
+msgstr "_Aumenta markadór"
+
+#: thunar/thunar-action-manager.c:336
+#. TET-0057; needs-INL-review
+msgid "_Properties..."
+msgstr "_Propriedade..."
+
+#: thunar/thunar-action-manager.c:337
+#. TET-0376; needs-INL-review
+msgid "Ma_ke Link"
+msgstr "_Kria ligasaun"
+
+#: thunar/thunar-action-manager.c:338
+#. TET-0431; needs-INL-review
+msgid "Dup_licate"
+msgstr "_Halo kópia"
+
+#: thunar/thunar-action-manager.c:339
+#. TET-0081; needs-INL-review
+msgid "_Rename..."
+msgstr "_Troka naran..."
+
+#. prepare the menu item
+#: thunar/thunar-action-manager.c:340 thunar/thunar-application.c:2790
+#: plugins/thunar-tpa/thunar-tpa.c:192
+#. TET-0085; needs-INL-review
+msgid "_Empty Trash"
+msgstr "_Hamoos lixu"
+
+#: thunar/thunar-action-manager.c:342
+#. TET-0383; needs-INL-review
+msgid "Create _Folder..."
+msgstr "_Kria pasta..."
+
+#: thunar/thunar-action-manager.c:343
+#. TET-0384; needs-INL-review
+msgid "Create _Document"
+msgstr "_Kria dokumentu"
+
+#: thunar/thunar-action-manager.c:347
+#. TET-0083; needs-INL-review
+msgid "Mo_ve to Trash"
+msgstr "_Muda ba lixu"
+
+#: thunar/thunar-action-manager.c:350 thunar/thunar-application.c:2530
+#: plugins/thunar-uca/thunar-uca-chooser.c:383
+#. TET-0023; needs-INL-review
+msgid "_Delete"
+msgstr "_Apaga"
+
+#: thunar/thunar-action-manager.c:353
+#. TET-0027; needs-INL-review
+msgid "_Paste"
+msgstr "_Kola"
+
+#: thunar/thunar-action-manager.c:356
+#. TET-0025; needs-INL-review
+msgid "_Copy"
+msgstr "_Kopia"
+
+#: thunar/thunar-action-manager.c:358
+#. TET-0026; needs-INL-review
+msgid "Cu_t"
+msgstr "_Korta"
+
+#: thunar/thunar-action-manager.c:361
+#. TET-0108; needs-INL-review
+msgid "_Mount"
+msgstr "_Monta"
+
+#: thunar/thunar-action-manager.c:362
+#. TET-0109; needs-INL-review
+msgid "_Unmount"
+msgstr "_Desmonta"
+
+#: thunar/thunar-action-manager.c:363 thunar/thunar-device.c:551
+#. TET-0110; needs-INL-review
+msgid "_Eject"
+msgstr "_Hasai dispozitivu"
+
+#. add the "Cancel" button
+#. configure the dialog properties
+#: thunar/thunar-action-manager.c:1064 thunar/thunar-application.c:2529
+#: thunar/thunar-application.c:2601 thunar/thunar-application.c:2789
+#: thunar/thunar-chooser-dialog.c:315 thunar/thunar-chooser-dialog.c:781
+#: thunar/thunar-chooser-dialog.c:856 thunar/thunar-chooser-dialog.c:906
+#: thunar/thunar-dialogs.c:114 thunar/thunar-dialogs.c:262
+#: thunar/thunar-dialogs.c:695 thunar/thunar-dialogs.c:805
+#: thunar/thunar-dialogs.c:1096 thunar/thunar-dialogs.c:1190
+#: thunar/thunar-dnd.c:172 thunar/thunar-permissions-chooser.c:580
+#: thunar/thunar-permissions-chooser.c:1194
+#: thunar/thunar-properties-dialog.c:1220 thunar/thunar-renamer-dialog.c:1107
+#: thunar/thunar-renamer-progress.c:188 thunar/thunar-renamer-progress.c:198
+#: plugins/thunar-sendto-email/main.c:220
+#: plugins/thunar-sendto-email/main.c:240
+#: plugins/thunar-sendto-email/main.c:304
+#: plugins/thunar-uca/thunar-uca-chooser.c:383
+#: plugins/thunar-uca/thunar-uca-editor.c:157
+#: plugins/thunar-uca/thunar-uca-editor.c:202
+#: plugins/thunar-uca/thunar-uca-editor.c:455
+#. TET-0005; needs-INL-review
+msgid "_Cancel"
+msgstr "_Kansela"
+
+#. ask the user to enter a name for the new folder
+#: thunar/thunar-action-manager.c:2737 thunar/thunar-application.c:2058
+#. TET-0080; needs-INL-review
+msgid "New Folder"
+msgstr "Pasta foun"
+
+#: thunar/thunar-action-manager.c:3432
+#. TET-0116; needs-INL-review
+msgid "Ope_n With"
+msgstr "_Loke ho"
+
+#: thunar/thunar-application.c:2063
+#. TET-0079; needs-INL-review
+msgid "New File"
+msgstr "Arkivu foun"
+
+#: thunar/thunar-application.c:2602
+#. TET-0083; needs-INL-review
+msgid "Move to Trash"
+msgstr "Muda ba lixu"
+
+#: thunar/thunar-application.c:2787 thunar/thunar-window.c:1259
+#. TET-0085; needs-INL-review
+msgid "Empty Trash"
+msgstr "Hamoos lixu"
+
+#: thunar/thunar-chooser-dialog.c:209
+#. TET-0116; needs-INL-review
+msgid "Open With"
+msgstr "Loke ho"
+
+#. create the "Custom command" button
+#: thunar/thunar-chooser-dialog.c:300
+#. TET-0040; needs-INL-review
+msgid "_Browse..."
+msgstr "_Buka arkivu..."
+
+#. add the "Ok"/"Open" button
+#: thunar/thunar-chooser-dialog.c:318 thunar/thunar-chooser-dialog.c:1318
+#: thunar/thunar-properties-dialog.c:1221 thunar/thunar-window.c:4693
+#: plugins/thunar-uca/thunar-uca-editor.c:158
+#: plugins/thunar-uca/thunar-uca-editor.c:456
+#. TET-0007; needs-INL-review
+msgid "_OK"
+msgstr "_Di'ak"
+
+#: thunar/thunar-chooser-dialog.c:782
+#. TET-0022; needs-INL-review
+msgid "_Remove"
+msgstr "_Hasai"
+
+#: thunar/thunar-chooser-dialog.c:913 thunar/thunar-renamer-dialog.c:1115
+#: plugins/thunar-uca/thunar-uca-editor.c:210
+#. TET-0380; needs-INL-review
+msgid "All Files"
+msgstr "Arkivu hotu"
+
+#. setup the dialog
+#. add the "Close" button
+#. action id
+#. visibility
+#. checkbox visible
+#. icon
+#. label
+#. tooltip
+#. setup the dialog
+#. add a regular close button, the header bar already provides one
+#: thunar/thunar-column-editor.c:130 thunar/thunar-preferences-dialog.c:279
+#: thunar/thunar-properties-dialog.c:348 thunar/thunar-renamer-dialog.c:415
+#: thunar/thunar-renamer-progress.c:205 thunar/thunar-toolbar-editor.c:148
+#: plugins/thunar-uca/thunar-uca-chooser.c:141
+#. TET-0002; needs-INL-review
+msgid "_Close"
+msgstr "_Taka"
+
+#. add the "Help" button
+#: thunar/thunar-column-editor.c:136 thunar/thunar-preferences-dialog.c:287
+#: thunar/thunar-properties-dialog.c:347 thunar/thunar-toolbar-editor.c:155
+#: thunar/thunar-window.c:707
+#. TET-0054; needs-INL-review
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: thunar/thunar-compact-view.c:119
+#. TET-0357; needs-INL-review
+msgid "Compact view"
+msgstr "Vizaun kompaktu"
+
+#: thunar/thunar-device.c:542
+#. TET-0346; needs-INL-review
+msgid "Safely _Remove"
+msgstr "_Hasai ho seguru"
+
+#: thunar/thunar-device.c:544
+#. TET-0219; needs-INL-review
+msgid "_Disconnect"
+msgstr "_Desliga ligasaun"
+
+#: thunar/thunar-device.c:548
+#. TET-0324; needs-INL-review
+msgid "_Lock"
+msgstr "_Xave"
+
+#. add the "Rename" button
+#: thunar/thunar-dialogs.c:263 thunar/thunar-renamer-dialog.c:419
+#. TET-0081; needs-INL-review
+msgid "_Rename"
+msgstr "_Troka naran"
+
+#: thunar/thunar-dialogs.c:514 thunar/thunar-renamer-progress.c:175
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:844
+#: plugins/thunar-sendto-email/main.c:141
+#: plugins/thunar-uca/thunar-uca-chooser.c:329
+#: plugins/thunar-uca/thunar-uca-provider.c:535
+#. TET-0279; needs-INL-review
+msgid "Error"
+msgstr "Erru"
+
+#: thunar/thunar-dialogs.c:628 thunar/thunar-permissions-chooser.c:582
+#. TET-0008; needs-INL-review
+msgid "_Yes"
+msgstr "_Sin"
+
+#: thunar/thunar-dialogs.c:636 thunar/thunar-dialogs.c:808
+#. TET-0035; needs-INL-review
+msgid "_Replace"
+msgstr "_Troka"
+
+#: thunar/thunar-dialogs.c:640
+#. TET-0429; needs-INL-review
+msgid "Replace _All"
+msgstr "_Troka hotu"
+
+#: thunar/thunar-dialogs.c:652 thunar/thunar-dialogs.c:807
+#. TET-0081; needs-INL-review
+msgid "Re_name"
+msgstr "_Troka naran"
+
+#: thunar/thunar-dialogs.c:656
+#. TET-0430; needs-INL-review
+msgid "Rena_me All"
+msgstr "_Troka naran hotu"
+
+#: thunar/thunar-dialogs.c:660 thunar/thunar-permissions-chooser.c:581
+#. TET-0009; needs-INL-review
+msgid "_No"
+msgstr "_Lae"
+
+#: thunar/thunar-dialogs.c:668
+#. TET-0017; needs-INL-review
+msgid "_Retry"
+msgstr "_Koko fali"
+
+#. Fourth box (size)
+#: thunar/thunar-dialogs.c:928 thunar/thunar-dialogs.c:978
+#: thunar/thunar-properties-dialog.c:665
+#. TET-0098; needs-INL-review
+msgid "Size:"
+msgstr "Tamañu:"
+
+#: thunar/thunar-dialogs.c:928 thunar/thunar-dialogs.c:978
+#: thunar/thunar-properties-dialog.c:618
+#. TET-0100; needs-INL-review
+msgid "Modified:"
+msgstr "Modifikadu:"
+
+#: thunar/thunar-dialogs.c:1186
+#. TET-0278; needs-INL-review
+msgid "Warning"
+msgstr "Avizu"
+
+#: thunar/thunar-enum-types.c:150
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:139
+#. TET-0365; needs-INL-review
+msgid "Date Modified"
+msgstr "Data modifikasaun"
+
+#: thunar/thunar-enum-types.c:153
+#. TET-0096; needs-INL-review
+msgid "Location"
+msgstr "Fatin"
+
+#: thunar/thunar-enum-types.c:154
+#. TET-0244; needs-INL-review
+msgid "Group"
+msgstr "Grupu"
+
+#: thunar/thunar-enum-types.c:156 thunar/thunar-renamer-dialog.c:476
+#: thunarx/thunarx-renamer.c:173
+#. TET-0064; needs-INL-review
+msgid "Name"
+msgstr "Naran"
+
+#: thunar/thunar-enum-types.c:157
+#. TET-0102; needs-INL-review
+msgid "Owner"
+msgstr "Na'in"
+
+#. Permissions chooser
+#: thunar/thunar-enum-types.c:158 thunar/thunar-properties-dialog.c:937
+#. TET-0103; needs-INL-review
+msgid "Permissions"
+msgstr "Permisaun sira"
+
+#: thunar/thunar-enum-types.c:159 thunar/thunar-statusbar.c:95
+#. TET-0098; needs-INL-review
+msgid "Size"
+msgstr "Tamañu"
+
+#: thunar/thunar-enum-types.c:161
+#. TET-0099; needs-INL-review
+msgid "Type"
+msgstr "Tipu"
+
+#: thunar/thunar-enum-types.c:162
+#. TET-0075; needs-INL-review
+msgid "File"
+msgstr "Arkivu"
+
+#: thunar/thunar-enum-types.c:700 thunar/thunar-enum-types.c:725
+#: thunar/thunar-enum-types.c:860 thunar/thunar-preferences-dialog.c:467
+#: thunar/thunar-preferences-dialog.c:1123
+#: thunar/thunar-preferences-dialog.c:1231
+#: thunar/thunar-preferences-dialog.c:1319
+#. TET-0415; needs-INL-review
+msgid "Never"
+msgstr "Nunka"
+
+#: thunar/thunar-enum-types.c:702 thunar/thunar-enum-types.c:727
+#: thunar/thunar-enum-types.c:862 thunar/thunar-preferences-dialog.c:469
+#: thunar/thunar-preferences-dialog.c:1119
+#: thunar/thunar-preferences-dialog.c:1229
+#: thunar/thunar-preferences-dialog.c:1320
+#. TET-0414; needs-INL-review
+msgid "Always"
+msgstr "Sempre"
+
+#: thunar/thunar-enum-types.c:785
+#. TET-0025; needs-INL-review
+msgid "Copy"
+msgstr "Kopia"
+
+#: thunar/thunar-enum-types.c:786
+#. TET-0082; needs-INL-review
+msgid "Move"
+msgstr "Muda"
+
+#: thunar/thunar-enum-types.c:787
+#. TET-0081; needs-INL-review
+msgid "Rename"
+msgstr "Troka naran"
+
+#: thunar/thunar-enum-types.c:789
+#. TET-0383; needs-INL-review
+msgid "Create Folder"
+msgstr "Kria pasta"
+
+#: thunar/thunar-enum-types.c:791 thunar/thunar-file.c:1086
+#: thunar/thunar-gio-extensions.c:510 thunar/thunar-shortcuts-model.c:1150
+#: thunar.desktop.in.in:25
+#. TET-0084; needs-INL-review
+msgid "Trash"
+msgstr "Lixu"
+
+#: thunar/thunar-file.c:1093 thunar/thunar-gio-extensions.c:508
+#: thunar/thunar-shortcuts-model.c:1032
+#. TET-0344; needs-INL-review
+msgid "File System"
+msgstr "Sistema arkivu"
+
+#. Freedesktop icon-naming-spec
+#: thunar/thunar-gio-extensions.c:98
+#. TET-0256; needs-INL-review
+msgid "Camera"
+msgstr "Kámara"
+
+#: thunar/thunar-icon-view.c:181
+#. TET-0358; needs-INL-review
+msgid "Icon view"
+msgstr "Vizaun íkone"
+
+#: thunar/thunar-permissions-chooser.c:242
+#. TET-0102; needs-INL-review
+msgid "Owner:"
+msgstr "Na'in:"
+
+#: thunar/thunar-permissions-chooser.c:261
+#. TET-0367; needs-INL-review
+msgid "_Access:"
+msgstr "_Asesu:"
+
+#: thunar/thunar-permissions-chooser.c:289
+#. TET-0244; needs-INL-review
+msgid "Gro_up:"
+msgstr "_Grupu:"
+
+#: thunar/thunar-permissions-chooser.c:311
+#. TET-0367; needs-INL-review
+msgid "Acc_ess:"
+msgstr "_Asesu:"
+
+#: thunar/thunar-permissions-chooser.c:347
+#. TET-0367; needs-INL-review
+msgid "Acce_ss:"
+msgstr "_Asesu:"
+
+#. allocate the question dialog
+#: thunar/thunar-permissions-chooser.c:577
+#. TET-0281; needs-INL-review
+msgid "Question"
+msgstr "Pergunta"
+
+#: thunar/thunar-permissions-chooser.c:1060
+#: plugins/thunar-uca/thunar-uca-editor.c:432
+#: plugins/thunar-uca/thunar-uca-editor.c:644
+#. TET-0388; needs-INL-review
+msgid "None"
+msgstr "La iha"
+
+#. 0002
+#: thunar/thunar-permissions-chooser.c:1062
+#. TET-0107; needs-INL-review
+msgid "Read only"
+msgstr "Lee de'it"
+
+#. Display
+#: thunar/thunar-preferences-dialog.c:302
+#. TET-0167; needs-INL-review
+msgid "Display"
+msgstr "Ekrán"
+
+#: thunar/thunar-preferences-dialog.c:376
+#: thunar/thunar-preferences-dialog.c:532
+#. TET-0358; needs-INL-review
+msgid "Icon View"
+msgstr "Vizaun íkone"
+
+#: thunar/thunar-preferences-dialog.c:377
+#. TET-0359; needs-INL-review
+msgid "List View"
+msgstr "Vizaun lista"
+
+#: thunar/thunar-preferences-dialog.c:378
+#. TET-0357; needs-INL-review
+msgid "Compact View"
+msgstr "Vizaun kompaktu"
+
+#: thunar/thunar-preferences-dialog.c:564
+#. TET-0421; needs-INL-review
+msgid "Date"
+msgstr "Data"
+
+#: thunar/thunar-preferences-dialog.c:577
+#: plugins/thunar-sbr/thunar-sbr-date-renamer.c:223
+#. TET-0371; needs-INL-review
+msgid "_Format:"
+msgstr "_Formatu:"
+
+#: thunar/thunar-preferences-dialog.c:861
+#. TET-0378; needs-INL-review
+msgid "Navigation"
+msgstr "Navegasaun"
+
+#: thunar/thunar-preferences-dialog.c:938
+#. TET-0391; needs-INL-review
+msgid "Disabled"
+msgstr "Dezativadu"
+
+#. Advanced
+#: thunar/thunar-preferences-dialog.c:1078
+#. TET-0061; needs-INL-review
+msgid "Advanced"
+msgstr "Avansadu"
+
+#: thunar/thunar-preferences-dialog.c:1206
+#. TET-0032; needs-INL-review
+msgid "Search"
+msgstr "Buka"
+
+#: thunar/thunar-preferences-dialog.c:1292
+#. TET-0257; needs-INL-review
+msgid "Security"
+msgstr "Seguransa"
+
+#: thunar/thunar-preferences-dialog.c:1432
+#. TET-0153; needs-INL-review
+msgid "Window"
+msgstr "Janela"
+
+#: thunar/thunar-preferences-dialog.c:1434
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:550
+#. TET-0318; needs-INL-review
+msgid "Launcher"
+msgstr "Lansadór"
+
+#: thunar/thunar-properties-dialog.c:358
+#. TET-0062; needs-INL-review
+msgid "General"
+msgstr "Jerál"
+
+#: thunar/thunar-properties-dialog.c:383
+#: plugins/thunar-uca/thunar-uca-editor.ui:46
+#. TET-0064; needs-INL-review
+msgid "_Name:"
+msgstr "_Naran:"
+
+#: thunar/thunar-properties-dialog.c:469
+#. TET-0116; needs-INL-review
+msgid "_Open With:"
+msgstr "_Loke ho:"
+
+#: thunar/thunar-properties-dialog.c:525
+#. TET-0096; needs-INL-review
+msgid "Location:"
+msgstr "Fatin:"
+
+#: thunar/thunar-properties-dialog.c:542
+#. TET-0170; needs-INL-review
+msgid "Volume:"
+msgstr "Volume:"
+
+#: thunar/thunar-properties-dialog.c:601
+#. TET-0101; needs-INL-review
+msgid "Created:"
+msgstr "Kriadu:"
+
+#: thunar/thunar-properties-dialog.c:884
+#. TET-0006; needs-INL-review
+msgid "_Apply"
+msgstr "_Aplika"
+
+#: thunar/thunar-properties-dialog.c:896
+#. TET-0019; needs-INL-review
+msgid "_Reset"
+msgstr "_Restaura"
+
+#. update the properties dialog title
+#: thunar/thunar-properties-dialog.c:1625
+#. TET-0057; needs-INL-review
+msgid "Properties"
+msgstr "Propriedade"
+
+#: thunar/thunar-renamer-dialog.c:235
+#. TET-0031; needs-INL-review
+msgid "Clear"
+msgstr "Hamoos"
+
+#: thunar/thunar-renamer-dialog.c:236 thunar/thunar-window.c:709
+#. TET-0055; needs-INL-review
+msgid "_About"
+msgstr "_Kona-ba"
+
+#: thunar/thunar-shortcuts-model.c:1069
+#. TET-0216; needs-INL-review
+msgid "Network"
+msgstr "Rede"
+
+#: thunar/thunar-shortcuts-model.c:1100
+#. TET-0342; needs-INL-review
+msgid "Places"
+msgstr "Fatin sira"
+
+#: thunar/thunar-shortcuts-model.c:1177 thunar.desktop.in.in:21
+#. TET-0343; needs-INL-review
+msgid "Computer"
+msgstr "Komputadór"
+
+#: thunar/thunar-shortcuts-model.c:1190
+#. TET-0386; needs-INL-review
+msgid "Recent"
+msgstr "Foin uza"
+
+#. nothing was readable, so permission was denied
+#: thunar/thunar-size-label.c:504
+#. TET-0119; needs-INL-review
+msgid "Permission denied"
+msgstr "Permisaun rejeitada"
+
+#: thunar/thunar-standard-view.c:489
+#. TET-0360; needs-INL-review
+msgid "Arran_ge Items"
+msgstr "_Organiza item sira"
+
+#: thunar/thunar-standard-view.c:496
+#. TET-0363; needs-INL-review
+msgid "_Ascending"
+msgstr "_Sa'e"
+
+#: thunar/thunar-standard-view.c:497
+#. TET-0364; needs-INL-review
+msgid "_Descending"
+msgstr "_Tun"
+
+#: thunar/thunar-standard-view.c:2740
+#. TET-0005; needs-INL-review
+msgctxt "Select by Pattern dialog: buttons"
+msgid "_Cancel"
+msgstr "_Kansela"
+
+#: thunar/thunar-util.c:836
+#. TET-0032; needs-INL-review
+msgid "Search: "
+msgstr "Buka:"
+
+#: thunar/thunar-window.c:648
+#. TET-0075; needs-INL-review
+msgid "_File"
+msgstr "_Arkivu"
+
+#: thunar/thunar-window.c:653
+#. TET-0341; needs-INL-review
+msgid "_Close Window"
+msgstr "_Taka janela"
+
+#: thunar/thunar-window.c:656
+#. TET-0024; needs-INL-review
+msgid "_Edit"
+msgstr "_Edita"
+
+#: thunar/thunar-window.c:657
+#. TET-0028; needs-INL-review
+msgid "_Undo"
+msgstr "_Dezfaz"
+
+#: thunar/thunar-window.c:658
+#. TET-0029; needs-INL-review
+msgid "Red_o"
+msgstr "_Refaz"
+
+#: thunar/thunar-window.c:659
+#. TET-0058; needs-INL-review
+msgid "Pr_eferences..."
+msgstr "_Preferénsia..."
+
+#: thunar/thunar-window.c:662
+#. TET-0432; needs-INL-review
+msgid "_Reload"
+msgstr "_Karga fali"
+
+#: thunar/thunar-window.c:679
+#. TET-0095; needs-INL-review
+msgid "Show _Hidden Files"
+msgstr "_Hatudu arkivu subar"
+
+#: thunar/thunar-window.c:688
+#. TET-0358; needs-INL-review
+msgid "_Icon View"
+msgstr "_Vizaun íkone"
+
+#: thunar/thunar-window.c:689
+#. TET-0359; needs-INL-review
+msgid "_List View"
+msgstr "_Vizaun lista"
+
+#: thunar/thunar-window.c:690
+#. TET-0357; needs-INL-review
+msgid "_Compact View"
+msgstr "_Vizaun kompaktu"
+
+#: thunar/thunar-window.c:693
+#. TET-0344; needs-INL-review
+msgid "F_ile System"
+msgstr "_Sistema arkivu"
+
+#: thunar/thunar-window.c:694
+#. TET-0086; needs-INL-review
+msgid "_Home"
+msgstr "_Pasta pesoál"
+
+#: thunar/thunar-window.c:695
+#. TET-0087; needs-INL-review
+msgid "_Desktop"
+msgstr "_Ambiente de traballu"
+
+#: thunar/thunar-window.c:696
+#. TET-0343; needs-INL-review
+msgid "_Computer"
+msgstr "_Komputadór"
+
+#: thunar/thunar-window.c:697
+#. TET-0386; needs-INL-review
+msgid "_Recent"
+msgstr "_Foin uza"
+
+#: thunar/thunar-window.c:698
+#. TET-0084; needs-INL-review
+msgid "_Trash"
+msgstr "_Lixu"
+
+#: thunar/thunar-window.c:700
+#. TET-0349; needs-INL-review
+msgid "_Open Location..."
+msgstr "_Loke fatin..."
+
+#: thunar/thunar-window.c:705
+#. TET-0353; needs-INL-review
+msgid "_Bookmarks"
+msgstr "_Markadór sira"
+
+#: thunar/thunar-window.c:711
+#. TET-0010; needs-INL-review
+msgid "_Back"
+msgstr "_Fila fali"
+
+#: thunar/thunar-window.c:1139
+#. TET-0098; needs-INL-review
+msgid "Size: "
+msgstr "Tamañu:"
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:258
+#: plugins/thunar-apr/thunar-apr-image-page.c:62
+#. TET-0065; needs-INL-review
+msgid "Description:"
+msgstr "Deskrisaun:"
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:402
+#. TET-0060; needs-INL-review
+msgid "Options:"
+msgstr "Opsaun:"
+
+#: plugins/thunar-apr/thunar-apr-desktop-page.c:448
+#. TET-0257; needs-INL-review
+msgid "Security:"
+msgstr "Seguransa:"
+
+#: plugins/thunar-sbr/thunar-sbr-enum-types.c:104
+#. TET-0117; needs-INL-review
+msgid "Overwrite"
+msgstr "Hakerek hikas"
+
+#: plugins/thunar-sbr/thunar-sbr-number-renamer.c:191
+#. TET-0302; needs-INL-review
+msgid "_Number Format:"
+msgstr "_Formatu númeru:"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:76
+#. TET-0065; needs-INL-review
+msgid "_Description:"
+msgstr "_Deskrisaun:"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:201
+#. TET-0175; needs-INL-review
+msgid "Keyboard _Shortcut:"
+msgstr "_Atallu tekladu:"
+
+#: plugins/thunar-uca/thunar-uca-editor.ui:263
+#. TET-0145; needs-INL-review
+msgid "_Icon:"
+msgstr "_Íkone:"
+
+#: thunar.desktop.in.in:5
+#. TET-0115; needs-INL-review
+msgid "File Manager"
+msgstr "Jestór arkivu"
+
+#: thunar.desktop.in.in:17
+#. TET-0086; needs-INL-review
+msgid "Home"
+msgstr "Pasta pesoál"
+

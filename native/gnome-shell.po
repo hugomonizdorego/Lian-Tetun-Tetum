@@ -1,0 +1,430 @@
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Edukasaun OS contributors (original Tetun translations)
+# Partial draft; exact upstream IDs/contexts. Not endorsed by INL.
+# Original upstream notices and license: upstream/native-notices/gnome-shell.txt
+# British English translation for gnome-shell.
+# Copyright (C) 2009 gnome-shell's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-shell package.
+# Philip Withnall <philip@tecnocode.co.uk>, 2009, 2010, 2014.
+# Chris Leonard <cjlhomeaddress@gmail.com>, 2012.
+# Zander Brown <zbrown@gnome.org>, 2019-2021.
+# Andi Chandler <andi@gowling.com>, 2024.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2010-2025.
+#
+msgid ""
+msgstr "Project-Id-Version: gnome-shell Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: data/50-gnome-shell-launchers.xml:6
+#. TET-0319; needs-INL-review
+msgid "Launchers"
+msgstr "Lansadór sira"
+
+#: data/org.gnome.shell.gschema.xml.in:326
+#. TET-0424; needs-INL-review
+msgid "Locations"
+msgstr "Fatin sira"
+
+#: data/org.gnome.shell.gschema.xml.in:345
+#. TET-0096; needs-INL-review
+msgid "Location"
+msgstr "Fatin"
+
+#: js/gdm/authPrompt.js:155 js/gdm/loginDialog.js:468
+#: js/ui/audioDeviceSelection.js:60 js/ui/components/networkAgent.js:114
+#: js/ui/components/polkitAgent.js:144 js/ui/endSessionDialog.js:437
+#: js/ui/extensionDownloader.js:276 js/ui/shellMountOperation.js:382
+#: js/ui/shellMountOperation.js:392
+#. TET-0005; needs-INL-review
+msgid "Cancel"
+msgstr "Kansela"
+
+#: js/gdm/authPrompt.js:323 js/ui/components/networkAgent.js:214
+#: js/ui/components/networkAgent.js:234 js/ui/components/networkAgent.js:266
+#: js/ui/components/networkAgent.js:299 js/ui/components/networkAgent.js:338
+#: js/ui/components/networkAgent.js:351 js/ui/components/polkitAgent.js:286
+#: js/ui/shellMountOperation.js:332
+#. TET-0260; needs-INL-review
+msgid "Password"
+msgstr "Seña"
+
+#: js/gdm/loginDialog.js:1076 js/ui/components/networkAgent.js:258
+#: js/ui/components/networkAgent.js:293 js/ui/components/networkAgent.js:327
+#. TET-0259; needs-INL-review
+msgid "Username"
+msgstr "Naran utilizadór"
+
+#. Translators: The name of the power-off action in search
+#: js/misc/systemActions.js:91
+#. TET-0321; needs-INL-review
+msgctxt "search-result"
+msgid "Power Off"
+msgstr "Dezliga"
+
+#. Translators: The name of the restart action in search
+#: js/misc/systemActions.js:99
+#. TET-0160; needs-INL-review
+msgctxt "search-result"
+msgid "Restart"
+msgstr "Reinísia"
+
+#. Translators: The name of the lock screen action in search
+#: js/misc/systemActions.js:107
+#. TET-0158; needs-INL-review
+msgctxt "search-result"
+msgid "Lock Screen"
+msgstr "Xave ekrán"
+
+#. Translators: A list of keywords that match the lock screen action, separated by semicolons
+#: js/misc/systemActions.js:110
+#. TET-0158; needs-INL-review
+msgid "lock screen"
+msgstr "Xave ekrán"
+
+#. Translators: The name of the logout action in search
+#: js/misc/systemActions.js:115
+#. TET-0159; needs-INL-review
+msgctxt "search-result"
+msgid "Log Out"
+msgstr "Sai husi sesaun"
+
+#. Translators: The name of the suspend action in search
+#: js/misc/systemActions.js:123
+#. TET-0162; needs-INL-review
+msgctxt "search-result"
+msgid "Suspend"
+msgstr "Suspende"
+
+#. Translators: The name of the switch user action in search
+#: js/misc/systemActions.js:131
+#. TET-0396; needs-INL-review
+msgctxt "search-result"
+msgid "Switch User"
+msgstr "Troka utilizadór"
+
+#. Translators: A list of keywords that match the switch user action, separated by semicolons
+#: js/misc/systemActions.js:134
+#. TET-0396; needs-INL-review
+msgid "switch user"
+msgstr "Troka utilizadór"
+
+#: js/ui/appFavorites.js:208 js/ui/main.js:309
+#. TET-0028; needs-INL-review
+msgid "Undo"
+msgstr "Dezfaz"
+
+#: js/ui/audioDeviceSelection.js:79 js/ui/status/volume.js:366
+#. TET-0255; needs-INL-review
+msgid "Microphone"
+msgstr "Mikrofóne"
+
+#: js/ui/backgroundMenu.js:16
+#. TET-0059; needs-INL-review
+msgid "Settings"
+msgstr "Konfigurasaun"
+
+#: js/ui/calendar.js:853
+#. TET-0031; needs-INL-review
+msgid "Clear"
+msgstr "Hamoos"
+
+#: js/ui/components/networkAgent.js:108 js/ui/status/bluetooth.js:246
+#: js/ui/status/network.js:360 js/ui/status/network.js:444
+#. TET-0218; needs-INL-review
+msgid "Connect"
+msgstr "Liga"
+
+#: js/ui/components/polkitAgent.js:84
+#. TET-0266; needs-INL-review
+msgid "Administrator"
+msgstr "Administradór"
+
+#: js/ui/endSessionDialog.js:48
+#. TET-0159; needs-INL-review
+msgctxt "title"
+msgid "Log Out"
+msgstr "Sai husi sesaun"
+
+#: js/ui/endSessionDialog.js:64
+#. TET-0159; needs-INL-review
+msgctxt "button"
+msgid "Log Out"
+msgstr "Sai husi sesaun"
+
+#: js/ui/endSessionDialog.js:70 js/ui/status/system.js:174
+#. TET-0321; needs-INL-review
+msgctxt "title"
+msgid "Power Off"
+msgstr "Dezliga"
+
+#: js/ui/endSessionDialog.js:82
+#. TET-0321; needs-INL-review
+msgctxt "button"
+msgid "Power Off"
+msgstr "Dezliga"
+
+#: js/ui/endSessionDialog.js:89
+#. TET-0160; needs-INL-review
+msgctxt "title"
+msgid "Restart"
+msgstr "Reinísia"
+
+#: js/ui/endSessionDialog.js:101
+#. TET-0160; needs-INL-review
+msgctxt "button"
+msgid "Restart"
+msgstr "Reinísia"
+
+#: js/ui/extensionDownloader.js:280
+#. TET-0047; needs-INL-review
+msgid "Install"
+msgstr "Instala"
+
+#: js/ui/lookingGlass.js:829
+#. TET-0279; needs-INL-review
+msgid "Error"
+msgstr "Erru"
+
+#. Translators: This is the main view to select
+#. activities. See also note for "Activities" string.
+#: js/ui/overview.js:33
+#. TET-0332; needs-INL-review
+msgid "Overview"
+msgstr "Vizaun jerál"
+
+#: js/ui/padOsd.js:727
+#. TET-0024; needs-INL-review
+msgid "Edit…"
+msgstr "Edita…"
+
+#: js/ui/padOsd.js:774
+#. TET-0388; needs-INL-review
+msgid "None"
+msgstr "La iha"
+
+#. Translators: If there is no suitable word for "Activities"
+#. in your language, you can use the word for "Overview".
+#: js/ui/panel.js:423
+#. TET-0316; needs-INL-review
+msgid "Activities"
+msgstr "Atividade sira"
+
+#: js/ui/screenshot.js:1280
+#. TET-0153; needs-INL-review
+msgid "Window"
+msgstr "Janela"
+
+#: js/ui/searchController.js:87
+#: subprojects/extensions-app/data/ui/extensions-window.ui:73
+#. TET-0032; needs-INL-review
+msgid "Search"
+msgstr "Buka"
+
+#: js/ui/shellEntry.js:21
+#. TET-0025; needs-INL-review
+msgid "Copy"
+msgstr "Kopia"
+
+#: js/ui/shellEntry.js:26
+#. TET-0027; needs-INL-review
+msgid "Paste"
+msgstr "Kola"
+
+#: js/ui/shellMountOperation.js:386
+#. TET-0325; needs-INL-review
+msgid "Unlock"
+msgstr "Loke xave"
+
+#: js/ui/status/accessibility.js:34
+#. TET-0136; needs-INL-review
+msgid "Accessibility"
+msgstr "Asesibilidade"
+
+#: js/ui/status/backlight.js:87
+#. TET-0393; needs-INL-review
+msgid "Off"
+msgstr "Dezativadu"
+
+#: js/ui/status/backlight.js:162 js/ui/status/keyboard.js:883
+#. TET-0172; needs-INL-review
+msgid "Keyboard"
+msgstr "Tekladu"
+
+#: js/ui/status/bluetooth.js:246 js/ui/status/network.js:360
+#. TET-0219; needs-INL-review
+msgid "Disconnect"
+msgstr "Desliga ligasaun"
+
+#: js/ui/status/bluetooth.js:274 js/ui/status/bluetooth.js:276
+#. TET-0329; needs-INL-review
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: js/ui/status/brightness.js:32
+#. TET-0169; needs-INL-review
+msgid "Brightness"
+msgstr "Brillu"
+
+#: js/ui/status/network.js:1533 js/ui/status/network.js:1549
+#. TET-0330; needs-INL-review
+msgid "VPN"
+msgstr "VPN"
+
+#: js/ui/status/rfkill.js:99
+#. TET-0328; needs-INL-review
+msgid "Airplane Mode"
+msgstr "Modu aviaun"
+
+#: js/ui/status/system.js:176
+#. TET-0162; needs-INL-review
+msgid "Suspend"
+msgstr "Suspende"
+
+#: js/ui/status/system.js:181
+#. TET-0160; needs-INL-review
+msgid "Restart…"
+msgstr "Reinísia…"
+
+#: js/ui/status/system.js:186
+#. TET-0321; needs-INL-review
+msgid "Power Off…"
+msgstr "Dezliga…"
+
+#: js/ui/status/system.js:193
+#: subprojects/extensions-app/data/ui/extensions-window.ui:124
+#. TET-0159; needs-INL-review
+msgid "Log Out…"
+msgstr "Sai husi sesaun…"
+
+#: js/ui/status/system.js:198
+#. TET-0396; needs-INL-review
+msgid "Switch User…"
+msgstr "Troka utilizadór…"
+
+#: js/ui/status/system.js:242
+#. TET-0158; needs-INL-review
+msgctxt "action"
+msgid "Lock Screen"
+msgstr "Xave ekrán"
+
+#: js/ui/status/volume.js:231
+#. TET-0327; needs-INL-review
+msgid "Unmute"
+msgstr "Ativa lian"
+
+#: js/ui/status/volume.js:231
+#. TET-0171; needs-INL-review
+msgid "Mute"
+msgstr "Silensia"
+
+#: js/ui/status/volume.js:293
+#. TET-0170; needs-INL-review
+msgid "Volume"
+msgstr "Volume"
+
+#: js/ui/windowMenu.js:51
+#. TET-0155; needs-INL-review
+msgid "Maximize"
+msgstr "Maksimiza"
+
+#: js/ui/windowMenu.js:58
+#. TET-0082; needs-INL-review
+msgid "Move"
+msgstr "Muda"
+
+#: js/ui/windowMenu.js:202
+#. TET-0002; needs-INL-review
+msgid "Close"
+msgstr "Taka"
+
+#: subprojects/extensions-app/js/extensionsWindow.js:117
+#. TET-0005; needs-INL-review
+msgid "_Cancel"
+msgstr "_Kansela"
+
+#: subprojects/extensions-app/js/extensionsWindow.js:118
+#. TET-0022; needs-INL-review
+msgid "_Remove"
+msgstr "_Hasai"
+
+#: subprojects/extensions-app/data/ui/extension-row.ui:188
+#. TET-0073; needs-INL-review
+msgid "_Website"
+msgstr "_Sítio web"
+
+#: subprojects/extensions-app/data/ui/extension-row.ui:215
+#. TET-0059; needs-INL-review
+msgid "_Settings"
+msgstr "_Konfigurasaun"
+
+#: subprojects/extensions-app/data/ui/extension-row.ui:242
+#. TET-0022; needs-INL-review
+msgid "_Remove…"
+msgstr "_Hasai…"
+
+#: subprojects/extensions-app/data/ui/help-overlay.ui:9
+#. TET-0062; needs-INL-review
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Jerál"
+
+#: subprojects/extensions-tool/src/command-create.c:382
+#: subprojects/extensions-tool/src/main.c:243
+#. TET-0064; needs-INL-review
+msgid "Name"
+msgstr "Naran"
+
+#: subprojects/extensions-tool/src/command-create.c:402
+#: subprojects/extensions-tool/src/main.c:246
+#. TET-0065; needs-INL-review
+msgid "Description"
+msgstr "Deskrisaun"
+
+#: subprojects/extensions-tool/src/command-create.c:518
+#. TET-0064; needs-INL-review
+msgid "NAME"
+msgstr "Naran"
+
+#: subprojects/extensions-tool/src/command-create.c:521
+#. TET-0065; needs-INL-review
+msgid "DESCRIPTION"
+msgstr "Deskrisaun"
+
+#: subprojects/extensions-tool/src/command-pack.c:444
+#. TET-0075; needs-INL-review
+msgid "FILE"
+msgstr "Arkivu"
+
+#: subprojects/extensions-tool/src/main.c:249
+#. TET-0097; needs-INL-review
+msgid "Path"
+msgstr "Dalan"
+
+#: subprojects/extensions-tool/src/main.c:261
+#: subprojects/extensions-tool/src/main.c:263
+#: subprojects/extensions-tool/src/main.c:265
+#. TET-0066; needs-INL-review
+msgid "Version"
+msgstr "Versaun"
+
+#: subprojects/extensions-tool/src/main.c:268
+#. TET-0390; needs-INL-review
+msgid "Enabled"
+msgstr "Ativadu"
+
+#: subprojects/extensions-tool/src/main.c:268
+#. TET-0008; needs-INL-review
+msgid "Yes"
+msgstr "Sin"
+
+#: subprojects/extensions-tool/src/main.c:268
+#. TET-0009; needs-INL-review
+msgid "No"
+msgstr "Lae"
+
+#. translators:
+#. * The device has been disabled
+#: subprojects/gvc/gvc-mixer-control.c:1872
+#. TET-0391; needs-INL-review
+msgid "Disabled"
+msgstr "Dezativadu"
+

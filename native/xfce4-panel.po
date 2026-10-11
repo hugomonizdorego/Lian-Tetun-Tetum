@@ -1,0 +1,431 @@
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Edukasaun OS contributors (original Tetun translations)
+# Partial draft; exact upstream IDs/contexts. Not endorsed by INL.
+# Original upstream notices and license: upstream/native-notices/xfce4-panel.txt
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Xfce
+# This file is distributed under the same license as the xfce4-panel.xfce-4-20 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Xfce Bot <transifex@xfce.org>, 2025
+# 
+msgid ""
+msgstr "Project-Id-Version: xfce4-panel Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: panel-preferences.desktop.in:15 panel/panel-window.c:3710
+#. TET-0149; needs-INL-review
+msgid "Panel"
+msgstr "Painél"
+
+#: libxfce4panel/xfce-panel-plugin.c:1113
+#: panel/panel-preferences-dialog.c:1549
+#. TET-0022; needs-INL-review
+msgid "Remove"
+msgstr "Hasai"
+
+#. properties item
+#: libxfce4panel/xfce-panel-plugin.c:1240
+#. TET-0057; needs-INL-review
+msgid "_Properties"
+msgstr "_Propriedade"
+
+#. about item
+#: libxfce4panel/xfce-panel-plugin.c:1251 panel/panel-window.c:3785
+#. TET-0055; needs-INL-review
+msgid "_About"
+msgstr "_Kona-ba"
+
+#. move item
+#: libxfce4panel/xfce-panel-plugin.c:1262
+#. TET-0082; needs-INL-review
+msgid "_Move"
+msgstr "_Muda"
+
+#. remove
+#: libxfce4panel/xfce-panel-plugin.c:1278 panel/panel-application.c:357
+#: panel/panel-plugin-external.c:424 panel/panel-preferences-dialog.c:1089
+#: panel/panel-preferences-dialog.glade:1240
+#: plugins/launcher/launcher-dialog.c:841
+#. TET-0022; needs-INL-review
+msgid "_Remove"
+msgstr "_Hasai"
+
+#: libxfce4panel/xfce-panel-plugin.c:1296
+#. TET-0149; needs-INL-review
+msgid "Pane_l"
+msgstr "_Painél"
+
+#. logout item
+#: libxfce4panel/xfce-panel-plugin.c:1332 panel/panel-window.c:3760
+#. TET-0159; needs-INL-review
+msgid "Log _Out"
+msgstr "_Sai husi sesaun"
+
+#. help item
+#: libxfce4panel/xfce-panel-plugin.c:1348 panel/panel-item-dialog.c:207
+#: panel/panel-preferences-dialog.glade:178 panel/panel-window.c:3776
+#: plugins/actions/actions-dialog.glade:97
+#: plugins/applicationsmenu/applicationsmenu-dialog.glade:39
+#: plugins/clock/clock-dialog.glade:120
+#: plugins/directorymenu/directorymenu-dialog.glade:49
+#: plugins/launcher/launcher-dialog.glade:398
+#: plugins/pager/pager-dialog.glade:81
+#: plugins/separator/separator-dialog.glade:69
+#: plugins/showdesktop/showdesktop-dialog.glade:49
+#: plugins/tasklist/tasklist-dialog.glade:93
+#: plugins/windowmenu/windowmenu-dialog.glade:63
+#. TET-0054; needs-INL-review
+msgid "_Help"
+msgstr "_Ajuda"
+
+#. about item
+#: libxfce4panel/xfce-panel-plugin.c:1359
+#. TET-0055; needs-INL-review
+msgid "About"
+msgstr "Kona-ba"
+
+#: panel/main.c:451
+#. TET-0106; needs-INL-review
+msgid "Execute"
+msgstr "Ezekuta"
+
+#: panel/panel-dialogs.c:160 plugins/actions/actions.c:870
+#: plugins/applicationsmenu/applicationsmenu.c:606
+#: plugins/directorymenu/directorymenu.c:466
+#: plugins/directorymenu/directorymenu.c:938
+#. TET-0005; needs-INL-review
+msgid "_Cancel"
+msgstr "_Kansela"
+
+#: panel/panel-dialogs.c:160 panel/panel-item-dialog.c:203
+#: panel/panel-preferences-dialog.glade:1223
+#: plugins/launcher/launcher-dialog.glade:219
+#. TET-0021; needs-INL-review
+msgid "_Add"
+msgstr "_Aumenta"
+
+#: panel/panel-item-dialog.c:211 panel/panel-preferences-dialog.glade:163
+#: panel/panel-tic-tac-toe.c:118 plugins/actions/actions-dialog.glade:82
+#: plugins/applicationsmenu/applicationsmenu-dialog.glade:55
+#: plugins/clock/clock-dialog.glade:105
+#: plugins/directorymenu/directorymenu-dialog.glade:34
+#: plugins/launcher/launcher-dialog.glade:235
+#: plugins/launcher/launcher-dialog.glade:414
+#: plugins/pager/pager-dialog.glade:97
+#: plugins/separator/separator-dialog.glade:54
+#: plugins/showdesktop/showdesktop-dialog.glade:34
+#: plugins/systray/sn-dialog.glade:65
+#: plugins/tasklist/tasklist-dialog.glade:77
+#: plugins/windowmenu/windowmenu-dialog.glade:48
+#. TET-0002; needs-INL-review
+msgid "_Close"
+msgstr "_Taka"
+
+#: panel/panel-item-dialog.c:227 plugins/launcher/launcher-dialog.glade:272
+#. TET-0032; needs-INL-review
+msgid "_Search:"
+msgstr "_Buka:"
+
+#: panel/panel-plugin-external.c:424
+#. TET-0106; needs-INL-review
+msgid "_Execute"
+msgstr "_Ezekuta"
+
+#: panel/panel-preferences-dialog.c:581
+#. TET-0389; needs-INL-review
+msgid "Automatic"
+msgstr "Automátiku"
+
+#: panel/panel-preferences-dialog.glade:13
+#. TET-0415; needs-INL-review
+msgid "Never"
+msgstr "Nunka"
+
+#: panel/panel-preferences-dialog.glade:19
+#. TET-0414; needs-INL-review
+msgid "Always"
+msgstr "Sempre"
+
+#: panel/panel-preferences-dialog.glade:81
+#. TET-0403; needs-INL-review
+msgid "Horizontal"
+msgstr "Orizontál"
+
+#: panel/panel-preferences-dialog.glade:84
+#. TET-0404; needs-INL-review
+msgid "Vertical"
+msgstr "Vertikál"
+
+#: panel/panel-preferences-dialog.glade:712
+#. TET-0167; needs-INL-review
+msgid "D_isplay"
+msgstr "_Ekrán"
+
+#: panel/panel-preferences-dialog.glade:868
+#. TET-0075; needs-INL-review
+msgid "_File:"
+msgstr "_Arkivu:"
+
+#. I18N: label for the leave transparency slider
+#: panel/panel-preferences-dialog.glade:1133
+#. TET-0425; needs-INL-review
+msgid "_Leave:"
+msgstr "_Sai:"
+
+#: panel/panel-preferences-dialog.glade:1173
+#. TET-0142; needs-INL-review
+msgid "Appeara_nce"
+msgstr "_Aparénsia"
+
+#: plugins/actions/actions-dialog.glade:49
+#. TET-0247; needs-INL-review
+msgid "Full Name"
+msgstr "Naran kompletu"
+
+#: plugins/actions/actions-dialog.glade:52
+#. TET-0259; needs-INL-review
+msgid "Username"
+msgstr "Naran utilizadór"
+
+#: plugins/actions/actions-dialog.glade:162
+#. TET-0142; needs-INL-review
+msgid "Appeara_nce:"
+msgstr "_Aparénsia:"
+
+#: plugins/actions/actions-dialog.glade:255
+#: plugins/launcher/launcher-dialog.glade:667
+#. TET-0062; needs-INL-review
+msgid "General"
+msgstr "Jerál"
+
+#: plugins/actions/actions.c:167
+#. TET-0159; needs-INL-review
+msgid "Log Out"
+msgstr "Sai husi sesaun"
+
+#: plugins/actions/actions.c:168
+#. TET-0159; needs-INL-review
+msgid "_Log Out"
+msgstr "_Sai husi sesaun"
+
+#: plugins/actions/actions.c:175
+#. TET-0159; needs-INL-review
+msgid "Log Out..."
+msgstr "Sai husi sesaun..."
+
+#: plugins/actions/actions.c:176
+#. TET-0159; needs-INL-review
+msgid "Log _Out..."
+msgstr "_Sai husi sesaun..."
+
+#: plugins/actions/actions.c:182
+#. TET-0396; needs-INL-review
+msgid "Switch User"
+msgstr "Troka utilizadór"
+
+#: plugins/actions/actions.c:183
+#. TET-0396; needs-INL-review
+msgid "_Switch User"
+msgstr "_Troka utilizadór"
+
+#: plugins/actions/actions.c:189
+#. TET-0158; needs-INL-review
+msgid "Lock Screen"
+msgstr "Xave ekrán"
+
+#: plugins/actions/actions.c:190
+#. TET-0158; needs-INL-review
+msgid "Loc_k Screen"
+msgstr "_Xave ekrán"
+
+#: plugins/actions/actions.c:196
+#. TET-0163; needs-INL-review
+msgid "Hibernate"
+msgstr "Hiberna"
+
+#: plugins/actions/actions.c:197
+#. TET-0163; needs-INL-review
+msgid "_Hibernate"
+msgstr "_Hiberna"
+
+#: plugins/actions/actions.c:212
+#. TET-0162; needs-INL-review
+msgid "Suspend"
+msgstr "Suspende"
+
+#: plugins/actions/actions.c:213
+#. TET-0162; needs-INL-review
+msgid "Sus_pend"
+msgstr "_Suspende"
+
+#: plugins/actions/actions.c:220
+#. TET-0160; needs-INL-review
+msgid "Restart"
+msgstr "Reinísia"
+
+#: plugins/actions/actions.c:221
+#. TET-0160; needs-INL-review
+msgid "_Restart"
+msgstr "_Reinísia"
+
+#: plugins/actions/actions.c:228
+#. TET-0161; needs-INL-review
+msgid "Shut Down"
+msgstr "Desliga"
+
+#: plugins/actions/actions.c:229
+#. TET-0161; needs-INL-review
+msgid "Shut _Down"
+msgstr "_Desliga"
+
+#: plugins/applicationsmenu/applicationsmenu-dialog.glade:23
+#: plugins/applicationsmenu/applicationsmenu.desktop.in.in:4
+#. TET-0338; needs-INL-review
+msgid "Applications Menu"
+msgstr "Menu aplikasaun"
+
+#: plugins/applicationsmenu/applicationsmenu-dialog.glade:101
+#: plugins/directorymenu/directorymenu-dialog.glade:122
+#. TET-0145; needs-INL-review
+msgid "_Icon:"
+msgstr "_Íkone:"
+
+#: plugins/applicationsmenu/applicationsmenu-dialog.glade:229
+#: plugins/clock/clock-dialog.glade:405
+#: plugins/directorymenu/directorymenu-dialog.glade:150
+#: plugins/separator/separator-dialog.glade:177
+#: plugins/tasklist/tasklist-dialog.glade:257
+#: plugins/windowmenu/windowmenu-dialog.glade:206
+#. TET-0142; needs-INL-review
+msgid "Appearance"
+msgstr "Aparénsia"
+
+#. I18N: default tooltip of the application menu
+#: plugins/applicationsmenu/applicationsmenu.c:38
+#. TET-0121; needs-INL-review
+msgid "Applications"
+msgstr "Aplikasaun sira"
+
+#: plugins/applicationsmenu/applicationsmenu.c:606
+#: plugins/directorymenu/directorymenu.c:466
+#. TET-0007; needs-INL-review
+msgid "_OK"
+msgstr "_Di'ak"
+
+#: plugins/applicationsmenu/xfce4-popup-applicationsmenu.sh:30
+#: plugins/directorymenu/xfce4-popup-directorymenu.sh:30
+#: plugins/windowmenu/xfce4-popup-windowmenu.sh:30
+#. TET-0060; needs-INL-review
+msgid "Options:"
+msgstr "Opsaun:"
+
+#: plugins/clock/clock-dialog.glade:89 plugins/clock/clock.desktop.in.in:4
+#. TET-0178; needs-INL-review
+msgid "Clock"
+msgstr "Relójiu"
+
+#: plugins/clock/clock-dialog.glade:294
+#. TET-0423; needs-INL-review
+msgid "Calendar"
+msgstr "Kalendáriu"
+
+#: plugins/clock/clock-dialog.glade:640 plugins/clock/clock-dialog.glade:762
+#. TET-0147; needs-INL-review
+msgid "Font:"
+msgstr "Fonte:"
+
+#: plugins/clock/clock-dialog.glade:653 plugins/clock/clock-dialog.glade:775
+#. TET-0371; needs-INL-review
+msgid "Format:"
+msgstr "Formatu:"
+
+#: plugins/clock/clock-dialog.glade:699
+#. TET-0421; needs-INL-review
+msgid "Date"
+msgstr "Data"
+
+#: plugins/clock/clock-dialog.glade:744
+#. TET-0422; needs-INL-review
+msgid "Time"
+msgstr "Oras"
+
+#: plugins/directorymenu/directorymenu.c:1083
+#. TET-0350; needs-INL-review
+msgid "Open in Terminal"
+msgstr "Loke iha terminál"
+
+#: plugins/directorymenu/directorymenu.c:1097
+#. TET-0383; needs-INL-review
+msgid "Create Folder..."
+msgstr "Kria pasta..."
+
+#: plugins/directorymenu/directorymenu-dialog.glade:272
+#. TET-0095; needs-INL-review
+msgid "Show _hidden files"
+msgstr "_Hatudu arkivu subar"
+
+#: plugins/launcher/launcher-dialog.glade:30
+#. TET-0063; needs-INL-review
+msgid "Default"
+msgstr "Padraun"
+
+#: plugins/launcher/launcher-dialog.glade:379
+#: plugins/launcher/launcher.desktop.in.in:4
+#. TET-0318; needs-INL-review
+msgid "Launcher"
+msgstr "Lansadór"
+
+#: plugins/launcher/launcher-dialog.glade:779
+#. TET-0061; needs-INL-review
+msgid "Advanced"
+msgstr "Avansadu"
+
+#: plugins/pager/pager-dialog.glade:48 plugins/pager/pager.desktop.in.in:4
+#. TET-0335; needs-INL-review
+msgid "Workspace Switcher"
+msgstr "Troka espasu traballu"
+
+#: plugins/separator/separator-dialog.glade:156
+#. TET-0416; needs-INL-review
+msgid "_Expand"
+msgstr "_Habelar"
+
+#: plugins/showdesktop/showdesktop.c:326
+#: plugins/showdesktop/showdesktop-dialog.glade:18
+#: plugins/showdesktop/showdesktop.desktop.in.in:4
+#. TET-0157; needs-INL-review
+msgid "Show Desktop"
+msgstr "Hatudu ambiente de traballu"
+
+#: plugins/systray/sn-dialog.c:416
+#. TET-0031; needs-INL-review
+msgid "Clear"
+msgstr "Hamoos"
+
+#: plugins/systray/sn-dialog.glade:213
+#. TET-0146; needs-INL-review
+msgid "Icons"
+msgstr "Íkone sira"
+
+#: plugins/tasklist/tasklist-dialog.glade:26
+#. TET-0341; needs-INL-review
+msgid "Close Window"
+msgstr "Taka janela"
+
+#: plugins/tasklist/tasklist-dialog.glade:61
+#: plugins/tasklist/tasklist.desktop.in.in:4
+#. TET-0337; needs-INL-review
+msgid "Window Buttons"
+msgstr "Butaun janela"
+
+#: plugins/windowmenu/windowmenu.c:729
+#. TET-0087; needs-INL-review
+msgid "Desktop"
+msgstr "Ambiente de traballu"
+
+#: plugins/windowmenu/windowmenu-dialog.glade:23
+#. TET-0145; needs-INL-review
+msgid "Icon"
+msgstr "Íkone"
+

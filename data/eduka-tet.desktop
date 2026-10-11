@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Tetun Language Resources
+Name[tet]=Rekursu Lian Tetun
+Comment=Offline glossary and Tetun locale guide (community draft)
+Comment[tet]=Glosáriu offline no matadalan locale Tetun (esbosu komunidade)
+Exec=eduka-tet resources
+Icon=eduka-tet
+Terminal=false
+Categories=Education;Utility;
+Keywords=Tetun;Tetum;tet;locale;Edukasaun;
+StartupNotify=false

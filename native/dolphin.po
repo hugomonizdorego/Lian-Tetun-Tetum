@@ -1,0 +1,627 @@
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Edukasaun OS contributors (original Tetun translations)
+# Partial draft; exact upstream IDs/contexts. Not endorsed by INL.
+# Original upstream notices and license: upstream/native-notices/dolphin.txt
+# translation of dolphin.po to British English
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Malcolm Hunter <malcolm.hunter@gmx.co.uk>, 2008, 2009.
+# Andrew Coles <andrew_coles@yahoo.co.uk>, 2009, 2010, 2011.
+# SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Steve Allewell <steve.allewell@gmail.com>
+msgid ""
+msgstr "Project-Id-Version: dolphin Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: admin/bar.cpp:55
+#, kde-format
+#. TET-0012; needs-INL-review
+msgctxt "@action:button Finish/Stop/Done acting as an admin"
+msgid "Finish"
+msgstr "Remata"
+
+#: dolphincontextmenu.cpp:124
+#, kde-format
+#. TET-0085; needs-INL-review
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "Hamoos lixu"
+
+#: dolphinmainwindow.cpp:1761
+#, kde-format
+#. TET-0026; needs-INL-review
+msgctxt "@action"
+msgid "Cut…"
+msgstr "Korta…"
+
+#: dolphinmainwindow.cpp:1770
+#, kde-format
+#. TET-0025; needs-INL-review
+msgctxt "@action"
+msgid "Copy…"
+msgstr "Kopia…"
+
+#: dolphinmainwindow.cpp:1781
+#, kde-format
+#. TET-0027; needs-INL-review
+msgctxt "@action:inmenu Edit"
+msgid "Paste"
+msgstr "Kola"
+
+#: dolphinmainwindow.cpp:1814
+#, kde-format
+#. TET-0274; needs-INL-review
+msgctxt "@action:inmenu Tools"
+msgid "Filter…"
+msgstr "Filtru…"
+
+#: dolphinmainwindow.cpp:1830
+#, kde-format
+#. TET-0274; needs-INL-review
+msgctxt "@action:intoolbar"
+msgid "Filter"
+msgstr "Filtru"
+
+#: dolphinmainwindow.cpp:1838 search/dolphinsearchbox.cpp:350
+#, kde-format
+#. TET-0032; needs-INL-review
+msgid "Search…"
+msgstr "Buka…"
+
+#: dolphinmainwindow.cpp:1853
+#, kde-format
+#. TET-0032; needs-INL-review
+msgctxt "@action:intoolbar"
+msgid "Search"
+msgstr "Buka"
+
+#: dolphinmainwindow.cpp:1957
+#, kde-format
+#. TET-0014; needs-INL-review
+msgctxt "@action:inmenu View"
+msgid "Stop"
+msgstr "Para"
+
+#: dolphinmainwindow.cpp:2090
+#, kde-format
+#. TET-0353; needs-INL-review
+msgctxt "@title:menu"
+msgid "&Bookmarks"
+msgstr "&Markadór sira"
+
+#: dolphinmainwindow.cpp:2174
+#, kde-format
+#. TET-0352; needs-INL-review
+msgctxt "@action:inmenu"
+msgid "Open in New Tab"
+msgstr "Loke iha separadór foun"
+
+#: dolphinmainwindow.cpp:2184
+#, kde-format
+#. TET-0351; needs-INL-review
+msgctxt "@action:inmenu"
+msgid "Open in New Window"
+msgstr "Loke iha janela foun"
+
+#: dolphinmainwindow.cpp:2219
+#, kde-format
+#. TET-0280; needs-INL-review
+msgctxt "@title:window"
+msgid "Information"
+msgstr "Informasaun"
+
+#: dolphinmainwindow.cpp:2266
+#, kde-format
+#. TET-0078; needs-INL-review
+msgctxt "@title:window"
+msgid "Folders"
+msgstr "Pasta sira"
+
+#: dolphinmainwindow.cpp:2301
+#, kde-format
+#. TET-0137; needs-INL-review
+msgctxt "@title:window Shell terminal"
+msgid "Terminal"
+msgstr "Terminál"
+
+#: dolphinmainwindow.cpp:2358
+#, kde-format
+#. TET-0342; needs-INL-review
+msgctxt "@title:window"
+msgid "Places"
+msgstr "Fatin sira"
+
+#: dolphinmainwindow.cpp:2685
+#, kde-format
+#. TET-0002; needs-INL-review
+msgctxt "@action:intoolbar Close left view"
+msgid "Close"
+msgstr "Taka"
+
+#: dolphinmainwindow.cpp:2691
+#, kde-format
+#. TET-0002; needs-INL-review
+msgctxt "@action:intoolbar Close right view"
+msgid "Close"
+msgstr "Taka"
+
+#: dolphinnavigatorswidgetaction.cpp:228
+#, kde-format
+#. TET-0085; needs-INL-review
+msgctxt "@action:button"
+msgid "Empty Trash"
+msgstr "Hamoos lixu"
+
+#: dolphinpart.cpp:178
+#, kde-format
+#. TET-0121; needs-INL-review
+msgctxt "@action:inmenu Go"
+msgid "App&lications"
+msgstr "&Aplikasaun sira"
+
+#: dolphinpart.cpp:180
+#, kde-format
+#. TET-0084; needs-INL-review
+msgctxt "@action:inmenu Go"
+msgid "Trash"
+msgstr "Lixu"
+
+#. i18n: ectx: Menu (edit)
+#: dolphinpart.rc:5
+#, kde-format
+#. TET-0024; needs-INL-review
+msgid "&Edit"
+msgstr "&Edita"
+
+#: dolphinviewcontainer.cpp:563
+#, kde-format
+#. TET-0032; needs-INL-review
+msgid "Search"
+msgstr "Buka"
+
+#: filterbar/filterbar.cpp:36
+#, kde-format
+#. TET-0274; needs-INL-review
+msgid "Filter…"
+msgstr "Filtru…"
+
+#: kitemviews/kfileitemmodel.cpp:2374
+#, kde-format
+#. TET-0078; needs-INL-review
+msgctxt "@title:group Size"
+msgid "Folders"
+msgstr "Pasta sira"
+
+#: kitemviews/kfileitemmodel.cpp:2757
+#. TET-0064; needs-INL-review
+msgctxt "@label"
+msgid "Name"
+msgstr "Naran"
+
+#: kitemviews/kfileitemmodel.cpp:2758
+#. TET-0098; needs-INL-review
+msgctxt "@label"
+msgid "Size"
+msgstr "Tamañu"
+
+#: kitemviews/kfileitemmodel.cpp:2759
+#. TET-0100; needs-INL-review
+msgctxt "@label"
+msgid "Modified"
+msgstr "Modifikadu"
+
+#: kitemviews/kfileitemmodel.cpp:2760
+#. TET-0101; needs-INL-review
+msgctxt "@label"
+msgid "Created"
+msgstr "Kriadu"
+
+#: kitemviews/kfileitemmodel.cpp:2762
+#. TET-0099; needs-INL-review
+msgctxt "@label"
+msgid "Type"
+msgstr "Tipu"
+
+#: kitemviews/kfileitemmodel.cpp:2767
+#. TET-0070; needs-INL-review
+msgctxt "@label"
+msgid "Author"
+msgstr "Autór"
+
+#: kitemviews/kfileitemmodel.cpp:2776
+#. TET-0402; needs-INL-review
+msgctxt "@label"
+msgid "Orientation"
+msgstr "Orientasaun"
+
+#: kitemviews/kfileitemmodel.cpp:2787
+#. TET-0097; needs-INL-review
+msgctxt "@label"
+msgid "Path"
+msgstr "Dalan"
+
+#: kitemviews/kfileitemmodel.cpp:2787 kitemviews/kfileitemmodel.cpp:2788
+#: kitemviews/kfileitemmodel.cpp:2789 kitemviews/kfileitemmodel.cpp:2790
+#: kitemviews/kfileitemmodel.cpp:2791 kitemviews/kfileitemmodel.cpp:2792
+#: kitemviews/kfileitemmodel.cpp:2793 kitemviews/kfileitemmodel.cpp:2794
+#. TET-0387; needs-INL-review
+msgctxt "@label"
+msgid "Other"
+msgstr "Seluk"
+
+#: kitemviews/kfileitemmodel.cpp:2792
+#. TET-0103; needs-INL-review
+msgctxt "@label"
+msgid "Permissions"
+msgstr "Permisaun sira"
+
+#: kitemviews/kfileitemmodel.cpp:2793
+#. TET-0102; needs-INL-review
+msgctxt "@label"
+msgid "Owner"
+msgstr "Na'in"
+
+#: main.cpp:99
+#, kde-format
+#. TET-0115; needs-INL-review
+msgctxt "@title"
+msgid "File Manager"
+msgstr "Jestór arkivu"
+
+#: main.cpp:128
+#, kde-format
+#. TET-0074; needs-INL-review
+msgctxt "@info:credit"
+msgid "Documentation"
+msgstr "Dokumentasaun"
+
+#: panels/folders/treeviewcontextmenu.cpp:50
+#, kde-format
+#. TET-0026; needs-INL-review
+msgctxt "@action:inmenu"
+msgid "Cut"
+msgstr "Korta"
+
+#: panels/folders/treeviewcontextmenu.cpp:54
+#, kde-format
+#. TET-0025; needs-INL-review
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "Kopia"
+
+#: panels/folders/treeviewcontextmenu.cpp:70
+#, kde-format
+#. TET-0081; needs-INL-review
+msgctxt "@action:inmenu"
+msgid "Rename…"
+msgstr "Troka naran…"
+
+#: panels/folders/treeviewcontextmenu.cpp:83
+#, kde-format
+#. TET-0083; needs-INL-review
+msgctxt "@action:inmenu"
+msgid "Move to Trash"
+msgstr "Muda ba lixu"
+
+#: panels/folders/treeviewcontextmenu.cpp:93
+#, kde-format
+#. TET-0023; needs-INL-review
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr "Apaga"
+
+#: panels/folders/treeviewcontextmenu.cpp:103
+#, kde-format
+#. TET-0095; needs-INL-review
+msgctxt "@action:inmenu"
+msgid "Show Hidden Files"
+msgstr "Hatudu arkivu subar"
+
+#: panels/folders/treeviewcontextmenu.cpp:132
+#, kde-format
+#. TET-0057; needs-INL-review
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "Propriedade"
+
+#: panels/information/informationpanel.cpp:153
+#, kde-format
+#. TET-0037; needs-INL-review
+msgctxt "@action:inmenu"
+msgid "Preview"
+msgstr "Pré-vizualizasaun"
+
+#: panels/information/phononwidget.cpp:159
+#, kde-format
+#. TET-0015; needs-INL-review
+msgid "pause"
+msgstr "Pauza"
+
+#. i18n: ectx: label, entry (Location), group (Search)
+#: search/dolphin_searchsettings.kcfg:10
+#, kde-format
+#. TET-0096; needs-INL-review
+msgid "Location"
+msgstr "Fatin"
+
+#: search/dolphinfacetswidget.cpp:30
+#, kde-format
+#. TET-0078; needs-INL-review
+msgctxt "@item:inlistbox"
+msgid "Folders"
+msgstr "Pasta sira"
+
+#: search/dolphinfacetswidget.cpp:31
+#, kde-format
+#. TET-0088; needs-INL-review
+msgctxt "@item:inlistbox"
+msgid "Documents"
+msgstr "Dokumentu sira"
+
+#: search/dolphinfacetswidget.cpp:34
+#, kde-format
+#. TET-0092; needs-INL-review
+msgctxt "@item:inlistbox"
+msgid "Videos"
+msgstr "Vídeu sira"
+
+#. i18n: Aborts the current step-by-step process to delete files by leaving the selection mode.
+#. i18n: Aborts the current step-by-step process of moving files to the trash by leaving the selection mode.
+#: selectionmode/bottombarcontentscontainer.cpp:276
+#: selectionmode/bottombarcontentscontainer.cpp:388
+#, kde-format
+#. TET-0005; needs-INL-review
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Kansela"
+
+#: settings/contextmenu/contextmenusettingspage.cpp:64
+#, kde-format
+#. TET-0032; needs-INL-review
+msgctxt "@label:textbox"
+msgid "Search…"
+msgstr "Buka…"
+
+#: settings/contextmenu/contextmenusettingspage.cpp:245
+#, kde-format
+#. TET-0023; needs-INL-review
+msgctxt "@option:check"
+msgid "Delete"
+msgstr "Apaga"
+
+#. i18n: ectx: label, entry (Version), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:19
+#, kde-format
+#. TET-0066; needs-INL-review
+msgctxt "@label"
+msgid "Version"
+msgstr "Versaun"
+
+#: settings/dolphinsettingsdialog.cpp:80
+#, kde-format
+#. TET-0084; needs-INL-review
+msgctxt "@title:group"
+msgid "Trash"
+msgstr "Lixu"
+
+#: settings/dolphinsettingsdialog.cpp:169
+#, kde-format
+#. TET-0278; needs-INL-review
+msgid "Warning"
+msgstr "Avizu"
+
+#: settings/interface/folderstabssettingspage.cpp:108
+#, kde-format
+#. TET-0153; needs-INL-review
+msgctxt "@label:checkbox"
+msgid "Window:"
+msgstr "Janela:"
+
+#: settings/interface/interfacesettingspage.cpp:53
+#, kde-format
+#. TET-0317; needs-INL-review
+msgctxt "@title:tab Panels settings"
+msgid "Panels"
+msgstr "Painél sira"
+
+#: settings/kcm/kcmdolphinviewmodes.cpp:39
+#: settings/viewmodes/viewsettingspage.cpp:43
+#, kde-format
+#. TET-0146; needs-INL-review
+msgctxt "@title:tab"
+msgid "Icons"
+msgstr "Íkone sira"
+
+#: settings/kcm/kcmdolphinviewmodes.cpp:49
+#: settings/viewmodes/viewsettingspage.cpp:53
+#, kde-format
+#. TET-0056; needs-INL-review
+msgctxt "@title:tab"
+msgid "Details"
+msgstr "Detalle"
+
+#: settings/viewmodes/dolphinfontrequester.cpp:32
+#, kde-format
+#. TET-0041; needs-INL-review
+msgctxt "@action:button Choose font"
+msgid "Choose…"
+msgstr "Hili…"
+
+#: settings/viewmodes/generalviewsettingspage.cpp:157
+#, kde-format
+#. TET-0400; needs-INL-review
+msgctxt "@title:group"
+msgid "Background: "
+msgstr "Fundu:"
+
+#: settings/viewmodes/viewsettingspage.cpp:31
+#, kde-format
+#. TET-0062; needs-INL-review
+msgctxt "@title:tab General View settings"
+msgid "General"
+msgstr "Jerál"
+
+#: settings/viewmodes/viewsettingstab.cpp:94
+#, kde-format
+#. TET-0078; needs-INL-review
+msgctxt "@label:checkbox"
+msgid "Folders:"
+msgstr "Pasta sira:"
+
+#: settings/viewpropertiesdialog.cpp:72
+#, kde-format
+#. TET-0146; needs-INL-review
+msgctxt "@item:inlistbox"
+msgid "Icons"
+msgstr "Íkone sira"
+
+#: settings/viewpropertiesdialog.cpp:74
+#, kde-format
+#. TET-0056; needs-INL-review
+msgctxt "@item:inlistbox"
+msgid "Details"
+msgstr "Detalle"
+
+#: settings/viewpropertiesdialog.cpp:77
+#, kde-format
+#. TET-0363; needs-INL-review
+msgctxt "@item:inlistbox Sort"
+msgid "Ascending"
+msgstr "Sa'e"
+
+#: settings/viewpropertiesdialog.cpp:78
+#, kde-format
+#. TET-0364; needs-INL-review
+msgctxt "@item:inlistbox Sort"
+msgid "Descending"
+msgstr "Tun"
+
+#: settings/viewpropertiesdialog.cpp:90
+#, kde-format
+#. TET-0095; needs-INL-review
+msgctxt "@option:check"
+msgid "Show hidden files"
+msgstr "Hatudu arkivu subar"
+
+#: settings/viewpropertiesdialog.cpp:169
+#, kde-format
+#. TET-0381; needs-INL-review
+msgctxt "@option:radio Apply View Properties To"
+msgid "All folders"
+msgstr "Pasta hotu"
+
+#: statusbar/dolphinstatusbar.cpp:85
+#, kde-format
+#. TET-0014; needs-INL-review
+msgid "Stop"
+msgstr "Para"
+
+#: userfeedback/placesdatasource.cpp:25
+#, kde-format
+#. TET-0342; needs-INL-review
+msgctxt "name of kuserfeedback data source provided by dolphin"
+msgid "Places"
+msgstr "Fatin sira"
+
+#: userfeedback/settingsdatasource.cpp:24
+#, kde-format
+#. TET-0059; needs-INL-review
+msgctxt "name of kuserfeedback data source provided by dolphin"
+msgid "Settings"
+msgstr "Konfigurasaun"
+
+#: views/dolphinremoteencoding.cpp:91
+#, kde-format
+#. TET-0063; needs-INL-review
+msgid "Default"
+msgstr "Padraun"
+
+#: views/dolphinremoteencoding.cpp:100
+#, kde-format
+#. TET-0432; needs-INL-review
+msgid "Reload"
+msgstr "Karga fali"
+
+#: views/dolphinviewactionhandler.cpp:81
+#, kde-format
+#. TET-0383; needs-INL-review
+msgctxt "@action"
+msgid "Create Folder…"
+msgstr "Kria pasta…"
+
+#: views/dolphinviewactionhandler.cpp:140
+#, kde-format
+#. TET-0057; needs-INL-review
+msgctxt "@action:inmenu File"
+msgid "Properties"
+msgstr "Propriedade"
+
+#: views/dolphinviewactionhandler.cpp:152
+#, kde-format
+#. TET-0348; needs-INL-review
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr "Kopia fatin"
+
+#: views/dolphinviewactionhandler.cpp:161
+#, kde-format
+#. TET-0083; needs-INL-review
+msgctxt "@action:inmenu File"
+msgid "Move to Trash…"
+msgstr "Muda ba lixu…"
+
+#: views/dolphinviewactionhandler.cpp:162
+#, kde-format
+#. TET-0023; needs-INL-review
+msgctxt "@action:inmenu File"
+msgid "Delete…"
+msgstr "Apaga…"
+
+#: views/dolphinviewactionhandler.cpp:164
+#, kde-format
+#. TET-0348; needs-INL-review
+msgctxt "@action:incontextmenu"
+msgid "Copy Location…"
+msgstr "Kopia fatin…"
+
+#: views/dolphinviewactionhandler.cpp:268
+#, kde-format
+#. TET-0362; needs-INL-review
+msgctxt "@action:inmenu View"
+msgid "Sort By"
+msgstr "Ordena tuir"
+
+#: views/dolphinviewactionhandler.cpp:320
+#, kde-format
+#. TET-0095; needs-INL-review
+msgctxt "@action:inmenu View"
+msgid "Show Hidden Files"
+msgstr "Hatudu arkivu subar"
+
+#: views/dolphinviewactionhandler.cpp:635
+#, kde-format
+#. TET-0146; needs-INL-review
+msgctxt "@action:inmenu View Mode"
+msgid "Icons"
+msgstr "Íkone sira"
+
+#: views/dolphinviewactionhandler.cpp:657
+#, kde-format
+#. TET-0056; needs-INL-review
+msgctxt "@action:inmenu View Mode"
+msgid "Details"
+msgstr "Detalle"
+
+#: views/dolphinviewactionhandler.cpp:693
+#, kde-format
+#. TET-0364; needs-INL-review
+msgctxt "Sort descending"
+msgid "Descending"
+msgstr "Tun"
+
+#: views/dolphinviewactionhandler.cpp:694
+#, kde-format
+#. TET-0363; needs-INL-review
+msgctxt "Sort ascending"
+msgid "Ascending"
+msgstr "Sa'e"
+

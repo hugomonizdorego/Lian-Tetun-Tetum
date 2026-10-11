@@ -1,0 +1,971 @@
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Edukasaun OS contributors (original Tetun translations)
+# Partial draft; exact upstream IDs/contexts. Not endorsed by INL.
+# Original upstream notices and license: upstream/native-notices/caja.txt
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the caja package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Martin Wimpress <code@flexion.org>, 2021
+# Steven Maddox <s.maddox@lantizia.me.uk>, 2021
+# Andi Chandler <andi@gowling.com>, 2023
+# 
+msgid ""
+msgstr "Project-Id-Version: caja Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: data/caja-computer.desktop.in.in:3 libcaja-private/caja-desktop-link.c:114
+#: src/caja-places-sidebar.c:512
+#. TET-0343; needs-INL-review
+msgid "Computer"
+msgstr "Komputadór"
+
+#: data/caja.desktop.in.in:4
+#. TET-0115; needs-INL-review
+msgid "File Manager"
+msgstr "Jestór arkivu"
+
+#: data/mate-network-scheme.desktop.in.in:3 src/caja-places-sidebar.c:854
+#. TET-0216; needs-INL-review
+msgid "Network"
+msgstr "Rede"
+
+#: eel/eel-editable-label.c:3091 libcaja-private/caja-clipboard.c:464
+#: src/file-manager/fm-directory-view.c:7452
+#: src/file-manager/fm-directory-view.c:7621
+#: src/file-manager/fm-tree-view.c:1311
+#. TET-0026; needs-INL-review
+msgid "Cu_t"
+msgstr "_Korta"
+
+#: eel/eel-editable-label.c:3093 libcaja-private/caja-clipboard.c:469
+#: src/file-manager/fm-directory-view.c:7456
+#: src/file-manager/fm-directory-view.c:7625
+#: src/file-manager/fm-tree-view.c:1320
+#. TET-0025; needs-INL-review
+msgid "_Copy"
+msgstr "_Kopia"
+
+#: eel/eel-editable-label.c:3095 libcaja-private/caja-clipboard.c:474
+#: src/file-manager/fm-directory-view.c:7460
+#. TET-0027; needs-INL-review
+msgid "_Paste"
+msgstr "_Kola"
+
+#: eel/eel-editable-label.c:3098
+#. TET-0030; needs-INL-review
+msgid "Select All"
+msgstr "Hili hotu"
+
+#: eel/eel-stock-dialogs.c:236 eel/eel-stock-dialogs.c:292
+#: eel/eel-stock-dialogs.c:448 eel/eel-stock-dialogs.c:649
+#: libcaja-private/caja-autorun.c:1154
+#: libcaja-private/caja-file-conflict-dialog.c:653
+#: libcaja-private/caja-file-operations.c:184
+#: libcaja-private/caja-mime-actions.c:826
+#: libcaja-private/caja-mime-actions.c:1743
+#: libcaja-private/caja-open-with-dialog.c:971
+#: src/caja-connect-server-dialog.c:1119 src/caja-emblem-sidebar.c:293
+#: src/caja-emblem-sidebar.c:552 src/caja-location-dialog.c:197
+#: src/caja-property-browser.c:1120 src/caja-property-browser.c:1200
+#: src/file-manager/fm-directory-view.c:1219
+#: src/file-manager/fm-directory-view.c:1370
+#: src/file-manager/fm-directory-view.c:7099
+#: src/file-manager/fm-directory-view.c:10495
+#. TET-0005; needs-INL-review
+msgid "_Cancel"
+msgstr "_Kansela"
+
+#: eel/eel-stock-dialogs.c:238 libcaja-private/caja-open-with-dialog.c:987
+#: src/caja-location-dialog.c:202 src/caja-places-sidebar.c:2735
+#: src/file-manager/fm-directory-view.c:7416
+#: src/file-manager/fm-directory-view.c:8980
+#: src/file-manager/fm-tree-view.c:1271
+#. TET-0001; needs-INL-review
+msgid "_Open"
+msgstr "_Loke"
+
+#: eel/eel-stock-dialogs.c:294 eel/eel-stock-dialogs.c:450
+#: eel/eel-stock-dialogs.c:654 libcaja-private/caja-autorun.c:1159
+#: libcaja-private/caja-mime-actions.c:1386 src/caja-emblem-sidebar.c:298
+#: src/caja-emblem-sidebar.c:557 src/caja-property-browser.c:1125
+#: src/caja-property-browser.c:1205 src/caja-query-editor.c:776
+#: src/file-manager/fm-directory-view.c:1224
+#. TET-0007; needs-INL-review
+msgid "_OK"
+msgstr "_Di'ak"
+
+#: eel/eel-stock-dialogs.c:656
+#. TET-0031; needs-INL-review
+msgid "_Clear"
+msgstr "_Hamoos"
+
+#: libcaja-private/caja-autorun.c:1168 src/caja-places-sidebar.c:2792
+#: src/file-manager/fm-directory-view.c:7545
+#: src/file-manager/fm-directory-view.c:7573
+#: src/file-manager/fm-directory-view.c:7654
+#: src/file-manager/fm-tree-view.c:1369
+#. TET-0110; needs-INL-review
+msgid "_Eject"
+msgstr "_Hasai dispozitivu"
+
+#: libcaja-private/caja-autorun.c:1183 src/caja-places-sidebar.c:2785
+#: src/file-manager/fm-directory-view.c:7541
+#: src/file-manager/fm-directory-view.c:7569
+#: src/file-manager/fm-directory-view.c:7650
+#: src/file-manager/fm-tree-view.c:1360
+#. TET-0109; needs-INL-review
+msgid "_Unmount"
+msgstr "_Desmonta"
+
+#: libcaja-private/caja-clipboard.c:479
+#: src/file-manager/fm-directory-view.c:7474
+#. TET-0030; needs-INL-review
+msgid "Select _All"
+msgstr "_Hili hotu"
+
+#: libcaja-private/caja-column-utilities.c:46
+#: libcaja-private/caja-mime-application-chooser.c:276
+#: src/file-manager/fm-list-view.c:1795
+#. TET-0064; needs-INL-review
+msgid "Name"
+msgstr "Naran"
+
+#: libcaja-private/caja-column-utilities.c:53 src/caja-query-editor.c:199
+#. TET-0098; needs-INL-review
+msgid "Size"
+msgstr "Tamañu"
+
+#: libcaja-private/caja-column-utilities.c:69
+#. TET-0099; needs-INL-review
+msgid "Type"
+msgstr "Tipu"
+
+#: libcaja-private/caja-column-utilities.c:76
+#: src/caja-image-properties-page.c:286
+#. TET-0365; needs-INL-review
+msgid "Date Modified"
+msgstr "Data modifikasaun"
+
+#: libcaja-private/caja-column-utilities.c:100
+#. TET-0102; needs-INL-review
+msgid "Owner"
+msgstr "Na'in"
+
+#: libcaja-private/caja-column-utilities.c:108
+#. TET-0244; needs-INL-review
+msgid "Group"
+msgstr "Grupu"
+
+#: libcaja-private/caja-column-utilities.c:116
+#: src/file-manager/fm-properties-window.c:4815
+#. TET-0103; needs-INL-review
+msgid "Permissions"
+msgstr "Permisaun sira"
+
+#: libcaja-private/caja-column-utilities.c:148
+#: src/caja-image-properties-page.c:367 src/caja-query-editor.c:171
+#. TET-0096; needs-INL-review
+msgid "Location"
+msgstr "Fatin"
+
+#: libcaja-private/caja-customization-data.c:435
+#: libcaja-private/caja-file-conflict-dialog.c:622
+#: libcaja-private/caja-mime-application-chooser.c:444
+#: src/caja-property-browser.c:2015
+#. TET-0019; needs-INL-review
+msgid "Reset"
+msgstr "Restaura"
+
+#: libcaja-private/caja-desktop-link.c:120 src/caja-places-sidebar.c:616
+#: src/caja-trash-bar.c:185 src/file-manager/fm-tree-view.c:1428
+#. TET-0084; needs-INL-review
+msgid "Trash"
+msgstr "Lixu"
+
+#: libcaja-private/caja-dnd.c:842 libcaja-private/caja-dnd.c:895
+#: libcaja-private/caja-progress-info.c:849
+#: libcaja-private/caja-progress-info.c:850
+#. TET-0005; needs-INL-review
+msgid "Cancel"
+msgstr "Kansela"
+
+#: libcaja-private/caja-file.c:1844
+#. TET-0118; needs-INL-review
+msgid "File not found"
+msgstr "Arkivu la hetan"
+
+#: libcaja-private/caja-file-conflict-dialog.c:277
+#: libcaja-private/caja-file-conflict-dialog.c:316
+#: src/file-manager/fm-properties-window.c:3320
+#. TET-0098; needs-INL-review
+msgid "Size:"
+msgstr "Tamañu:"
+
+#: libcaja-private/caja-file-conflict-dialog.c:282
+#: libcaja-private/caja-file-conflict-dialog.c:321
+#: src/caja-connect-server-dialog.c:927
+#: src/file-manager/fm-properties-window.c:3302
+#. TET-0099; needs-INL-review
+msgid "Type:"
+msgstr "Tipu:"
+
+#: libcaja-private/caja-file-conflict-dialog.c:663
+#. TET-0081; needs-INL-review
+msgid "Re_name"
+msgstr "_Troka naran"
+
+#: libcaja-private/caja-file-conflict-dialog.c:669
+#. TET-0035; needs-INL-review
+msgid "Replace"
+msgstr "Troka"
+
+#: libcaja-private/caja-file-operations.c:187
+#. TET-0017; needs-INL-review
+msgid "_Retry"
+msgstr "_Koko fali"
+
+#: libcaja-private/caja-file-operations.c:188 src/caja-emblem-sidebar.c:378
+#: src/file-manager/fm-directory-view.c:7506
+#: src/file-manager/fm-directory-view.c:7638
+#: src/file-manager/fm-directory-view.c:9141
+#: src/file-manager/fm-tree-view.c:1349
+#. TET-0023; needs-INL-review
+msgid "_Delete"
+msgstr "_Apaga"
+
+#: libcaja-private/caja-file-operations.c:190
+#. TET-0429; needs-INL-review
+msgid "Replace _All"
+msgstr "_Troka hotu"
+
+#: libcaja-private/caja-file-operations.c:1409
+#: libcaja-private/caja-file-operations.c:2346 src/caja-places-sidebar.c:2829
+#: src/caja-trash-bar.c:192
+#. TET-0085; needs-INL-review
+msgid "Empty _Trash"
+msgstr "_Hamoos lixu"
+
+#: libcaja-private/caja-file-operations.c:1493
+#. TET-0083; needs-INL-review
+msgid "Move to _Trash"
+msgstr "_Muda ba lixu"
+
+#. Translators: the initial name of a new empty file
+#: libcaja-private/caja-file-operations.c:6061
+#. TET-0079; needs-INL-review
+msgid "new file"
+msgstr "Arkivu foun"
+
+#: libcaja-private/caja-mime-actions.c:751
+#: src/file-manager/fm-directory-view.c:7502
+#: src/file-manager/fm-directory-view.c:7634
+#: src/file-manager/fm-directory-view.c:8775
+#: src/file-manager/fm-directory-view.c:9119
+#: src/file-manager/fm-tree-view.c:1340
+#. TET-0083; needs-INL-review
+msgid "Mo_ve to Trash"
+msgstr "_Muda ba lixu"
+
+#: libcaja-private/caja-mime-actions.c:822
+#. TET-0167; needs-INL-review
+msgid "_Display"
+msgstr "_Ekrán"
+
+#: libcaja-private/caja-mime-application-chooser.c:258
+#. TET-0063; needs-INL-review
+msgid "Default"
+msgstr "Padraun"
+
+#: libcaja-private/caja-mime-application-chooser.c:268
+#. TET-0145; needs-INL-review
+msgid "Icon"
+msgstr "Íkone"
+
+#: libcaja-private/caja-mime-application-chooser.c:422
+#: libcaja-private/caja-open-with-dialog.c:1144
+#. TET-0021; needs-INL-review
+msgid "_Add"
+msgstr "_Aumenta"
+
+#: libcaja-private/caja-mime-application-chooser.c:432
+#: libcaja-private/caja-open-with-dialog.c:962 src/caja-bookmarks-window.ui:79
+#. TET-0022; needs-INL-review
+msgid "_Remove"
+msgstr "_Hasai"
+
+#: libcaja-private/caja-open-with-dialog.c:867
+#: src/file-manager/fm-properties-window.c:5149
+#. TET-0116; needs-INL-review
+msgid "Open With"
+msgstr "Loke ho"
+
+#: libcaja-private/caja-open-with-dialog.c:948
+#. TET-0040; needs-INL-review
+msgid "_Browse..."
+msgstr "_Buka arkivu..."
+
+#: libcaja-private/caja-program-choosing.c:545
+#. TET-0056; needs-INL-review
+msgid "Details: "
+msgstr "Detalle:"
+
+#: libcaja-private/caja-progress-info.c:246
+#. TET-0347; needs-INL-review
+msgid "File Operations"
+msgstr "Operasaun arkivu"
+
+#: libcaja-private/caja-progress-info.c:415
+#: libcaja-private/caja-progress-info.c:416
+#. TET-0015; needs-INL-review
+msgid "Pause"
+msgstr "Pauza"
+
+#: libcaja-private/caja-progress-info.c:421
+#: libcaja-private/caja-progress-info.c:422
+#. TET-0016; needs-INL-review
+msgid "Resume"
+msgstr "Kontinua fali"
+
+#: libcaja-private/caja-query.c:164
+#: libcaja-private/caja-search-directory-file.c:178
+#: libcaja-private/caja-search-directory-file.c:208
+#: libcaja-private/caja-search-directory-file.c:241
+#. TET-0032; needs-INL-review
+msgid "Search"
+msgstr "Buka"
+
+#: libcaja-private/org.mate.caja.gschema.xml:243
+#. TET-0301; needs-INL-review
+msgid "Date Format"
+msgstr "Formatu data"
+
+#: mate-submodules/libegg/eggsmclient.c:239
+#. TET-0075; needs-INL-review
+msgid "FILE"
+msgstr "Arkivu"
+
+#: src/caja-bookmarks-sidebar.c:485 src/caja-places-sidebar.c:325
+#. TET-0353; needs-INL-review
+msgid "Bookmarks"
+msgstr "Markadór sira"
+
+#: src/caja-bookmarks-window.ui:47 src/caja-connect-server-dialog.c:1114
+#: src/caja-emblem-sidebar.c:303 src/caja-emblem-sidebar.c:562
+#: src/caja-file-management-properties.ui:309 src/caja-location-dialog.c:192
+#: src/caja-property-browser.c:389 src/caja-window-menus.c:855
+#: src/file-manager/fm-directory-view.c:1214
+#: src/file-manager/fm-properties-window.c:5259
+#. TET-0054; needs-INL-review
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: src/caja-bookmarks-window.ui:95 src/caja-file-management-properties.ui:325
+#: src/caja-property-browser.c:397 src/caja-window-menus.c:858
+#: src/file-manager/fm-list-view.c:2560
+#: src/file-manager/fm-properties-window.c:5264
+#. TET-0002; needs-INL-review
+msgid "_Close"
+msgstr "_Taka"
+
+#: src/caja-bookmarks-window.ui:134 src/caja-navigation-window-menus.c:830
+#. TET-0353; needs-INL-review
+msgid "_Bookmarks"
+msgstr "_Markadór sira"
+
+#: src/caja-bookmarks-window.ui:196
+#. TET-0064; needs-INL-review
+msgid "_Name"
+msgstr "_Naran"
+
+#: src/caja-bookmarks-window.ui:241
+#. TET-0096; needs-INL-review
+msgid "_Location"
+msgstr "_Fatin"
+
+#: src/caja-connect-server-dialog.c:438
+#. TET-0013; needs-INL-review
+msgid "Continue"
+msgstr "Kontinua"
+
+#: src/caja-connect-server-dialog.c:735 src/caja-connect-server-dialog.c:1124
+#. TET-0218; needs-INL-review
+msgid "C_onnect"
+msgstr "_Liga"
+
+#: src/caja-connect-server-dialog.c:891
+#. TET-0227; needs-INL-review
+msgid "_Server:"
+msgstr "_Servidór:"
+
+#: src/caja-connect-server-dialog.c:909
+#. TET-0228; needs-INL-review
+msgid "_Port:"
+msgstr "_Porta:"
+
+#: src/caja-connect-server-dialog.c:1000
+#. TET-0230; needs-INL-review
+msgid "Share:"
+msgstr "Partilla:"
+
+#: src/caja-connect-server-dialog.c:1012
+#. TET-0077; needs-INL-review
+msgid "Folder:"
+msgstr "Pasta:"
+
+#: src/caja-connect-server-dialog.c:1069
+#. TET-0260; needs-INL-review
+msgid "Password:"
+msgstr "Seña:"
+
+#: src/caja-connect-server-dialog.c:1093
+#. TET-0355; needs-INL-review
+msgid "Add _bookmark"
+msgstr "_Aumenta markadór"
+
+#: src/caja-desktop-window.c:128 src/caja-desktop-window.c:209
+#: src/caja-pathbar.c:1453 src/caja-places-sidebar.c:541
+#. TET-0087; needs-INL-review
+msgid "Desktop"
+msgstr "Ambiente de traballu"
+
+#: src/caja-emblem-sidebar.c:368
+#. TET-0081; needs-INL-review
+msgid "Rename"
+msgstr "Troka naran"
+
+#. Translators: this is referred to captions under icons.
+#. Translators: this is referred to the permissions
+#. * the user has in a directory.
+#: src/caja-file-management-properties.c:319
+#: src/file-manager/fm-properties-window.c:4266
+#: src/file-manager/fm-properties-window.c:4277
+#. TET-0388; needs-INL-review
+msgid "None"
+msgstr "La iha"
+
+#. Translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/caja-file-management-properties.ui:44
+#: src/caja-file-management-properties.ui:642
+#: src/file-manager/fm-icon-container.c:620
+#: src/file-manager/fm-icon-view.c:3512
+#. TET-0358; needs-INL-review
+msgid "Icon View"
+msgstr "Vizaun íkone"
+
+#. Translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/caja-file-management-properties.ui:47
+#: src/caja-file-management-properties.ui:809
+#: src/file-manager/fm-list-view.c:1854 src/file-manager/fm-list-view.c:3493
+#. TET-0359; needs-INL-review
+msgid "List View"
+msgstr "Vizaun lista"
+
+#. Translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/caja-file-management-properties.ui:50
+#: src/caja-file-management-properties.ui:725
+#: src/file-manager/fm-icon-view.c:3527
+#. TET-0357; needs-INL-review
+msgid "Compact View"
+msgstr "Vizaun kompaktu"
+
+#: src/caja-file-management-properties.ui:61
+#: src/caja-file-management-properties.ui:206
+#: src/caja-file-management-properties.ui:223
+#: src/caja-file-management-properties.ui:278
+#. TET-0414; needs-INL-review
+msgid "Always"
+msgstr "Sempre"
+
+#: src/caja-file-management-properties.ui:67
+#: src/caja-file-management-properties.ui:212
+#: src/caja-file-management-properties.ui:229
+#: src/caja-file-management-properties.ui:284
+#. TET-0415; needs-INL-review
+msgid "Never"
+msgstr "Nunka"
+
+#: src/caja-file-management-properties.ui:440
+#. TET-0360; needs-INL-review
+msgid "_Arrange items:"
+msgstr "_Organiza item sira:"
+
+#: src/caja-file-management-properties.ui:494
+#. TET-0095; needs-INL-review
+msgid "Show hidden files"
+msgstr "Hatudu arkivu subar"
+
+#: src/caja-file-management-properties.ui:1372
+#. TET-0371; needs-INL-review
+msgid "_Format:"
+msgstr "_Formatu:"
+
+#: src/caja-file-management-properties.ui:1460
+#. TET-0167; needs-INL-review
+msgid "Display"
+msgstr "Ekrán"
+
+#: src/caja-file-management-properties.ui:1952
+#. TET-0037; needs-INL-review
+msgid "Preview"
+msgstr "Pré-vizualizasaun"
+
+#: src/caja-file-management-properties.ui:2235
+#. TET-0099; needs-INL-review
+msgid "_Type:"
+msgstr "_Tipu:"
+
+#: src/caja-history-sidebar.c:334
+#. TET-0205; needs-INL-review
+msgid "History"
+msgstr "Istória"
+
+#: src/caja-image-properties-page.c:368 src/file-manager/fm-ditem-page.c:446
+#: src/file-manager/fm-ditem-page.c:458
+#. TET-0065; needs-INL-review
+msgid "Description"
+msgstr "Deskrisaun"
+
+#: src/caja-image-properties-page.c:371
+#. TET-0072; needs-INL-review
+msgid "Copyright"
+msgstr "Direitu autór"
+
+#: src/caja-information-panel.c:164
+#. TET-0280; needs-INL-review
+msgid "Information"
+msgstr "Informasaun"
+
+#: src/caja-location-bar.c:60 src/file-manager/fm-properties-window.c:3333
+#. TET-0096; needs-INL-review
+msgid "Location:"
+msgstr "Fatin:"
+
+#: src/caja-location-dialog.c:160
+#. TET-0349; needs-INL-review
+msgid "Open Location"
+msgstr "Loke fatin"
+
+#: src/caja-location-dialog.c:170
+#. TET-0096; needs-INL-review
+msgid "_Location:"
+msgstr "_Fatin:"
+
+#: src/caja-navigation-window-menus.c:852
+#. TET-0096; needs-INL-review
+msgid "_Location..."
+msgstr "_Fatin..."
+
+#: src/caja-navigation-window-menus.c:856
+#. TET-0206; needs-INL-review
+msgid "Clea_r History"
+msgstr "_Hamoos istória"
+
+#: src/caja-navigation-window-menus.c:868 src/caja-spatial-window.c:942
+#. TET-0355; needs-INL-review
+msgid "_Add Bookmark"
+msgstr "_Aumenta markadór"
+
+#: src/caja-navigation-window-menus.c:968
+#. TET-0010; needs-INL-review
+msgid "_Back"
+msgstr "_Fila fali"
+
+#: src/caja-navigation-window-menus.c:1052
+#. TET-0032; needs-INL-review
+msgid "_Search"
+msgstr "_Buka"
+
+#: src/caja-places-sidebar.c:557 src/file-manager/fm-tree-view.c:1425
+#. TET-0344; needs-INL-review
+msgid "File System"
+msgstr "Sistema arkivu"
+
+#: src/caja-places-sidebar.c:1824 src/caja-places-sidebar.c:2813
+#: src/file-manager/fm-directory-view.c:7553
+#: src/file-manager/fm-directory-view.c:7581
+#: src/file-manager/fm-directory-view.c:7662
+#: src/file-manager/fm-directory-view.c:8365
+#: src/file-manager/fm-directory-view.c:8369
+#: src/file-manager/fm-directory-view.c:8459
+#: src/file-manager/fm-directory-view.c:8463
+#: src/file-manager/fm-directory-view.c:8571
+#: src/file-manager/fm-directory-view.c:8575
+#. TET-0052; needs-INL-review
+msgid "_Start"
+msgstr "_Hahú"
+
+#: src/caja-places-sidebar.c:1825 src/caja-places-sidebar.c:2820
+#: src/caja-window-menus.c:883 src/file-manager/fm-directory-view.c:7557
+#: src/file-manager/fm-directory-view.c:7585
+#: src/file-manager/fm-directory-view.c:7666
+#: src/file-manager/fm-directory-view.c:8394
+#: src/file-manager/fm-directory-view.c:8488
+#: src/file-manager/fm-directory-view.c:8600
+#. TET-0014; needs-INL-review
+msgid "_Stop"
+msgstr "_Para"
+
+#: src/caja-places-sidebar.c:2742 src/file-manager/fm-directory-view.c:7428
+#: src/file-manager/fm-directory-view.c:7611
+#: src/file-manager/fm-directory-view.c:8714
+#: src/file-manager/fm-directory-view.c:9061
+#: src/file-manager/fm-tree-view.c:1280
+#. TET-0352; needs-INL-review
+msgid "Open in New _Tab"
+msgstr "_Loke iha separadór foun"
+
+#: src/caja-places-sidebar.c:2749 src/file-manager/fm-directory-view.c:8689
+#: src/file-manager/fm-directory-view.c:9020
+#: src/file-manager/fm-tree-view.c:1289
+#. TET-0351; needs-INL-review
+msgid "Open in New _Window"
+msgstr "_Loke iha janela foun"
+
+#: src/caja-places-sidebar.c:2757
+#. TET-0022; needs-INL-review
+msgid "Remove"
+msgstr "Hasai"
+
+#: src/caja-places-sidebar.c:2766
+#. TET-0081; needs-INL-review
+msgid "Rename..."
+msgstr "Troka naran..."
+
+#: src/caja-places-sidebar.c:2778 src/file-manager/fm-directory-view.c:7537
+#: src/file-manager/fm-directory-view.c:7565
+#: src/file-manager/fm-directory-view.c:7646
+#. TET-0108; needs-INL-review
+msgid "_Mount"
+msgstr "_Monta"
+
+#: src/caja-places-sidebar.c:2806 src/file-manager/fm-directory-view.c:7549
+#: src/file-manager/fm-directory-view.c:7577
+#: src/file-manager/fm-directory-view.c:7658
+#. TET-0371; needs-INL-review
+msgid "_Format"
+msgstr "_Formatu"
+
+#: src/caja-places-sidebar.c:3452
+#. TET-0342; needs-INL-review
+msgid "Places"
+msgstr "Fatin sira"
+
+#: src/caja-property-browser.c:409
+#. TET-0022; needs-INL-review
+msgid "_Remove..."
+msgstr "_Hasai..."
+
+#: src/caja-query-editor.c:555
+#. TET-0088; needs-INL-review
+msgid "Documents"
+msgstr "Dokumentu sira"
+
+#: src/caja-query-editor.c:575
+#. TET-0091; needs-INL-review
+msgid "Music"
+msgstr "Múzika"
+
+#: src/caja-query-editor.c:1556
+#. TET-0024; needs-INL-review
+msgid "Edit"
+msgstr "Edita"
+
+#: src/caja-query-editor.c:1606
+#. TET-0432; needs-INL-review
+msgid "Reload"
+msgstr "Karga fali"
+
+#: src/caja-search-bar.c:174
+#. TET-0032; needs-INL-review
+msgid "Search:"
+msgstr "Buka:"
+
+#: src/caja-spatial-window.c:924
+#. TET-0342; needs-INL-review
+msgid "_Places"
+msgstr "_Fatin sira"
+
+#: src/caja-spatial-window.c:928
+#. TET-0349; needs-INL-review
+msgid "Open _Location..."
+msgstr "_Loke fatin..."
+
+#: src/caja-window-menus.c:589
+#. TET-0073; needs-INL-review
+msgid "Website"
+msgstr "Sítio web"
+
+#: src/caja-window-menus.c:849
+#. TET-0075; needs-INL-review
+msgid "_File"
+msgstr "_Arkivu"
+
+#: src/caja-window-menus.c:851
+#. TET-0024; needs-INL-review
+msgid "_Edit"
+msgstr "_Edita"
+
+#: src/caja-window-menus.c:870
+#. TET-0058; needs-INL-review
+msgid "Prefere_nces"
+msgstr "_Preferénsia"
+
+#: src/caja-window-menus.c:888
+#. TET-0432; needs-INL-review
+msgid "_Reload"
+msgstr "_Karga fali"
+
+#: src/caja-window-menus.c:898
+#. TET-0055; needs-INL-review
+msgid "_About"
+msgstr "_Kona-ba"
+
+#: src/caja-window-menus.c:943
+#. TET-0343; needs-INL-review
+msgid "_Computer"
+msgstr "_Komputadór"
+
+#: src/caja-window-menus.c:948
+#. TET-0216; needs-INL-review
+msgid "_Network"
+msgstr "_Rede"
+
+#: src/caja-window-menus.c:958
+#. TET-0084; needs-INL-review
+msgid "_Trash"
+msgstr "_Lixu"
+
+#: src/caja-window-menus.c:967
+#. TET-0095; needs-INL-review
+msgid "Show _Hidden Files"
+msgstr "_Hatudu arkivu subar"
+
+#: src/caja-window-menus.c:1012
+#. TET-0086; needs-INL-review
+msgid "_Home"
+msgstr "_Pasta pesoál"
+
+#: src/file-manager/fm-desktop-icon-view.c:666
+#. TET-0400; needs-INL-review
+msgid "Background"
+msgstr "Fundu"
+
+#: src/file-manager/fm-desktop-icon-view.c:749
+#: src/file-manager/fm-directory-view.c:7448
+#: src/file-manager/fm-directory-view.c:9191
+#. TET-0085; needs-INL-review
+msgid "E_mpty Trash"
+msgstr "_Hamoos lixu"
+
+#: src/file-manager/fm-desktop-icon-view.c:783
+#. TET-0085; needs-INL-review
+msgid "Empty Trash"
+msgstr "Hamoos lixu"
+
+#: src/file-manager/fm-desktop-icon-view.c:889
+#: src/file-manager/fm-directory-view.c:7694
+#: src/file-manager/fm-directory-view.c:7698
+#. TET-0087; needs-INL-review
+msgid "_Desktop"
+msgstr "_Ambiente de traballu"
+
+#: src/file-manager/fm-directory-view.c:1374
+#. TET-0003; needs-INL-review
+msgid "_Save"
+msgstr "_Rai"
+
+#: src/file-manager/fm-directory-view.c:1409
+#. TET-0077; needs-INL-review
+msgid "_Folder:"
+msgstr "_Pasta:"
+
+#: src/file-manager/fm-directory-view.c:7104
+#: src/file-manager/fm-directory-view.c:8373
+#: src/file-manager/fm-directory-view.c:8467
+#: src/file-manager/fm-directory-view.c:8579
+#. TET-0218; needs-INL-review
+msgid "_Connect"
+msgstr "_Liga"
+
+#: src/file-manager/fm-directory-view.c:7389
+#. TET-0384; needs-INL-review
+msgid "Create _Document"
+msgstr "_Kria dokumentu"
+
+#: src/file-manager/fm-directory-view.c:7391
+#. TET-0116; needs-INL-review
+msgid "Open Wit_h"
+msgstr "_Loke ho"
+
+#: src/file-manager/fm-directory-view.c:7394
+#: src/file-manager/fm-directory-view.c:7675
+#: src/file-manager/fm-tree-view.c:1382
+#. TET-0057; needs-INL-review
+msgid "_Properties"
+msgstr "_Propriedade"
+
+#: src/file-manager/fm-directory-view.c:7402
+#: src/file-manager/fm-tree-view.c:1300
+#. TET-0383; needs-INL-review
+msgid "Create _Folder"
+msgstr "_Kria pasta"
+
+#: src/file-manager/fm-directory-view.c:7486
+#. TET-0431; needs-INL-review
+msgid "D_uplicate"
+msgstr "_Halo kópia"
+
+#: src/file-manager/fm-directory-view.c:7494
+#. TET-0081; needs-INL-review
+msgid "_Rename..."
+msgstr "_Troka naran..."
+
+#: src/file-manager/fm-directory-view.c:7514
+#. TET-0028; needs-INL-review
+msgid "_Undo"
+msgstr "_Dezfaz"
+
+#: src/file-manager/fm-directory-view.c:7518
+#. TET-0029; needs-INL-review
+msgid "_Redo"
+msgstr "_Refaz"
+
+#: src/file-manager/fm-directory-view.c:8402
+#: src/file-manager/fm-directory-view.c:8496
+#: src/file-manager/fm-directory-view.c:8608
+#. TET-0219; needs-INL-review
+msgid "_Disconnect"
+msgstr "_Desliga ligasaun"
+
+#: src/file-manager/fm-directory-view.c:10499
+#. TET-0045; needs-INL-review
+msgid "_Download"
+msgstr "_Deskarga"
+
+#: src/file-manager/fm-directory-view.c:11364
+#. TET-0028; needs-INL-review
+msgid "Undo"
+msgstr "Dezfaz"
+
+#: src/file-manager/fm-directory-view.c:11384
+#. TET-0029; needs-INL-review
+msgid "Redo"
+msgstr "Refaz"
+
+#: src/file-manager/fm-icon-view.c:1783
+#. TET-0360; needs-INL-review
+msgid "Arran_ge Items"
+msgstr "_Organiza item sira"
+
+#. Translators: this is used in the view menu
+#: src/file-manager/fm-icon-view.c:3514
+#. TET-0146; needs-INL-review
+msgid "_Icons"
+msgstr "_Íkone sira"
+
+#: src/file-manager/fm-properties-window.c:1001
+#. TET-0057; needs-INL-review
+msgid "Properties"
+msgstr "Propriedade"
+
+#: src/file-manager/fm-properties-window.c:3339
+#. TET-0170; needs-INL-review
+msgid "Volume:"
+msgstr "Volume:"
+
+#: src/file-manager/fm-properties-window.c:3361
+#. TET-0100; needs-INL-review
+msgid "Modified:"
+msgstr "Modifikadu:"
+
+#: src/file-manager/fm-properties-window.c:3365
+#. TET-0101; needs-INL-review
+msgid "Created:"
+msgstr "Kriadu:"
+
+#: src/file-manager/fm-properties-window.c:3374
+#. TET-0113; needs-INL-review
+msgid "Free space:"
+msgstr "Espasu livre:"
+
+#: src/file-manager/fm-properties-window.c:3902
+#. TET-0104; needs-INL-review
+msgid "_Read"
+msgstr "_Lee"
+
+#: src/file-manager/fm-properties-window.c:3904
+#. TET-0105; needs-INL-review
+msgid "_Write"
+msgstr "_Hakerek"
+
+#: src/file-manager/fm-properties-window.c:3906
+#. TET-0106; needs-INL-review
+msgid "E_xecute"
+msgstr "_Ezekuta"
+
+#. Translators: this gets concatenated to "no read",
+#. * "no access", etc. (see following strings)
+#: src/file-manager/fm-properties-window.c:4174
+#: src/file-manager/fm-properties-window.c:4185
+#: src/file-manager/fm-properties-window.c:4197
+#. TET-0009; needs-INL-review
+msgid "no "
+msgstr "Lae"
+
+#: src/file-manager/fm-properties-window.c:4179
+#. TET-0104; needs-INL-review
+msgid "read"
+msgstr "Lee"
+
+#: src/file-manager/fm-properties-window.c:4190
+#. TET-0105; needs-INL-review
+msgid "write"
+msgstr "Hakerek"
+
+#: src/file-manager/fm-properties-window.c:4199
+#. TET-0367; needs-INL-review
+msgid "access"
+msgstr "Asesu"
+
+#: src/file-manager/fm-properties-window.c:4247
+#. TET-0367; needs-INL-review
+msgid "Access:"
+msgstr "Asesu:"
+
+#: src/file-manager/fm-properties-window.c:4426
+#: src/file-manager/fm-properties-window.c:4618
+#. TET-0102; needs-INL-review
+msgid "_Owner:"
+msgstr "_Na'in:"
+
+#: src/file-manager/fm-properties-window.c:4434
+#: src/file-manager/fm-properties-window.c:4524
+#: src/file-manager/fm-properties-window.c:4627
+#. TET-0102; needs-INL-review
+msgid "Owner:"
+msgstr "Na'in:"
+
+#: src/file-manager/fm-properties-window.c:4458
+#: src/file-manager/fm-properties-window.c:4642
+#. TET-0244; needs-INL-review
+msgid "_Group:"
+msgstr "_Grupu:"
+
+#: src/file-manager/fm-properties-window.c:4466
+#: src/file-manager/fm-properties-window.c:4525
+#: src/file-manager/fm-properties-window.c:4650
+#. TET-0244; needs-INL-review
+msgid "Group:"
+msgstr "Grupu:"
+
+#: src/file-manager/fm-properties-window.c:4505
+#. TET-0106; needs-INL-review
+msgid "Execute:"
+msgstr "Ezekuta:"
+

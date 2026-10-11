@@ -1,0 +1,32 @@
+{
+  "project": "Edukasaun OS Tetun Language Pack",
+  "version": "0.2.0",
+  "language_code": "tet",
+  "bcp47": "tet-TL",
+  "locale": "tet_TL.UTF-8",
+  "variety_note": "The requested package identifier is tet (Tetum); written drafts target INL-oriented Tetun-Prasa. IANA separately registers tdt (Tetun Dili). Codes are not aliases; final variety-specific identification requires linguistic review before upstream submission.",
+  "encoding": "UTF-8",
+  "normalization": "NFC",
+  "orthography_target": "INL",
+  "status": "community-draft",
+  "inl_approved": false,
+  "iso_certified": false,
+  "debian_official": false,
+  "term_count": 432,
+  "license": "GPL-3.0-or-later (code); per-file GNU licenses for terminology and native catalogs",
+  "plural_policy": "nplurals=1; plural=0; (draft invariant-count UI wording)",
+  "regional_choices": {
+    "date": "DD/MM/YYYY",
+    "time": "24-hour",
+    "first_weekday": "Monday",
+    "decimal_point": ".",
+    "thousands_separator": ",",
+    "currency": "USD",
+    "paper": "A4",
+    "measurement": "metric"
+  },
+  "regional_choices_status": "Project defaults; not asserted to be official INL, ISO or CLDR recommendations.",
+  "desktop_scope": "Shared locale plus partial native application catalogs; target desktop validation pending",
+  "native_catalog_count": 13,
+  "native_message_count": 1553
+}

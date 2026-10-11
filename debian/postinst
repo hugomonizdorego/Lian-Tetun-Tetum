@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+case "$1" in
+ configure|triggered)
+  eduka-tet compile-locale
+ ;;
+esac
+# Installation compiles the locale; the user chooses whether to enable it.
+exit 0

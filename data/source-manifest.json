@@ -1,0 +1,53 @@
+[
+  {
+    "id": "dictionary-1",
+    "user_filename": "DIT Tetun-English Wordfinder.pdf",
+    "title": "Word-Finder English-Tetun / Tetun-Ingles",
+    "author": "Catharina Williams-van Klinken",
+    "edition": "2nd edition, 2015",
+    "isbn": "978-989-8615-02-2",
+    "publisher": "Dili Institute of Technology",
+    "pdf_page_of_rights": 2,
+    "sha256": "4784ac407fafcc6100a196ada5076a6e5759983f8450fdcb03ec6a0160394446",
+    "reference_url": "http://www.tetundit.tl/Publications/DIT%20Tetun-English%20Wordfinder.pdf",
+    "access_date": "2026-10-03",
+    "rights_summary": "Copying requires prior permission of DIT.",
+    "reuse_status": "reference-only-permission-required",
+    "bundled": false,
+    "inspection": "DIT introduction, spelling notes and searchable text inspected; Hull scanned title/rights/front matter inspected by OCR and visual check, not every dictionary entry."
+  },
+  {
+    "id": "dictionary-2",
+    "user_filename": "standard-tetum-english-dictionary-1865085995_compress.pdf",
+    "title": "Standard Tetum-English Dictionary",
+    "author": "Geoffrey Hull",
+    "edition": "3rd edition, 2002; first published 1999",
+    "isbn": "1-86508-599-5",
+    "publisher": "Sebastião Aparício da Silva Project; in association with INL",
+    "pdf_page_of_rights": 4,
+    "sha256": "eecce63b0233420e6200de3cfda79d1e72dbe024cffc1542be1893c8fa877525",
+    "reference_url": "User-supplied PDF",
+    "access_date": "2026-10-03",
+    "rights_summary": "Reproduction requires prior written publisher permission.",
+    "reuse_status": "reference-only-permission-required",
+    "bundled": false,
+    "inspection": "DIT introduction, spelling notes and searchable text inspected; Hull scanned title/rights/front matter inspected by OCR and visual check, not every dictionary entry."
+  },
+  {
+    "id": "dictionary-3",
+    "user_filename": "standard-english-tetum-dictionary-pdf_compress.pdf",
+    "title": "Concise English-Tetum Dictionary / Disionáriu Inglés-Tetun",
+    "author": "Geoffrey Hull",
+    "edition": "2006",
+    "isbn": "978-1-74138-223-5",
+    "publisher": "Sebastião Aparício da Silva Publications",
+    "pdf_page_of_rights": 2,
+    "sha256": "25a120015f18725c61691e26428b275e55422201327a8a230847c11ebdb408f3",
+    "reference_url": "User-supplied PDF",
+    "access_date": "2026-10-03",
+    "rights_summary": "Wholesale integration, alteration or reproduction requires prior written permission of the author/copyright holder.",
+    "reuse_status": "reference-only-permission-required",
+    "bundled": false,
+    "inspection": "DIT introduction, spelling notes and searchable text inspected; Hull scanned title/rights/front matter inspected by OCR and visual check, not every dictionary entry."
+  }
+]

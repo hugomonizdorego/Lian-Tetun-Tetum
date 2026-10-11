@@ -1,0 +1,19 @@
+Source: eduka-language-pack-tet
+Section: localization
+Maintainer: Hugo Moniz do Rego <ideaofficial@fdsl.tl>
+Build-Depends: dpkg-dev, python3 (>= 3.9), gettext, locales
+Standards-Version: 4.7.4
+Rules-Requires-Root: no
+Homepage: https://www.edukasaunos.tl
+
+Package: eduka-language-pack-tet
+Architecture: all
+Priority: optional
+Depends: python3 (>= 3.9), locales, libc-bin
+Recommends: xdg-utils
+Suggests: accountsservice, dbus
+Description: Tetun locale and community language resources for Edukasaun OS
+ Provides a target-compiled tet_TL.UTF-8 locale, original draft gettext and
+ Qt catalogs, partial native desktop catalogs and reversible user tools.
+ Orthography targets INL conventions but has not been approved by INL.
+ Supports desktop-independent locale use; full UI coverage is not provided.

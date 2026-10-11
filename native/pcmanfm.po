@@ -1,0 +1,273 @@
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Edukasaun OS contributors (original Tetun translations)
+# Partial draft; exact upstream IDs/contexts. Not endorsed by INL.
+# Original upstream notices and license: upstream/native-notices/pcmanfm.txt
+# English (British) translation for PCManFM.
+# Copyright (C) LXDE translation team.
+# This file is distributed under the same license as the pcmanfm package.
+# Steve Cook <yorvik.ubunto@gmail.com>, 2010.
+msgid ""
+msgstr "Project-Id-Version: pcmanfm Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: ../data/ui/desktop-pref.glade.h:4
+#. TET-0144; needs-INL-review
+msgid "_Wallpaper:"
+msgstr "_Imajen fundu:"
+
+#: ../data/ui/desktop-pref.glade.h:12
+#. TET-0142; needs-INL-review
+msgid "_Appearance"
+msgstr "_Aparénsia"
+
+#: ../data/ui/desktop-pref.glade.h:21 ../data/ui/pref.glade.h:84
+#. TET-0063; needs-INL-review
+msgctxt "Use path for some folder: ..."
+msgid "Default"
+msgstr "Padraun"
+
+#: ../data/ui/desktop-pref.glade.h:25
+#. TET-0061; needs-INL-review
+msgid "Ad_vanced"
+msgstr "_Avansadu"
+
+#: ../data/ui/pref.glade.h:2
+#. TET-0352; needs-INL-review
+msgid "Open in new tab"
+msgstr "Loke iha separadór foun"
+
+#: ../data/ui/pref.glade.h:3
+#. TET-0351; needs-INL-review
+msgid "Open in new window"
+msgstr "Loke iha janela foun"
+
+#: ../data/ui/pref.glade.h:4
+#. TET-0058; needs-INL-review
+msgid "Preferences"
+msgstr "Preferénsia"
+
+#: ../data/ui/pref.glade.h:13
+#. TET-0353; needs-INL-review
+msgid "_Bookmarks:"
+msgstr "_Markadór sira:"
+
+#: ../data/ui/pref.glade.h:25
+#. TET-0062; needs-INL-review
+msgid "_General"
+msgstr "_Jerál"
+
+#: ../data/ui/pref.glade.h:39
+#. TET-0167; needs-INL-review
+msgid "_Display"
+msgstr "_Ekrán"
+
+#: ../data/ui/pref.glade.h:49
+#. TET-0087; needs-INL-review
+msgid "Des_ktop"
+msgstr "_Ambiente de traballu"
+
+#: ../data/ui/pref.glade.h:52
+#. TET-0121; needs-INL-review
+msgid "App_lications"
+msgstr "_Aplikasaun sira"
+
+#: ../data/ui/pref.glade.h:54
+#. TET-0216; needs-INL-review
+msgid "_Network"
+msgstr "_Rede"
+
+#: ../data/ui/pref.glade.h:87
+#. TET-0061; needs-INL-review
+msgid "_Advanced"
+msgstr "_Avansadu"
+
+#: ../data/ui/pref.glade.h:92
+#. TET-0025; needs-INL-review
+msgid "Copy"
+msgstr "Kopia"
+
+#: ../data/ui/pref.glade.h:93
+#. TET-0082; needs-INL-review
+msgid "Move"
+msgstr "Muda"
+
+#: ../data/ui/pref.glade.h:95
+#. TET-0358; needs-INL-review
+msgid "Icon view"
+msgstr "Vizaun íkone"
+
+#: ../data/ui/pref.glade.h:96
+#. TET-0357; needs-INL-review
+msgid "Compact view"
+msgstr "Vizaun kompaktu"
+
+#: ../data/ui/connect.glade.h:3
+#. TET-0099; needs-INL-review
+msgid "_Type:"
+msgstr "_Tipu:"
+
+#: ../data/ui/connect.glade.h:5
+#. TET-0228; needs-INL-review
+msgid "_Port:"
+msgstr "_Porta:"
+
+#: ../data/ui/connect.glade.h:6
+#. TET-0097; needs-INL-review
+msgid "Pa_th:"
+msgstr "_Dalan:"
+
+#: ../src/desktop-ui.c:51
+#. TET-0352; needs-INL-review
+msgid "Open in New Ta_b"
+msgstr "_Loke iha separadór foun"
+
+#: ../src/desktop-ui.c:52 ../src/tab-page.c:57
+#. TET-0351; needs-INL-review
+msgid "Open in New Win_dow"
+msgstr "_Loke iha janela foun"
+
+#: ../src/desktop-ui.c:54 ../src/tab-page.c:59
+#. TET-0350; needs-INL-review
+msgid "Open in Termina_l"
+msgstr "_Loke iha terminál"
+
+#. FIXME: set name by monitor
+#: ../src/desktop.c:1466
+#. TET-0087; needs-INL-review
+msgid "Desktop"
+msgstr "Ambiente de traballu"
+
+#: ../src/main-win-ui.c:189
+#. TET-0075; needs-INL-review
+msgid "_File"
+msgstr "_Arkivu"
+
+#: ../src/main-win-ui.c:193
+#. TET-0077; needs-INL-review
+msgid "Folder"
+msgstr "Pasta"
+
+#: ../src/main-win-ui.c:197
+#. TET-0341; needs-INL-review
+msgid "Close _Window"
+msgstr "_Taka janela"
+
+#: ../src/main-win-ui.c:198
+#. TET-0024; needs-INL-review
+msgid "_Edit"
+msgstr "_Edita"
+
+#: ../src/main-win-ui.c:200
+#. TET-0026; needs-INL-review
+msgid "C_ut"
+msgstr "_Korta"
+
+#: ../src/main-win-ui.c:203
+#. TET-0083; needs-INL-review
+msgid "Move to _Trash"
+msgstr "_Muda ba lixu"
+
+#: ../src/main-win-ui.c:206
+#. TET-0081; needs-INL-review
+msgid "R_ename..."
+msgstr "_Troka naran..."
+
+#: ../src/main-win-ui.c:207
+#. TET-0431; needs-INL-review
+msgid "D_uplicate..."
+msgstr "_Halo kópia..."
+
+#: ../src/main-win-ui.c:208
+#. TET-0375; needs-INL-review
+msgid "Create Lin_k..."
+msgstr "_Kria ligasaun..."
+
+#: ../src/main-win-ui.c:211
+#. TET-0057; needs-INL-review
+msgid "Propertie_s"
+msgstr "_Propriedade"
+
+#: ../src/main-win-ui.c:214
+#. TET-0058; needs-INL-review
+msgid "Prefere_nces"
+msgstr "_Preferénsia"
+
+#: ../src/main-win-ui.c:227
+#. TET-0274; needs-INL-review
+msgid "Fil_ter..."
+msgstr "_Filtru..."
+
+#: ../src/main-win-ui.c:229
+#. TET-0054; needs-INL-review
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: ../src/main-win-ui.c:237
+#. TET-0087; needs-INL-review
+msgid "_Desktop"
+msgstr "_Ambiente de traballu"
+
+#: ../src/main-win-ui.c:240
+#. TET-0121; needs-INL-review
+msgid "_Applications"
+msgstr "_Aplikasaun sira"
+
+#: ../src/main-win-ui.c:242
+#. TET-0216; needs-INL-review
+msgid "Net_work"
+msgstr "_Rede"
+
+#: ../src/main-win-ui.c:246
+#. TET-0353; needs-INL-review
+msgid "_Bookmarks"
+msgstr "_Markadór sira"
+
+#: ../src/main-win-ui.c:295
+#. TET-0358; needs-INL-review
+msgid "_Icon View"
+msgstr "_Vizaun íkone"
+
+#: ../src/main-win-ui.c:296
+#. TET-0357; needs-INL-review
+msgid "_Compact View"
+msgstr "_Vizaun kompaktu"
+
+#: ../src/main-win-ui.c:329
+#. TET-0342; needs-INL-review
+msgid "Places"
+msgstr "Fatin sira"
+
+#: ../src/main-win-ui.c:337
+#. TET-0096; needs-INL-review
+msgid "_Location"
+msgstr "_Fatin"
+
+#: ../src/main-win.c:947
+#. TET-0205; needs-INL-review
+msgid "History"
+msgstr "Istória"
+
+#: ../src/pcmanfm.c:78
+#. TET-0246; needs-INL-review
+msgid "PROFILE"
+msgstr "Perfíl"
+
+#: ../src/pcmanfm.c:87
+#. TET-0075; needs-INL-review
+msgid "FILE"
+msgstr "Arkivu"
+
+#: ../src/pcmanfm.c:95
+#. TET-0251; needs-INL-review
+msgid "ROLE"
+msgstr "Funsaun"
+
+#: ../src/tab-page.c:56
+#. TET-0352; needs-INL-review
+msgid "Open in New T_ab"
+msgstr "_Loke iha separadór foun"
+
+#: ../data/pcmanfm.desktop.in.h:2
+#. TET-0115; needs-INL-review
+msgid "File Manager"
+msgstr "Jestór arkivu"
+

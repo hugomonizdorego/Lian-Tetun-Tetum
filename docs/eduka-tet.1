@@ -1,0 +1,50 @@
+.TH EDUKA-TET 1 "2026-10-03" "0.2.0" "Edukasaun OS"
+.SH NAME
+eduka-tet \- Tetun locale and community language resources
+.SH SYNOPSIS
+.B eduka-tet
+status|doctor|demo|resources|glossary [query]|normalize|run -- command
+.br
+.B eduka-tet
+enable --user [--desktop NAME] [--accounts-service]
+.br
+.B eduka-tet
+disable --user
+.br
+.B sudo eduka-tet
+compile-locale
+.SH DESCRIPTION
+Provides an INL-oriented community language draft. No INL certification is
+claimed. Installation compiles tet_TL.UTF-8 against the target libc. Applications
+need matching catalogs; not every Debian application is translated.
+.SH COMMANDS
+.TP
+.B enable --user
+Save reversible login/Xsession and systemd user environment settings.
+Plasma uses its native language keys; GNOME can use AccountsService.
+Run without sudo, then log out and log in again.
+.TP
+.B disable --user
+Restore previous managed settings; preserve unrelated user edits; log in again.
+.TP
+.B doctor
+Show locale availability, desktop detection and partial catalog coverage.
+.TP
+.B run -- command
+Execute a program in a temporary Tetun environment.
+.TP
+.B normalize
+Read standard input and emit NFC text with ASCII apostrophes.
+.TP
+.B compile-locale
+Compile package-owned locale data; requires root.
+.SH FILES
+/usr/share/eduka-language-pack-tet
+.br
+/usr/share/locale/tet/LC_MESSAGES/
+.br
+/usr/share/i18n/locales/tet_TL
+.br
+/usr/lib/locale/tet_TL.utf8
+.SH SEE ALSO
+locale(1), localedef(1), update-locale(8)

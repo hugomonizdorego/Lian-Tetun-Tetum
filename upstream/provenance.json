@@ -1,0 +1,11 @@
+{
+  "baseline": "liblxqt 2.1.0 / lxqt-panel 2.1.4",
+  "license": "LGPL-2.1-or-later",
+  "original_authors": "LXQt/Razor team; Alexander Sokoloff; Lu\u00eds Pereira",
+  "template_source": "https://raw.githubusercontent.com/lxqt/lxqt-panel/2.1.4/plugin-mainmenu/translations/mainmenu_en_GB.ts",
+  "template_sha256": "9d2a196df2e78113527f4a008738832bee37b8e6c372523810746aaa9511acd3",
+  "patch_baseline_source": "https://raw.githubusercontent.com/lxqt/liblxqt/2.1.0/lxqttranslator.cpp",
+  "patch_baseline_sha256": "8ac229c9fa2a5e6b8a5ca15037b85c3bb3b8dc8b6ef90dae27756514d7d32ae5",
+  "translations": "Original AI-assisted project draft; INL review pending",
+  "messages": 31
+}
