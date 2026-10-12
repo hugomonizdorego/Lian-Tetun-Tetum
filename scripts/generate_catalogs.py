@@ -5,7 +5,7 @@ import csv,json,xml.etree.ElementTree as ET
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 q=lambda text: json.dumps(text,ensure_ascii=False)
-header=('Project-Id-Version: eduka-language-pack-tet 0.2.0\n'
+header=('Project-Id-Version: eduka-language-pack-tet 0.2.1\n'
         'Report-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\n'
         'PO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community\n'
         'Language-Team: Tetun (community draft; INL review pending)\nLanguage: tet\n'

@@ -1,6 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Edukasaun OS Tetun Language Pack
-Source: Source release prepared for GitHub; repository URL to be set by maintainer.
+Upstream-Contact: Hugo Moniz do Rego <ideaofficial@fdsl.tl>
+Source: https://github.com/hugomonizdorego/Lian-Tetun-Tetum
 
 Files: *
 Copyright: 2026 Edukasaun OS contributors
@@ -18,7 +19,6 @@ Comment: Original project terminology is additionally offered under GPL-2+
  does not cover third-party material.
 
 Files: upstream/mainmenu_tet.ts upstream/liblxqt-2.1.0-tet-locale.patch
-       build/qt/mainmenu_tet.qm
 Copyright: 2010-2011 Razor team
            2013 LXQt team, Alexander Sokoloff, Luis Pereira
            2026 Edukasaun OS contributors (original Tetun translations/changes)
@@ -27,7 +27,7 @@ Comment: Sources/contexts derive from lxqt-panel 2.1.4 and liblxqt 2.1.0.
  Original notices are retained; exact URLs/hashes are in upstream/provenance.json.
  The installer does not apply the optional source patch.
 
-Files: native/gtk20.po build/locale/tet/LC_MESSAGES/gtk20.mo
+Files: native/gtk20.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: LGPL-2+
@@ -41,7 +41,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  Bruce Cowan <bruce@bcowan.me.uk>, 2009, 2010, 2011.
  Philip Withnall <philip@tecnocode.co.uk>, 2010.
 
-Files: native/gtk30.po build/locale/tet/LC_MESSAGES/gtk30.mo
+Files: native/gtk30.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: LGPL-2+
@@ -56,7 +56,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  Zander Brown <zbrown@gnome.org>, 2019-2020.
  Bruce Cowan <bruce@bcowan.me.uk>, 2009-2023.
 
-Files: native/gtk40.po build/locale/tet/LC_MESSAGES/gtk40.mo
+Files: native/gtk40.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: LGPL-2+
@@ -72,7 +72,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  Bruce Cowan <bruce@bcowan.me.uk>, 2009-2025.
  Andi Chandler <andi@gowling.com>, 2024.
 
-Files: native/gnome-shell.po build/locale/tet/LC_MESSAGES/gnome-shell.mo
+Files: native/gnome-shell.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -88,7 +88,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  Andi Chandler <andi@gowling.com>, 2024.
  Bruce Cowan <bruce@bcowan.me.uk>, 2010-2025.
 
-Files: native/cinnamon.po build/locale/tet/LC_MESSAGES/cinnamon.mo
+Files: native/cinnamon.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -100,7 +100,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  This file is distributed under the same license as the linuxmint package.
  FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
 
-Files: native/nemo.po build/locale/tet/LC_MESSAGES/nemo.mo
+Files: native/nemo.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -112,7 +112,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  This file is distributed under the same license as the linuxmint package.
  FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 
-Files: native/xfce4-panel.po build/locale/tet/LC_MESSAGES/xfce4-panel.mo
+Files: native/xfce4-panel.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -128,7 +128,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  Xfce Bot <transifex@xfce.org>, 2025
  .
 
-Files: native/Thunar.po build/locale/tet/LC_MESSAGES/Thunar.mo
+Files: native/Thunar.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -145,7 +145,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  Andi Chandler <andi@gowling.com>, 2025
  .
 
-Files: native/lxpanel.po build/locale/tet/LC_MESSAGES/lxpanel.mo
+Files: native/lxpanel.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -157,7 +157,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  This file is distributed under the same license as the PACKAGE package.
  FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 
-Files: native/pcmanfm.po build/locale/tet/LC_MESSAGES/pcmanfm.mo
+Files: native/pcmanfm.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -169,7 +169,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  This file is distributed under the same license as the pcmanfm package.
  Steve Cook <yorvik.ubunto@gmail.com>, 2010.
 
-Files: native/mate-panel.po build/locale/tet/LC_MESSAGES/mate-panel.mo
+Files: native/mate-panel.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -187,7 +187,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  Andi Chandler <andi@gowling.com>, 2023
  .
 
-Files: native/caja.po build/locale/tet/LC_MESSAGES/caja.mo
+Files: native/caja.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -206,7 +206,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  Andi Chandler <andi@gowling.com>, 2023
  .
 
-Files: native/dolphin.po build/locale/tet/LC_MESSAGES/dolphin.mo
+Files: native/dolphin.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+

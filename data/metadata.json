@@ -1,6 +1,6 @@
 {
   "project": "Edukasaun OS Tetun Language Pack",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "language_code": "tet",
   "bcp47": "tet-TL",
   "locale": "tet_TL.UTF-8",

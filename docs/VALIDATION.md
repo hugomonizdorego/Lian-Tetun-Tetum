@@ -54,3 +54,17 @@ per-desktop X11/Wayland and upgrade/removal checks in DESKTOPS.md; obtain
 native-speaker/INL approval of terms, grammar, mnemonics and locale choices.
 Book/source attribution is included, but protected dictionary copying is not
 licensed by those references and is deliberately excluded.
+
+## 0.2.1 packaging update
+
+Executed 2026-10-11 in Ubuntu 24.04 (debhelper 13.14, lintian 2.117):
+
+- `dpkg-buildpackage -us -uc` built source and binary packages with `dh`;
+  the 24-test suite ran in `dh_auto_test` (1 optional Qt test skipped).
+- `lintian -I --pedantic`: no errors; only `newer-standards-version` (the
+  installed lintian predates 4.7.4) and informational notices about runtime
+  data under `/usr/share/eduka-language-pack-tet`.
+- `apt install` compiled `/usr/lib/locale/tet_TL.utf8`; `date` printed
+  `Kuarta 25 Novembru`; `eduka-tet demo` loaded the installed catalogs.
+  `apt remove` and `apt purge` both removed the generated locale.
+- Not yet run: the GitHub Actions job on Debian 13 and graphical desktop sessions.

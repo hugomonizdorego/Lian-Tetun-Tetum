@@ -1,6 +1,6 @@
 # Edukasaun OS — Tetun language pack
 
-**0.2.0 — community draft; linguistic review by INL/native speakers is pending.**
+**0.2.1 — community draft; linguistic review by INL/native speakers is pending.**
 
 A desktop-independent Tetun locale and GNU-licensed translation foundation for
 Edukasaun OS and Debian. This release contains 432 original draft UI terms,
@@ -17,7 +17,7 @@ and datasets are not redistributed. See [sources](docs/SOURCES.md) and
 ## Install on Debian / Edukasaun OS
 
 ```sh
-sudo apt install ./eduka-language-pack-tet_0.2.0_all.deb
+sudo apt install ./eduka-language-pack-tet_0.2.1_all.deb
 eduka-tet demo
 eduka-tet doctor
 eduka-tet enable --user
@@ -85,21 +85,27 @@ validated here.
 
 ## Build and develop
 
-On Debian, install build dependencies and run:
+The package follows the usual GNU and Debian conventions: `make` /
+`make check` / `make install PREFIX=... DESTDIR=...`, and a standard
+debhelper (`dh`, compat 13) `debian/` directory. On Debian / Edukasaun OS:
 
 ```sh
-sudo apt install python3 gettext locales dpkg-dev make
-make test
-make build
-make source
-# Conventional Debian binary build:
-dpkg-buildpackage -us -uc -A
+sudo apt install build-essential debhelper gettext locales python3 lintian
+make check                     # generate catalogs and run the test suite
+dpkg-buildpackage -us -uc      # .deb, .dsc and .tar.xz in the parent directory
+lintian ../eduka-language-pack-tet_*.changes
+sudo apt install ../eduka-language-pack-tet_0.2.1_all.deb
 ```
 
+`make deb` is a shortcut for an unsigned binary build. Without dpkg, install
+under any prefix with `sudo make install PREFIX=/usr/local`, then run
+`sudo eduka-tet compile-locale`.
+
 Optional real Qt runtime checks need `python3-pyqt5`. Builds are offline and do
-not require root. The package is `Architecture: all`, source format
-`3.0 (native)`, version `0.2.0`. Generated locale binaries are produced on the
-target system, not shipped across libc versions. [Portability](docs/PORTABILITY.md)
+not require root (`Rules-Requires-Root: no`). The package is `Architecture: all`,
+source format `3.0 (native)`, version `0.2.1`. Generated locale binaries are
+produced on the target system by `postinst`, not shipped across libc versions,
+and are removed again on `apt remove`/`apt purge`. [Portability](docs/PORTABILITY.md)
 explains source installation on other glibc-based GNU/Linux systems.
 
 Canonical editable data: `data/glossary.csv`, `data/native-templates.json` and
@@ -111,18 +117,14 @@ do not provide permission to bulk-import dictionaries.
 
 ## GitHub
 
-Extract the source ZIP, create an empty repository in your own GitHub account,
-then run in the source directory (replace the repository URL):
+Source: <https://github.com/hugomonizdorego/Lian-Tetun-Tetum>. The
+`.github/workflows/deb.yml` workflow builds the package in Debian 13 (trixie),
+runs the tests and lintian, performs an install/remove/purge check and uploads
+the `.deb` as a build artifact. See [VALIDATION.md](docs/VALIDATION.md) for
+actual tests and remaining acceptance work.
 
-```sh
-git init -b main
-git add .
-git commit -m "Tetun language pack 0.2.0"
-git remote add origin https://github.com/YOUR_ACCOUNT/eduka-language-pack-tet.git
-git push -u origin main
-```
+## License
 
-The workflow validates/builds in Debian 13 and publishes downloadable build
-artifacts. It is prepared but has not been run on GitHub in this session.
-See [VALIDATION.md](docs/VALIDATION.md) for actual tests and remaining acceptance
-work. A GitHub repository has not been created or published by this task.
+Code and original terminology: GNU GPL version 3 or later (see `LICENSE`).
+Native application catalogs keep their upstream GNU GPL/LGPL licenses; see
+`debian/copyright` and [per-file licensing](docs/LICENSING.md).

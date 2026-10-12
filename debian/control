@@ -1,19 +1,34 @@
 Source: eduka-language-pack-tet
 Section: localization
+Priority: optional
 Maintainer: Hugo Moniz do Rego <ideaofficial@fdsl.tl>
-Build-Depends: dpkg-dev, python3 (>= 3.9), gettext, locales
+Build-Depends: debhelper-compat (= 13),
+               gettext,
+               locales <!nocheck>,
+               python3:any (>= 3.9)
 Standards-Version: 4.7.4
 Rules-Requires-Root: no
 Homepage: https://www.edukasaunos.tl
+Vcs-Browser: https://github.com/hugomonizdorego/Lian-Tetun-Tetum
+Vcs-Git: https://github.com/hugomonizdorego/Lian-Tetun-Tetum.git
 
 Package: eduka-language-pack-tet
 Architecture: all
-Priority: optional
-Depends: python3 (>= 3.9), locales, libc-bin
+Multi-Arch: foreign
+Depends: locales,
+         python3 (>= 3.9),
+         ${misc:Depends}
 Recommends: xdg-utils
-Suggests: accountsservice, dbus
-Description: Tetun locale and community language resources for Edukasaun OS
- Provides a target-compiled tet_TL.UTF-8 locale, original draft gettext and
- Qt catalogs, partial native desktop catalogs and reversible user tools.
+Suggests: accountsservice,
+          dbus
+Description: Tetun (Tetum) locale and language resources for Edukasaun OS
+ Tetun (ISO 639 code "tet") is the national language of Timor-Leste and the
+ local language of Edukasaun OS. This package provides:
+  * the tet_TL.UTF-8 glibc locale, compiled on the target system;
+  * original community gettext and Qt catalogs (432 draft terms);
+  * partial native catalogs for GTK 2/3/4, GNOME Shell, Cinnamon, Nemo,
+    Xfce, Thunar, MATE, Caja, LXDE, PCManFM, Dolphin and the LXQt menu;
+  * the eduka-tet tool to enable or disable Tetun per user, reversibly.
+ .
  Orthography targets INL conventions but has not been approved by INL.
- Supports desktop-independent locale use; full UI coverage is not provided.
+ Full desktop UI coverage is not provided.
