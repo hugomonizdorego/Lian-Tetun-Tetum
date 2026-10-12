@@ -1,0 +1,44 @@
+Description: Load Qt translations with the QLocale-aware QTranslator::load()
+ QLocale::system().name() is "C" for languages that are missing from Qt's
+ CLDR-derived locale tables, such as Tetun (tet, tet_TL). The QLocale overload
+ of QTranslator::load() walks QLocale::uiLanguages() instead, which honours
+ LANGUAGE, LC_ALL, LC_MESSAGES and LANG and their fallbacks (tet_TL -> tet,
+ pt_BR -> pt), so every catalog that exists is found. Behaviour for languages
+ Qt already knows is unchanged.
+Author: Edukasaun OS contributors
+Origin: other, https://github.com/hugomonizdorego/Lian-Tetun-Tetum
+Forwarded: not-yet
+Upstream-Commit: https://github.com/lxqt/qterminal/commit/2dbef60e673ea72f72a8fa931dfb59fe8d829824
+License: GPL-2.0-or-later (same as qterminal)
+---
+diff --git a/src/main.cpp b/src/main.cpp
+index 3e384ca..a611f11 100644
+--- a/src/main.cpp
++++ b/src/main.cpp
+@@ -217,23 +217,22 @@ int main(int argc, char *argv[])
+ 
+     // install the translations built-into Qt itself
+     QTranslator qtTranslator;
+-    if (qtTranslator.load(QStringLiteral("qt_") + QLocale::system().name(), QLibraryInfo::path(QLibraryInfo::TranslationsPath)))
++    if (qtTranslator.load(QLocale::system(), QStringLiteral("qt"), QStringLiteral("_"), QLibraryInfo::path(QLibraryInfo::TranslationsPath)))
+     {
+         app->installTranslator(&qtTranslator);
+     }
+ 
+     QTranslator translator;
+     bool installTr = false;
+-    QString fname = QString::fromLatin1("qterminal_%1.qm").arg(QLocale::system().name().left(5));
+ #ifdef TRANSLATIONS_DIR
+     //qDebug() << "TRANSLATIONS_DIR: Loading translation file" << fname << "from dir" << TRANSLATIONS_DIR;
+-    installTr = translator.load(fname, QString::fromUtf8(TRANSLATIONS_DIR), QStringLiteral("_"));
++    installTr = translator.load(QLocale::system(), QStringLiteral("qterminal"), QStringLiteral("_"), QString::fromUtf8(TRANSLATIONS_DIR));
+ #endif
+ #ifdef APPLE_BUNDLE
+     QDir translations_dir = QDir(QApplication::applicationDirPath());
+     translations_dir.cdUp();
+     if (translations_dir.cd(QStringLiteral("Resources/translations"))) {
+-        installTr = translator.load(fname, translations_dir.path(), QStringLiteral("_"));
++        installTr = translator.load(QLocale::system(), QStringLiteral("qterminal"), QStringLiteral("_"), translations_dir.path());
+     } /*else {
+         qWarning() << "Unable to find \"Resources/translations\" dir in" << translations_dir.path();
+     }*/

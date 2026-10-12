@@ -1,0 +1,6 @@
+# Message catalog of openbox package.
+# Copyright (C) 2010 Mikael Magnusson
+# This file is distributed under the same license as the openbox package.
+
+UPSTREAM LICENSE: GNU General Public License version 2 or (at your option) any later version.
+Source: https://github.com/Mikachu/openbox (COPYING). Full text: LICENSES/GPL-2.txt

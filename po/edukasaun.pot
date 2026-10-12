@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 # Original AI-assisted draft; no third-party dictionary copied.
 msgid ""
-msgstr "Project-Id-Version: eduka-language-pack-tet 0.2.1\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community\nLanguage-Team: Tetun (community draft; INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+msgstr "Project-Id-Version: eduka-language-pack-tet 0.3.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community\nLanguage-Team: Tetun (community draft; INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
 #. TET-0001: needs-INL-review
 msgid "Open"

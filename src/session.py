@@ -38,6 +38,7 @@ def locations(home):
             'env': config/'environment.d/60-eduka-tet.conf',
             'plasma_env': config/'plasma-workspace/env/eduka-tet.sh',
             'plasma': config/'plasma-localerc',
+            'lxqt': config/'lxqt/session.conf',
             'journal': state/'eduka-tet/session.json'}
 
 
@@ -148,6 +149,19 @@ def undo_entry(entry, current):
     raise RuntimeError('A managed environment file has been edited; preserve it before disabling.')
 
 
+# Desktop settings files whose language keys override login profiles.
+# Plasma: plasma-localerc. LXQt: lxqt-session exports [Environment] at start-up
+# (lxqt-config-locale writes LANG and LC_* there); LC_ALL is removed, not set.
+INI_BACKENDS = {
+    'kde': ('plasma', [('Formats', 'LANG', LANG), ('Translations', 'LANGUAGE', LANGUAGE)]
+                      + [('Formats', 'LC_' + c, LANG) for c in CATEGORIES]
+                      + [('Formats', 'LC_ALL', '')]),
+    'lxqt': ('lxqt', [('Environment', 'LANG', LANG), ('Environment', 'LANGUAGE', LANGUAGE)]
+                     + [('Environment', 'LC_' + c, LANG) for c in CATEGORIES]
+                     + [('Environment', 'LC_ALL', None)]),
+}
+
+
 def change_user(home, enable, desktop='auto', use_accounts=False, account_api=accounts_language):
     paths = locations(home)
     journal_text = read(paths['journal'])
@@ -184,15 +198,14 @@ def change_user(home, enable, desktop='auto', use_accounts=False, account_api=ac
                 raise RuntimeError(f'The environment file has been edited: {paths[name]}')
             changes[name] = (before, value)
             newstate['files'][name] = {'kind': 'owned', 'before': None, 'after': value}
-        if desktop == 'kde':
-            before = read(paths['plasma']); after = before or ''; keys = []
-            for section, key, value in ([('Formats', 'LANG', LANG), ('Translations', 'LANGUAGE', LANGUAGE)]
-                                       + [('Formats', 'LC_' + c, LANG) for c in CATEGORIES]
-                                       + [('Formats', 'LC_ALL', '')]):
+        if desktop in INI_BACKENDS:
+            name, settings = INI_BACKENDS[desktop]
+            before = read(paths[name]); after = before or ''; keys = []
+            for section, key, value in settings:
                 keys.append({'section': section, 'key': key, 'before': ini_value(after, section, key), 'after': value})
                 after = ini_set(after, section, key, value)
-            changes['plasma'] = (before, after)
-            newstate['files']['plasma'] = {'kind': 'ini', 'before': before, 'after': after, 'keys': keys}
+            changes[name] = (before, after)
+            newstate['files'][name] = {'kind': 'ini', 'before': before, 'after': after, 'keys': keys}
         if use_accounts or desktop == 'gnome':
             try: newstate['accounts'] = {'before': account_api(), 'after': LANG}
             except (OSError, RuntimeError, subprocess.SubprocessError) as exc:

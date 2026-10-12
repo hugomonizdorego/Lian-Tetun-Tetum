@@ -15,7 +15,7 @@ custodian. This package is not itself an INL publication or approval.
   and technical identifiers unchanged. Translatable display names can differ
   from immutable code identifiers.
 - The technical register is a proposal. Terms such as `arkivu`, `seña`,
-  `ambiente de traballu`, `atallu` and borrowed IT terminology need INL and
+  `ambiente servisu`, `atallu` and borrowed IT terminology need INL and
   user review. Do not describe them as verified national glossary entries.
 - The gettext plural expression is a draft one-form policy using count-neutral
   Tetun wording, e.g. `Arkivu %d`. It is not asserted to be a CLDR plural rule.
@@ -45,3 +45,33 @@ are recorded in SOURCES.md; their association with INL does not grant this
 project INL approval or copyright permission. Proposed computer terminology,
 mnemonics, invariant count wording, collation and regional defaults remain
 review items. Dictionaries are references, not an automatically merged corpus.
+
+
+## 0.3.0 spelling and grammar rules
+
+The 0.3.0 review applied these rules to every catalog. Each change is listed
+with its reason in `data/corrections.csv` and summarized in
+[CORRECTIONS.md](CORRECTIONS.md). `scripts/check_tetun.py` (run by `make check`)
+rejects regressions.
+
+1. **Negative prefix `dez-`**: `dezliga`, `dezmonta`, `dezativa`, `dezinstala`
+   (never `des-`).
+2. **Accents follow stress, not Portuguese spelling**: a vowel-final word with
+   penultimate stress has no accent (`reinisia`, `mikrofone`); a
+   consonant-final word with penultimate stress keeps it (`disponível`,
+   `vizível`, `ezekutável`).
+3. **Portuguese `-io` endings become `-iu`**: `sítiu`, `relójiu`, `kalendáriu`.
+4. **No Portuguese function words** inside Tetun phrases: no `de`, `sem`,
+   `com`; use `laho` (without), `ho` (with) and Tetun word order
+   (`ambiente servisu`, `rede laho fiu`).
+5. **No gender agreement** on loans: adjectives take the masculine `-u` form
+   (`másimu`, `blokeadu`); `rejeitada`, `másima` are not used.
+6. **Ongoing actions use `hela`** after the verb: `Deskarrega hela...`,
+   `Instala hela...`, `Hala'o hela`. A bare verb reads as a command.
+7. **Word order is subject–verb–object**: `La hetan arkivu` (not
+   `Arkivu la hetan`).
+8. **Native Tetun words are preferred** when they are established and
+   unambiguous: `fahe` (share), `laho` (without), `servisu` (work).
+9. **`lian` means language**; sound is `áudiu` to avoid ambiguity.
+10. **Kept international labels**: `OK`, brand and protocol names (`Wi-Fi`,
+    `Bluetooth`, `VPN`, `Proxy`), units and keyboard key names.

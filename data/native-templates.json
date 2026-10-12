@@ -175,7 +175,7 @@
       {
         "msgid": "Desktop",
         "msgctxt": null,
-        "translation": "Ambiente de traballu",
+        "translation": "Ambiente servisu",
         "glossary_id": "TET-0087",
         "comments": [
           "#: ../gtk/gtkfilechooserbutton.c:65 ../gtk/gtkfilechooserdefault.c:1852"
@@ -436,7 +436,7 @@
       {
         "msgid": "_Preview:",
         "msgctxt": null,
-        "translation": "_Pré-vizualizasaun:",
+        "translation": "_Previzualizasaun:",
         "glossary_id": "TET-0037",
         "comments": [
           "#. create the text entry widget",
@@ -732,7 +732,7 @@
       {
         "msgid": "_Disconnect",
         "msgctxt": "Stock label",
-        "translation": "_Desliga ligasaun",
+        "translation": "_Dezliga",
         "glossary_id": "TET-0219",
         "comments": [
           "#: ../gtk/gtkstock.c:336"
@@ -912,7 +912,7 @@
       {
         "msgid": "_OK",
         "msgctxt": "Stock label",
-        "translation": "_Di'ak",
+        "translation": "_OK",
         "glossary_id": "TET-0007",
         "comments": [
           "#: ../gtk/gtkstock.c:397"
@@ -975,7 +975,7 @@
       {
         "msgid": "_Refresh",
         "msgctxt": "Stock label",
-        "translation": "_Karga fali",
+        "translation": "_Karrega fali",
         "glossary_id": "TET-0018",
         "comments": [
           "#: ../gtk/gtkstock.c:415"
@@ -1085,7 +1085,7 @@
       {
         "msgid": "Muted",
         "msgctxt": null,
-        "translation": "La iha lian",
+        "translation": "Silensiadu",
         "glossary_id": "TET-0326",
         "comments": [
           "#: ../gtk/gtkvolumebutton.c:157"
@@ -1644,7 +1644,7 @@
       {
         "msgid": "_Refresh",
         "msgctxt": "Stock label",
-        "translation": "_Karga fali",
+        "translation": "_Karrega fali",
         "glossary_id": "TET-0018",
         "comments": [
           "#: gtk/a11y/gtkimageaccessible.c:111 gtk/deprecated/gtkstock.c:439"
@@ -1772,7 +1772,7 @@
       {
         "msgid": "_Preview:",
         "msgctxt": null,
-        "translation": "_Pré-vizualizasaun:",
+        "translation": "_Previzualizasaun:",
         "glossary_id": "TET-0037",
         "comments": [
           "#. create the text entry widget",
@@ -1792,7 +1792,7 @@
       {
         "msgid": "_OK",
         "msgctxt": null,
-        "translation": "_Di'ak",
+        "translation": "_OK",
         "glossary_id": "TET-0007",
         "comments": [
           "#: gtk/deprecated/gtkfontsel.c:1698 gtk/gtkmessagedialog.c:944",
@@ -1829,7 +1829,7 @@
       {
         "msgid": "_Disconnect",
         "msgctxt": "Stock label",
-        "translation": "_Desliga ligasaun",
+        "translation": "_Dezliga",
         "glossary_id": "TET-0219",
         "comments": [
           "#: gtk/deprecated/gtkstock.c:359"
@@ -1865,7 +1865,7 @@
       {
         "msgid": "_OK",
         "msgctxt": "Stock label",
-        "translation": "_Di'ak",
+        "translation": "_OK",
         "glossary_id": "TET-0007",
         "comments": [
           "#: gtk/deprecated/gtkstock.c:421"
@@ -1929,7 +1929,7 @@
       {
         "msgid": "Website",
         "msgctxt": null,
-        "translation": "Sítio web",
+        "translation": "Sítiu web",
         "glossary_id": "TET-0073",
         "comments": [
           "#: gtk/gtkaboutdialog.c:1043"
@@ -2068,7 +2068,7 @@
       {
         "msgid": "Desktop",
         "msgctxt": null,
-        "translation": "Ambiente de traballu",
+        "translation": "Ambiente servisu",
         "glossary_id": "TET-0087",
         "comments": [
           "#: gtk/gtkfilechooserbutton.c:113 gtk/gtkplacessidebar.c:1112"
@@ -2510,7 +2510,7 @@
       {
         "msgid": "_Unmount",
         "msgctxt": null,
-        "translation": "_Desmonta",
+        "translation": "_Dezmonta",
         "glossary_id": "TET-0109",
         "comments": [
           "#: gtk/gtkplacessidebar.c:3713 gtk/gtkplacesview.c:1750"
@@ -2557,7 +2557,7 @@
       {
         "msgid": "_Disconnect",
         "msgctxt": null,
-        "translation": "_Desliga ligasaun",
+        "translation": "_Dezliga",
         "glossary_id": "TET-0219",
         "comments": [
           "#: gtk/gtkplacesview.c:1750"
@@ -2575,7 +2575,7 @@
       {
         "msgid": "Disconnect",
         "msgctxt": null,
-        "translation": "Desliga ligasaun",
+        "translation": "Dezliga",
         "glossary_id": "TET-0219",
         "comments": [
           "#: gtk/gtkplacesviewrow.c:481"
@@ -2584,7 +2584,7 @@
       {
         "msgid": "Unmount",
         "msgctxt": null,
-        "translation": "Desmonta",
+        "translation": "Dezmonta",
         "glossary_id": "TET-0109",
         "comments": [
           "#: gtk/gtkplacesviewrow.c:481 gtk/ui/gtkplacesviewrow.ui:72",
@@ -2614,7 +2614,7 @@
       {
         "msgid": "Pre_view",
         "msgctxt": null,
-        "translation": "_Pré-vizualizasaun",
+        "translation": "_Previzualizasaun",
         "glossary_id": "TET-0037",
         "comments": [
           "#: gtk/gtkprintunixdialog.c:746"
@@ -2650,7 +2650,7 @@
       {
         "msgid": "Muted",
         "msgctxt": null,
-        "translation": "La iha lian",
+        "translation": "Silensiadu",
         "glossary_id": "TET-0326",
         "comments": [
           "#: gtk/gtkvolumebutton.c:232"
@@ -3264,7 +3264,7 @@
       {
         "msgid": "Muted",
         "msgctxt": null,
-        "translation": "La iha lian",
+        "translation": "Silensiadu",
         "glossary_id": "TET-0326",
         "comments": [
           "#: gtk/deprecated/gtkvolumebutton.c:239"
@@ -3283,7 +3283,7 @@
       {
         "msgid": "Website",
         "msgctxt": null,
-        "translation": "Sítio web",
+        "translation": "Sítiu web",
         "glossary_id": "TET-0073",
         "comments": [
           "#: gtk/gtkaboutdialog.c:1029"
@@ -3740,7 +3740,7 @@
       {
         "msgid": "_OK",
         "msgctxt": null,
-        "translation": "_Di'ak",
+        "translation": "_OK",
         "glossary_id": "TET-0007",
         "comments": [
           "#: gtk/gtkmessagedialog.c:165 gtk/gtkmessagedialog.c:183",
@@ -3822,7 +3822,7 @@
       {
         "msgid": "Desktop",
         "msgctxt": null,
-        "translation": "Ambiente de traballu",
+        "translation": "Ambiente servisu",
         "glossary_id": "TET-0087",
         "comments": [
           "#: gtk/gtkplacessidebar.c:1040"
@@ -3896,7 +3896,7 @@
       {
         "msgid": "_Unmount",
         "msgctxt": null,
-        "translation": "_Desmonta",
+        "translation": "_Dezmonta",
         "glossary_id": "TET-0109",
         "comments": [
           "#: gtk/gtkplacessidebar.c:3291 gtk/gtkplacesview.c:1669"
@@ -3961,7 +3961,7 @@
       {
         "msgid": "_Disconnect",
         "msgctxt": null,
-        "translation": "_Desliga ligasaun",
+        "translation": "_Dezliga",
         "glossary_id": "TET-0219",
         "comments": [
           "#: gtk/gtkplacesview.c:1664"
@@ -3979,7 +3979,7 @@
       {
         "msgid": "Disconnect",
         "msgctxt": null,
-        "translation": "Desliga ligasaun",
+        "translation": "Dezliga",
         "glossary_id": "TET-0219",
         "comments": [
           "#: gtk/gtkplacesviewrow.c:471"
@@ -3988,7 +3988,7 @@
       {
         "msgid": "Unmount",
         "msgctxt": null,
-        "translation": "Desmonta",
+        "translation": "Dezmonta",
         "glossary_id": "TET-0109",
         "comments": [
           "#: gtk/gtkplacesviewrow.c:471 gtk/ui/gtkplacesviewrow.ui:53",
@@ -4019,7 +4019,7 @@
       {
         "msgid": "Pre_view",
         "msgctxt": null,
-        "translation": "_Pré-vizualizasaun",
+        "translation": "_Previzualizasaun",
         "glossary_id": "TET-0037",
         "comments": [
           "#: gtk/print/gtkprintunixdialog.c:839"
@@ -4748,7 +4748,7 @@
       {
         "msgid": "Restart",
         "msgctxt": "search-result",
-        "translation": "Reinísia",
+        "translation": "Reinisia",
         "glossary_id": "TET-0160",
         "comments": [
           "#. Translators: The name of the restart action in search",
@@ -4827,7 +4827,7 @@
       {
         "msgid": "Microphone",
         "msgctxt": null,
-        "translation": "Mikrofóne",
+        "translation": "Mikrofone",
         "glossary_id": "TET-0255",
         "comments": [
           "#: js/ui/audioDeviceSelection.js:79 js/ui/status/volume.js:366"
@@ -4909,7 +4909,7 @@
       {
         "msgid": "Restart",
         "msgctxt": "title",
-        "translation": "Reinísia",
+        "translation": "Reinisia",
         "glossary_id": "TET-0160",
         "comments": [
           "#: js/ui/endSessionDialog.js:89"
@@ -4918,7 +4918,7 @@
       {
         "msgid": "Restart",
         "msgctxt": "button",
-        "translation": "Reinísia",
+        "translation": "Reinisia",
         "glossary_id": "TET-0160",
         "comments": [
           "#: js/ui/endSessionDialog.js:101"
@@ -5058,7 +5058,7 @@
       {
         "msgid": "Disconnect",
         "msgctxt": null,
-        "translation": "Desliga ligasaun",
+        "translation": "Dezliga",
         "glossary_id": "TET-0219",
         "comments": [
           "#: js/ui/status/bluetooth.js:246 js/ui/status/network.js:360"
@@ -5112,7 +5112,7 @@
       {
         "msgid": "Restart…",
         "msgctxt": null,
-        "translation": "Reinísia…",
+        "translation": "Reinisia…",
         "glossary_id": "TET-0160",
         "comments": [
           "#: js/ui/status/system.js:181"
@@ -5158,7 +5158,7 @@
       {
         "msgid": "Unmute",
         "msgctxt": null,
-        "translation": "Ativa lian",
+        "translation": "Ativa áudiu",
         "glossary_id": "TET-0327",
         "comments": [
           "#: js/ui/status/volume.js:231"
@@ -5230,7 +5230,7 @@
       {
         "msgid": "_Website",
         "msgctxt": null,
-        "translation": "_Sítio web",
+        "translation": "_Sítiu web",
         "glossary_id": "TET-0073",
         "comments": [
           "#: subprojects/extensions-app/data/ui/extension-row.ui:188"
@@ -5420,7 +5420,7 @@
       {
         "msgid": "Preview",
         "msgctxt": null,
-        "translation": "Pré-vizualizasaun",
+        "translation": "Previzualizasaun",
         "glossary_id": "TET-0037",
         "comments": [
           "#: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:24"
@@ -5615,7 +5615,7 @@
       {
         "msgid": "Microphone",
         "msgctxt": null,
-        "translation": "Mikrofóne",
+        "translation": "Mikrofone",
         "glossary_id": "TET-0255",
         "comments": [
           "#: js/ui/audioDeviceSelection.js:90",
@@ -5675,7 +5675,7 @@
       {
         "msgid": "Restart",
         "msgctxt": null,
-        "translation": "Reinísia",
+        "translation": "Reinisia",
         "glossary_id": "TET-0160",
         "comments": [
           "#: js/ui/endSessionDialog.js:177 js/ui/endSessionDialog.js:208",
@@ -5685,7 +5685,7 @@
       {
         "msgid": "Shut Down",
         "msgctxt": null,
-        "translation": "Desliga",
+        "translation": "Dezliga",
         "glossary_id": "TET-0161",
         "comments": [
           "#: js/ui/endSessionDialog.js:185 js/ui/endSessionDialog.js:193",
@@ -5704,7 +5704,7 @@
       {
         "msgid": "Workspace",
         "msgctxt": null,
-        "translation": "Espasu traballu",
+        "translation": "Espasu servisu",
         "glossary_id": "TET-0333",
         "comments": [
           "#: js/ui/main.js:661"
@@ -5750,7 +5750,7 @@
       {
         "msgid": "OK",
         "msgctxt": null,
-        "translation": "Di'ak",
+        "translation": "OK",
         "glossary_id": "TET-0007",
         "comments": [
           "#: js/ui/modalDialog.js:445",
@@ -6006,7 +6006,7 @@
       {
         "msgid": "Add to desktop",
         "msgctxt": null,
-        "translation": "Aumenta ba ambiente de traballu",
+        "translation": "Aumenta ba ambiente servisu",
         "glossary_id": "TET-0126",
         "comments": [
           "#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:519"
@@ -6090,7 +6090,7 @@
       {
         "msgid": "Wireless",
         "msgctxt": null,
-        "translation": "Rede sem fiu",
+        "translation": "Rede laho fiu",
         "glossary_id": "TET-0224",
         "comments": [
           "#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1870"
@@ -6176,7 +6176,7 @@
       {
         "msgid": "Charging",
         "msgctxt": null,
-        "translation": "Karrega bateria",
+        "translation": "Karrega hela",
         "glossary_id": "TET-0166",
         "comments": [
           "#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:526",
@@ -6480,7 +6480,7 @@
       {
         "msgid": "Refresh",
         "msgctxt": null,
-        "translation": "Karga fali",
+        "translation": "Karrega fali",
         "glossary_id": "TET-0018",
         "comments": [
           "#: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:925"
@@ -6489,7 +6489,7 @@
       {
         "msgid": "No updates available",
         "msgctxt": null,
-        "translation": "La iha atualizasaun disponivel",
+        "translation": "La iha atualizasaun disponível",
         "glossary_id": "TET-0184",
         "comments": [
           "#: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:1043"
@@ -6523,7 +6523,7 @@
       {
         "msgid": "Show desktop",
         "msgctxt": null,
-        "translation": "Hatudu ambiente de traballu",
+        "translation": "Hatudu ambiente servisu",
         "glossary_id": "TET-0157",
         "comments": [
           "#. show-desktop@cinnamon.org->metadata.json->name",
@@ -6544,7 +6544,7 @@
       {
         "msgid": "Workspaces",
         "msgctxt": null,
-        "translation": "Espasu traballu sira",
+        "translation": "Espasu servisu sira",
         "glossary_id": "TET-0334",
         "comments": [
           "#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:154",
@@ -6563,7 +6563,7 @@
       {
         "msgid": "Shut down",
         "msgctxt": null,
-        "translation": "Desliga",
+        "translation": "Dezliga",
         "glossary_id": "TET-0161",
         "comments": [
           "#: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:210"
@@ -6662,7 +6662,7 @@
       {
         "msgid": "Download",
         "msgctxt": null,
-        "translation": "Deskarga",
+        "translation": "Deskarrega",
         "glossary_id": "TET-0045",
         "comments": [
           "#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_actions.py:53",
@@ -6778,7 +6778,7 @@
       {
         "msgid": "Desktop",
         "msgctxt": null,
-        "translation": "Ambiente de traballu",
+        "translation": "Ambiente servisu",
         "glossary_id": "TET-0087",
         "comments": [
           "#. menu@cinnamon.org->settings-schema.json->show-desktop->description",
@@ -6938,7 +6938,7 @@
       {
         "msgid": "Date Format: ",
         "msgctxt": null,
-        "translation": "Formatu data:",
+        "translation": "Formatu data: ",
         "glossary_id": "TET-0301",
         "comments": [
           "#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:115"
@@ -6956,7 +6956,7 @@
       {
         "msgid": "Volume: ",
         "msgctxt": null,
-        "translation": "Volume:",
+        "translation": "Volume: ",
         "glossary_id": "TET-0170",
         "comments": [
           "#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py:154"
@@ -6965,7 +6965,7 @@
       {
         "msgid": "Muted",
         "msgctxt": null,
-        "translation": "La iha lian",
+        "translation": "Silensiadu",
         "glossary_id": "TET-0326",
         "comments": [
           "#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py:259"
@@ -6974,7 +6974,7 @@
       {
         "msgid": "Sound",
         "msgctxt": null,
-        "translation": "Lian",
+        "translation": "Áudiu",
         "glossary_id": "TET-0398",
         "comments": [
           "#. sound@cinnamon.org->metadata.json->name",
@@ -7158,7 +7158,7 @@
       {
         "msgid": "Workspace switcher",
         "msgctxt": null,
-        "translation": "Troka espasu traballu",
+        "translation": "Troka espasu servisu",
         "glossary_id": "TET-0335",
         "comments": [
           "#. workspace-switcher@cinnamon.org->metadata.json->name"
@@ -7238,7 +7238,7 @@
       {
         "msgid": "Desktop",
         "msgctxt": null,
-        "translation": "Ambiente de traballu",
+        "translation": "Ambiente servisu",
         "glossary_id": "TET-0087",
         "comments": [
           "#. hardcode \"Desktop\"",
@@ -7299,7 +7299,7 @@
       {
         "msgid": "Sh_are:",
         "msgctxt": null,
-        "translation": "_Partilla:",
+        "translation": "_Fahe:",
         "glossary_id": "TET-0230",
         "comments": [
           "#. third row: share entry",
@@ -7790,7 +7790,7 @@
       {
         "msgid": "_Unmount",
         "msgctxt": null,
-        "translation": "_Desmonta",
+        "translation": "_Dezmonta",
         "glossary_id": "TET-0109",
         "comments": [
           "#. name, stock id",
@@ -7837,7 +7837,7 @@
       {
         "msgid": "Unmount",
         "msgctxt": null,
-        "translation": "Desmonta",
+        "translation": "Dezmonta",
         "glossary_id": "TET-0109",
         "comments": [
           "#: src/nemo-places-sidebar.c:3804"
@@ -7976,7 +7976,7 @@
       {
         "msgid": "no ",
         "msgctxt": null,
-        "translation": "Lae",
+        "translation": "lae ",
         "glossary_id": "TET-0009",
         "comments": [
           "#. translators: this gets concatenated to \"no read\",",
@@ -8343,7 +8343,7 @@
       {
         "msgid": "_Desktop",
         "msgctxt": null,
-        "translation": "_Ambiente de traballu",
+        "translation": "_Ambiente servisu",
         "glossary_id": "TET-0087",
         "comments": [
           "#. name, stock id, label",
@@ -8380,7 +8380,7 @@
       {
         "msgid": "_Disconnect",
         "msgctxt": null,
-        "translation": "_Desliga ligasaun",
+        "translation": "_Dezliga",
         "glossary_id": "TET-0219",
         "comments": [
           "#: src/nemo-view.c:9150 src/nemo-view.c:9237 src/nemo-view.c:9341"
@@ -8439,7 +8439,7 @@
       {
         "msgid": "_Reload",
         "msgctxt": null,
-        "translation": "_Karga fali",
+        "translation": "_Karrega fali",
         "glossary_id": "TET-0432",
         "comments": [
           "#. name, stock id",
@@ -8619,7 +8619,7 @@
       {
         "msgid": "File not found",
         "msgctxt": null,
-        "translation": "Arkivu la hetan",
+        "translation": "La hetan arkivu",
         "glossary_id": "TET-0118",
         "comments": [
           "#: libnemo-private/nemo-file.c:1934"
@@ -8709,7 +8709,7 @@
       {
         "msgid": "Details: ",
         "msgctxt": null,
-        "translation": "Detalle:",
+        "translation": "Detalle: ",
         "glossary_id": "TET-0056",
         "comments": [
           "#: libnemo-private/nemo-program-choosing.c:395"
@@ -8839,7 +8839,7 @@
       {
         "msgid": "Preview",
         "msgctxt": null,
-        "translation": "Pré-vizualizasaun",
+        "translation": "Previzualizasaun",
         "glossary_id": "TET-0037",
         "comments": [
           "#: gresources/nemo-file-management-properties.glade:2900"
@@ -8857,7 +8857,7 @@
       {
         "msgid": "Refresh",
         "msgctxt": null,
-        "translation": "Karga fali",
+        "translation": "Karrega fali",
         "glossary_id": "TET-0018",
         "comments": [
           "#: gresources/nemo-file-management-properties.glade:3087"
@@ -9536,7 +9536,7 @@
       {
         "msgid": "Restart",
         "msgctxt": null,
-        "translation": "Reinísia",
+        "translation": "Reinisia",
         "glossary_id": "TET-0160",
         "comments": [
           "#: plugins/actions/actions.c:220"
@@ -9545,7 +9545,7 @@
       {
         "msgid": "_Restart",
         "msgctxt": null,
-        "translation": "_Reinísia",
+        "translation": "_Reinisia",
         "glossary_id": "TET-0160",
         "comments": [
           "#: plugins/actions/actions.c:221"
@@ -9554,7 +9554,7 @@
       {
         "msgid": "Shut Down",
         "msgctxt": null,
-        "translation": "Desliga",
+        "translation": "Dezliga",
         "glossary_id": "TET-0161",
         "comments": [
           "#: plugins/actions/actions.c:228"
@@ -9563,7 +9563,7 @@
       {
         "msgid": "Shut _Down",
         "msgctxt": null,
-        "translation": "_Desliga",
+        "translation": "_Dezliga",
         "glossary_id": "TET-0161",
         "comments": [
           "#: plugins/actions/actions.c:229"
@@ -9616,7 +9616,7 @@
       {
         "msgid": "_OK",
         "msgctxt": null,
-        "translation": "_Di'ak",
+        "translation": "_OK",
         "glossary_id": "TET-0007",
         "comments": [
           "#: plugins/applicationsmenu/applicationsmenu.c:606",
@@ -9746,7 +9746,7 @@
       {
         "msgid": "Workspace Switcher",
         "msgctxt": null,
-        "translation": "Troka espasu traballu",
+        "translation": "Troka espasu servisu",
         "glossary_id": "TET-0335",
         "comments": [
           "#: plugins/pager/pager-dialog.glade:48 plugins/pager/pager.desktop.in.in:4"
@@ -9764,7 +9764,7 @@
       {
         "msgid": "Show Desktop",
         "msgctxt": null,
-        "translation": "Hatudu ambiente de traballu",
+        "translation": "Hatudu ambiente servisu",
         "glossary_id": "TET-0157",
         "comments": [
           "#: plugins/showdesktop/showdesktop.c:326",
@@ -9812,7 +9812,7 @@
       {
         "msgid": "Desktop",
         "msgctxt": null,
-        "translation": "Ambiente de traballu",
+        "translation": "Ambiente servisu",
         "glossary_id": "TET-0087",
         "comments": [
           "#: plugins/windowmenu/windowmenu.c:729"
@@ -10015,7 +10015,7 @@
       {
         "msgid": "_Unmount",
         "msgctxt": null,
-        "translation": "_Desmonta",
+        "translation": "_Dezmonta",
         "glossary_id": "TET-0109",
         "comments": [
           "#: thunar/thunar-action-manager.c:362"
@@ -10126,7 +10126,7 @@
       {
         "msgid": "_OK",
         "msgctxt": null,
-        "translation": "_Di'ak",
+        "translation": "_OK",
         "glossary_id": "TET-0007",
         "comments": [
           "#. add the \"Ok\"/\"Open\" button",
@@ -10210,7 +10210,7 @@
       {
         "msgid": "_Disconnect",
         "msgctxt": null,
-        "translation": "_Desliga ligasaun",
+        "translation": "_Dezliga",
         "glossary_id": "TET-0219",
         "comments": [
           "#: thunar/thunar-device.c:544"
@@ -10865,7 +10865,7 @@
       {
         "msgid": "Permission denied",
         "msgctxt": null,
-        "translation": "Permisaun rejeitada",
+        "translation": "La iha permisaun",
         "glossary_id": "TET-0119",
         "comments": [
           "#. nothing was readable, so permission was denied",
@@ -10911,7 +10911,7 @@
       {
         "msgid": "Search: ",
         "msgctxt": null,
-        "translation": "Buka:",
+        "translation": "Buka: ",
         "glossary_id": "TET-0032",
         "comments": [
           "#: thunar/thunar-util.c:836"
@@ -10974,7 +10974,7 @@
       {
         "msgid": "_Reload",
         "msgctxt": null,
-        "translation": "_Karga fali",
+        "translation": "_Karrega fali",
         "glossary_id": "TET-0432",
         "comments": [
           "#: thunar/thunar-window.c:662"
@@ -11037,7 +11037,7 @@
       {
         "msgid": "_Desktop",
         "msgctxt": null,
-        "translation": "_Ambiente de traballu",
+        "translation": "_Ambiente servisu",
         "glossary_id": "TET-0087",
         "comments": [
           "#: thunar/thunar-window.c:695"
@@ -11100,7 +11100,7 @@
       {
         "msgid": "Size: ",
         "msgctxt": null,
-        "translation": "Tamañu:",
+        "translation": "Tamañu: ",
         "glossary_id": "TET-0098",
         "comments": [
           "#: thunar/thunar-window.c:1139"
@@ -11288,7 +11288,7 @@
       {
         "msgid": "Restart",
         "msgctxt": null,
-        "translation": "Reinísia",
+        "translation": "Reinisia",
         "glossary_id": "TET-0160",
         "comments": [
           "#: ../src/main.c:70 ../plugins/menu.c:719"
@@ -11471,7 +11471,7 @@
       {
         "msgid": "Add to desktop",
         "msgctxt": null,
-        "translation": "Aumenta ba ambiente de traballu",
+        "translation": "Aumenta ba ambiente servisu",
         "glossary_id": "TET-0126",
         "comments": [
           "#: ../plugins/menu.c:360"
@@ -11572,7 +11572,7 @@
       {
         "msgid": "Wireless",
         "msgctxt": null,
-        "translation": "Rede sem fiu",
+        "translation": "Rede laho fiu",
         "glossary_id": "TET-0224",
         "comments": [
           "#: ../plugins/netstat/netstat.c:368 ../plugins/netstatus/netstatus-iface.c:174"
@@ -11617,7 +11617,7 @@
       {
         "msgid": "Refresh",
         "msgctxt": null,
-        "translation": "Karga fali",
+        "translation": "Karrega fali",
         "glossary_id": "TET-0018",
         "comments": [
           "#: ../plugins/weather/weatherwidget.c:1081"
@@ -11768,7 +11768,7 @@
       {
         "msgid": "Des_ktop",
         "msgctxt": null,
-        "translation": "_Ambiente de traballu",
+        "translation": "_Ambiente servisu",
         "glossary_id": "TET-0087",
         "comments": [
           "#: ../data/ui/pref.glade.h:49"
@@ -11894,7 +11894,7 @@
       {
         "msgid": "Desktop",
         "msgctxt": null,
-        "translation": "Ambiente de traballu",
+        "translation": "Ambiente servisu",
         "glossary_id": "TET-0087",
         "comments": [
           "#. FIXME: set name by monitor",
@@ -12021,7 +12021,7 @@
       {
         "msgid": "_Desktop",
         "msgctxt": null,
-        "translation": "_Ambiente de traballu",
+        "translation": "_Ambiente servisu",
         "glossary_id": "TET-0087",
         "comments": [
           "#: ../src/main-win-ui.c:237"
@@ -12327,7 +12327,7 @@
       {
         "msgid": "_OK",
         "msgctxt": null,
-        "translation": "_Di'ak",
+        "translation": "_OK",
         "glossary_id": "TET-0007",
         "comments": [
           "#: applets/clock/clock.ui:968 mate-panel/libpanel-util/panel-gtk.c:141",
@@ -12356,7 +12356,7 @@
       {
         "msgid": "Workspace Switcher",
         "msgctxt": null,
-        "translation": "Troka espasu traballu",
+        "translation": "Troka espasu servisu",
         "glossary_id": "TET-0335",
         "comments": [
           "#: applets/wncklet/org.mate.panel.Wncklet.mate-panel-applet.desktop.in.in:23",
@@ -12376,7 +12376,7 @@
       {
         "msgid": "Show Desktop",
         "msgctxt": null,
-        "translation": "Hatudu ambiente de traballu",
+        "translation": "Hatudu ambiente servisu",
         "glossary_id": "TET-0157",
         "comments": [
           "#: applets/wncklet/org.mate.panel.Wncklet.mate-panel-applet.desktop.in.in:49"
@@ -12385,7 +12385,7 @@
       {
         "msgid": "Workspaces",
         "msgctxt": null,
-        "translation": "Espasu traballu sira",
+        "translation": "Espasu servisu sira",
         "glossary_id": "TET-0334",
         "comments": [
           "#: applets/wncklet/window-list.ui:574",
@@ -12478,7 +12478,7 @@
       {
         "msgid": "Shut Down...",
         "msgctxt": null,
-        "translation": "Desliga...",
+        "translation": "Dezliga...",
         "glossary_id": "TET-0161",
         "comments": [
           "#: mate-panel/panel-action-button.c:405"
@@ -12514,7 +12514,7 @@
       {
         "msgid": "_Reload",
         "msgctxt": null,
-        "translation": "_Karga fali",
+        "translation": "_Karrega fali",
         "glossary_id": "TET-0432",
         "comments": [
           "#: mate-panel/panel-applet-frame.c:776 mate-panel/panel-applet-frame.c:781"
@@ -12559,7 +12559,7 @@
       {
         "msgid": "_Ok",
         "msgctxt": null,
-        "translation": "_Di'ak",
+        "translation": "_OK",
         "glossary_id": "TET-0007",
         "comments": [
           "#: mate-panel/panel-ditem-editor-dialog.ui:108"
@@ -12613,7 +12613,7 @@
       {
         "msgid": "Desktop",
         "msgctxt": "Desktop Folder",
-        "translation": "Ambiente de traballu",
+        "translation": "Ambiente servisu",
         "glossary_id": "TET-0087",
         "comments": [
           "#. Translators: Desktop is used here as in",
@@ -12905,7 +12905,7 @@
       {
         "msgid": "_OK",
         "msgctxt": null,
-        "translation": "_Di'ak",
+        "translation": "_OK",
         "glossary_id": "TET-0007",
         "comments": [
           "#: eel/eel-stock-dialogs.c:294 eel/eel-stock-dialogs.c:450",
@@ -12941,7 +12941,7 @@
       {
         "msgid": "_Unmount",
         "msgctxt": null,
-        "translation": "_Desmonta",
+        "translation": "_Dezmonta",
         "glossary_id": "TET-0109",
         "comments": [
           "#: libcaja-private/caja-autorun.c:1183 src/caja-places-sidebar.c:2785",
@@ -13074,7 +13074,7 @@
       {
         "msgid": "File not found",
         "msgctxt": null,
-        "translation": "Arkivu la hetan",
+        "translation": "La hetan arkivu",
         "glossary_id": "TET-0118",
         "comments": [
           "#: libcaja-private/caja-file.c:1844"
@@ -13265,7 +13265,7 @@
       {
         "msgid": "Details: ",
         "msgctxt": null,
-        "translation": "Detalle:",
+        "translation": "Detalle: ",
         "glossary_id": "TET-0056",
         "comments": [
           "#: libcaja-private/caja-program-choosing.c:545"
@@ -13431,7 +13431,7 @@
       {
         "msgid": "Share:",
         "msgctxt": null,
-        "translation": "Partilla:",
+        "translation": "Fahe:",
         "glossary_id": "TET-0230",
         "comments": [
           "#: src/caja-connect-server-dialog.c:1000"
@@ -13467,7 +13467,7 @@
       {
         "msgid": "Desktop",
         "msgctxt": null,
-        "translation": "Ambiente de traballu",
+        "translation": "Ambiente servisu",
         "glossary_id": "TET-0087",
         "comments": [
           "#: src/caja-desktop-window.c:128 src/caja-desktop-window.c:209",
@@ -13600,7 +13600,7 @@
       {
         "msgid": "Preview",
         "msgctxt": null,
-        "translation": "Pré-vizualizasaun",
+        "translation": "Previzualizasaun",
         "glossary_id": "TET-0037",
         "comments": [
           "#: src/caja-file-management-properties.ui:1952"
@@ -13878,7 +13878,7 @@
       {
         "msgid": "Reload",
         "msgctxt": null,
-        "translation": "Karga fali",
+        "translation": "Karrega fali",
         "glossary_id": "TET-0432",
         "comments": [
           "#: src/caja-query-editor.c:1606"
@@ -13914,7 +13914,7 @@
       {
         "msgid": "Website",
         "msgctxt": null,
-        "translation": "Sítio web",
+        "translation": "Sítiu web",
         "glossary_id": "TET-0073",
         "comments": [
           "#: src/caja-window-menus.c:589"
@@ -13950,7 +13950,7 @@
       {
         "msgid": "_Reload",
         "msgctxt": null,
-        "translation": "_Karga fali",
+        "translation": "_Karrega fali",
         "glossary_id": "TET-0432",
         "comments": [
           "#: src/caja-window-menus.c:888"
@@ -14042,7 +14042,7 @@
       {
         "msgid": "_Desktop",
         "msgctxt": null,
-        "translation": "_Ambiente de traballu",
+        "translation": "_Ambiente servisu",
         "glossary_id": "TET-0087",
         "comments": [
           "#: src/file-manager/fm-desktop-icon-view.c:889",
@@ -14158,7 +14158,7 @@
       {
         "msgid": "_Disconnect",
         "msgctxt": null,
-        "translation": "_Desliga ligasaun",
+        "translation": "_Dezliga",
         "glossary_id": "TET-0219",
         "comments": [
           "#: src/file-manager/fm-directory-view.c:8402",
@@ -14169,7 +14169,7 @@
       {
         "msgid": "_Download",
         "msgctxt": null,
-        "translation": "_Deskarga",
+        "translation": "_Deskarrega",
         "glossary_id": "TET-0045",
         "comments": [
           "#: src/file-manager/fm-directory-view.c:10499"
@@ -14287,7 +14287,7 @@
       {
         "msgid": "no ",
         "msgctxt": null,
-        "translation": "Lae",
+        "translation": "lae ",
         "glossary_id": "TET-0009",
         "comments": [
           "#. Translators: this gets concatenated to \"no read\",",
@@ -14857,7 +14857,7 @@
       {
         "msgid": "Preview",
         "msgctxt": "@action:inmenu",
-        "translation": "Pré-vizualizasaun",
+        "translation": "Previzualizasaun",
         "glossary_id": "TET-0037",
         "comments": [
           "#: panels/information/informationpanel.cpp:153",
@@ -15034,7 +15034,7 @@
       {
         "msgid": "Background: ",
         "msgctxt": "@title:group",
-        "translation": "Fundu:",
+        "translation": "Fundu: ",
         "glossary_id": "TET-0400",
         "comments": [
           "#: settings/viewmodes/generalviewsettingspage.cpp:157",
@@ -15164,7 +15164,7 @@
       {
         "msgid": "Reload",
         "msgctxt": null,
-        "translation": "Karga fali",
+        "translation": "Karrega fali",
         "glossary_id": "TET-0432",
         "comments": [
           "#: views/dolphinremoteencoding.cpp:100",
@@ -15293,5 +15293,885 @@
       }
     ],
     "original_header": "# translation of dolphin.po to British English\n# Copyright (C) YEAR This_file_is_part_of_KDE\n# This file is distributed under the same license as the PACKAGE package.\n#\n# Malcolm Hunter <malcolm.hunter@gmx.co.uk>, 2008, 2009.\n# Andrew Coles <andrew_coles@yahoo.co.uk>, 2009, 2010, 2011.\n# SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Steve Allewell <steve.allewell@gmail.com>"
+  },
+  {
+    "domain": "openbox",
+    "source_version": "3.6.1+git ebfa727",
+    "source_url": "https://raw.githubusercontent.com/Mikachu/openbox/ebfa7271302b3bc4b6d349b8e4aab4cf5f6c7a6d/po/pt.po",
+    "source_po_sha256": "981d0d1a6ed2678dcc6ce37a90df03639c9b75a035110208bb64c3dda4b9a5cd",
+    "source_license": "GPL-2.0-or-later",
+    "catalog_license": "GPL-2.0-or-later",
+    "source_message_count": 94,
+    "translated_count": 93,
+    "coverage_percent": 98.94,
+    "status": "partial-draft-needs-INL-review",
+    "notes": "Exact upstream msgids. Portuguese translations in the source file are not reused; only IDs, comments and notices. The plural desktop-count message falls back.",
+    "messages": [
+      {
+        "msgid": "Invalid action \"%s\" requested. No such action exists.",
+        "msgctxt": null,
+        "translation": "Husu asaun \"%s\" ne'ebé la válidu. Asaun ida-ne'e la eziste.",
+        "glossary_id": "OB-0001",
+        "comments": [
+          "#: openbox/actions.c:234",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "No",
+        "msgctxt": null,
+        "translation": "Lae",
+        "glossary_id": "OB-0002",
+        "comments": [
+          "#: openbox/actions/execute.c:245"
+        ]
+      },
+      {
+        "msgid": "Yes",
+        "msgctxt": null,
+        "translation": "Sin",
+        "glossary_id": "OB-0003",
+        "comments": [
+          "#: openbox/actions/execute.c:246"
+        ]
+      },
+      {
+        "msgid": "Execute",
+        "msgctxt": null,
+        "translation": "Ezekuta",
+        "glossary_id": "OB-0004",
+        "comments": [
+          "#: openbox/actions/execute.c:250"
+        ]
+      },
+      {
+        "msgid": "Failed to convert the path \"%s\" from utf8",
+        "msgctxt": null,
+        "translation": "La konsege konverte dalan \"%s\" husi utf8",
+        "glossary_id": "OB-0005",
+        "comments": [
+          "#: openbox/actions/execute.c:259",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Cancel",
+        "msgctxt": null,
+        "translation": "Kansela",
+        "glossary_id": "OB-0006",
+        "comments": [
+          "#: openbox/actions/exit.c:69 openbox/client.c:3665"
+        ]
+      },
+      {
+        "msgid": "Exit",
+        "msgctxt": null,
+        "translation": "Sai",
+        "glossary_id": "OB-0007",
+        "comments": [
+          "#: openbox/actions/exit.c:70"
+        ]
+      },
+      {
+        "msgid": "Are you sure you want to log out?",
+        "msgctxt": null,
+        "translation": "Ita hakarak duni sai husi sesaun?",
+        "glossary_id": "OB-0008",
+        "comments": [
+          "#: openbox/actions/exit.c:74"
+        ]
+      },
+      {
+        "msgid": "Log Out",
+        "msgctxt": null,
+        "translation": "Sai husi sesaun",
+        "glossary_id": "OB-0009",
+        "comments": [
+          "#: openbox/actions/exit.c:75"
+        ]
+      },
+      {
+        "msgid": "Are you sure you want to exit Openbox?",
+        "msgctxt": null,
+        "translation": "Ita hakarak duni sai husi Openbox?",
+        "glossary_id": "OB-0010",
+        "comments": [
+          "#: openbox/actions/exit.c:78"
+        ]
+      },
+      {
+        "msgid": "Exit Openbox",
+        "msgctxt": null,
+        "translation": "Sai husi Openbox",
+        "glossary_id": "OB-0011",
+        "comments": [
+          "#: openbox/actions/exit.c:79"
+        ]
+      },
+      {
+        "msgid": "Unnamed Window",
+        "msgctxt": null,
+        "translation": "Janela laho naran",
+        "glossary_id": "OB-0012",
+        "comments": [
+          "#: openbox/client.c:2115"
+        ]
+      },
+      {
+        "msgid": "Killing...",
+        "msgctxt": null,
+        "translation": "Hapara hela...",
+        "glossary_id": "OB-0013",
+        "comments": [
+          "#: openbox/client.c:2129 openbox/client.c:2160"
+        ]
+      },
+      {
+        "msgid": "Not Responding",
+        "msgctxt": null,
+        "translation": "La responde",
+        "glossary_id": "OB-0014",
+        "comments": [
+          "#: openbox/client.c:2131 openbox/client.c:2162"
+        ]
+      },
+      {
+        "msgid": "The window \"%s\" does not seem to be responding.  Do you want to force it to exit by sending the %s signal?",
+        "msgctxt": null,
+        "translation": "Janela \"%s\" hanesan la responde.  Ita hakarak obriga nia atu sai ho haruka sinál %s?",
+        "glossary_id": "OB-0015",
+        "comments": [
+          "#: openbox/client.c:3654",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "End Process",
+        "msgctxt": null,
+        "translation": "Remata prosesu",
+        "glossary_id": "OB-0016",
+        "comments": [
+          "#: openbox/client.c:3656"
+        ]
+      },
+      {
+        "msgid": "The window \"%s\" does not seem to be responding.  Do you want to disconnect it from the X server?",
+        "msgctxt": null,
+        "translation": "Janela \"%s\" hanesan la responde.  Ita hakarak dezliga nia husi servidór X?",
+        "glossary_id": "OB-0017",
+        "comments": [
+          "#: openbox/client.c:3660",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Disconnect",
+        "msgctxt": null,
+        "translation": "Dezliga",
+        "glossary_id": "OB-0018",
+        "comments": [
+          "#: openbox/client.c:3662"
+        ]
+      },
+      {
+        "msgid": "Go there...",
+        "msgctxt": null,
+        "translation": "Bá ne'ebá...",
+        "glossary_id": "OB-0019",
+        "comments": [
+          "#: openbox/client_list_combined_menu.c:93 openbox/client_list_menu.c:90"
+        ]
+      },
+      {
+        "msgid": "Manage desktops",
+        "msgctxt": null,
+        "translation": "Jere ambiente servisu sira",
+        "glossary_id": "OB-0020",
+        "comments": [
+          "#: openbox/client_list_combined_menu.c:100"
+        ]
+      },
+      {
+        "msgid": "_Add new desktop",
+        "msgctxt": null,
+        "translation": "_Aumenta ambiente servisu foun",
+        "glossary_id": "OB-0021",
+        "comments": [
+          "#: openbox/client_list_combined_menu.c:101 openbox/client_list_menu.c:166"
+        ]
+      },
+      {
+        "msgid": "_Remove last desktop",
+        "msgctxt": null,
+        "translation": "_Hasai ambiente servisu ikus",
+        "glossary_id": "OB-0022",
+        "comments": [
+          "#: openbox/client_list_combined_menu.c:102 openbox/client_list_menu.c:167"
+        ]
+      },
+      {
+        "msgid": "Windows",
+        "msgctxt": null,
+        "translation": "Janela sira",
+        "glossary_id": "OB-0023",
+        "comments": [
+          "#: openbox/client_list_combined_menu.c:157"
+        ]
+      },
+      {
+        "msgid": "Desktops",
+        "msgctxt": null,
+        "translation": "Ambiente servisu sira",
+        "glossary_id": "OB-0024",
+        "comments": [
+          "#: openbox/client_list_menu.c:214"
+        ]
+      },
+      {
+        "msgid": "All desktops",
+        "msgctxt": null,
+        "translation": "Ambiente servisu hotu",
+        "glossary_id": "OB-0025",
+        "comments": [
+          "#: openbox/client_menu.c:259"
+        ]
+      },
+      {
+        "msgid": "_Layer",
+        "msgctxt": null,
+        "translation": "_Kamada",
+        "glossary_id": "OB-0026",
+        "comments": [
+          "#: openbox/client_menu.c:371"
+        ]
+      },
+      {
+        "msgid": "Always on _top",
+        "msgctxt": null,
+        "translation": "Sempre iha _leten",
+        "glossary_id": "OB-0027",
+        "comments": [
+          "#: openbox/client_menu.c:376"
+        ]
+      },
+      {
+        "msgid": "_Normal",
+        "msgctxt": null,
+        "translation": "_Normál",
+        "glossary_id": "OB-0028",
+        "comments": [
+          "#: openbox/client_menu.c:377"
+        ]
+      },
+      {
+        "msgid": "Always on _bottom",
+        "msgctxt": null,
+        "translation": "Sempre iha _kraik",
+        "glossary_id": "OB-0029",
+        "comments": [
+          "#: openbox/client_menu.c:378"
+        ]
+      },
+      {
+        "msgid": "_Send to desktop",
+        "msgctxt": null,
+        "translation": "_Haruka ba ambiente servisu",
+        "glossary_id": "OB-0030",
+        "comments": [
+          "#: openbox/client_menu.c:380"
+        ]
+      },
+      {
+        "msgid": "Client menu",
+        "msgctxt": null,
+        "translation": "Menu kliente",
+        "glossary_id": "OB-0031",
+        "comments": [
+          "#: openbox/client_menu.c:384"
+        ]
+      },
+      {
+        "msgid": "R_estore",
+        "msgctxt": null,
+        "translation": "_Restaura",
+        "glossary_id": "OB-0032",
+        "comments": [
+          "#: openbox/client_menu.c:394"
+        ]
+      },
+      {
+        "msgid": "_Move",
+        "msgctxt": null,
+        "translation": "_Muda",
+        "glossary_id": "OB-0033",
+        "comments": [
+          "#: openbox/client_menu.c:398"
+        ]
+      },
+      {
+        "msgid": "Resi_ze",
+        "msgctxt": null,
+        "translation": "Muda _tamañu",
+        "glossary_id": "OB-0034",
+        "comments": [
+          "#: openbox/client_menu.c:400"
+        ]
+      },
+      {
+        "msgid": "Ico_nify",
+        "msgctxt": null,
+        "translation": "_Minimiza",
+        "glossary_id": "OB-0035",
+        "comments": [
+          "#: openbox/client_menu.c:402"
+        ]
+      },
+      {
+        "msgid": "Ma_ximize",
+        "msgctxt": null,
+        "translation": "_Maksimiza",
+        "glossary_id": "OB-0036",
+        "comments": [
+          "#: openbox/client_menu.c:406"
+        ]
+      },
+      {
+        "msgid": "_Roll up/down",
+        "msgctxt": null,
+        "translation": "_Rola sa'e/tun",
+        "glossary_id": "OB-0037",
+        "comments": [
+          "#: openbox/client_menu.c:410"
+        ]
+      },
+      {
+        "msgid": "Un/_Decorate",
+        "msgctxt": null,
+        "translation": "_Dekora/hasai dekorasaun",
+        "glossary_id": "OB-0038",
+        "comments": [
+          "#: openbox/client_menu.c:414"
+        ]
+      },
+      {
+        "msgid": "_Close",
+        "msgctxt": null,
+        "translation": "_Taka",
+        "glossary_id": "OB-0039",
+        "comments": [
+          "#: openbox/client_menu.c:418"
+        ]
+      },
+      {
+        "msgid": "Invalid context \"%s\" in mouse binding",
+        "msgctxt": null,
+        "translation": "Kontestu \"%s\" la válidu iha ligasaun mouse",
+        "glossary_id": "OB-0040",
+        "comments": [
+          "#: openbox/config.c:563",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Invalid button \"%s\" specified in config file",
+        "msgctxt": null,
+        "translation": "Butaun \"%s\" la válidu iha arkivu konfigurasaun",
+        "glossary_id": "OB-0041",
+        "comments": [
+          "#: openbox/config.c:931",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Openbox was compiled without image loading support. Icons in menus will not be loaded.",
+        "msgctxt": null,
+        "translation": "Openbox kompila laho suporta atu karrega imajen. Íkone iha menu sei la karrega.",
+        "glossary_id": "OB-0042",
+        "comments": [
+          "#: openbox/config.c:956"
+        ]
+      },
+      {
+        "msgid": "Unable to make directory '%s': %s",
+        "msgctxt": null,
+        "translation": "La bele kria diretóriu '%s': %s",
+        "glossary_id": "OB-0043",
+        "comments": [
+          "#: openbox/debug.c:57",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Close",
+        "msgctxt": null,
+        "translation": "Taka",
+        "glossary_id": "OB-0044",
+        "comments": [
+          "#: openbox/debug.c:195 openbox/openbox.c:377"
+        ]
+      },
+      {
+        "msgid": "Conflict with key binding in config file",
+        "msgctxt": null,
+        "translation": "Konflitu ho ligasaun tekla iha arkivu konfigurasaun",
+        "glossary_id": "OB-0045",
+        "comments": [
+          "#: openbox/keyboard.c:161"
+        ]
+      },
+      {
+        "msgid": "Unable to find a valid menu file \"%s\"",
+        "msgctxt": null,
+        "translation": "La hetan arkivu menu \"%s\" ne'ebé válidu",
+        "glossary_id": "OB-0046",
+        "comments": [
+          "#: openbox/menu.c:103 openbox/menu.c:115",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Failed to execute command for pipe-menu \"%s\": %s",
+        "msgctxt": null,
+        "translation": "La konsege ezekuta komandu ba pipe-menu \"%s\": %s",
+        "glossary_id": "OB-0047",
+        "comments": [
+          "#: openbox/menu.c:168",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Invalid output from pipe-menu \"%s\"",
+        "msgctxt": null,
+        "translation": "Saída la válidu husi pipe-menu \"%s\"",
+        "glossary_id": "OB-0048",
+        "comments": [
+          "#: openbox/menu.c:182",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Attempted to access menu \"%s\" but it does not exist",
+        "msgctxt": null,
+        "translation": "Koko asesu menu \"%s\" maibé nia la eziste",
+        "glossary_id": "OB-0049",
+        "comments": [
+          "#: openbox/menu.c:195",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "More...",
+        "msgctxt": null,
+        "translation": "Barak liu...",
+        "glossary_id": "OB-0050",
+        "comments": [
+          "#: openbox/menu.c:411 openbox/menu.c:412"
+        ]
+      },
+      {
+        "msgid": "Invalid button \"%s\" in mouse binding",
+        "msgctxt": null,
+        "translation": "Butaun \"%s\" la válidu iha ligasaun mouse",
+        "glossary_id": "OB-0051",
+        "comments": [
+          "#: openbox/mouse.c:382",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Unable to change to home directory \"%s\": %s",
+        "msgctxt": null,
+        "translation": "La bele muda ba diretóriu pesoál \"%s\": %s",
+        "glossary_id": "OB-0052",
+        "comments": [
+          "#: openbox/openbox.c:137",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Failed to open the display from the DISPLAY environment variable.",
+        "msgctxt": null,
+        "translation": "La konsege loke ekrán husi variavel ambiente DISPLAY.",
+        "glossary_id": "OB-0053",
+        "comments": [
+          "#: openbox/openbox.c:152"
+        ]
+      },
+      {
+        "msgid": "Failed to initialize the obrender library.",
+        "msgctxt": null,
+        "translation": "La konsege inisializa biblioteka obrender.",
+        "glossary_id": "OB-0054",
+        "comments": [
+          "#: openbox/openbox.c:182"
+        ]
+      },
+      {
+        "msgid": "X server does not support locale.",
+        "msgctxt": null,
+        "translation": "Servidór X la suporta locale.",
+        "glossary_id": "OB-0055",
+        "comments": [
+          "#: openbox/openbox.c:193"
+        ]
+      },
+      {
+        "msgid": "Cannot set locale modifiers for the X server.",
+        "msgctxt": null,
+        "translation": "La bele define modifikadór locale ba servidór X.",
+        "glossary_id": "OB-0056",
+        "comments": [
+          "#: openbox/openbox.c:195"
+        ]
+      },
+      {
+        "msgid": "Unable to find a valid config file, using some simple defaults",
+        "msgctxt": null,
+        "translation": "La hetan arkivu konfigurasaun ne'ebé válidu, uza konfigurasaun padraun simples",
+        "glossary_id": "OB-0057",
+        "comments": [
+          "#: openbox/openbox.c:254"
+        ]
+      },
+      {
+        "msgid": "One or more XML syntax errors were found while parsing the Openbox configuration files.  See stdout for more information.  The last error seen was in file \"%s\" line %d, with message: %s",
+        "msgctxt": null,
+        "translation": "Hetan erru sintaxe XML ida ka barak bainhira lee arkivu konfigurasaun Openbox.  Haree stdout atu hetan informasaun barak liu.  Erru ikus iha arkivu \"%s\" liña %d, ho mensajen: %s",
+        "glossary_id": "OB-0058",
+        "comments": [
+          "#: openbox/openbox.c:270",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Unable to load a theme.",
+        "msgctxt": null,
+        "translation": "La bele karrega tema ida.",
+        "glossary_id": "OB-0059",
+        "comments": [
+          "#: openbox/openbox.c:295"
+        ]
+      },
+      {
+        "msgid": "Openbox Syntax Error",
+        "msgctxt": null,
+        "translation": "Erru sintaxe Openbox",
+        "glossary_id": "OB-0060",
+        "comments": [
+          "#: openbox/openbox.c:376"
+        ]
+      },
+      {
+        "msgid": "Restart failed to execute new executable \"%s\": %s",
+        "msgctxt": null,
+        "translation": "Reinisia la konsege ezekuta programa foun \"%s\": %s",
+        "glossary_id": "OB-0061",
+        "comments": [
+          "#: openbox/openbox.c:442",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Copyright (c)",
+        "msgctxt": null,
+        "translation": "Direitu autór (c)",
+        "glossary_id": "OB-0062",
+        "comments": [
+          "#: openbox/openbox.c:521 openbox/openbox.c:523"
+        ]
+      },
+      {
+        "msgid": "Syntax: openbox [options]\n",
+        "msgctxt": null,
+        "translation": "Sintaxe: openbox [opsaun]\n",
+        "glossary_id": "OB-0063",
+        "comments": [
+          "#: openbox/openbox.c:532"
+        ]
+      },
+      {
+        "msgid": "\nOptions:\n",
+        "msgctxt": null,
+        "translation": "\nOpsaun:\n",
+        "glossary_id": "OB-0064",
+        "comments": [
+          "#: openbox/openbox.c:533"
+        ]
+      },
+      {
+        "msgid": "  --help              Display this help and exit\n",
+        "msgctxt": null,
+        "translation": "  --help              Hatudu ajuda ida-ne'e no sai\n",
+        "glossary_id": "OB-0065",
+        "comments": [
+          "#: openbox/openbox.c:534"
+        ]
+      },
+      {
+        "msgid": "  --version           Display the version and exit\n",
+        "msgctxt": null,
+        "translation": "  --version           Hatudu versaun no sai\n",
+        "glossary_id": "OB-0066",
+        "comments": [
+          "#: openbox/openbox.c:535"
+        ]
+      },
+      {
+        "msgid": "  --replace           Replace the currently running window manager\n",
+        "msgctxt": null,
+        "translation": "  --replace           Troka jestór janela ne'ebé hala'o hela\n",
+        "glossary_id": "OB-0067",
+        "comments": [
+          "#: openbox/openbox.c:536"
+        ]
+      },
+      {
+        "msgid": "  --config-file FILE  Specify the path to the config file to use\n",
+        "msgctxt": null,
+        "translation": "  --config-file FILE  Indika dalan arkivu konfigurasaun atu uza\n",
+        "glossary_id": "OB-0068",
+        "comments": [
+          "#: openbox/openbox.c:540"
+        ]
+      },
+      {
+        "msgid": "  --sm-disable        Disable connection to the session manager\n",
+        "msgctxt": null,
+        "translation": "  --sm-disable        Dezativa ligasaun ba jestór sesaun\n",
+        "glossary_id": "OB-0069",
+        "comments": [
+          "#: openbox/openbox.c:541"
+        ]
+      },
+      {
+        "msgid": "\nPassing messages to a running Openbox instance:\n",
+        "msgctxt": null,
+        "translation": "\nHaruka mensajen ba Openbox ne'ebé hala'o hela:\n",
+        "glossary_id": "OB-0070",
+        "comments": [
+          "#: openbox/openbox.c:542"
+        ]
+      },
+      {
+        "msgid": "  --reconfigure       Reload Openbox's configuration\n",
+        "msgctxt": null,
+        "translation": "  --reconfigure       Karrega fali konfigurasaun Openbox\n",
+        "glossary_id": "OB-0071",
+        "comments": [
+          "#: openbox/openbox.c:543"
+        ]
+      },
+      {
+        "msgid": "  --restart           Restart Openbox\n",
+        "msgctxt": null,
+        "translation": "  --restart           Reinisia Openbox\n",
+        "glossary_id": "OB-0072",
+        "comments": [
+          "#: openbox/openbox.c:544"
+        ]
+      },
+      {
+        "msgid": "  --exit              Exit Openbox\n",
+        "msgctxt": null,
+        "translation": "  --exit              Sai husi Openbox\n",
+        "glossary_id": "OB-0073",
+        "comments": [
+          "#: openbox/openbox.c:545"
+        ]
+      },
+      {
+        "msgid": "\nDebugging options:\n",
+        "msgctxt": null,
+        "translation": "\nOpsaun debug:\n",
+        "glossary_id": "OB-0074",
+        "comments": [
+          "#: openbox/openbox.c:546"
+        ]
+      },
+      {
+        "msgid": "  --sync              Run in synchronous mode\n",
+        "msgctxt": null,
+        "translation": "  --sync              Hala'o iha modu sinkronu\n",
+        "glossary_id": "OB-0075",
+        "comments": [
+          "#: openbox/openbox.c:547"
+        ]
+      },
+      {
+        "msgid": "  --startup CMD       Run CMD after starting\n",
+        "msgctxt": null,
+        "translation": "  --startup CMD       Hala'o CMD depois hahú\n",
+        "glossary_id": "OB-0076",
+        "comments": [
+          "#: openbox/openbox.c:548"
+        ]
+      },
+      {
+        "msgid": "  --debug             Display debugging output\n",
+        "msgctxt": null,
+        "translation": "  --debug             Hatudu saída debug\n",
+        "glossary_id": "OB-0077",
+        "comments": [
+          "#: openbox/openbox.c:549"
+        ]
+      },
+      {
+        "msgid": "  --debug-focus       Display debugging output for focus handling\n",
+        "msgctxt": null,
+        "translation": "  --debug-focus       Hatudu saída debug ba jestaun fokus\n",
+        "glossary_id": "OB-0078",
+        "comments": [
+          "#: openbox/openbox.c:550"
+        ]
+      },
+      {
+        "msgid": "  --debug-session     Display debugging output for session management\n",
+        "msgctxt": null,
+        "translation": "  --debug-session     Hatudu saída debug ba jestaun sesaun\n",
+        "glossary_id": "OB-0079",
+        "comments": [
+          "#: openbox/openbox.c:551"
+        ]
+      },
+      {
+        "msgid": "  --debug-xinerama    Split the display into fake xinerama screens\n",
+        "msgctxt": null,
+        "translation": "  --debug-xinerama    Fahe ekrán ba ekrán xinerama falsu\n",
+        "glossary_id": "OB-0080",
+        "comments": [
+          "#: openbox/openbox.c:552"
+        ]
+      },
+      {
+        "msgid": "\nPlease report bugs at %s\n",
+        "msgctxt": null,
+        "translation": "\nFavór relata erru iha %s\n",
+        "glossary_id": "OB-0081",
+        "comments": [
+          "#: openbox/openbox.c:553",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "%s requires an argument\n",
+        "msgctxt": null,
+        "translation": "%s presiza argumentu\n",
+        "glossary_id": "OB-0082",
+        "comments": [
+          "#: openbox/openbox.c:636 openbox/openbox.c:670",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Invalid command line argument \"%s\"\n",
+        "msgctxt": null,
+        "translation": "Argumentu liña komandu \"%s\" la válidu\n",
+        "glossary_id": "OB-0083",
+        "comments": [
+          "#: openbox/openbox.c:713",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "A window manager is already running on screen %d",
+        "msgctxt": null,
+        "translation": "Jestór janela ida hala'o hela ona iha ekrán %d",
+        "glossary_id": "OB-0084",
+        "comments": [
+          "#: openbox/screen.c:106 openbox/screen.c:191",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Could not acquire window manager selection on screen %d",
+        "msgctxt": null,
+        "translation": "La bele hetan seleksaun jestór janela iha ekrán %d",
+        "glossary_id": "OB-0085",
+        "comments": [
+          "#: openbox/screen.c:127",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "The WM on screen %d is not exiting",
+        "msgctxt": null,
+        "translation": "Jestór janela iha ekrán %d la sai",
+        "glossary_id": "OB-0086",
+        "comments": [
+          "#: openbox/screen.c:150",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "desktop %i",
+        "msgctxt": null,
+        "translation": "ambiente servisu %i",
+        "glossary_id": "OB-0088",
+        "comments": [
+          "#: openbox/screen.c:1204",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Running %s",
+        "msgctxt": null,
+        "translation": "Hala'o hela %s",
+        "glossary_id": "OB-0089",
+        "comments": [
+          "#: openbox/startupnotify.c:241",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Invalid modifier key \"%s\" in key/mouse binding",
+        "msgctxt": null,
+        "translation": "Tekla modifikadór \"%s\" la válidu iha ligasaun tekla/mouse",
+        "glossary_id": "OB-0090",
+        "comments": [
+          "#: openbox/translate.c:59",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Invalid key code \"%s\" in key binding",
+        "msgctxt": null,
+        "translation": "Kódigu tekla \"%s\" la válidu iha ligasaun tekla",
+        "glossary_id": "OB-0091",
+        "comments": [
+          "#: openbox/translate.c:138",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Invalid key name \"%s\" in key binding",
+        "msgctxt": null,
+        "translation": "Naran tekla \"%s\" la válidu iha ligasaun tekla",
+        "glossary_id": "OB-0092",
+        "comments": [
+          "#: openbox/translate.c:145",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "Requested key \"%s\" does not exist on the display",
+        "msgctxt": null,
+        "translation": "Tekla \"%s\" ne'ebé husu la eziste iha ekrán",
+        "glossary_id": "OB-0093",
+        "comments": [
+          "#: openbox/translate.c:151",
+          "#, c-format"
+        ]
+      },
+      {
+        "msgid": "OK",
+        "msgctxt": null,
+        "translation": "OK",
+        "glossary_id": "OB-0094",
+        "comments": [
+          "#: openbox/prompt.c:154"
+        ]
+      }
+    ],
+    "original_header": "# Openbox message catalog (IDs from po/pt.po).\n# Copyright (C) 2010 Mikael Magnusson\n# This file is distributed under the same license as the openbox package."
   }
 ]

@@ -26,9 +26,12 @@ Description: Tetun (Tetum) locale and language resources for Edukasaun OS
  local language of Edukasaun OS. This package provides:
   * the tet_TL.UTF-8 glibc locale, compiled on the target system;
   * original community gettext and Qt catalogs (432 draft terms);
+  * a complete draft translation of LXQt and its applications (panel,
+    settings, session, PCManFM-Qt, QTerminal, LXImage-Qt, ...) and Openbox;
   * partial native catalogs for GTK 2/3/4, GNOME Shell, Cinnamon, Nemo,
-    Xfce, Thunar, MATE, Caja, LXDE, PCManFM, Dolphin and the LXQt menu;
+    Xfce, Thunar, MATE, Caja, LXDE, PCManFM and Dolphin;
   * the eduka-tet tool to enable or disable Tetun per user, reversibly.
  .
- Orthography targets INL conventions but has not been approved by INL.
- Full desktop UI coverage is not provided.
+ LXQt shows the Tetun catalogs only with the loader patches shipped in
+ /usr/share/doc/eduka-language-pack-tet/lxqt-patches. Orthography targets INL
+ conventions but has not been approved by INL.

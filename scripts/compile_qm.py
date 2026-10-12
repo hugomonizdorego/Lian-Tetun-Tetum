@@ -1,9 +1,12 @@
 #!/usr/bin/python3
 # SPDX-License-Identifier: GPL-3.0-or-later
-"""Small deterministic QM writer for this project's non-plural Qt TS catalog.
+"""Small deterministic QM writer for this project's Qt TS catalogs.
 
 This is not a general replacement for Qt Linguist. Context, source text and
-optional disambiguation are preserved; numerus/id-based entries are rejected.
+optional disambiguation are preserved. Numerus messages are accepted with one
+form only: Tetun uses count-neutral wording (nplurals=1), and a QM file without
+numerus rules makes Qt select form 0 for every count. Id-based entries are
+rejected.
 File format reference: Qt qtbase v6.8.3 src/corelib/kernel/qtranslator.cpp.
 No Qt implementation is bundled in this source file.
 """
@@ -28,11 +31,17 @@ def compile_ts(source,output):
     for ctx in ts.findall('context'):
         context=ctx.findtext('name','')
         for message in ctx.findall('message'):
-            if message.get('numerus') or message.get('id'):
-                raise ValueError('Use Qt Linguist for numerus/id-based catalogs.')
+            if message.get('id'):
+                raise ValueError('Use Qt Linguist for id-based catalogs.')
             translation=message.find('translation')
             if translation is None or translation.get('type') in ['unfinished','vanished','obsolete']: continue
-            text=message.findtext('source',''); translated=translation.text or ''
+            text=message.findtext('source','')
+            if message.get('numerus')=='yes':
+                forms=translation.findall('numerusform')
+                if len(forms)!=1: raise ValueError(f'Exactly one numerus form expected: {text!r}')
+                translated=forms[0].text or ''
+            else:
+                translated=translation.text or ''
             comment=message.findtext('comment','')
             key=(context,text,comment)
             if key in seen: raise ValueError(f'Duplicate Qt key: {key}')

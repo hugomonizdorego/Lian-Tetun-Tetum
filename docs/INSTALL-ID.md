@@ -1,4 +1,4 @@
-# Instalasi Tetun 0.2.1
+# Instalasi Tetun 0.3.0
 
 Paket ini ditujukan untuk Edukasaun OS berbasis Debian dan Debian dengan glibc.
 Paket menyediakan locale bersama serta katalog aplikasi parsial; terjemahan
@@ -8,7 +8,7 @@ yang dibundel. Rincian hak penggunaan ada di SOURCES.md dan LICENSING.md.
 ## Pasang dan periksa
 
 ```sh
-sudo apt install ./eduka-language-pack-tet_0.2.1_all.deb
+sudo apt install ./eduka-language-pack-tet_0.3.0_all.deb
 eduka-tet demo
 eduka-tet doctor
 ```

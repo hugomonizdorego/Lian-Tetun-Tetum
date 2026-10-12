@@ -68,3 +68,25 @@ Executed 2026-10-11 in Ubuntu 24.04 (debhelper 13.14, lintian 2.117):
   `Kuarta 25 Novembru`; `eduka-tet demo` loaded the installed catalogs.
   `apt remove` and `apt purge` both removed the generated locale.
 - Not yet run: the GitHub Actions job on Debian 13 and graphical desktop sessions.
+
+## 0.3.0 Tetun corrections and LXQt
+
+Executed 2026-10-12 (Ubuntu 24.04 container, glibc 2.39, Python 3.13):
+
+- `scripts/check_tetun.py`: 6,187 translations (glossary, 14 native PO, own
+  Qt catalog, 57 LXQt TS) — 0 problems. Before the fixes it reported the 45
+  glossary errors now listed in CORRECTIONS.md and 9 native entries without
+  their trailing space.
+- LXQt catalogs: all 3,677 translated messages looked up through a real Qt 6.11
+  `QTranslator` (PyQt6) per context, plural forms included — 0 mismatches.
+- Loader patches: patched and unpatched `lxqttranslator.cpp` (master and 2.1.0),
+  the lxqt-build-tools and qps loader templates and the application call form
+  compiled with g++ against Qt 6.4.2. With `LANG=tet_TL.UTF-8` unpatched code
+  shows `Search`, patched code `Buka`; `en_US` and `pt_PT` unchanged. Every patch
+  passes `git apply --check` on master and on its Debian 13 release tag
+  (liblxqt and libfm-qt have separate 2.1.0 versions; qps 2.1.0 needs only the
+  lxqt-build-tools patch).
+- `eduka-tet enable/disable --desktop lxqt`: session.conf keys set, LC_ALL
+  removed, other settings kept, original restored exactly (unit test).
+- Not run: a full LXQt session with rebuilt liblxqt, and review of the LXQt
+  translations by INL/native speakers.

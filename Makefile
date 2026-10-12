@@ -13,6 +13,7 @@ build:
 	$(PYTHON) scripts/build.py
 
 check test: build
+	$(PYTHON) -B scripts/check_tetun.py
 	$(PYTHON) -B -m unittest discover -s tests -v
 
 install:

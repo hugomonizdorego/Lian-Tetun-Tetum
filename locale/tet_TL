@@ -16,8 +16,8 @@ tel ""
 fax ""
 language "Tetum"
 territory "Timor-Leste"
-revision "0.2.1"
-date "2026-10-11"
+revision "0.3.0"
+date "2026-10-12"
 category "i18n:2012";LC_IDENTIFICATION
 category "i18n:2012";LC_CTYPE
 category "i18n:2012";LC_COLLATE

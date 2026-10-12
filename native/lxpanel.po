@@ -8,7 +8,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: lxpanel Tetun 0.2.1\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+msgstr "Project-Id-Version: lxpanel Tetun 0.3.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
 #: ../src/configurator.c:1643
 #. TET-0040; needs-INL-review
@@ -53,7 +53,7 @@ msgstr "Kraik"
 #: ../src/main.c:70 ../plugins/menu.c:719
 #. TET-0160; needs-INL-review
 msgid "Restart"
-msgstr "Reinísia"
+msgstr "Reinisia"
 
 #: ../src/main.c:71 ../plugins/menu.c:720
 #. TET-0426; needs-INL-review
@@ -158,7 +158,7 @@ msgstr "_Taka janela"
 #: ../plugins/menu.c:360
 #. TET-0126; needs-INL-review
 msgid "Add to desktop"
-msgstr "Aumenta ba ambiente de traballu"
+msgstr "Aumenta ba ambiente servisu"
 
 #: ../plugins/menu.c:367
 #. TET-0057; needs-INL-review
@@ -215,7 +215,7 @@ msgstr "Enderesu IP:"
 #: ../plugins/netstat/netstat.c:368 ../plugins/netstatus/netstatus-iface.c:174
 #. TET-0224; needs-INL-review
 msgid "Wireless"
-msgstr "Rede sem fiu"
+msgstr "Rede laho fiu"
 
 #: ../plugins/netstatus/netstatus-icon.c:857
 #. TET-0402; needs-INL-review
@@ -240,7 +240,7 @@ msgstr "Preferénsia"
 #: ../plugins/weather/weatherwidget.c:1081
 #. TET-0018; needs-INL-review
 msgid "Refresh"
-msgstr "Karga fali"
+msgstr "Karrega fali"
 
 #: ../plugins/weather/weatherwidget.c:1295
 #. TET-0167; needs-INL-review

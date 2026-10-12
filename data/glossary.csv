@@ -5,7 +5,7 @@ TET-0003,actions,Save,Rai,original-project-draft,needs-INL-review,GPL-3.0-or-lat
 TET-0004,actions,Save As,Rai hanesan,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0005,actions,Cancel,Kansela,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0006,actions,Apply,Aplika,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0007,actions,OK,Di'ak,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0007,actions,OK,OK,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0008,actions,Yes,Sin,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0009,actions,No,Lae,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0010,actions,Back,Fila fali,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
@@ -16,7 +16,7 @@ TET-0014,actions,Stop,Para,original-project-draft,needs-INL-review,GPL-3.0-or-la
 TET-0015,actions,Pause,Pauza,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0016,actions,Resume,Kontinua fali,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0017,actions,Retry,Koko fali,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0018,actions,Refresh,Karga fali,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,"Draft distinction: reload current view, rather than install software updates; needs INL review"
+TET-0018,actions,Refresh,Karrega fali,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,"Draft distinction: reload current view, rather than install software updates; needs INL review"
 TET-0019,actions,Reset,Restaura,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0020,actions,Restore Defaults,Restaura konfigurasaun padraun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0021,actions,Add,Aumenta,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
@@ -35,7 +35,7 @@ TET-0033,actions,Search...,Buka...,original-project-draft,needs-INL-review,GPL-3
 TET-0034,actions,Find,Buka,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0035,actions,Replace,Troka,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0036,actions,Print,Imprime,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0037,actions,Preview,Pré-vizualizasaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0037,actions,Preview,Previzualizasaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0038,actions,Import,Importa,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0039,actions,Export,Esporta,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0040,actions,Browse,Buka arkivu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
@@ -43,7 +43,7 @@ TET-0041,actions,Choose,Hili,original-project-draft,needs-INL-review,GPL-3.0-or-
 TET-0042,actions,Confirm,Konfirma,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0043,actions,Send,Haruka,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0044,actions,Receive,Simu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0045,actions,Download,Deskarga,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0045,actions,Download,Deskarrega,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0046,actions,Upload,Karrega,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0047,actions,Install,Instala,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0048,actions,Uninstall,Dezinstala,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
@@ -71,7 +71,7 @@ TET-0069,actions,Languages,Lian sira,original-project-draft,needs-INL-review,GPL
 TET-0070,actions,Author,Autór,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0071,actions,Contributors,Kontribuidór sira,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0072,actions,Copyright,Direitu autór,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0073,actions,Website,Sítio web,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0073,actions,Website,Sítiu web,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0074,actions,Documentation,Dokumentasaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0075,files,File,Arkivu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0076,files,Files,Arkivu sira,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
@@ -85,7 +85,7 @@ TET-0083,files,Move to Trash,Muda ba lixu,original-project-draft,needs-INL-revie
 TET-0084,files,Trash,Lixu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0085,files,Empty Trash,Hamoos lixu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0086,files,Home,Pasta pesoál,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0087,files,Desktop,Ambiente de traballu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0087,files,Desktop,Ambiente servisu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0088,files,Documents,Dokumentu sira,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0089,files,Downloads,Deskarga sira,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0090,files,Pictures,Imajen sira,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
@@ -107,31 +107,31 @@ TET-0105,files,Write,Hakerek,original-project-draft,needs-INL-review,GPL-3.0-or-
 TET-0106,files,Execute,Ezekuta,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0107,files,Read Only,Lee de'it,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0108,files,Mount,Monta,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0109,files,Unmount,Desmonta,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0109,files,Unmount,Dezmonta,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0110,files,Eject,Hasai dispozitivu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0111,files,Storage,Armazenamentu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0112,files,Disk,Disku,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0113,files,Free Space,Espasu livre,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0114,files,Used Space,Espasu uza,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0114,files,Used Space,Espasu uzadu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0115,files,File Manager,Jestór arkivu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0116,files,Open With,Loke ho,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0117,files,Overwrite,Hakerek hikas,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0118,files,File not found,Arkivu la hetan,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0119,files,Permission denied,Permisaun rejeitada,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0118,files,File not found,La hetan arkivu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0119,files,Permission denied,La iha permisaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0120,files,A file with this name already exists.,Arkivu ho naran ida-ne'e eziste ona.,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0121,desktop,Applications,Aplikasaun sira,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0122,desktop,All Applications,Aplikasaun hotu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0123,desktop,Favorites,Favoritu sira,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0124,desktop,Add to Favorites,Aumenta ba favoritu sira,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0125,desktop,Remove from Favorites,Hasai husi favoritu sira,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0126,desktop,Add to Desktop,Aumenta ba ambiente de traballu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0126,desktop,Add to Desktop,Aumenta ba ambiente servisu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0127,desktop,Accessories,Asesóriu sira,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0128,desktop,Education,Edukasaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0129,desktop,Graphics,Gráfika,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0130,desktop,Internet,Internet,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0131,desktop,Office,Eskritóriu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0132,desktop,Programming,Programasaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0133,desktop,Sound & Video,Som no Vídeu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0133,desktop,Sound & Video,Áudiu no Vídeu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0134,desktop,System Tools,Ferramenta sistema,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0135,desktop,Universal Access,Asesu universál,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0136,desktop,Accessibility,Asesibilidade,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
@@ -155,16 +155,16 @@ TET-0153,desktop,Window,Janela,original-project-draft,needs-INL-review,GPL-3.0-o
 TET-0154,desktop,Minimize,Minimiza,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0155,desktop,Maximize,Maksimiza,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0156,desktop,Fullscreen,Ekrán tomak,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0157,desktop,Show Desktop,Hatudu ambiente de traballu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0157,desktop,Show Desktop,Hatudu ambiente servisu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0158,desktop,Lock Screen,Xave ekrán,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0159,desktop,Log Out,Sai husi sesaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0160,desktop,Restart,Reinísia,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0161,desktop,Shut Down,Desliga,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0160,desktop,Restart,Reinisia,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0161,desktop,Shut Down,Dezliga,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0162,desktop,Suspend,Suspende,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0163,desktop,Hibernate,Hiberna,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0164,desktop,Power,Enerjia,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0165,desktop,Battery,Bateria,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0166,desktop,Charging,Karrega bateria,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0166,desktop,Charging,Karrega hela,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0167,desktop,Display,Ekrán,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0168,desktop,Resolution,Resolusaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0169,desktop,Brightness,Brillu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
@@ -181,18 +181,18 @@ TET-0179,updates,Check for Updates,Verifika atualizasaun,original-project-draft,
 TET-0180,updates,Check Update,Verifika atualizasaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0181,updates,Check Again,Verifika fali,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0182,updates,Install Updates,Instala atualizasaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0183,updates,Updates Available,Atualizasaun disponivel,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0184,updates,No Updates Available,La iha atualizasaun disponivel,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0185,updates,Checking for updates...,Verifika atualizasaun...,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0186,updates,Downloading...,Deskarga...,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0187,updates,Installing...,Instala...,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0188,updates,Updating...,Atualiza...,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0183,updates,Updates Available,Atualizasaun disponível,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0184,updates,No Updates Available,La iha atualizasaun disponível,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0185,updates,Checking for updates...,Verifika hela atualizasaun...,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0186,updates,Downloading...,Deskarrega hela...,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0187,updates,Installing...,Instala hela...,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0188,updates,Updating...,Atualiza hela...,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0189,updates,Completed,Konkluidu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0190,updates,Update completed successfully.,Atualizasaun konklui ho susesu.,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0191,updates,Update failed.,Atualizasaun falla.,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0192,updates,Restart Required,Presiza reinísia,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0193,updates,Restart Now,Reinísia agora,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0194,updates,Restart Later,Reinísia depois,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0192,updates,Restart Required,Presiza reinisia,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0193,updates,Restart Now,Reinisia agora,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0194,updates,Restart Later,Reinisia depois,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0195,updates,Critical Updates,Atualizasaun krítika,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0196,updates,Kernel Updates,Atualizasaun kernel,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0197,updates,Normal Updates,Atualizasaun normál,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
@@ -211,25 +211,25 @@ TET-0209,updates,Status,Estadu,original-project-draft,needs-INL-review,GPL-3.0-o
 TET-0210,updates,Success,Susesu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0211,updates,Failed,Falla,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0212,updates,Pending,Pendente,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0213,updates,Running,Hala'o,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0213,updates,Running,Hala'o hela,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0214,updates,Up to date,Atualizadu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0215,updates,Please wait...,Favór hein...,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0216,network,Network,Rede,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0217,network,Connection,Ligasaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0218,network,Connect,Liga,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0219,network,Disconnect,Desliga ligasaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0219,network,Disconnect,Dezliga,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0220,network,Connected,Ligadu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0221,network,Disconnected,La ligadu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0222,network,Offline,La iha ligasaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0223,network,Online,Iha ligasaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0224,network,Wireless,Rede sem fiu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0224,network,Wireless,Rede laho fiu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0225,network,Wired,Rede ho fiu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0226,network,IP Address,Enderesu IP,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0227,network,Server,Servidór,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0228,network,Port,Porta,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0229,network,Proxy,Proxy,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0230,network,Share,Partilla,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0231,network,Sharing,Partilla,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0230,network,Share,Fahe,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0231,network,Sharing,Fahe,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0232,network,Signal Strength,Forsa sinál,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0233,network,Connection failed.,Ligasaun falla.,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0234,network,No network connection.,La iha ligasaun rede.,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
@@ -253,7 +253,7 @@ TET-0251,network,Role,Funsaun,original-project-draft,needs-INL-review,GPL-3.0-or
 TET-0252,network,Teacher,Profesór,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0253,network,Student,Estudante,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0254,network,Subject,Disiplina,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0255,network,Microphone,Mikrofóne,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0255,network,Microphone,Mikrofone,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0256,network,Camera,Kámara,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0257,security,Security,Seguransa,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0258,security,Privacy,Privasidade,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
@@ -269,9 +269,9 @@ TET-0267,security,User,Utilizadór,original-project-draft,needs-INL-review,GPL-3
 TET-0268,security,Users,Utilizadór sira,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0269,security,Blocked,Blokeadu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0270,security,Allowed,Permitidu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0271,security,Block Website,Blokeia sítio web,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0272,security,Unblock Website,Hasai blokeiu sítio web,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0273,security,Blocked Websites,Sítio web blokeadu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0271,security,Block Website,Blokeia sítiu web,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0272,security,Unblock Website,Hasai blokeiu sítiu web,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0273,security,Blocked Websites,Sítiu web blokeadu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0274,security,Filter,Filtru,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0275,security,Protection,Protesaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0276,security,Backup,Kópia seguransa,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
@@ -304,14 +304,14 @@ TET-0302,localization,Number Format,Formatu númeru,original-project-draft,needs
 TET-0303,localization,Translation,Tradusaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0304,localization,Translations,Tradusaun sira,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0305,localization,Original Text,Testu orijinál,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0306,localization,Translated Text,Testu tradús,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0306,localization,Translated Text,Testu tradusidu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0307,localization,Character,Karáter,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0308,localization,Normalize Text,Normaliza testu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0309,localization,No results found.,La hetan rezultadu.,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0310,localization,Search terms...,Buka termu...,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0311,localization,Ready,Prontu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0312,localization,Welcome to Edukasaun OS,Benvindu ba Edukasaun OS,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
-TET-0313,localization,Free and open-source software,Software livre no ho kódigu fonte nakloke,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0312,localization,Welcome to Edukasaun OS,Bemvindu ba Edukasaun OS,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
+TET-0313,localization,Free and open-source software,Software livre no kódigu nakloke,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0314,localization,Developed in Timor-Leste,Dezenvolvidu iha Timor-Leste,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0315,localization,Education for everyone,Edukasaun ba ema hotu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,AI-assisted draft; native-speaker and INL review required
 TET-0316,desktop,Activities,Atividade sira,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
@@ -324,16 +324,16 @@ TET-0322,desktop,System Settings,Konfigurasaun sistema,original-project-draft,ne
 TET-0323,desktop,Screen Lock,Xave ekrán,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0324,desktop,Lock,Xave,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0325,desktop,Unlock,Loke xave,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
-TET-0326,desktop,Muted,La iha lian,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
-TET-0327,desktop,Unmute,Ativa lian,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
+TET-0326,desktop,Muted,Silensiadu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
+TET-0327,desktop,Unmute,Ativa áudiu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0328,desktop,Airplane Mode,Modu aviaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0329,desktop,Bluetooth,Bluetooth,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0330,desktop,VPN,VPN,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0331,desktop,Wi-Fi,Wi-Fi,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0332,desktop,Overview,Vizaun jerál,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
-TET-0333,desktop,Workspace,Espasu traballu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
-TET-0334,desktop,Workspaces,Espasu traballu sira,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
-TET-0335,desktop,Workspace Switcher,Troka espasu traballu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
+TET-0333,desktop,Workspace,Espasu servisu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
+TET-0334,desktop,Workspaces,Espasu servisu sira,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
+TET-0335,desktop,Workspace Switcher,Troka espasu servisu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0336,desktop,Window List,Lista janela,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0337,desktop,Window Buttons,Butaun janela,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0338,desktop,Applications Menu,Menu aplikasaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
@@ -370,7 +370,7 @@ TET-0368,desktop,Destination,Destinu,original-project-draft,needs-INL-review,GPL
 TET-0369,desktop,Source,Orijen,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0370,desktop,Filesystem,Sistema arkivu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0371,desktop,Format,Formatu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
-TET-0372,desktop,Formatting,Formata,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
+TET-0372,desktop,Formatting,Formatasaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0373,desktop,Root,Raiz,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0374,desktop,Symbolic Link,Ligasaun simbólika,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0375,desktop,Create Link,Kria ligasaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
@@ -396,7 +396,7 @@ TET-0394,desktop,Log In,Tama iha sesaun,original-project-draft,needs-INL-review,
 TET-0395,desktop,Sign Out,Sai husi sesaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0396,desktop,Switch User,Troka utilizadór,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0397,desktop,Notification Area,Área notifikasaun,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
-TET-0398,desktop,Sound,Lian,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
+TET-0398,desktop,Sound,Áudiu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0399,desktop,Themes,Tema sira,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0400,desktop,Background,Fundu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0401,desktop,Backgrounds,Fundu sira,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
@@ -430,4 +430,4 @@ TET-0428,desktop,Discard Changes,La rai alterasaun,original-project-draft,needs-
 TET-0429,desktop,Replace All,Troka hotu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0430,desktop,Rename All,Troka naran hotu,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
 TET-0431,desktop,Duplicate,Halo kópia,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
-TET-0432,desktop,Reload,Karga fali,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required
+TET-0432,desktop,Reload,Karrega fali,original-project-draft,needs-INL-review,GPL-3.0-or-later OR GPL-2.0-or-later OR LGPL-2.0-or-later,Original UI draft; native-speaker and INL review required

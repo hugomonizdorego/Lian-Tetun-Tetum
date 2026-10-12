@@ -11,7 +11,7 @@
 # Bruce Cowan <bruce@bcowan.me.uk>, 2009-2023.
 #
 msgid ""
-msgstr "Project-Id-Version: gtk30 Tetun 0.2.1\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+msgstr "Project-Id-Version: gtk30 Tetun 0.3.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
 #. Placeholder in --class=CLASS in --help output
 #: gdk/gdk.c:229
@@ -340,7 +340,7 @@ msgstr "_Refaz"
 #. TET-0018; needs-INL-review
 msgctxt "Stock label"
 msgid "_Refresh"
-msgstr "_Karga fali"
+msgstr "_Karrega fali"
 
 #: gtk/a11y/gtkimageaccessible.c:112 gtk/deprecated/gtkstock.c:440
 #. TET-0022; needs-INL-review
@@ -425,7 +425,7 @@ msgstr "_Tamañu:"
 #: gtk/deprecated/gtkfontsel.c:577
 #. TET-0037; needs-INL-review
 msgid "_Preview:"
-msgstr "_Pré-vizualizasaun:"
+msgstr "_Previzualizasaun:"
 
 #: gtk/deprecated/gtkfontsel.c:1693 gtk/gtkpagesetupunixdialog.c:198
 #: gtk/ui/gtkassistant.ui:50
@@ -437,7 +437,7 @@ msgstr "_Aplika"
 #: gtk/gtkmessagedialog.c:966 gtk/gtkprintbackend.c:780 gtk/gtkwindow.c:12830
 #. TET-0007; needs-INL-review
 msgid "_OK"
-msgstr "_Di'ak"
+msgstr "_OK"
 
 #: gtk/deprecated/gtkstock.c:347
 #. TET-0006; needs-INL-review
@@ -461,7 +461,7 @@ msgstr "_Liga"
 #. TET-0219; needs-INL-review
 msgctxt "Stock label"
 msgid "_Disconnect"
-msgstr "_Desliga ligasaun"
+msgstr "_Dezliga"
 
 #: gtk/deprecated/gtkstock.c:361
 #. TET-0024; needs-INL-review
@@ -485,7 +485,7 @@ msgstr "_Lae"
 #. TET-0007; needs-INL-review
 msgctxt "Stock label"
 msgid "_OK"
-msgstr "_Di'ak"
+msgstr "_OK"
 
 #: gtk/deprecated/gtkstock.c:433
 #. TET-0058; needs-INL-review
@@ -524,7 +524,7 @@ msgstr "_Taka"
 #: gtk/gtkaboutdialog.c:1043
 #. TET-0073; needs-INL-review
 msgid "Website"
-msgstr "Sítio web"
+msgstr "Sítiu web"
 
 #. This label is displayed in a treeview cell displaying
 #. * a disabled accelerator key combination.
@@ -604,7 +604,7 @@ msgstr "Kola"
 #: gtk/gtkfilechooserbutton.c:113 gtk/gtkplacessidebar.c:1112
 #. TET-0087; needs-INL-review
 msgid "Desktop"
-msgstr "Ambiente de traballu"
+msgstr "Ambiente servisu"
 
 #: gtk/gtkfilechooserbutton.c:2162
 #. TET-0387; needs-INL-review
@@ -860,7 +860,7 @@ msgstr "_Monta"
 #: gtk/gtkplacessidebar.c:3713 gtk/gtkplacesview.c:1750
 #. TET-0109; needs-INL-review
 msgid "_Unmount"
-msgstr "_Desmonta"
+msgstr "_Dezmonta"
 
 #: gtk/gtkplacessidebar.c:3714
 #. TET-0110; needs-INL-review
@@ -887,7 +887,7 @@ msgstr "_Kansela"
 #: gtk/gtkplacesview.c:1750
 #. TET-0219; needs-INL-review
 msgid "_Disconnect"
-msgstr "_Desliga ligasaun"
+msgstr "_Dezliga"
 
 #: gtk/gtkplacesview.c:1760
 #. TET-0218; needs-INL-review
@@ -897,13 +897,13 @@ msgstr "_Liga"
 #: gtk/gtkplacesviewrow.c:481
 #. TET-0219; needs-INL-review
 msgid "Disconnect"
-msgstr "Desliga ligasaun"
+msgstr "Dezliga"
 
 #: gtk/gtkplacesviewrow.c:481 gtk/ui/gtkplacesviewrow.ui:72
 #: gtk/ui/gtksidebarrow.ui:62
 #. TET-0109; needs-INL-review
 msgid "Unmount"
-msgstr "Desmonta"
+msgstr "Dezmonta"
 
 #: gtk/gtkprintbackend.c:778
 #. TET-0265; needs-INL-review
@@ -920,7 +920,7 @@ msgstr "Imprime"
 #: gtk/gtkprintunixdialog.c:746
 #. TET-0037; needs-INL-review
 msgid "Pre_view"
-msgstr "_Pré-vizualizasaun"
+msgstr "_Previzualizasaun"
 
 #: gtk/gtkprintunixdialog.c:748
 #. TET-0036; needs-INL-review
@@ -940,7 +940,7 @@ msgstr "Buka"
 #: gtk/gtkvolumebutton.c:232
 #. TET-0326; needs-INL-review
 msgid "Muted"
-msgstr "La iha lian"
+msgstr "Silensiadu"
 
 #: gtk/gtkwindow.c:9339
 #. TET-0082; needs-INL-review

@@ -14,8 +14,9 @@ def build_catalogs():
     subprocess.run([sys.executable,str(ROOT/'scripts/generate_catalogs.py')],check=True)
     mo=ROOT/'build/locale/tet/LC_MESSAGES/edukasaun.mo';mo.parent.mkdir(parents=True,exist_ok=True)
     subprocess.run(['msgfmt','--check','--check-format',str(ROOT/'po/tet.po'),'-o',str(mo)],check=True)
-    for source,name in [(ROOT/'qt/edukasaun_tet.ts','edukasaun_tet.qm'),(ROOT/'upstream/mainmenu_tet.ts','mainmenu_tet.qm')]:
-        subprocess.run([sys.executable,str(ROOT/'scripts/compile_qm.py'),str(source),str(ROOT/'build/qt'/name)],check=True)
+    subprocess.run([sys.executable,str(ROOT/'scripts/compile_qm.py'),str(ROOT/'qt/edukasaun_tet.ts'),str(ROOT/'build/qt/edukasaun_tet.qm')],check=True)
+    for source in sorted((ROOT/'lxqt').glob('*_tet.ts')):
+        subprocess.run([sys.executable,str(ROOT/'scripts/compile_qm.py'),str(source),str(ROOT/'build/lxqt'/(source.stem+'.qm'))],check=True,stdout=subprocess.DEVNULL)
     subprocess.run([sys.executable,str(ROOT/'scripts/generate_native.py')],check=True)
     for source in sorted((ROOT/'native').glob('*.po')):
         output=ROOT/'build/locale/tet/LC_MESSAGES'/(source.stem+'.mo')

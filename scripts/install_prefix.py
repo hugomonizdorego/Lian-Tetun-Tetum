@@ -5,7 +5,7 @@
 Used by `make install` and therefore by debhelper's dh_auto_install. Nothing is
 executed on the target: locale compilation and login activation are separate.
 """
-import argparse
+import argparse,json
 from pathlib import Path
 from build import ROOT, build_catalogs, copy
 
@@ -23,12 +23,16 @@ target=Path(args.destdir)/str(prefix).lstrip('/') if args.destdir else prefix
 if not (ROOT/'build/locale/tet/LC_MESSAGES/edukasaun.mo').is_file():build_catalogs()
 
 share=target/'share'/PACKAGE
-for folder in ('src','locale','data','po','qt','upstream','native'):
+for folder in ('src','locale','data','po','qt','upstream','native','lxqt'):
     for source in sorted((ROOT/folder).rglob('*')):
-        if source.is_file() and '__pycache__' not in source.parts:
+        # Loader patches are documentation (installed with the docs below).
+        if source.is_file() and '__pycache__' not in source.parts and 'lxqt-patches' not in source.parts:
             copy(source,share/folder/source.relative_to(ROOT/folder))
 for source in sorted((ROOT/'build/qt').glob('*.qm')):copy(source,share/'qt'/source.name)
-copy(ROOT/'build/qt/mainmenu_tet.qm',target/'share/lxqt/translations/lxqt-panel/mainmenu/mainmenu_tet.qm')
+# LXQt and LXQt-application catalogs go where each upstream component looks.
+for cat in json.loads((ROOT/'data/lxqt-manifest.json').read_text(encoding='utf-8')):
+    relative=Path(cat['install_dir']).relative_to('/usr')
+    copy(ROOT/'build/lxqt'/(cat['catalog']+'_tet.qm'),target/relative/(cat['catalog']+'_tet.qm'))
 for source in sorted((ROOT/'build/locale/tet/LC_MESSAGES').glob('*.mo')):
     copy(source,target/'share/locale/tet/LC_MESSAGES'/source.name)
 copy(ROOT/'locale/tet_TL',target/'share/i18n/locales/tet_TL')
@@ -40,6 +44,7 @@ if not args.no_docs:
     doc=target/'share/doc'/PACKAGE
     for source in sorted((ROOT/'docs').glob('*.md')):copy(source,doc/source.name)
     for source in sorted((ROOT/'examples').glob('*.py')):copy(source,doc/'examples'/source.name)
+    for source in sorted((ROOT/'upstream/lxqt-patches').iterdir()):copy(source,doc/'lxqt-patches'/source.name)
     for source in sorted((ROOT/'LICENSES').glob('*.txt')):copy(source,doc/'LICENSES'/source.name)
     for source in ('README.md','LICENSE'):copy(ROOT/source,doc/source)
     copy(ROOT/'debian/copyright',doc/'copyright')

@@ -1,6 +1,6 @@
 {
   "project": "Edukasaun OS Tetun Language Pack",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "language_code": "tet",
   "bcp47": "tet-TL",
   "locale": "tet_TL.UTF-8",
@@ -26,7 +26,10 @@
     "measurement": "metric"
   },
   "regional_choices_status": "Project defaults; not asserted to be official INL, ISO or CLDR recommendations.",
-  "desktop_scope": "Shared locale plus partial native application catalogs; target desktop validation pending",
-  "native_catalog_count": 13,
-  "native_message_count": 1553
+  "desktop_scope": "Shared locale; complete draft LXQt Qt catalogs (loader patch required); Openbox and partial GTK/GNOME/Cinnamon/Xfce/MATE/LXDE/KDE catalogs; gettext fallback tet:pt:en",
+  "native_catalog_count": 14,
+  "native_message_count": 1553,
+  "lxqt_catalog_count": 57,
+  "lxqt_messages_translated": 3677,
+  "lxqt_messages_total": 3706
 }

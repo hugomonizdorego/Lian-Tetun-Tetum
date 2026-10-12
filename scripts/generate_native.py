@@ -9,7 +9,7 @@ directory = ROOT/'native'
 directory.mkdir(exist_ok=True)
 for record in json.loads((ROOT/'data/native-templates.json').read_text()):
     domain = record['domain']
-    header = (f'Project-Id-Version: {domain} Tetun 0.2.1\n'
+    header = (f'Project-Id-Version: {domain} Tetun 0.3.0\n'
               'Report-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\n'
               'PO-Revision-Date: 2026-10-03 00:00+0000\n'
               'Last-Translator: Edukasaun OS community draft\n'

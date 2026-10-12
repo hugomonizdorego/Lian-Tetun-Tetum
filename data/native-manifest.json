@@ -168,5 +168,18 @@
     "status": "partial-draft-needs-INL-review",
     "notes": "Exact contexts/IDs retained. Source English translations are not reused. Missing keys fall back. Native accelerators need desktop review.",
     "archive_member": "po/en_GB/dolphin.po"
+  },
+  {
+    "domain": "openbox",
+    "source_version": "3.6.1+git ebfa727",
+    "source_url": "https://raw.githubusercontent.com/Mikachu/openbox/ebfa7271302b3bc4b6d349b8e4aab4cf5f6c7a6d/po/pt.po",
+    "source_po_sha256": "981d0d1a6ed2678dcc6ce37a90df03639c9b75a035110208bb64c3dda4b9a5cd",
+    "source_license": "GPL-2.0-or-later",
+    "catalog_license": "GPL-2.0-or-later",
+    "source_message_count": 94,
+    "translated_count": 93,
+    "coverage_percent": 98.94,
+    "status": "partial-draft-needs-INL-review",
+    "notes": "Exact upstream msgids. Portuguese translations in the source file are not reused; only IDs, comments and notices. The plural desktop-count message falls back."
   }
 ]

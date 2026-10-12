@@ -1,0 +1,1184 @@
+[
+ {
+  "catalog": "backlight",
+  "repo": "lxqt-panel",
+  "template": "plugin-backlight/translations/backlight.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/backlight",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   }
+  ],
+  "messages_total": 1,
+  "translated": 1
+ },
+ {
+  "catalog": "colorpicker",
+  "repo": "lxqt-panel",
+  "template": "plugin-colorpicker/translations/colorpicker.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/colorpicker",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 2,
+  "translated": 2
+ },
+ {
+  "catalog": "cpuload",
+  "repo": "lxqt-panel",
+  "template": "plugin-cpuload/translations/cpuload.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/cpuload",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 12,
+  "translated": 12
+ },
+ {
+  "catalog": "customcommand",
+  "repo": "lxqt-panel",
+  "template": "plugin-customcommand/translations/customcommand.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/customcommand",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 61,
+  "translated": 61
+ },
+ {
+  "catalog": "desktopswitch",
+  "repo": "lxqt-panel",
+  "template": "plugin-desktopswitch/translations/desktopswitch.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/desktopswitch",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 16,
+  "translated": 16
+ },
+ {
+  "catalog": "directorymenu",
+  "repo": "lxqt-panel",
+  "template": "plugin-directorymenu/translations/directorymenu.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/directorymenu",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 21,
+  "translated": 21
+ },
+ {
+  "catalog": "dom",
+  "repo": "lxqt-panel",
+  "template": "plugin-dom/translations/dom.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/dom",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 7,
+  "translated": 7
+ },
+ {
+  "catalog": "fancymenu",
+  "repo": "lxqt-panel",
+  "template": "plugin-fancymenu/translations/fancymenu.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/fancymenu",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 45,
+  "translated": 45
+ },
+ {
+  "catalog": "kbindicator",
+  "repo": "lxqt-panel",
+  "template": "plugin-kbindicator/translations/kbindicator.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/kbindicator",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 21,
+  "translated": 21
+ },
+ {
+  "catalog": "libfm-qt",
+  "repo": "libfm-qt",
+  "template": "src/translations/libfm-qt.ts",
+  "install_dir": "/usr/share/libfm-qt6/translations",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/libfm-qt",
+    "ref": "master",
+    "commit": "9969a50f09117e77c4eee3e5ac6719b453a42da4"
+   },
+   {
+    "url": "https://github.com/lxqt/libfm-qt",
+    "ref": "2.1.0",
+    "commit": "19c49623ee99a6c44a2b35c7cd6abd56243485ac"
+   }
+  ],
+  "messages_total": 319,
+  "translated": 319
+ },
+ {
+  "catalog": "liblxqt",
+  "repo": "liblxqt",
+  "template": "translations/liblxqt.ts",
+  "install_dir": "/usr/share/lxqt/translations/liblxqt",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/liblxqt",
+    "ref": "master",
+    "commit": "2cabee22bed75e47eaf50af491418d014e2aca6c"
+   },
+   {
+    "url": "https://github.com/lxqt/liblxqt",
+    "ref": "2.1.0",
+    "commit": "925c02d88a0064949828371008843c55747c4c17"
+   }
+  ],
+  "messages_total": 35,
+  "translated": 35
+ },
+ {
+  "catalog": "lximage-qt",
+  "repo": "lximage-qt",
+  "template": "src/translations/lximage-qt.ts",
+  "install_dir": "/usr/share/lximage-qt/translations",
+  "license": "GPL-2.0-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lximage-qt",
+    "ref": "master",
+    "commit": "d12979e531d796291dc2690697be3ac404a22144"
+   },
+   {
+    "url": "https://github.com/lxqt/lximage-qt",
+    "ref": "2.1.1",
+    "commit": "df686f76ba6fa8af2e1b364817e816db3b401916"
+   }
+  ],
+  "messages_total": 220,
+  "translated": 220
+ },
+ {
+  "catalog": "lxqt-about",
+  "repo": "lxqt-about",
+  "template": "translations/lxqt-about.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-about",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-about",
+    "ref": "master",
+    "commit": "df100a301b5e05f02bf92bcaacb715631b4853cc"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-about",
+    "ref": "2.1.0",
+    "commit": "25204be40c238ceb86431ba14f9c95e761ac3d68"
+   }
+  ],
+  "messages_total": 19,
+  "translated": 19
+ },
+ {
+  "catalog": "lxqt-admin-time",
+  "repo": "lxqt-admin",
+  "template": "lxqt-admin-time/translations/lxqt-admin-time.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-admin-time",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-admin",
+    "ref": "master",
+    "commit": "967e42c1894bfd084c54d84647f782e806b8330b"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-admin",
+    "ref": "2.1.0",
+    "commit": "e61d9c931ab933ead50186367e12c248b5bff4d6"
+   }
+  ],
+  "messages_total": 18,
+  "translated": 18
+ },
+ {
+  "catalog": "lxqt-admin-user",
+  "repo": "lxqt-admin",
+  "template": "lxqt-admin-user/translations/lxqt-admin-user.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-admin-user",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-admin",
+    "ref": "master",
+    "commit": "967e42c1894bfd084c54d84647f782e806b8330b"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-admin",
+    "ref": "2.1.0",
+    "commit": "e61d9c931ab933ead50186367e12c248b5bff4d6"
+   }
+  ],
+  "messages_total": 49,
+  "translated": 49
+ },
+ {
+  "catalog": "lxqt-archiver",
+  "repo": "lxqt-archiver",
+  "template": "src/translations/lxqt-archiver.ts",
+  "install_dir": "/usr/share/lxqt-archiver/translations",
+  "license": "GPL-2.0-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-archiver",
+    "ref": "master",
+    "commit": "855f9327ce38135a40cd23301f56e1dd3e732772"
+   }
+  ],
+  "messages_total": 170,
+  "translated": 169
+ },
+ {
+  "catalog": "lxqt-config",
+  "repo": "lxqt-config",
+  "template": "src/translations/lxqt-config.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-config",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-config",
+    "ref": "master",
+    "commit": "8efdae223bbea13a653d66a1bca6004df77d7033"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-config",
+    "ref": "2.1.1",
+    "commit": "faff6a2baa8af99e272016cbcaaa87dd32bce30f"
+   }
+  ],
+  "messages_total": 1,
+  "translated": 1
+ },
+ {
+  "catalog": "lxqt-config-appearance",
+  "repo": "lxqt-config",
+  "template": "lxqt-config-appearance/translations/lxqt-config-appearance.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-config-appearance",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-config",
+    "ref": "master",
+    "commit": "8efdae223bbea13a653d66a1bca6004df77d7033"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-config",
+    "ref": "2.1.1",
+    "commit": "faff6a2baa8af99e272016cbcaaa87dd32bce30f"
+   }
+  ],
+  "messages_total": 91,
+  "translated": 91
+ },
+ {
+  "catalog": "lxqt-config-brightness",
+  "repo": "lxqt-config",
+  "template": "lxqt-config-brightness/translations/lxqt-config-brightness.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-config-brightness",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-config",
+    "ref": "master",
+    "commit": "8efdae223bbea13a653d66a1bca6004df77d7033"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-config",
+    "ref": "2.1.1",
+    "commit": "faff6a2baa8af99e272016cbcaaa87dd32bce30f"
+   }
+  ],
+  "messages_total": 19,
+  "translated": 19
+ },
+ {
+  "catalog": "lxqt-config-cursor",
+  "repo": "lxqt-config",
+  "template": "liblxqt-config-cursor/translations/lxqt-config-cursor.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-config-cursor",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-config",
+    "ref": "master",
+    "commit": "8efdae223bbea13a653d66a1bca6004df77d7033"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-config",
+    "ref": "2.1.1",
+    "commit": "faff6a2baa8af99e272016cbcaaa87dd32bce30f"
+   }
+  ],
+  "messages_total": 14,
+  "translated": 14
+ },
+ {
+  "catalog": "lxqt-config-file-associations",
+  "repo": "lxqt-config",
+  "template": "lxqt-config-file-associations/translations/lxqt-config-file-associations.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-config-file-associations",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-config",
+    "ref": "master",
+    "commit": "8efdae223bbea13a653d66a1bca6004df77d7033"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-config",
+    "ref": "2.1.1",
+    "commit": "faff6a2baa8af99e272016cbcaaa87dd32bce30f"
+   }
+  ],
+  "messages_total": 33,
+  "translated": 33
+ },
+ {
+  "catalog": "lxqt-config-globalkeyshortcuts",
+  "repo": "lxqt-globalkeys",
+  "template": "config/translations/lxqt-config-globalkeyshortcuts.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-globalkeys",
+    "ref": "master",
+    "commit": "c6e988daac22f648234b7c67cf8502b5880c656a"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-globalkeys",
+    "ref": "2.1.0",
+    "commit": "989cb88ef709bddff8745b96354defce0c4e7f12"
+   }
+  ],
+  "messages_total": 39,
+  "translated": 39
+ },
+ {
+  "catalog": "lxqt-config-input",
+  "repo": "lxqt-config",
+  "template": "lxqt-config-input/translations/lxqt-config-input.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-config-input",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-config",
+    "ref": "master",
+    "commit": "8efdae223bbea13a653d66a1bca6004df77d7033"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-config",
+    "ref": "2.1.1",
+    "commit": "faff6a2baa8af99e272016cbcaaa87dd32bce30f"
+   }
+  ],
+  "messages_total": 61,
+  "translated": 61
+ },
+ {
+  "catalog": "lxqt-config-locale",
+  "repo": "lxqt-config",
+  "template": "lxqt-config-locale/translations/lxqt-config-locale.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-config-locale",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-config",
+    "ref": "master",
+    "commit": "8efdae223bbea13a653d66a1bca6004df77d7033"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-config",
+    "ref": "2.1.1",
+    "commit": "faff6a2baa8af99e272016cbcaaa87dd32bce30f"
+   }
+  ],
+  "messages_total": 21,
+  "translated": 21
+ },
+ {
+  "catalog": "lxqt-config-monitor",
+  "repo": "lxqt-config",
+  "template": "lxqt-config-monitor/translations/lxqt-config-monitor.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-config-monitor",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-config",
+    "ref": "master",
+    "commit": "8efdae223bbea13a653d66a1bca6004df77d7033"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-config",
+    "ref": "2.1.1",
+    "commit": "faff6a2baa8af99e272016cbcaaa87dd32bce30f"
+   }
+  ],
+  "messages_total": 60,
+  "translated": 60
+ },
+ {
+  "catalog": "lxqt-config-notificationd",
+  "repo": "lxqt-notificationd",
+  "template": "config/translations/lxqt-config-notificationd.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-config-notificationd",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-notificationd",
+    "ref": "master",
+    "commit": "c7aa3a881d9b97e11f2bb275bf983f094b88a981"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-notificationd",
+    "ref": "2.1.1",
+    "commit": "c9b311d93ec68e402255554ed4b97db87227a7d7"
+   }
+  ],
+  "messages_total": 38,
+  "translated": 38
+ },
+ {
+  "catalog": "lxqt-config-powermanagement",
+  "repo": "lxqt-powermanagement",
+  "template": "config/translations/lxqt-config-powermanagement.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-config-powermanagement",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-powermanagement",
+    "ref": "master",
+    "commit": "f5c9fd61c718c3984598323cbb56dac0bcbfc373"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-powermanagement",
+    "ref": "2.1.0",
+    "commit": "f5b5ba868b217391c3c23fe23b932ccc152ac204"
+   }
+  ],
+  "messages_total": 69,
+  "translated": 69
+ },
+ {
+  "catalog": "lxqt-config-session",
+  "repo": "lxqt-session",
+  "template": "lxqt-config-session/translations/lxqt-config-session.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-config-session",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-session",
+    "ref": "master",
+    "commit": "5dffabc255eef7d31011e5b8e4301b2b06eb8463"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-session",
+    "ref": "2.1.1",
+    "commit": "7b83ac9378edc828844f4351af63498b1b3c2daa"
+   }
+  ],
+  "messages_total": 90,
+  "translated": 90
+ },
+ {
+  "catalog": "lxqt-leave",
+  "repo": "lxqt-session",
+  "template": "lxqt-leave/translations/lxqt-leave.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-leave",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-session",
+    "ref": "master",
+    "commit": "5dffabc255eef7d31011e5b8e4301b2b06eb8463"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-session",
+    "ref": "2.1.1",
+    "commit": "7b83ac9378edc828844f4351af63498b1b3c2daa"
+   }
+  ],
+  "messages_total": 15,
+  "translated": 15
+ },
+ {
+  "catalog": "lxqt-notificationd",
+  "repo": "lxqt-notificationd",
+  "template": "src/translations/lxqt-notificationd.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-notificationd",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-notificationd",
+    "ref": "master",
+    "commit": "c7aa3a881d9b97e11f2bb275bf983f094b88a981"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-notificationd",
+    "ref": "2.1.1",
+    "commit": "c9b311d93ec68e402255554ed4b97db87227a7d7"
+   }
+  ],
+  "messages_total": 6,
+  "translated": 6
+ },
+ {
+  "catalog": "lxqt-openssh-askpass",
+  "repo": "lxqt-openssh-askpass",
+  "template": "translations/lxqt-openssh-askpass.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-openssh-askpass",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-openssh-askpass",
+    "ref": "master",
+    "commit": "5725f849730e4d1a8b1912c3dbd3671170c74622"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-openssh-askpass",
+    "ref": "2.1.0",
+    "commit": "94c0d7652dfb7b8cbd5e948013bc0aeb349f7d14"
+   }
+  ],
+  "messages_total": 3,
+  "translated": 3
+ },
+ {
+  "catalog": "lxqt-panel",
+  "repo": "lxqt-panel",
+  "template": "panel/translations/lxqt-panel.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 87,
+  "translated": 87
+ },
+ {
+  "catalog": "lxqt-policykit-agent",
+  "repo": "lxqt-policykit",
+  "template": "translations/lxqt-policykit-agent.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-policykit",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-policykit",
+    "ref": "master",
+    "commit": "fd8432cc1ebbe9f417a6bb0737e7d06a231380a8"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-policykit",
+    "ref": "2.1.0",
+    "commit": "850806b340dbab4e8e08e415fd3c9bfb72e6b518"
+   }
+  ],
+  "messages_total": 9,
+  "translated": 9
+ },
+ {
+  "catalog": "lxqt-powermanagement",
+  "repo": "lxqt-powermanagement",
+  "template": "src/translations/lxqt-powermanagement.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-powermanagement",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-powermanagement",
+    "ref": "master",
+    "commit": "f5c9fd61c718c3984598323cbb56dac0bcbfc373"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-powermanagement",
+    "ref": "2.1.0",
+    "commit": "f5b5ba868b217391c3c23fe23b932ccc152ac204"
+   }
+  ],
+  "messages_total": 70,
+  "translated": 70
+ },
+ {
+  "catalog": "lxqt-runner",
+  "repo": "lxqt-runner",
+  "template": "translations/lxqt-runner.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-runner",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-runner",
+    "ref": "master",
+    "commit": "cf6b494abbbd2ffbdee16d1ebb3b8348a7e40703"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-runner",
+    "ref": "2.1.2",
+    "commit": "5d2f5cb93257bace5214fa6b8d600dff31146f26"
+   }
+  ],
+  "messages_total": 28,
+  "translated": 28
+ },
+ {
+  "catalog": "lxqt-session",
+  "repo": "lxqt-session",
+  "template": "lxqt-session/translations/lxqt-session.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-session",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-session",
+    "ref": "master",
+    "commit": "5dffabc255eef7d31011e5b8e4301b2b06eb8463"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-session",
+    "ref": "2.1.1",
+    "commit": "7b83ac9378edc828844f4351af63498b1b3c2daa"
+   }
+  ],
+  "messages_total": 14,
+  "translated": 14
+ },
+ {
+  "catalog": "lxqt-sudo",
+  "repo": "lxqt-sudo",
+  "template": "translations/lxqt-sudo.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-sudo",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-sudo",
+    "ref": "master",
+    "commit": "80ecaa1e926316ea8e2675af668dd84d294aaf94"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-sudo",
+    "ref": "2.1.0",
+    "commit": "13ebf057e9a8f20c07a2febb8f423a543124dac6"
+   }
+  ],
+  "messages_total": 22,
+  "translated": 22
+ },
+ {
+  "catalog": "mainmenu",
+  "repo": "lxqt-panel",
+  "template": "plugin-mainmenu/translations/mainmenu.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/mainmenu",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 32,
+  "translated": 32
+ },
+ {
+  "catalog": "mount",
+  "repo": "lxqt-panel",
+  "template": "plugin-mount/translations/mount.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/mount",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 21,
+  "translated": 21
+ },
+ {
+  "catalog": "networkmonitor",
+  "repo": "lxqt-panel",
+  "template": "plugin-networkmonitor/translations/networkmonitor.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/networkmonitor",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 18,
+  "translated": 18
+ },
+ {
+  "catalog": "obconf-qt",
+  "repo": "obconf-qt",
+  "template": "src/translations/obconf-qt.ts",
+  "install_dir": "/usr/share/obconf-qt/translations",
+  "license": "GPL-2.0-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/obconf-qt",
+    "ref": "master",
+    "commit": "8724b525d03efe059282f67c3f869bbfd269e97a"
+   }
+  ],
+  "messages_total": 135,
+  "translated": 134
+ },
+ {
+  "catalog": "pavucontrol-qt",
+  "repo": "pavucontrol-qt",
+  "template": "src/translations/pavucontrol-qt.ts",
+  "install_dir": "/usr/share/pavucontrol-qt/translations",
+  "license": "GPL-2.0-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/pavucontrol-qt",
+    "ref": "master",
+    "commit": "b1f230e3fbd59ce501439252a8dd052a4c4f598c"
+   },
+   {
+    "url": "https://github.com/lxqt/pavucontrol-qt",
+    "ref": "2.1.0",
+    "commit": "0797fb576de70dad62ef9b85739ff4a31f1923c9"
+   }
+  ],
+  "messages_total": 135,
+  "translated": 135
+ },
+ {
+  "catalog": "pcmanfm-qt",
+  "repo": "pcmanfm-qt",
+  "template": "pcmanfm/translations/pcmanfm-qt.ts",
+  "install_dir": "/usr/share/pcmanfm-qt/translations",
+  "license": "GPL-2.0-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/pcmanfm-qt",
+    "ref": "master",
+    "commit": "94fa2c173fa897d86307976cdd916a9574a94b71"
+   },
+   {
+    "url": "https://github.com/lxqt/pcmanfm-qt",
+    "ref": "2.1.0",
+    "commit": "07006b796baac4c88d2f82d0fc60f592ffa56ad9"
+   }
+  ],
+  "messages_total": 495,
+  "translated": 494
+ },
+ {
+  "catalog": "qeyes",
+  "repo": "lxqt-panel",
+  "template": "plugin-qeyes/translations/qeyes.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/qeyes",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 7,
+  "translated": 7
+ },
+ {
+  "catalog": "qps",
+  "repo": "qps",
+  "template": "src/translations/qps.ts",
+  "install_dir": "/usr/share/qps/translations",
+  "license": "GPL-2.0-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/qps",
+    "ref": "master",
+    "commit": "d8afa7146b24941d7fb8cce859edca6db6e9c4aa"
+   },
+   {
+    "url": "https://github.com/lxqt/qps",
+    "ref": "2.1.0",
+    "commit": "aa00c771c36a08cb93140c73cb790a73b6401fb5"
+   }
+  ],
+  "messages_total": 363,
+  "translated": 363
+ },
+ {
+  "catalog": "qterminal",
+  "repo": "qterminal",
+  "template": "src/translations/qterminal.ts",
+  "install_dir": "/usr/share/qterminal/translations",
+  "license": "GPL-2.0-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/qterminal",
+    "ref": "master",
+    "commit": "2dbef60e673ea72f72a8fa931dfb59fe8d829824"
+   },
+   {
+    "url": "https://github.com/lxqt/qterminal",
+    "ref": "2.1.0",
+    "commit": "27c7f73fbbff900bf3954db64e834bbe524e07ce"
+   }
+  ],
+  "messages_total": 248,
+  "translated": 248
+ },
+ {
+  "catalog": "qtermwidget",
+  "repo": "qtermwidget",
+  "template": "lib/translations/qtermwidget.ts",
+  "install_dir": "/usr/share/qtermwidget6/translations",
+  "license": "GPL-2.0-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/qtermwidget",
+    "ref": "master",
+    "commit": "54923acb0cbad5250463449152494d2c08a24b68"
+   },
+   {
+    "url": "https://github.com/lxqt/qtermwidget",
+    "ref": "2.1.0",
+    "commit": "df7297b3e372934cfa787cc3f92db9d18ec0e00b"
+   }
+  ],
+  "messages_total": 31,
+  "translated": 31
+ },
+ {
+  "catalog": "quicklaunch",
+  "repo": "lxqt-panel",
+  "template": "plugin-quicklaunch/translations/quicklaunch.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/quicklaunch",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 8,
+  "translated": 8
+ },
+ {
+  "catalog": "screengrab",
+  "repo": "screengrab",
+  "template": "translations/screengrab.ts",
+  "install_dir": "/usr/share/screengrab/translations",
+  "license": "GPL-2.0-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/screengrab",
+    "ref": "master",
+    "commit": "d1ae5a3bde595a2fd0af23824d4da0a6bc534275"
+   },
+   {
+    "url": "https://github.com/lxqt/screengrab",
+    "ref": "2.1.0",
+    "commit": "b913973513289d17768588bfb86b044a9f29916c"
+   }
+  ],
+  "messages_total": 154,
+  "translated": 154
+ },
+ {
+  "catalog": "sensors",
+  "repo": "lxqt-panel",
+  "template": "plugin-sensors/translations/sensors.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/sensors",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 15,
+  "translated": 15
+ },
+ {
+  "catalog": "showdesktop",
+  "repo": "lxqt-panel",
+  "template": "plugin-showdesktop/translations/showdesktop.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/showdesktop",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 3,
+  "translated": 3
+ },
+ {
+  "catalog": "spacer",
+  "repo": "lxqt-panel",
+  "template": "plugin-spacer/translations/spacer.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/spacer",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 8,
+  "translated": 8
+ },
+ {
+  "catalog": "statusnotifier",
+  "repo": "lxqt-panel",
+  "template": "plugin-statusnotifier/translations/statusnotifier.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/statusnotifier",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 11,
+  "translated": 11
+ },
+ {
+  "catalog": "sysstat",
+  "repo": "lxqt-panel",
+  "template": "plugin-sysstat/translations/sysstat.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/sysstat",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 78,
+  "translated": 52
+ },
+ {
+  "catalog": "taskbar",
+  "repo": "lxqt-panel",
+  "template": "plugin-taskbar/translations/taskbar.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/taskbar",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 56,
+  "translated": 56
+ },
+ {
+  "catalog": "volume",
+  "repo": "lxqt-panel",
+  "template": "plugin-volume/translations/volume.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/volume",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 24,
+  "translated": 24
+ },
+ {
+  "catalog": "worldclock",
+  "repo": "lxqt-panel",
+  "template": "plugin-worldclock/translations/worldclock.ts",
+  "install_dir": "/usr/share/lxqt/translations/lxqt-panel/worldclock",
+  "license": "LGPL-2.1-or-later",
+  "upstream": [
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "master",
+    "commit": "9be51d5f0f9d38aa3468984ff7049370646a7c8c"
+   },
+   {
+    "url": "https://github.com/lxqt/lxqt-panel",
+    "ref": "2.1.4",
+    "commit": "b094cc8fd560992eee096d3f28d0213c8b6a945f"
+   }
+  ],
+  "messages_total": 58,
+  "translated": 58
+ }
+]

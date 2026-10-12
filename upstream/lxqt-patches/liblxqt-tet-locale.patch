@@ -1,0 +1,90 @@
+Description: Load Qt translations with the QLocale-aware QTranslator::load()
+ QLocale::system().name() is "C" for languages that are missing from Qt's
+ CLDR-derived locale tables, such as Tetun (tet, tet_TL). The QLocale overload
+ of QTranslator::load() walks QLocale::uiLanguages() instead, which honours
+ LANGUAGE, LC_ALL, LC_MESSAGES and LANG and their fallbacks (tet_TL -> tet,
+ pt_BR -> pt), so every catalog that exists is found. Behaviour for languages
+ Qt already knows is unchanged.
+Author: Edukasaun OS contributors
+Origin: other, https://github.com/hugomonizdorego/Lian-Tetun-Tetum
+Forwarded: not-yet
+Upstream-Commit: https://github.com/lxqt/liblxqt/commit/2cabee22bed75e47eaf50af491418d014e2aca6c
+License: LGPL-2.1-or-later (same as liblxqt)
+---
+diff --git a/lxqtplugininfo.cpp b/lxqtplugininfo.cpp
+index bcc5c6c..a805848 100644
+--- a/lxqtplugininfo.cpp
++++ b/lxqtplugininfo.cpp
+@@ -90,10 +90,9 @@ QLibrary* PluginInfo::loadLibrary(const QString& libDir) const
+         return nullptr;
+     }
+ 
+-    const QString locale = QLocale::system().name();
+     QTranslator* translator = new QTranslator(library);
+ 
+-    if(!translator->load("%1/%2/%2_%3.qm"_L1.arg(path, baseName, locale)))
++    if(!translator->load(QLocale::system(), baseName, QStringLiteral("_"), "%1/%2"_L1.arg(path, baseName)))
+     {
+         qWarning() << "Can't load translator: "_L1.arg(translator->filePath());
+     }
+diff --git a/lxqttranslator.cpp b/lxqttranslator.cpp
+index c1be2ba..ac08bfe 100644
+--- a/lxqttranslator.cpp
++++ b/lxqttranslator.cpp
+@@ -43,6 +43,18 @@ using namespace Qt::Literals::StringLiterals;
+ using namespace LXQt;
+ 
+ bool translate(const QString &name, const QString &owner = QString());
++
++/************************************************
++ English (or the C locale) needs no catalog. Decide this from the preferred
++ UI languages, not QLocale::name(): languages missing from Qt's locale tables
++ (for example Tetun, "tet") report name() == "C" although they are not English.
++ ************************************************/
++static bool isUntranslatedLocale()
++{
++    const QStringList languages = QLocale::system().uiLanguages();
++    const QString first = languages.isEmpty() ? QString() : languages.constFirst();
++    return first.isEmpty() || first == "C"_L1 || first.startsWith("en"_L1);
++}
+ /************************************************
+ 
+  ************************************************/
+@@ -87,7 +99,6 @@ void Translator::setTranslationSearchPaths(const QStringList &paths)
+  ************************************************/
+ bool translate(const QString &name, const QString &owner)
+ {
+-    const QString locale = QLocale::system().name();
+     QTranslator *appTranslator = new QTranslator(qApp);
+ 
+     QStringList *paths = getSearchPaths();
+@@ -107,13 +118,14 @@ bool translate(const QString &name, const QString &owner)
+ 
+         for(const QString &p : std::as_const(subPaths))
+         {
+-            if (appTranslator->load(name + u'_' + locale, p))
++            // The QLocale overload follows QLocale::uiLanguages() (LANGUAGE,
++            // LC_ALL, LC_MESSAGES, LANG) and its fallbacks, e.g. tet_TL -> tet.
++            if (appTranslator->load(QLocale::system(), name, QStringLiteral("_"), p))
+             {
+                 QCoreApplication::installTranslator(appTranslator);
+                 return true;
+             }
+-            else if (locale == "C"_L1 ||
+-                        locale.startsWith("en"_L1))
++            else if (isUntranslatedLocale())
+             {
+                 // English is the default. Even if there isn't an translation
+                 // file, we return true. It's translated anyway.
+@@ -134,10 +146,9 @@ bool translate(const QString &name, const QString &owner)
+  ************************************************/
+ bool Translator::translateApplication(const QString &applicationName)
+ {
+-    const QString locale = QLocale::system().name();
+     QTranslator *qtTranslator = new QTranslator(qApp);
+ 
+-    if (qtTranslator->load("qt_"_L1 + locale, QLibraryInfo::path(QLibraryInfo::TranslationsPath)))
++    if (qtTranslator->load(QLocale::system(), QStringLiteral("qt"), QStringLiteral("_"), QLibraryInfo::path(QLibraryInfo::TranslationsPath)))
+     {
+         qApp->installTranslator(qtTranslator);
+     }

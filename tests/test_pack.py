@@ -29,7 +29,7 @@ class CatalogChecks(unittest.TestCase):
   try:from PyQt5.QtCore import QTranslator,QCoreApplication
   except ImportError:self.skipTest('Optional Qt runtime verification requires python3-pyqt5')
   app=QCoreApplication.instance() or QCoreApplication([])
-  for ts,qm in [(ROOT/'qt/edukasaun_tet.ts',ROOT/'build/qt/edukasaun_tet.qm'),(ROOT/'upstream/mainmenu_tet.ts',ROOT/'build/qt/mainmenu_tet.qm')]:
+  for ts,qm in [(ROOT/'qt/edukasaun_tet.ts',ROOT/'build/qt/edukasaun_tet.qm'),(ROOT/'lxqt/mainmenu_tet.ts',ROOT/'build/lxqt/mainmenu_tet.qm')]:
    tr=QTranslator();self.assertTrue(tr.load(str(qm)))
    for ctx in ET.parse(ts).getroot().findall('context'):
     for m in ctx.findall('message'):self.assertEqual(tr.translate(ctx.findtext('name'),m.findtext('source')),m.findtext('translation'))
