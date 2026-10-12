@@ -11,7 +11,7 @@ from catalog_tools import parse_po
 class NativeCatalogChecks(unittest.TestCase):
     def test_all_exact_contexts_and_untranslated_fallback(self):
         templates = json.loads((ROOT/'data/native-templates.json').read_text())
-        self.assertEqual(len(templates), 13)
+        self.assertEqual(len(templates), 14)
         for record in templates:
             tr = gettext.translation(record['domain'], ROOT/'build/locale', languages=['tet'])
             seen = set()
@@ -39,7 +39,9 @@ class NativeCatalogChecks(unittest.TestCase):
             self.assertTrue((ROOT/'upstream/native-notices'/(record['domain']+'.txt')).is_file())
             for entry in entries:
                 self.assertNotIn('msgid_plural', entry)
-                self.assertNotIn('%', entry['msgid'])
+                # Placeholders are allowed only when msgfmt --check-format verifies them.
+                if '%' in entry['msgid']:
+                    self.assertTrue(any('c-format' in c for c in entry['comments']), entry['msgid'])
         self.assertFalse(list((ROOT/'upstream').rglob('*.pdf')))
 
 
@@ -67,6 +69,25 @@ class MultiDesktopChecks(unittest.TestCase):
             self.assertIn('added=later', p.read_text())
             self.assertIn('keep=yes', p.read_text())
             self.assertFalse(paths['plasma_env'].exists())
+
+    def test_lxqt_session_environment_is_set_and_restored(self):
+        with tempfile.TemporaryDirectory() as d:
+            home=Path(d); paths=session.locations(home); p=paths['lxqt']; p.parent.mkdir(parents=True)
+            original='[General]\nwindow_manager=openbox\n\n[Environment]\nLANG=en_US.UTF-8\nLC_ALL=C\nGTK_CSD=0\n'
+            p.write_text(original)
+            session.change_user(home, True, 'lxqt')
+            text=p.read_text()
+            self.assertEqual(session.ini_value(text,'Environment','LANG'),'tet_TL.UTF-8')
+            self.assertEqual(session.ini_value(text,'Environment','LANGUAGE'),'tet:pt:en')
+            self.assertEqual(session.ini_value(text,'Environment','LC_MESSAGES'),'tet_TL.UTF-8')
+            self.assertIsNone(session.ini_value(text,'Environment','LC_ALL'))
+            self.assertIn('window_manager=openbox',text); self.assertIn('GTK_CSD=0',text)
+            session.change_user(home, False)
+            self.assertEqual(p.read_text(), original)
+        with tempfile.TemporaryDirectory() as d:
+            home=Path(d); paths=session.locations(home)
+            session.change_user(home, True, 'lxqt'); self.assertTrue(paths['lxqt'].exists())
+            session.change_user(home, False); self.assertFalse(paths['lxqt'].exists())
 
     def test_kde_conflicting_user_language_edit_aborts_all_changes(self):
         with tempfile.TemporaryDirectory() as d:

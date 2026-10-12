@@ -5,7 +5,7 @@ import argparse, csv, datetime, gettext, json, locale, os, re, shutil
 import subprocess, sys, tempfile, unicodedata
 from pathlib import Path
 
-VERSION = '0.2.0'
+VERSION = '0.3.0'
 DOMAIN = 'edukasaun'
 SHARE = Path('/usr/share/eduka-language-pack-tet')
 LOCALE_DIR = Path('/usr/share/locale')

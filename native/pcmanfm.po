@@ -7,7 +7,7 @@
 # This file is distributed under the same license as the pcmanfm package.
 # Steve Cook <yorvik.ubunto@gmail.com>, 2010.
 msgid ""
-msgstr "Project-Id-Version: pcmanfm Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+msgstr "Project-Id-Version: pcmanfm Tetun 0.3.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
 #: ../data/ui/desktop-pref.glade.h:4
 #. TET-0144; needs-INL-review
@@ -63,7 +63,7 @@ msgstr "_Ekrán"
 #: ../data/ui/pref.glade.h:49
 #. TET-0087; needs-INL-review
 msgid "Des_ktop"
-msgstr "_Ambiente de traballu"
+msgstr "_Ambiente servisu"
 
 #: ../data/ui/pref.glade.h:52
 #. TET-0121; needs-INL-review
@@ -134,7 +134,7 @@ msgstr "_Loke iha terminál"
 #: ../src/desktop.c:1466
 #. TET-0087; needs-INL-review
 msgid "Desktop"
-msgstr "Ambiente de traballu"
+msgstr "Ambiente servisu"
 
 #: ../src/main-win-ui.c:189
 #. TET-0075; needs-INL-review
@@ -204,7 +204,7 @@ msgstr "_Ajuda"
 #: ../src/main-win-ui.c:237
 #. TET-0087; needs-INL-review
 msgid "_Desktop"
-msgstr "_Ambiente de traballu"
+msgstr "_Ambiente servisu"
 
 #: ../src/main-win-ui.c:240
 #. TET-0121; needs-INL-review

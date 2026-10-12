@@ -1,9 +1,28 @@
 #!/bin/sh
+# SPDX-License-Identifier: GPL-3.0-or-later
 set -e
+
+compile_locale() {
+	# Compile tet_TL.UTF-8 with the installed glibc. A failure is reported but
+	# does not leave the package unconfigured: rerun "eduka-tet compile-locale".
+	if ! eduka-tet compile-locale >/dev/null; then
+		echo "eduka-language-pack-tet: warning: could not compile tet_TL.UTF-8;" \
+		     "run 'sudo eduka-tet compile-locale' after fixing the problem." >&2
+	fi
+}
+
 case "$1" in
- configure|triggered)
-  eduka-tet compile-locale
- ;;
+	configure|triggered)
+		compile_locale
+	;;
+	abort-upgrade|abort-remove|abort-deconfigure)
+	;;
+	*)
+		echo "postinst called with unknown argument \`$1'" >&2
+		exit 1
+	;;
 esac
-# Installation compiles the locale; the user chooses whether to enable it.
+
+#DEBHELPER#
+
 exit 0

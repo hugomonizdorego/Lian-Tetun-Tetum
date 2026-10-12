@@ -85,9 +85,30 @@ converted to INL and presented as a licensed original dictionary.
 - GNU GPL/LGPL texts shipped in LICENSE / LICENSES: original project licensing
   and compatible source contribution rules; they do not license the books.
 
-`data/native-manifest.json` lists all 13 actual upstream catalog URLs, source
+`data/native-manifest.json` lists all 14 actual upstream catalog URLs, source
 versions, PO hashes, GNU licenses and coverage. `native-templates.json` lists only
 the selected exact IDs/contexts with original Tetun drafts; the full English
 source catalogs are not included. Original upstream notices and license texts
 are retained in `upstream/native-notices/`. These are the reusable software
 sources for native UI integration, distinct from the permission-required books.
+
+## Sources added for 0.3.0
+
+- [LXQt repositories](https://github.com/lxqt): English TS templates of master
+  and the 2.1.x tags in Debian 13 (exact commits in `data/lxqt-manifest.json`);
+  translation loaders inspected in liblxqt, lxqt-build-tools and each app.
+- [Qt `QLocale` / `QTranslator`](https://doc.qt.io/qt-6/qtranslator.html#load-1):
+  `QLocale` has no Tetum entry (checked against qtbase `qlocale.h`); the QLocale
+  overload of `QTranslator::load()` follows `uiLanguages()`. Behaviour verified
+  with Qt 6.4.2 (C++) and 6.11 (PyQt6).
+- [lxqt-session `sessionapplication.cpp`](https://github.com/lxqt/lxqt-session/blob/master/lxqt-session/src/sessionapplication.cpp):
+  `[Environment]` of `session.conf` is exported at session start.
+- [Openbox](https://github.com/Mikachu/openbox) `po/pt.po`: message IDs and
+  `c-format` flags only (GPL-2.0-or-later).
+- [MediaWiki Tetun interface messages](https://github.com/wikimedia/mediawiki/blob/master/languages/i18n/tet.json)
+  (translatewiki.net community): consulted for established UI conventions such
+  as keeping `OK`, `Preferénsia`, `Kona-ba`. Not copied.
+- [Tetun alphabet](https://en.wikipedia.org/wiki/Tetun_alphabet) summary of the
+  INL standard (accented vowels, loan-only letters, ll/ñ) and the
+  [GNU Tetum project](https://www.gnu.org/software/tetum/) as background for the
+  0.3.0 spelling rules in ORTHOGRAPHY.md. No dictionary content is copied.

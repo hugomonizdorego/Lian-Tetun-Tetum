@@ -35,7 +35,7 @@
     <message>
       <source>OK</source>
       <extracomment>TET-0007: draft, needs INL review</extracomment>
-      <translation>Di'ak</translation>
+      <translation>OK</translation>
     </message>
     <message>
       <source>Yes</source>
@@ -90,7 +90,7 @@
     <message>
       <source>Refresh</source>
       <extracomment>TET-0018: draft, needs INL review</extracomment>
-      <translation>Karga fali</translation>
+      <translation>Karrega fali</translation>
     </message>
     <message>
       <source>Reset</source>
@@ -185,7 +185,7 @@
     <message>
       <source>Preview</source>
       <extracomment>TET-0037: draft, needs INL review</extracomment>
-      <translation>Pré-vizualizasaun</translation>
+      <translation>Previzualizasaun</translation>
     </message>
     <message>
       <source>Import</source>
@@ -225,7 +225,7 @@
     <message>
       <source>Download</source>
       <extracomment>TET-0045: draft, needs INL review</extracomment>
-      <translation>Deskarga</translation>
+      <translation>Deskarrega</translation>
     </message>
     <message>
       <source>Upload</source>
@@ -365,7 +365,7 @@
     <message>
       <source>Website</source>
       <extracomment>TET-0073: draft, needs INL review</extracomment>
-      <translation>Sítio web</translation>
+      <translation>Sítiu web</translation>
     </message>
     <message>
       <source>Documentation</source>
@@ -435,7 +435,7 @@
     <message>
       <source>Desktop</source>
       <extracomment>TET-0087: draft, needs INL review</extracomment>
-      <translation>Ambiente de traballu</translation>
+      <translation>Ambiente servisu</translation>
     </message>
     <message>
       <source>Documents</source>
@@ -545,7 +545,7 @@
     <message>
       <source>Unmount</source>
       <extracomment>TET-0109: draft, needs INL review</extracomment>
-      <translation>Desmonta</translation>
+      <translation>Dezmonta</translation>
     </message>
     <message>
       <source>Eject</source>
@@ -570,7 +570,7 @@
     <message>
       <source>Used Space</source>
       <extracomment>TET-0114: draft, needs INL review</extracomment>
-      <translation>Espasu uza</translation>
+      <translation>Espasu uzadu</translation>
     </message>
     <message>
       <source>File Manager</source>
@@ -590,12 +590,12 @@
     <message>
       <source>File not found</source>
       <extracomment>TET-0118: draft, needs INL review</extracomment>
-      <translation>Arkivu la hetan</translation>
+      <translation>La hetan arkivu</translation>
     </message>
     <message>
       <source>Permission denied</source>
       <extracomment>TET-0119: draft, needs INL review</extracomment>
-      <translation>Permisaun rejeitada</translation>
+      <translation>La iha permisaun</translation>
     </message>
     <message>
       <source>A file with this name already exists.</source>
@@ -630,7 +630,7 @@
     <message>
       <source>Add to Desktop</source>
       <extracomment>TET-0126: draft, needs INL review</extracomment>
-      <translation>Aumenta ba ambiente de traballu</translation>
+      <translation>Aumenta ba ambiente servisu</translation>
     </message>
     <message>
       <source>Accessories</source>
@@ -665,7 +665,7 @@
     <message>
       <source>Sound &amp; Video</source>
       <extracomment>TET-0133: draft, needs INL review</extracomment>
-      <translation>Som no Vídeu</translation>
+      <translation>Áudiu no Vídeu</translation>
     </message>
     <message>
       <source>System Tools</source>
@@ -785,7 +785,7 @@
     <message>
       <source>Show Desktop</source>
       <extracomment>TET-0157: draft, needs INL review</extracomment>
-      <translation>Hatudu ambiente de traballu</translation>
+      <translation>Hatudu ambiente servisu</translation>
     </message>
     <message>
       <source>Lock Screen</source>
@@ -800,12 +800,12 @@
     <message>
       <source>Restart</source>
       <extracomment>TET-0160: draft, needs INL review</extracomment>
-      <translation>Reinísia</translation>
+      <translation>Reinisia</translation>
     </message>
     <message>
       <source>Shut Down</source>
       <extracomment>TET-0161: draft, needs INL review</extracomment>
-      <translation>Desliga</translation>
+      <translation>Dezliga</translation>
     </message>
     <message>
       <source>Suspend</source>
@@ -830,7 +830,7 @@
     <message>
       <source>Charging</source>
       <extracomment>TET-0166: draft, needs INL review</extracomment>
-      <translation>Karrega bateria</translation>
+      <translation>Karrega hela</translation>
     </message>
     <message>
       <source>Display</source>
@@ -915,32 +915,32 @@
     <message>
       <source>Updates Available</source>
       <extracomment>TET-0183: draft, needs INL review</extracomment>
-      <translation>Atualizasaun disponivel</translation>
+      <translation>Atualizasaun disponível</translation>
     </message>
     <message>
       <source>No Updates Available</source>
       <extracomment>TET-0184: draft, needs INL review</extracomment>
-      <translation>La iha atualizasaun disponivel</translation>
+      <translation>La iha atualizasaun disponível</translation>
     </message>
     <message>
       <source>Checking for updates...</source>
       <extracomment>TET-0185: draft, needs INL review</extracomment>
-      <translation>Verifika atualizasaun...</translation>
+      <translation>Verifika hela atualizasaun...</translation>
     </message>
     <message>
       <source>Downloading...</source>
       <extracomment>TET-0186: draft, needs INL review</extracomment>
-      <translation>Deskarga...</translation>
+      <translation>Deskarrega hela...</translation>
     </message>
     <message>
       <source>Installing...</source>
       <extracomment>TET-0187: draft, needs INL review</extracomment>
-      <translation>Instala...</translation>
+      <translation>Instala hela...</translation>
     </message>
     <message>
       <source>Updating...</source>
       <extracomment>TET-0188: draft, needs INL review</extracomment>
-      <translation>Atualiza...</translation>
+      <translation>Atualiza hela...</translation>
     </message>
     <message>
       <source>Completed</source>
@@ -960,17 +960,17 @@
     <message>
       <source>Restart Required</source>
       <extracomment>TET-0192: draft, needs INL review</extracomment>
-      <translation>Presiza reinísia</translation>
+      <translation>Presiza reinisia</translation>
     </message>
     <message>
       <source>Restart Now</source>
       <extracomment>TET-0193: draft, needs INL review</extracomment>
-      <translation>Reinísia agora</translation>
+      <translation>Reinisia agora</translation>
     </message>
     <message>
       <source>Restart Later</source>
       <extracomment>TET-0194: draft, needs INL review</extracomment>
-      <translation>Reinísia depois</translation>
+      <translation>Reinisia depois</translation>
     </message>
     <message>
       <source>Critical Updates</source>
@@ -1065,7 +1065,7 @@
     <message>
       <source>Running</source>
       <extracomment>TET-0213: draft, needs INL review</extracomment>
-      <translation>Hala'o</translation>
+      <translation>Hala'o hela</translation>
     </message>
     <message>
       <source>Up to date</source>
@@ -1095,7 +1095,7 @@
     <message>
       <source>Disconnect</source>
       <extracomment>TET-0219: draft, needs INL review</extracomment>
-      <translation>Desliga ligasaun</translation>
+      <translation>Dezliga</translation>
     </message>
     <message>
       <source>Connected</source>
@@ -1120,7 +1120,7 @@
     <message>
       <source>Wireless</source>
       <extracomment>TET-0224: draft, needs INL review</extracomment>
-      <translation>Rede sem fiu</translation>
+      <translation>Rede laho fiu</translation>
     </message>
     <message>
       <source>Wired</source>
@@ -1150,12 +1150,12 @@
     <message>
       <source>Share</source>
       <extracomment>TET-0230: draft, needs INL review</extracomment>
-      <translation>Partilla</translation>
+      <translation>Fahe</translation>
     </message>
     <message>
       <source>Sharing</source>
       <extracomment>TET-0231: draft, needs INL review</extracomment>
-      <translation>Partilla</translation>
+      <translation>Fahe</translation>
     </message>
     <message>
       <source>Signal Strength</source>
@@ -1275,7 +1275,7 @@
     <message>
       <source>Microphone</source>
       <extracomment>TET-0255: draft, needs INL review</extracomment>
-      <translation>Mikrofóne</translation>
+      <translation>Mikrofone</translation>
     </message>
     <message>
       <source>Camera</source>
@@ -1355,17 +1355,17 @@
     <message>
       <source>Block Website</source>
       <extracomment>TET-0271: draft, needs INL review</extracomment>
-      <translation>Blokeia sítio web</translation>
+      <translation>Blokeia sítiu web</translation>
     </message>
     <message>
       <source>Unblock Website</source>
       <extracomment>TET-0272: draft, needs INL review</extracomment>
-      <translation>Hasai blokeiu sítio web</translation>
+      <translation>Hasai blokeiu sítiu web</translation>
     </message>
     <message>
       <source>Blocked Websites</source>
       <extracomment>TET-0273: draft, needs INL review</extracomment>
-      <translation>Sítio web blokeadu</translation>
+      <translation>Sítiu web blokeadu</translation>
     </message>
     <message>
       <source>Filter</source>
@@ -1530,7 +1530,7 @@
     <message>
       <source>Translated Text</source>
       <extracomment>TET-0306: draft, needs INL review</extracomment>
-      <translation>Testu tradús</translation>
+      <translation>Testu tradusidu</translation>
     </message>
     <message>
       <source>Character</source>
@@ -1560,12 +1560,12 @@
     <message>
       <source>Welcome to Edukasaun OS</source>
       <extracomment>TET-0312: draft, needs INL review</extracomment>
-      <translation>Benvindu ba Edukasaun OS</translation>
+      <translation>Bemvindu ba Edukasaun OS</translation>
     </message>
     <message>
       <source>Free and open-source software</source>
       <extracomment>TET-0313: draft, needs INL review</extracomment>
-      <translation>Software livre no ho kódigu fonte nakloke</translation>
+      <translation>Software livre no kódigu nakloke</translation>
     </message>
     <message>
       <source>Developed in Timor-Leste</source>
@@ -1630,12 +1630,12 @@
     <message>
       <source>Muted</source>
       <extracomment>TET-0326: draft, needs INL review</extracomment>
-      <translation>La iha lian</translation>
+      <translation>Silensiadu</translation>
     </message>
     <message>
       <source>Unmute</source>
       <extracomment>TET-0327: draft, needs INL review</extracomment>
-      <translation>Ativa lian</translation>
+      <translation>Ativa áudiu</translation>
     </message>
     <message>
       <source>Airplane Mode</source>
@@ -1665,17 +1665,17 @@
     <message>
       <source>Workspace</source>
       <extracomment>TET-0333: draft, needs INL review</extracomment>
-      <translation>Espasu traballu</translation>
+      <translation>Espasu servisu</translation>
     </message>
     <message>
       <source>Workspaces</source>
       <extracomment>TET-0334: draft, needs INL review</extracomment>
-      <translation>Espasu traballu sira</translation>
+      <translation>Espasu servisu sira</translation>
     </message>
     <message>
       <source>Workspace Switcher</source>
       <extracomment>TET-0335: draft, needs INL review</extracomment>
-      <translation>Troka espasu traballu</translation>
+      <translation>Troka espasu servisu</translation>
     </message>
     <message>
       <source>Window List</source>
@@ -1860,7 +1860,7 @@
     <message>
       <source>Formatting</source>
       <extracomment>TET-0372: draft, needs INL review</extracomment>
-      <translation>Formata</translation>
+      <translation>Formatasaun</translation>
     </message>
     <message>
       <source>Root</source>
@@ -1990,7 +1990,7 @@
     <message>
       <source>Sound</source>
       <extracomment>TET-0398: draft, needs INL review</extracomment>
-      <translation>Lian</translation>
+      <translation>Áudiu</translation>
     </message>
     <message>
       <source>Themes</source>
@@ -2160,7 +2160,7 @@
     <message>
       <source>Reload</source>
       <extracomment>TET-0432: draft, needs INL review</extracomment>
-      <translation>Karga fali</translation>
+      <translation>Karrega fali</translation>
     </message>
   </context>
 </TS>

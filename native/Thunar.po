@@ -12,7 +12,7 @@
 # Andi Chandler <andi@gowling.com>, 2025
 # 
 msgid ""
-msgstr "Project-Id-Version: Thunar Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+msgstr "Project-Id-Version: Thunar Tetun 0.3.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
 #. change the accept button label text
 #: thunar/thunar-action-manager.c:322 thunar/thunar-chooser-dialog.c:907
@@ -114,7 +114,7 @@ msgstr "_Monta"
 #: thunar/thunar-action-manager.c:362
 #. TET-0109; needs-INL-review
 msgid "_Unmount"
-msgstr "_Desmonta"
+msgstr "_Dezmonta"
 
 #: thunar/thunar-action-manager.c:363 thunar/thunar-device.c:551
 #. TET-0110; needs-INL-review
@@ -189,7 +189,7 @@ msgstr "_Buka arkivu..."
 #: plugins/thunar-uca/thunar-uca-editor.c:456
 #. TET-0007; needs-INL-review
 msgid "_OK"
-msgstr "_Di'ak"
+msgstr "_OK"
 
 #: thunar/thunar-chooser-dialog.c:782
 #. TET-0022; needs-INL-review
@@ -241,7 +241,7 @@ msgstr "_Hasai ho seguru"
 #: thunar/thunar-device.c:544
 #. TET-0219; needs-INL-review
 msgid "_Disconnect"
-msgstr "_Desliga ligasaun"
+msgstr "_Dezliga"
 
 #: thunar/thunar-device.c:548
 #. TET-0324; needs-INL-review
@@ -621,7 +621,7 @@ msgstr "Foin uza"
 #: thunar/thunar-size-label.c:504
 #. TET-0119; needs-INL-review
 msgid "Permission denied"
-msgstr "Permisaun rejeitada"
+msgstr "La iha permisaun"
 
 #: thunar/thunar-standard-view.c:489
 #. TET-0360; needs-INL-review
@@ -647,7 +647,7 @@ msgstr "_Kansela"
 #: thunar/thunar-util.c:836
 #. TET-0032; needs-INL-review
 msgid "Search: "
-msgstr "Buka:"
+msgstr "Buka: "
 
 #: thunar/thunar-window.c:648
 #. TET-0075; needs-INL-review
@@ -682,7 +682,7 @@ msgstr "_Preferénsia..."
 #: thunar/thunar-window.c:662
 #. TET-0432; needs-INL-review
 msgid "_Reload"
-msgstr "_Karga fali"
+msgstr "_Karrega fali"
 
 #: thunar/thunar-window.c:679
 #. TET-0095; needs-INL-review
@@ -717,7 +717,7 @@ msgstr "_Pasta pesoál"
 #: thunar/thunar-window.c:695
 #. TET-0087; needs-INL-review
 msgid "_Desktop"
-msgstr "_Ambiente de traballu"
+msgstr "_Ambiente servisu"
 
 #: thunar/thunar-window.c:696
 #. TET-0343; needs-INL-review
@@ -752,7 +752,7 @@ msgstr "_Fila fali"
 #: thunar/thunar-window.c:1139
 #. TET-0098; needs-INL-review
 msgid "Size: "
-msgstr "Tamañu:"
+msgstr "Tamañu: "
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:258
 #: plugins/thunar-apr/thunar-apr-image-page.c:62

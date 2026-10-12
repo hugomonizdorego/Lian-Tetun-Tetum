@@ -1,11 +1,24 @@
 {
-  "baseline": "liblxqt 2.1.0 / lxqt-panel 2.1.4",
-  "license": "LGPL-2.1-or-later",
-  "original_authors": "LXQt/Razor team; Alexander Sokoloff; Lu\u00eds Pereira",
-  "template_source": "https://raw.githubusercontent.com/lxqt/lxqt-panel/2.1.4/plugin-mainmenu/translations/mainmenu_en_GB.ts",
-  "template_sha256": "9d2a196df2e78113527f4a008738832bee37b8e6c372523810746aaa9511acd3",
-  "patch_baseline_source": "https://raw.githubusercontent.com/lxqt/liblxqt/2.1.0/lxqttranslator.cpp",
-  "patch_baseline_sha256": "8ac229c9fa2a5e6b8a5ca15037b85c3bb3b8dc8b6ef90dae27756514d7d32ae5",
-  "translations": "Original AI-assisted project draft; INL review pending",
-  "messages": 31
+  "lxqt_catalogs": {
+    "manifest": "data/lxqt-manifest.json",
+    "catalogs": 57,
+    "messages": 3706,
+    "translated": 3677,
+    "sources": "Upstream English TS templates of github.com/lxqt repositories at the commits listed in the manifest (master and the Debian 13 2.1.x tags). Only message IDs/contexts are used; no other language's translation is copied.",
+    "translations": "Original AI-assisted project draft; INL review pending"
+  },
+  "lxqt_loader_patches": {
+    "directory": "upstream/lxqt-patches",
+    "format": "DEP-3 header + git diff",
+    "verified": "Compiled against Qt 6.4.2; git apply --check against Debian 13 release tags"
+  },
+  "openbox_catalog": {
+    "source": "https://github.com/Mikachu/openbox/blob/ebfa7271302b3bc4b6d349b8e4aab4cf5f6c7a6d/po/pt.po",
+    "use": "message IDs and c-format flags only",
+    "license": "GPL-2.0-or-later"
+  },
+  "terminology_references": [
+    "MediaWiki Tetun interface messages (translatewiki.net, languages/i18n/tet.json) - consulted for established UI terms, not copied",
+    "docs/CORRECTIONS.md and data/corrections.csv - rule and reason for each correction"
+  ]
 }

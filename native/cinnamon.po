@@ -8,7 +8,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
 #
 msgid ""
-msgstr "Project-Id-Version: cinnamon Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+msgstr "Project-Id-Version: cinnamon Tetun 0.3.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
 #. menu@cinnamon.org->settings-schema.json->show-home->description
 #: src/cinnamon-util.c:96
@@ -34,7 +34,7 @@ msgstr "Buka"
 #: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:24
 #. TET-0037; needs-INL-review
 msgid "Preview"
-msgstr "Pré-vizualizasaun"
+msgstr "Previzualizasaun"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/input-sources-list.ui:39
 #: js/ui/audioDeviceSelection.js:72 js/ui/endSessionDialog.js:108
@@ -166,7 +166,7 @@ msgstr "Kona-ba..."
 #: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1084
 #. TET-0255; needs-INL-review
 msgid "Microphone"
-msgstr "Mikrofóne"
+msgstr "Mikrofone"
 
 #: js/ui/endSessionDialog.js:135
 #: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:102
@@ -206,13 +206,13 @@ msgstr "Hiberna"
 #: js/ui/endSessionDialog.js:215
 #. TET-0160; needs-INL-review
 msgid "Restart"
-msgstr "Reinísia"
+msgstr "Reinisia"
 
 #: js/ui/endSessionDialog.js:185 js/ui/endSessionDialog.js:193
 #: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2423
 #. TET-0161; needs-INL-review
 msgid "Shut Down"
-msgstr "Desliga"
+msgstr "Dezliga"
 
 #: js/ui/extension.js:528
 #. TET-0279; needs-INL-review
@@ -222,7 +222,7 @@ msgstr "Erru"
 #: js/ui/main.js:661
 #. TET-0333; needs-INL-review
 msgid "Workspace"
-msgstr "Espasu traballu"
+msgstr "Espasu servisu"
 
 #: js/ui/messageTray.js:1109
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:85
@@ -250,7 +250,7 @@ msgstr "Sin"
 #: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:451
 #. TET-0007; needs-INL-review
 msgid "OK"
-msgstr "Di'ak"
+msgstr "OK"
 
 #: js/ui/networkAgent.js:106
 #. TET-0218; needs-INL-review
@@ -416,7 +416,7 @@ msgstr "Aumenta ba painél"
 #: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:519
 #. TET-0126; needs-INL-review
 msgid "Add to desktop"
-msgstr "Aumenta ba ambiente de traballu"
+msgstr "Aumenta ba ambiente servisu"
 
 #: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:539
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:912
@@ -468,7 +468,7 @@ msgstr "Rede ho fiu"
 #: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1870
 #. TET-0224; needs-INL-review
 msgid "Wireless"
-msgstr "Rede sem fiu"
+msgstr "Rede laho fiu"
 
 #: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:61
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:325
@@ -523,7 +523,7 @@ msgstr "Brillu"
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:440
 #. TET-0166; needs-INL-review
 msgid "Charging"
-msgstr "Karrega bateria"
+msgstr "Karrega hela"
 
 #. show-desktop@cinnamon.org->settings-schema.json->head->description
 #. favorites@cinnamon.org->settings-schema.json->head->description
@@ -710,12 +710,12 @@ msgstr "Data"
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:925
 #. TET-0018; needs-INL-review
 msgid "Refresh"
-msgstr "Karga fali"
+msgstr "Karrega fali"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:1043
 #. TET-0184; needs-INL-review
 msgid "No updates available"
-msgstr "La iha atualizasaun disponivel"
+msgstr "La iha atualizasaun disponível"
 
 #. menu@cinnamon.org->settings-schema.json->appearance-menu->title
 #: files/usr/share/cinnamon/cinnamon-settings/bin/InputSources.py:59
@@ -739,7 +739,7 @@ msgstr "Jerál"
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_gestures.py:39
 #. TET-0157; needs-INL-review
 msgid "Show desktop"
-msgstr "Hatudu ambiente de traballu"
+msgstr "Hatudu ambiente servisu"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:139
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_gestures.py:30
@@ -751,7 +751,7 @@ msgstr "Taka janela"
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_workspaces.py:14
 #. TET-0334; needs-INL-review
 msgid "Workspaces"
-msgstr "Espasu traballu sira"
+msgstr "Espasu servisu sira"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:209
 #. TET-0159; needs-INL-review
@@ -761,7 +761,7 @@ msgstr "Sai husi sesaun"
 #: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:210
 #. TET-0161; needs-INL-review
 msgid "Shut down"
-msgstr "Desliga"
+msgstr "Dezliga"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/KeybindingTable.py:211
 #. TET-0158; needs-INL-review
@@ -823,7 +823,7 @@ msgstr "Dezativadu"
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_extensions.py:48
 #. TET-0045; needs-INL-review
 msgid "Download"
-msgstr "Deskarga"
+msgstr "Deskarrega"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_actions.py:81
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_extensions.py:54
@@ -890,7 +890,7 @@ msgstr "Terminál"
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py:257
 #. TET-0087; needs-INL-review
 msgid "Desktop"
-msgstr "Ambiente de traballu"
+msgstr "Ambiente servisu"
 
 #. MAPPING WINDOWS
 #. CLOSING WINDOWS
@@ -992,7 +992,7 @@ msgstr "Arkivu foin loke"
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:115
 #. TET-0301; needs-INL-review
 msgid "Date Format: "
-msgstr "Formatu data:"
+msgstr "Formatu data: "
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:137
 #. TET-0147; needs-INL-review
@@ -1002,18 +1002,18 @@ msgstr "Fonte"
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py:154
 #. TET-0170; needs-INL-review
 msgid "Volume: "
-msgstr "Volume:"
+msgstr "Volume: "
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py:259
 #. TET-0326; needs-INL-review
 msgid "Muted"
-msgstr "La iha lian"
+msgstr "Silensiadu"
 
 #. sound@cinnamon.org->metadata.json->name
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py:493
 #. TET-0398; needs-INL-review
 msgid "Sound"
-msgstr "Lian"
+msgstr "Áudiu"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:778
 #. TET-0003; needs-INL-review
@@ -1116,7 +1116,7 @@ msgstr "Vídeu sira"
 #. workspace-switcher@cinnamon.org->metadata.json->name
 #. TET-0335; needs-INL-review
 msgid "Workspace switcher"
-msgstr "Troka espasu traballu"
+msgstr "Troka espasu servisu"
 
 #. window-list@cinnamon.org->metadata.json->name
 #. TET-0336; needs-INL-review

@@ -12,7 +12,7 @@
 # Bruce Cowan <bruce@bcowan.me.uk>, 2010-2025.
 #
 msgid ""
-msgstr "Project-Id-Version: gnome-shell Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+msgstr "Project-Id-Version: gnome-shell Tetun 0.3.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
 #: data/50-gnome-shell-launchers.xml:6
 #. TET-0319; needs-INL-review
@@ -65,7 +65,7 @@ msgstr "Dezliga"
 #. TET-0160; needs-INL-review
 msgctxt "search-result"
 msgid "Restart"
-msgstr "Reinísia"
+msgstr "Reinisia"
 
 #. Translators: The name of the lock screen action in search
 #: js/misc/systemActions.js:107
@@ -115,7 +115,7 @@ msgstr "Dezfaz"
 #: js/ui/audioDeviceSelection.js:79 js/ui/status/volume.js:366
 #. TET-0255; needs-INL-review
 msgid "Microphone"
-msgstr "Mikrofóne"
+msgstr "Mikrofone"
 
 #: js/ui/backgroundMenu.js:16
 #. TET-0059; needs-INL-review
@@ -166,13 +166,13 @@ msgstr "Dezliga"
 #. TET-0160; needs-INL-review
 msgctxt "title"
 msgid "Restart"
-msgstr "Reinísia"
+msgstr "Reinisia"
 
 #: js/ui/endSessionDialog.js:101
 #. TET-0160; needs-INL-review
 msgctxt "button"
 msgid "Restart"
-msgstr "Reinísia"
+msgstr "Reinisia"
 
 #: js/ui/extensionDownloader.js:280
 #. TET-0047; needs-INL-review
@@ -252,7 +252,7 @@ msgstr "Tekladu"
 #: js/ui/status/bluetooth.js:246 js/ui/status/network.js:360
 #. TET-0219; needs-INL-review
 msgid "Disconnect"
-msgstr "Desliga ligasaun"
+msgstr "Dezliga"
 
 #: js/ui/status/bluetooth.js:274 js/ui/status/bluetooth.js:276
 #. TET-0329; needs-INL-review
@@ -282,7 +282,7 @@ msgstr "Suspende"
 #: js/ui/status/system.js:181
 #. TET-0160; needs-INL-review
 msgid "Restart…"
-msgstr "Reinísia…"
+msgstr "Reinisia…"
 
 #: js/ui/status/system.js:186
 #. TET-0321; needs-INL-review
@@ -309,7 +309,7 @@ msgstr "Xave ekrán"
 #: js/ui/status/volume.js:231
 #. TET-0327; needs-INL-review
 msgid "Unmute"
-msgstr "Ativa lian"
+msgstr "Ativa áudiu"
 
 #: js/ui/status/volume.js:231
 #. TET-0171; needs-INL-review
@@ -349,7 +349,7 @@ msgstr "_Hasai"
 #: subprojects/extensions-app/data/ui/extension-row.ui:188
 #. TET-0073; needs-INL-review
 msgid "_Website"
-msgstr "_Sítio web"
+msgstr "_Sítiu web"
 
 #: subprojects/extensions-app/data/ui/extension-row.ui:215
 #. TET-0059; needs-INL-review

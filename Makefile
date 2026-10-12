@@ -1,16 +1,33 @@
-.PHONY: build test clean source
+# SPDX-License-Identifier: GPL-3.0-or-later
+# GNU-style entry points. debhelper (dh_auto_build/test/install/clean) calls
+# these targets, so `make install` is the single installation path.
+PREFIX ?= /usr/local
+DESTDIR ?=
+PYTHON ?= python3
+INSTALL_FLAGS ?=
+
+.PHONY: all build check test install deb source clean distclean
+all: build
+
 build:
-	python3 scripts/build.py
-test:
-	python3 scripts/build.py --catalogs-only
-	python3 -m unittest discover -s tests -v
-clean:
-	$(MAKE) -f debian/rules clean
+	$(PYTHON) scripts/build.py
+
+check test: build
+	$(PYTHON) -B scripts/check_tetun.py
+	$(PYTHON) -B -m unittest discover -s tests -v
+
+install:
+	$(PYTHON) -B scripts/install_prefix.py --prefix "$(PREFIX)" --destdir "$(DESTDIR)" $(INSTALL_FLAGS)
+
+# Unsigned local Debian build (binary + source); output goes to the parent directory.
+deb:
+	dpkg-buildpackage -us -uc -b
+
 source:
 	dpkg-source -b .
 
-PREFIX ?= /usr/local
-DESTDIR ?=
-.PHONY: install
-install:
-	python3 scripts/install_prefix.py --prefix "$(PREFIX)" --destdir "$(DESTDIR)"
+clean:
+	rm -rf build dist data/resources.html
+	find . -type d -name __pycache__ -prune -exec rm -rf {} +
+
+distclean: clean

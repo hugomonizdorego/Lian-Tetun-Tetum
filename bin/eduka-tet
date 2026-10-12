@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 # SPDX-License-Identifier: GPL-3.0-or-later
 import sys
+# Installed modules live under /usr/share; never write bytecode there.
+sys.dont_write_bytecode=True
 from pathlib import Path
 source=Path(__file__).resolve().parent.parent/'src'
 installed=Path(__file__).resolve().parent.parent/'share/eduka-language-pack-tet/src'

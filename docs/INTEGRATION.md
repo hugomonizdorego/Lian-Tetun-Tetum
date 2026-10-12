@@ -52,38 +52,58 @@ project, use Qt Linguist's `lrelease`. It can compile these non-plural TS files,
 but the language may be unknown to its locale tables. Do not add numerus TS
 entries to this limited writer; use count-neutral gettext wording instead.
 
-## LXQt main menu
+## LXQt (complete draft)
 
-The draft catalog was made from the exact upstream panel 2.1.4 template:
-31/31 message records have translations. This is the **main-menu plugin only**,
-not all panel plugins or all LXQt applications. Catalog installation path:
+`lxqt/*_tet.ts` holds 57 catalogs (3677/3706 messages) generated from
+the upstream templates of LXQt master **and** the 2.1.x releases shipped by
+Debian 13, so one catalog serves both. They compile to QM files installed where
+each component looks, for example:
 
-`/usr/share/lxqt/translations/lxqt-panel/mainmenu/mainmenu_tet.qm`
+| Component | Installed catalog |
+|---|---|
+| liblxqt, lxqt-panel, lxqt-config-*, lxqt-session, … | `/usr/share/lxqt/translations/NAME/NAME_tet.qm` |
+| Panel plugins | `/usr/share/lxqt/translations/lxqt-panel/PLUGIN/PLUGIN_tet.qm` |
+| PCManFM-Qt, LXImage-Qt, QTerminal, qps, … | `/usr/share/APP/translations/APP_tet.qm` |
+| libfm-qt, QTermWidget | `/usr/share/libfm-qt6/translations/`, `/usr/share/qtermwidget6/translations/` |
 
-Stock liblxqt 2.1.0 obtains its locale from `QLocale::system().name()`, which can
-return `C` for `tet`. Therefore this catalog needs upstream/distro integration.
-The package **does not replace liblxqt or apply a binary patch**.
+To update after a new LXQt release: clone the LXQt repositories (master and the
+release tag) into two directories and run
+`python3 scripts/generate_lxqt.py --import DIR1 DIR2`. Edit translations only in
+`data/lxqt-tm.json` (source text → Tetun; `context\u0004source` or
+`catalog\u0004context\u0004source` keys override a single place), then
+`make check`.
 
-For maintainers working from matching liblxqt source:
+### Why LXQt needs a loader patch
 
-```sh
-# In the liblxqt 2.1.0 source tree:
-patch --dry-run -p1 < /path/to/liblxqt-2.1.0-tet-locale.patch
-patch -p1 < /path/to/liblxqt-2.1.0-tet-locale.patch
-# Rebuild using that project's Debian packaging/build dependencies.
-```
+Qt has no Tetun entry in its CLDR-derived `QLocale` tables. Under
+`LANG=tet_TL.UTF-8`, `QLocale::system().name()` returns `C`, and liblxqt and the
+LXQt applications build file names from `name()` (`lxqt-panel_C.qm`). liblxqt
+also treats `C` as English and stops searching. The catalogs are therefore
+installed but not loaded by stock LXQt.
 
-The patch preserves raw Tetun POSIX identifiers for translation-file lookup.
-It honors `LC_ALL`, then `LC_MESSAGES`, then `LANG`; every other language uses
-normal QLocale selection. It does not add Tetun date/number/plural support to Qt.
-Patch applicability is checked against the pinned source. This environment did
-not build or launch a patched LXQt desktop; do that in a Debian 13 VM before
-including a patched liblxqt in an Edukasaun OS release. Verify the installed
-plugin path against the target liblxqt build's translation directory.
+`QLocale::system().uiLanguages()` does contain `tet` (and honours `LANGUAGE`),
+and the QLocale overload of `QTranslator::load()` walks that list with the usual
+fallbacks (`tet_TL` → `tet`). The patches in `upstream/lxqt-patches/` switch
+every loader to that overload:
 
-The provenance file records upstream URLs and hashes. Follow upstream
-contribution rules and keep the LGPL notices when submitting the translation or
-patch. No PR has been submitted by this release workflow.
+| Patch | Applies to |
+|---|---|
+| `liblxqt-tet-locale.patch` / `liblxqt-2.1.0-tet-locale.patch` | Translator for all LXQt core apps, panel plugins and libraries |
+| `lxqt-build-tools-tet-locale.patch` | Generated loader used by screengrab and qps 2.1 (rebuild those apps) |
+| `qps-tet-locale.patch` | The loader template bundled in qps master |
+| `pcmanfm-qt`, `libfm-qt` (master and 2.1.0), `lximage-qt`, `lxqt-archiver`, `obconf-qt`, `qterminal`, `pavucontrol-qt` | Their own `QTranslator` calls |
+
+QTermWidget already uses the QLocale overload and needs no patch. Behaviour for
+languages Qt knows is unchanged. Verified here by compiling the patched
+`lxqttranslator.cpp` (master and 2.1.0) and the build-tools loader against
+Qt 6.4: unpatched code shows English under `LANG=tet_TL.UTF-8`, patched code
+loads the Tetun catalog; `en_US` and `pt_PT` behave as before. Each patch was
+checked with `git apply --check` against the Debian 13 release tag.
+
+For Edukasaun OS, add the patch to each source package (`debian/patches/` +
+`series`, DEP-3 header already included) and rebuild, or forward them upstream
+to LXQt; no LXQt binary is replaced by this package. The patches do not add
+Tetun number/date formats to Qt; those come from glibc for non-Qt programs.
 
 ## Wider Debian contribution
 
@@ -91,17 +111,17 @@ patch. No PR has been submitted by this release workflow.
    regional choices before proposing it upstream to glibc.
 2. Propose Qt/CLDR/ICU language support separately; installing a locale on disk
    does not change those libraries' supported-language tables.
-3. Translate actual POT/TS files of LXQt, libfm-qt, PCManFM-Qt, QTerminal and
-   applications, preserving contexts, licensing, plural forms and accelerators.
+3. Submit the LXQt catalogs to LXQt Weblate after INL review, and forward the
+   loader patches to the LXQt projects.
 4. Package approved data with Debian policy/DFSG-compatible rights and contact
    Debian localization/upstream teams. A local .deb is not archive acceptance.
 5. Integrate into the installer/image only after fresh-install, upgrade, locale
    fallback, accessibility and removal tests on actual target machines.
 
 
-## Native desktop catalogs (0.2.0)
+## Native desktop catalogs
 
-Thirteen real GNU gettext domains are compiled into the normal
+Fourteen real GNU gettext domains are compiled into the normal
 `/usr/share/locale/tet/LC_MESSAGES/DOMAIN.mo` directory. These include original
 translations of selected upstream singular labels, with exact message contexts
 and mnemonic syntax. They are partial and retain the app's source-compatible GNU
@@ -114,6 +134,6 @@ translations; edit glossary.csv for own-domain terminology. Generated native PO
 files are recreated by generate_native.py during build, so direct PO edits alone
 will be overwritten. When adding source messages, update the corresponding
 manifest count and preserve upstream notices/rights. A translated source label
-must not be reassigned to a context that has a different meaning. Format strings
-and native plurals require dedicated review and are excluded from these partial
-native selections.
+must not be reassigned to a context that has a different meaning. Format strings are allowed only with their `c-format` flag, so `msgfmt
+--check-format` and `scripts/check_tetun.py` verify every placeholder. Native
+plurals are still excluded.

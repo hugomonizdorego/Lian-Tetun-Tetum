@@ -1,0 +1,35 @@
+Description: Load Qt translations with the QLocale-aware QTranslator::load()
+ QLocale::system().name() is "C" for languages that are missing from Qt's
+ CLDR-derived locale tables, such as Tetun (tet, tet_TL). The QLocale overload
+ of QTranslator::load() walks QLocale::uiLanguages() instead, which honours
+ LANGUAGE, LC_ALL, LC_MESSAGES and LANG and their fallbacks (tet_TL -> tet,
+ pt_BR -> pt), so every catalog that exists is found. Behaviour for languages
+ Qt already knows is unchanged.
+Author: Edukasaun OS contributors
+Origin: other, https://github.com/hugomonizdorego/Lian-Tetun-Tetum
+Forwarded: not-yet
+Upstream-Commit: https://github.com/lxqt/pcmanfm-qt/commit/94fa2c173fa897d86307976cdd916a9574a94b71
+License: GPL-2.0-or-later (same as pcmanfm-qt)
+---
+diff --git a/pcmanfm/application.cpp b/pcmanfm/application.cpp
+index 4c91599..5a6de81 100644
+--- a/pcmanfm/application.cpp
++++ b/pcmanfm/application.cpp
+@@ -335,7 +335,7 @@ bool Application::parseCommandLineArgs() {
+ void Application::init() {
+ 
+     // install the translations built-into Qt itself
+-    if(qtTranslator.load(QStringLiteral("qt_") + QLocale::system().name(), QLibraryInfo::path(QLibraryInfo::TranslationsPath))) {
++    if(qtTranslator.load(QLocale::system(), QStringLiteral("qt"), QStringLiteral("_"), QLibraryInfo::path(QLibraryInfo::TranslationsPath))) {
+         installTranslator(&qtTranslator);
+     }
+ 
+@@ -343,7 +343,7 @@ void Application::init() {
+     installTranslator(libFm_.translator());
+ 
+     // install our own tranlations
+-    if(translator.load(QStringLiteral("pcmanfm-qt_") + QLocale::system().name(), QStringLiteral(PCMANFM_DATA_DIR) + QStringLiteral("/translations"))) {
++    if(translator.load(QLocale::system(), QStringLiteral("pcmanfm-qt"), QStringLiteral("_"), QStringLiteral(PCMANFM_DATA_DIR) + QStringLiteral("/translations"))) {
+         installTranslator(&translator);
+     }
+ }

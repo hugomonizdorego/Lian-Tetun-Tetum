@@ -1,0 +1,44 @@
+Description: Load Qt translations with the QLocale-aware QTranslator::load()
+ QLocale::system().name() is "C" for languages that are missing from Qt's
+ CLDR-derived locale tables, such as Tetun (tet, tet_TL). The QLocale overload
+ of QTranslator::load() walks QLocale::uiLanguages() instead, which honours
+ LANGUAGE, LC_ALL, LC_MESSAGES and LANG and their fallbacks (tet_TL -> tet,
+ pt_BR -> pt), so every catalog that exists is found. Behaviour for languages
+ Qt already knows is unchanged.
+Author: Edukasaun OS contributors
+Origin: other, https://github.com/hugomonizdorego/Lian-Tetun-Tetum
+Forwarded: not-yet
+Upstream-Commit: https://github.com/lxqt/qps/commit/d8afa7146b24941d7fb8cce859edca6db6e9c4aa
+License: GPL-2.0-or-later (same as qps)
+---
+diff --git a/Qt6TranslationLoader.cpp.in b/Qt6TranslationLoader.cpp.in
+index 38a82a6..74cb04b 100644
+--- a/Qt6TranslationLoader.cpp.in
++++ b/Qt6TranslationLoader.cpp.in
+@@ -11,20 +11,21 @@
+ 
+ static void loadQtTranslation()
+ {
+-    QString locale = QLocale::system().name();
++    // The QLocale overloads follow QLocale::uiLanguages() and its fallbacks, so
++    // languages missing from Qt's locale tables (e.g. Tetun, "tet") still work.
++    const QLocale locale = QLocale::system();
+     QTranslator *qtTranslator = new QTranslator(qApp);
+ 
+-    if (qtTranslator->load("qt_" + locale, QLibraryInfo::path(QLibraryInfo::TranslationsPath))) {
++    if (qtTranslator->load(locale, QStringLiteral("qt"), QStringLiteral("_"), QLibraryInfo::path(QLibraryInfo::TranslationsPath))) {
+         qApp->installTranslator(qtTranslator);
+     } else {
+         delete qtTranslator;
+     }
+ 
+     QTranslator *appTranslator = new QTranslator(qApp);
+-    if (appTranslator->load(QString("@translations_dir@/@catalog_name@_%1.qm").arg(locale))) {
++    if (appTranslator->load(locale, QStringLiteral("@catalog_name@"), QStringLiteral("_"), QStringLiteral("@translations_dir@"))) {
+         QCoreApplication::installTranslator(appTranslator);
+-    } else if (locale == QLatin1String("C") ||
+-                locale.startsWith(QLatin1String("en"))) {
++    } else {
+         // English is the default. It's translated anyway.
+         delete appTranslator;
+     }

@@ -1,0 +1,41 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+name: Debian package
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: debian:trixie
+    steps:
+      - name: Install build tools
+        run: |
+          apt-get update
+          apt-get install -y --no-install-recommends \
+            build-essential debhelper gettext locales python3 lintian git ca-certificates
+      - uses: actions/checkout@v4
+      - name: Build source and binary packages
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          dpkg-buildpackage -us -uc
+          mkdir -p dist && mv ../eduka-language-pack-tet_* dist/
+      - name: Lintian
+        run: lintian -I --fail-on error dist/*.changes
+      - name: Install, remove and purge
+        run: |
+          apt-get install -y ./dist/eduka-language-pack-tet_*_all.deb
+          test -d /usr/lib/locale/tet_TL.utf8
+          LC_ALL=tet_TL.UTF-8 date -d 2026-11-25 '+%A' | grep -qx Kuarta
+          eduka-tet demo
+          apt-get remove -y eduka-language-pack-tet
+          test ! -e /usr/lib/locale/tet_TL.utf8
+          apt-get install -y ./dist/eduka-language-pack-tet_*_all.deb
+          apt-get purge -y eduka-language-pack-tet
+          test ! -e /usr/lib/locale/tet_TL.utf8
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eduka-language-pack-tet
+          path: dist/

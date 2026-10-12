@@ -1,0 +1,26 @@
+Description: Load Qt translations with the QLocale-aware QTranslator::load()
+ QLocale::system().name() is "C" for languages that are missing from Qt's
+ CLDR-derived locale tables, such as Tetun (tet, tet_TL). The QLocale overload
+ of QTranslator::load() walks QLocale::uiLanguages() instead, which honours
+ LANGUAGE, LC_ALL, LC_MESSAGES and LANG and their fallbacks (tet_TL -> tet,
+ pt_BR -> pt), so every catalog that exists is found. Behaviour for languages
+ Qt already knows is unchanged.
+Author: Edukasaun OS contributors
+Origin: other, https://github.com/hugomonizdorego/Lian-Tetun-Tetum
+Forwarded: not-yet
+Upstream-Commit: https://github.com/lxqt/libfm-qt/commit/19c49623ee99a6c44a2b35c7cd6abd56243485ac (2.1.0)
+License: LGPL-2.1-or-later (same as libfm-qt)
+---
+diff --git a/src/libfmqt.cpp b/src/libfmqt.cpp
+index aa5f6e6..e6f0057 100644
+--- a/src/libfmqt.cpp
++++ b/src/libfmqt.cpp
+@@ -61,7 +61,7 @@ LibFmQtData::LibFmQtData(): refCount(1) {
+     // turn on glib debug message
+     // g_setenv("G_MESSAGES_DEBUG", "all", true);
+     Fm::Thumbnailer::loadAll();
+-    (void)translator.load(QLatin1String("libfm-qt_") + QLocale::system().name(), QLatin1String(LIBFM_QT_DATA_DIR) + QLatin1String("/translations"));
++    (void)translator.load(QLocale::system(), QStringLiteral("libfm-qt"), QStringLiteral("_"), QLatin1String(LIBFM_QT_DATA_DIR) + QLatin1String("/translations"));
+ 
+     // FIXME: we keep the FmConfig data structure here to keep compatibility with legacy libfm API.
+     fm_config_init();
