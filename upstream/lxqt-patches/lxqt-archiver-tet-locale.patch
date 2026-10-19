@@ -1,0 +1,33 @@
+Description: Load Qt translations with the QLocale-aware QTranslator::load()
+ QLocale::system().name() is "C" for languages that are missing from Qt's
+ CLDR-derived locale tables, such as Tetun (tet, tet_TL). The QLocale overload
+ of QTranslator::load() walks QLocale::uiLanguages() instead, which honours
+ LANGUAGE, LC_ALL, LC_MESSAGES and LANG and their fallbacks (tet_TL -> tet,
+ pt_BR -> pt), so every catalog that exists is found. Behaviour for languages
+ Qt already knows is unchanged.
+Author: Edukasaun OS contributors
+Origin: other, https://github.com/hugomonizdorego/Lian-Tetun-Tetum
+Forwarded: not-yet
+Upstream-Commit: https://github.com/lxqt/lxqt-archiver/commit/855f9327ce38135a40cd23301f56e1dd3e732772
+License: GPL-2.0-or-later (same as lxqt-archiver)
+---
+diff --git a/src/main.cpp b/src/main.cpp
+index bb4b13d..f0d82d2 100644
+--- a/src/main.cpp
++++ b/src/main.cpp
+@@ -374,13 +374,13 @@ int main(int argc, char** argv) {
+     // load translations
+     // install the translations built-into Qt itself
+     QTranslator qtTranslator;
+-    if(qtTranslator.load(QStringLiteral("qt_") + QLocale::system().name(), QLibraryInfo::path(QLibraryInfo::TranslationsPath))) {
++    if(qtTranslator.load(QLocale::system(), QStringLiteral("qt"), QStringLiteral("_"), QLibraryInfo::path(QLibraryInfo::TranslationsPath))) {
+         app.installTranslator(&qtTranslator);
+     }
+ 
+     // install our own tranlations
+     QTranslator translator;
+-    if(translator.load(QStringLiteral("lxqt-archiver_") + QLocale::system().name(), QStringLiteral(LXQT_ARCHIVER_DATA_DIR) + QStringLiteral("/translations"))) {
++    if(translator.load(QLocale::system(), QStringLiteral("lxqt-archiver"), QStringLiteral("_"), QStringLiteral(LXQT_ARCHIVER_DATA_DIR) + QStringLiteral("/translations"))) {
+         app.installTranslator(&translator);
+     }
+ 

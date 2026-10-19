@@ -8,7 +8,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 #
 msgid ""
-msgstr "Project-Id-Version: nemo Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+msgstr "Project-Id-Version: nemo Tetun 0.3.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
 #: libnemo-private/nemo-file-operations.c:1553
 #. TET-0083; needs-INL-review
@@ -22,7 +22,7 @@ msgstr "_Muda ba lixu"
 #: gresources/nemo-file-management-properties.glade:4235
 #. TET-0087; needs-INL-review
 msgid "Desktop"
-msgstr "Ambiente de traballu"
+msgstr "Ambiente servisu"
 
 #: src/nemo-connect-server-dialog.c:426
 #. TET-0013; needs-INL-review
@@ -56,7 +56,7 @@ msgstr "_Tipu:"
 #: src/nemo-connect-server-dialog.c:980
 #. TET-0230; needs-INL-review
 msgid "Sh_are:"
-msgstr "_Partilla:"
+msgstr "_Fahe:"
 
 #. fourth row: folder entry
 #: src/nemo-connect-server-dialog.c:995
@@ -369,7 +369,7 @@ msgstr "_Monta"
 #: src/nemo-view.c:8364 src/nemo-view.c:8388 src/nemo-view.c:8451
 #. TET-0109; needs-INL-review
 msgid "_Unmount"
-msgstr "_Desmonta"
+msgstr "_Dezmonta"
 
 #. name, stock id
 #. label, accelerator
@@ -397,7 +397,7 @@ msgstr "_Propriedade"
 #: src/nemo-places-sidebar.c:3804
 #. TET-0109; needs-INL-review
 msgid "Unmount"
-msgstr "Desmonta"
+msgstr "Dezmonta"
 
 #: src/nemo-places-sidebar.c:3808
 #. TET-0110; needs-INL-review
@@ -480,7 +480,7 @@ msgstr "_Ezekuta"
 #: src/nemo-properties-window.c:3955
 #. TET-0009; needs-INL-review
 msgid "no "
-msgstr "Lae"
+msgstr "lae "
 
 #: src/nemo-properties-window.c:3937
 #. TET-0104; needs-INL-review
@@ -704,7 +704,7 @@ msgstr "_Pasta pesoál"
 #: src/nemo-view.c:8491 src/nemo-view.c:8495
 #. TET-0087; needs-INL-review
 msgid "_Desktop"
-msgstr "_Ambiente de traballu"
+msgstr "_Ambiente servisu"
 
 #: src/nemo-view.c:8499 src/nemo-view.c:8503
 #. TET-0040; needs-INL-review
@@ -724,7 +724,7 @@ msgstr "Hasai husi favoritu sira"
 #: src/nemo-view.c:9150 src/nemo-view.c:9237 src/nemo-view.c:9341
 #. TET-0219; needs-INL-review
 msgid "_Disconnect"
-msgstr "_Desliga ligasaun"
+msgstr "_Dezliga"
 
 #. name, stock id, label
 #: src/nemo-window-menus.c:1384
@@ -761,7 +761,7 @@ msgstr "_Preferénsia"
 #: src/nemo-window-menus.c:1412 src/nemo-window-menus.c:1677
 #. TET-0432; needs-INL-review
 msgid "_Reload"
-msgstr "_Karga fali"
+msgstr "_Karrega fali"
 
 #. * name, stock id          { "NemoHelpSearch", NULL,
 #. label, accelerator        N_("Search for files"), NULL,
@@ -875,7 +875,7 @@ msgstr "Grupu"
 #: libnemo-private/nemo-file.c:1934
 #. TET-0118; needs-INL-review
 msgid "File not found"
-msgstr "Arkivu la hetan"
+msgstr "La hetan arkivu"
 
 #: libnemo-private/nemo-file.c:7000
 #. TET-0147; needs-INL-review
@@ -925,7 +925,7 @@ msgstr "_Troka hotu"
 #: libnemo-private/nemo-program-choosing.c:395
 #. TET-0056; needs-INL-review
 msgid "Details: "
-msgstr "Detalle:"
+msgstr "Detalle: "
 
 #: libnemo-private/nemo-undo-signal-handlers.c:173
 #. TET-0024; needs-INL-review
@@ -999,7 +999,7 @@ msgstr "Ekrán"
 #: gresources/nemo-file-management-properties.glade:2900
 #. TET-0037; needs-INL-review
 msgid "Preview"
-msgstr "Pré-vizualizasaun"
+msgstr "Previzualizasaun"
 
 #: gresources/nemo-file-management-properties.glade:3013
 #. TET-0011; needs-INL-review
@@ -1009,7 +1009,7 @@ msgstr "Tuir mai"
 #: gresources/nemo-file-management-properties.glade:3087
 #. TET-0018; needs-INL-review
 msgid "Refresh"
-msgstr "Karga fali"
+msgstr "Karrega fali"
 
 #: gresources/nemo-file-management-properties.glade:3235
 #. TET-0350; needs-INL-review

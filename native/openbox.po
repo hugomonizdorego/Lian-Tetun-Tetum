@@ -1,0 +1,502 @@
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Edukasaun OS contributors (original Tetun translations)
+# Partial draft; exact upstream IDs/contexts. Not endorsed by INL.
+# Original upstream notices and license: upstream/native-notices/openbox.txt
+# Openbox message catalog (IDs from po/pt.po).
+# Copyright (C) 2010 Mikael Magnusson
+# This file is distributed under the same license as the openbox package.
+msgid ""
+msgstr "Project-Id-Version: openbox Tetun 0.3.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+#: openbox/actions.c:234
+#, c-format
+#. OB-0001; needs-INL-review
+msgid "Invalid action \"%s\" requested. No such action exists."
+msgstr "Husu asaun \"%s\" ne'ebé la válidu. Asaun ida-ne'e la eziste."
+
+#: openbox/actions/execute.c:245
+#. OB-0002; needs-INL-review
+msgid "No"
+msgstr "Lae"
+
+#: openbox/actions/execute.c:246
+#. OB-0003; needs-INL-review
+msgid "Yes"
+msgstr "Sin"
+
+#: openbox/actions/execute.c:250
+#. OB-0004; needs-INL-review
+msgid "Execute"
+msgstr "Ezekuta"
+
+#: openbox/actions/execute.c:259
+#, c-format
+#. OB-0005; needs-INL-review
+msgid "Failed to convert the path \"%s\" from utf8"
+msgstr "La konsege konverte dalan \"%s\" husi utf8"
+
+#: openbox/actions/exit.c:69 openbox/client.c:3665
+#. OB-0006; needs-INL-review
+msgid "Cancel"
+msgstr "Kansela"
+
+#: openbox/actions/exit.c:70
+#. OB-0007; needs-INL-review
+msgid "Exit"
+msgstr "Sai"
+
+#: openbox/actions/exit.c:74
+#. OB-0008; needs-INL-review
+msgid "Are you sure you want to log out?"
+msgstr "Ita hakarak duni sai husi sesaun?"
+
+#: openbox/actions/exit.c:75
+#. OB-0009; needs-INL-review
+msgid "Log Out"
+msgstr "Sai husi sesaun"
+
+#: openbox/actions/exit.c:78
+#. OB-0010; needs-INL-review
+msgid "Are you sure you want to exit Openbox?"
+msgstr "Ita hakarak duni sai husi Openbox?"
+
+#: openbox/actions/exit.c:79
+#. OB-0011; needs-INL-review
+msgid "Exit Openbox"
+msgstr "Sai husi Openbox"
+
+#: openbox/client.c:2115
+#. OB-0012; needs-INL-review
+msgid "Unnamed Window"
+msgstr "Janela laho naran"
+
+#: openbox/client.c:2129 openbox/client.c:2160
+#. OB-0013; needs-INL-review
+msgid "Killing..."
+msgstr "Hapara hela..."
+
+#: openbox/client.c:2131 openbox/client.c:2162
+#. OB-0014; needs-INL-review
+msgid "Not Responding"
+msgstr "La responde"
+
+#: openbox/client.c:3654
+#, c-format
+#. OB-0015; needs-INL-review
+msgid "The window \"%s\" does not seem to be responding.  Do you want to force it to exit by sending the %s signal?"
+msgstr "Janela \"%s\" hanesan la responde.  Ita hakarak obriga nia atu sai ho haruka sinál %s?"
+
+#: openbox/client.c:3656
+#. OB-0016; needs-INL-review
+msgid "End Process"
+msgstr "Remata prosesu"
+
+#: openbox/client.c:3660
+#, c-format
+#. OB-0017; needs-INL-review
+msgid "The window \"%s\" does not seem to be responding.  Do you want to disconnect it from the X server?"
+msgstr "Janela \"%s\" hanesan la responde.  Ita hakarak dezliga nia husi servidór X?"
+
+#: openbox/client.c:3662
+#. OB-0018; needs-INL-review
+msgid "Disconnect"
+msgstr "Dezliga"
+
+#: openbox/client_list_combined_menu.c:93 openbox/client_list_menu.c:90
+#. OB-0019; needs-INL-review
+msgid "Go there..."
+msgstr "Bá ne'ebá..."
+
+#: openbox/client_list_combined_menu.c:100
+#. OB-0020; needs-INL-review
+msgid "Manage desktops"
+msgstr "Jere ambiente servisu sira"
+
+#: openbox/client_list_combined_menu.c:101 openbox/client_list_menu.c:166
+#. OB-0021; needs-INL-review
+msgid "_Add new desktop"
+msgstr "_Aumenta ambiente servisu foun"
+
+#: openbox/client_list_combined_menu.c:102 openbox/client_list_menu.c:167
+#. OB-0022; needs-INL-review
+msgid "_Remove last desktop"
+msgstr "_Hasai ambiente servisu ikus"
+
+#: openbox/client_list_combined_menu.c:157
+#. OB-0023; needs-INL-review
+msgid "Windows"
+msgstr "Janela sira"
+
+#: openbox/client_list_menu.c:214
+#. OB-0024; needs-INL-review
+msgid "Desktops"
+msgstr "Ambiente servisu sira"
+
+#: openbox/client_menu.c:259
+#. OB-0025; needs-INL-review
+msgid "All desktops"
+msgstr "Ambiente servisu hotu"
+
+#: openbox/client_menu.c:371
+#. OB-0026; needs-INL-review
+msgid "_Layer"
+msgstr "_Kamada"
+
+#: openbox/client_menu.c:376
+#. OB-0027; needs-INL-review
+msgid "Always on _top"
+msgstr "Sempre iha _leten"
+
+#: openbox/client_menu.c:377
+#. OB-0028; needs-INL-review
+msgid "_Normal"
+msgstr "_Normál"
+
+#: openbox/client_menu.c:378
+#. OB-0029; needs-INL-review
+msgid "Always on _bottom"
+msgstr "Sempre iha _kraik"
+
+#: openbox/client_menu.c:380
+#. OB-0030; needs-INL-review
+msgid "_Send to desktop"
+msgstr "_Haruka ba ambiente servisu"
+
+#: openbox/client_menu.c:384
+#. OB-0031; needs-INL-review
+msgid "Client menu"
+msgstr "Menu kliente"
+
+#: openbox/client_menu.c:394
+#. OB-0032; needs-INL-review
+msgid "R_estore"
+msgstr "_Restaura"
+
+#: openbox/client_menu.c:398
+#. OB-0033; needs-INL-review
+msgid "_Move"
+msgstr "_Muda"
+
+#: openbox/client_menu.c:400
+#. OB-0034; needs-INL-review
+msgid "Resi_ze"
+msgstr "Muda _tamañu"
+
+#: openbox/client_menu.c:402
+#. OB-0035; needs-INL-review
+msgid "Ico_nify"
+msgstr "_Minimiza"
+
+#: openbox/client_menu.c:406
+#. OB-0036; needs-INL-review
+msgid "Ma_ximize"
+msgstr "_Maksimiza"
+
+#: openbox/client_menu.c:410
+#. OB-0037; needs-INL-review
+msgid "_Roll up/down"
+msgstr "_Rola sa'e/tun"
+
+#: openbox/client_menu.c:414
+#. OB-0038; needs-INL-review
+msgid "Un/_Decorate"
+msgstr "_Dekora/hasai dekorasaun"
+
+#: openbox/client_menu.c:418
+#. OB-0039; needs-INL-review
+msgid "_Close"
+msgstr "_Taka"
+
+#: openbox/config.c:563
+#, c-format
+#. OB-0040; needs-INL-review
+msgid "Invalid context \"%s\" in mouse binding"
+msgstr "Kontestu \"%s\" la válidu iha ligasaun mouse"
+
+#: openbox/config.c:931
+#, c-format
+#. OB-0041; needs-INL-review
+msgid "Invalid button \"%s\" specified in config file"
+msgstr "Butaun \"%s\" la válidu iha arkivu konfigurasaun"
+
+#: openbox/config.c:956
+#. OB-0042; needs-INL-review
+msgid "Openbox was compiled without image loading support. Icons in menus will not be loaded."
+msgstr "Openbox kompila laho suporta atu karrega imajen. Íkone iha menu sei la karrega."
+
+#: openbox/debug.c:57
+#, c-format
+#. OB-0043; needs-INL-review
+msgid "Unable to make directory '%s': %s"
+msgstr "La bele kria diretóriu '%s': %s"
+
+#: openbox/debug.c:195 openbox/openbox.c:377
+#. OB-0044; needs-INL-review
+msgid "Close"
+msgstr "Taka"
+
+#: openbox/keyboard.c:161
+#. OB-0045; needs-INL-review
+msgid "Conflict with key binding in config file"
+msgstr "Konflitu ho ligasaun tekla iha arkivu konfigurasaun"
+
+#: openbox/menu.c:103 openbox/menu.c:115
+#, c-format
+#. OB-0046; needs-INL-review
+msgid "Unable to find a valid menu file \"%s\""
+msgstr "La hetan arkivu menu \"%s\" ne'ebé válidu"
+
+#: openbox/menu.c:168
+#, c-format
+#. OB-0047; needs-INL-review
+msgid "Failed to execute command for pipe-menu \"%s\": %s"
+msgstr "La konsege ezekuta komandu ba pipe-menu \"%s\": %s"
+
+#: openbox/menu.c:182
+#, c-format
+#. OB-0048; needs-INL-review
+msgid "Invalid output from pipe-menu \"%s\""
+msgstr "Saída la válidu husi pipe-menu \"%s\""
+
+#: openbox/menu.c:195
+#, c-format
+#. OB-0049; needs-INL-review
+msgid "Attempted to access menu \"%s\" but it does not exist"
+msgstr "Koko asesu menu \"%s\" maibé nia la eziste"
+
+#: openbox/menu.c:411 openbox/menu.c:412
+#. OB-0050; needs-INL-review
+msgid "More..."
+msgstr "Barak liu..."
+
+#: openbox/mouse.c:382
+#, c-format
+#. OB-0051; needs-INL-review
+msgid "Invalid button \"%s\" in mouse binding"
+msgstr "Butaun \"%s\" la válidu iha ligasaun mouse"
+
+#: openbox/openbox.c:137
+#, c-format
+#. OB-0052; needs-INL-review
+msgid "Unable to change to home directory \"%s\": %s"
+msgstr "La bele muda ba diretóriu pesoál \"%s\": %s"
+
+#: openbox/openbox.c:152
+#. OB-0053; needs-INL-review
+msgid "Failed to open the display from the DISPLAY environment variable."
+msgstr "La konsege loke ekrán husi variavel ambiente DISPLAY."
+
+#: openbox/openbox.c:182
+#. OB-0054; needs-INL-review
+msgid "Failed to initialize the obrender library."
+msgstr "La konsege inisializa biblioteka obrender."
+
+#: openbox/openbox.c:193
+#. OB-0055; needs-INL-review
+msgid "X server does not support locale."
+msgstr "Servidór X la suporta locale."
+
+#: openbox/openbox.c:195
+#. OB-0056; needs-INL-review
+msgid "Cannot set locale modifiers for the X server."
+msgstr "La bele define modifikadór locale ba servidór X."
+
+#: openbox/openbox.c:254
+#. OB-0057; needs-INL-review
+msgid "Unable to find a valid config file, using some simple defaults"
+msgstr "La hetan arkivu konfigurasaun ne'ebé válidu, uza konfigurasaun padraun simples"
+
+#: openbox/openbox.c:270
+#, c-format
+#. OB-0058; needs-INL-review
+msgid "One or more XML syntax errors were found while parsing the Openbox configuration files.  See stdout for more information.  The last error seen was in file \"%s\" line %d, with message: %s"
+msgstr "Hetan erru sintaxe XML ida ka barak bainhira lee arkivu konfigurasaun Openbox.  Haree stdout atu hetan informasaun barak liu.  Erru ikus iha arkivu \"%s\" liña %d, ho mensajen: %s"
+
+#: openbox/openbox.c:295
+#. OB-0059; needs-INL-review
+msgid "Unable to load a theme."
+msgstr "La bele karrega tema ida."
+
+#: openbox/openbox.c:376
+#. OB-0060; needs-INL-review
+msgid "Openbox Syntax Error"
+msgstr "Erru sintaxe Openbox"
+
+#: openbox/openbox.c:442
+#, c-format
+#. OB-0061; needs-INL-review
+msgid "Restart failed to execute new executable \"%s\": %s"
+msgstr "Reinisia la konsege ezekuta programa foun \"%s\": %s"
+
+#: openbox/openbox.c:521 openbox/openbox.c:523
+#. OB-0062; needs-INL-review
+msgid "Copyright (c)"
+msgstr "Direitu autór (c)"
+
+#: openbox/openbox.c:532
+#. OB-0063; needs-INL-review
+msgid "Syntax: openbox [options]\n"
+msgstr "Sintaxe: openbox [opsaun]\n"
+
+#: openbox/openbox.c:533
+#. OB-0064; needs-INL-review
+msgid "\nOptions:\n"
+msgstr "\nOpsaun:\n"
+
+#: openbox/openbox.c:534
+#. OB-0065; needs-INL-review
+msgid "  --help              Display this help and exit\n"
+msgstr "  --help              Hatudu ajuda ida-ne'e no sai\n"
+
+#: openbox/openbox.c:535
+#. OB-0066; needs-INL-review
+msgid "  --version           Display the version and exit\n"
+msgstr "  --version           Hatudu versaun no sai\n"
+
+#: openbox/openbox.c:536
+#. OB-0067; needs-INL-review
+msgid "  --replace           Replace the currently running window manager\n"
+msgstr "  --replace           Troka jestór janela ne'ebé hala'o hela\n"
+
+#: openbox/openbox.c:540
+#. OB-0068; needs-INL-review
+msgid "  --config-file FILE  Specify the path to the config file to use\n"
+msgstr "  --config-file FILE  Indika dalan arkivu konfigurasaun atu uza\n"
+
+#: openbox/openbox.c:541
+#. OB-0069; needs-INL-review
+msgid "  --sm-disable        Disable connection to the session manager\n"
+msgstr "  --sm-disable        Dezativa ligasaun ba jestór sesaun\n"
+
+#: openbox/openbox.c:542
+#. OB-0070; needs-INL-review
+msgid "\nPassing messages to a running Openbox instance:\n"
+msgstr "\nHaruka mensajen ba Openbox ne'ebé hala'o hela:\n"
+
+#: openbox/openbox.c:543
+#. OB-0071; needs-INL-review
+msgid "  --reconfigure       Reload Openbox's configuration\n"
+msgstr "  --reconfigure       Karrega fali konfigurasaun Openbox\n"
+
+#: openbox/openbox.c:544
+#. OB-0072; needs-INL-review
+msgid "  --restart           Restart Openbox\n"
+msgstr "  --restart           Reinisia Openbox\n"
+
+#: openbox/openbox.c:545
+#. OB-0073; needs-INL-review
+msgid "  --exit              Exit Openbox\n"
+msgstr "  --exit              Sai husi Openbox\n"
+
+#: openbox/openbox.c:546
+#. OB-0074; needs-INL-review
+msgid "\nDebugging options:\n"
+msgstr "\nOpsaun debug:\n"
+
+#: openbox/openbox.c:547
+#. OB-0075; needs-INL-review
+msgid "  --sync              Run in synchronous mode\n"
+msgstr "  --sync              Hala'o iha modu sinkronu\n"
+
+#: openbox/openbox.c:548
+#. OB-0076; needs-INL-review
+msgid "  --startup CMD       Run CMD after starting\n"
+msgstr "  --startup CMD       Hala'o CMD depois hahú\n"
+
+#: openbox/openbox.c:549
+#. OB-0077; needs-INL-review
+msgid "  --debug             Display debugging output\n"
+msgstr "  --debug             Hatudu saída debug\n"
+
+#: openbox/openbox.c:550
+#. OB-0078; needs-INL-review
+msgid "  --debug-focus       Display debugging output for focus handling\n"
+msgstr "  --debug-focus       Hatudu saída debug ba jestaun fokus\n"
+
+#: openbox/openbox.c:551
+#. OB-0079; needs-INL-review
+msgid "  --debug-session     Display debugging output for session management\n"
+msgstr "  --debug-session     Hatudu saída debug ba jestaun sesaun\n"
+
+#: openbox/openbox.c:552
+#. OB-0080; needs-INL-review
+msgid "  --debug-xinerama    Split the display into fake xinerama screens\n"
+msgstr "  --debug-xinerama    Fahe ekrán ba ekrán xinerama falsu\n"
+
+#: openbox/openbox.c:553
+#, c-format
+#. OB-0081; needs-INL-review
+msgid "\nPlease report bugs at %s\n"
+msgstr "\nFavór relata erru iha %s\n"
+
+#: openbox/openbox.c:636 openbox/openbox.c:670
+#, c-format
+#. OB-0082; needs-INL-review
+msgid "%s requires an argument\n"
+msgstr "%s presiza argumentu\n"
+
+#: openbox/openbox.c:713
+#, c-format
+#. OB-0083; needs-INL-review
+msgid "Invalid command line argument \"%s\"\n"
+msgstr "Argumentu liña komandu \"%s\" la válidu\n"
+
+#: openbox/screen.c:106 openbox/screen.c:191
+#, c-format
+#. OB-0084; needs-INL-review
+msgid "A window manager is already running on screen %d"
+msgstr "Jestór janela ida hala'o hela ona iha ekrán %d"
+
+#: openbox/screen.c:127
+#, c-format
+#. OB-0085; needs-INL-review
+msgid "Could not acquire window manager selection on screen %d"
+msgstr "La bele hetan seleksaun jestór janela iha ekrán %d"
+
+#: openbox/screen.c:150
+#, c-format
+#. OB-0086; needs-INL-review
+msgid "The WM on screen %d is not exiting"
+msgstr "Jestór janela iha ekrán %d la sai"
+
+#: openbox/screen.c:1204
+#, c-format
+#. OB-0088; needs-INL-review
+msgid "desktop %i"
+msgstr "ambiente servisu %i"
+
+#: openbox/startupnotify.c:241
+#, c-format
+#. OB-0089; needs-INL-review
+msgid "Running %s"
+msgstr "Hala'o hela %s"
+
+#: openbox/translate.c:59
+#, c-format
+#. OB-0090; needs-INL-review
+msgid "Invalid modifier key \"%s\" in key/mouse binding"
+msgstr "Tekla modifikadór \"%s\" la válidu iha ligasaun tekla/mouse"
+
+#: openbox/translate.c:138
+#, c-format
+#. OB-0091; needs-INL-review
+msgid "Invalid key code \"%s\" in key binding"
+msgstr "Kódigu tekla \"%s\" la válidu iha ligasaun tekla"
+
+#: openbox/translate.c:145
+#, c-format
+#. OB-0092; needs-INL-review
+msgid "Invalid key name \"%s\" in key binding"
+msgstr "Naran tekla \"%s\" la válidu iha ligasaun tekla"
+
+#: openbox/translate.c:151
+#, c-format
+#. OB-0093; needs-INL-review
+msgid "Requested key \"%s\" does not exist on the display"
+msgstr "Tekla \"%s\" ne'ebé husu la eziste iha ekrán"
+
+#: openbox/prompt.c:154
+#. OB-0094; needs-INL-review
+msgid "OK"
+msgstr "OK"
+

@@ -11,7 +11,7 @@
 # Xfce Bot <transifex@xfce.org>, 2025
 # 
 msgid ""
-msgstr "Project-Id-Version: xfce4-panel Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+msgstr "Project-Id-Version: xfce4-panel Tetun 0.3.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
 #: panel-preferences.desktop.in:15 panel/panel-window.c:3710
 #. TET-0149; needs-INL-review
@@ -262,22 +262,22 @@ msgstr "_Suspende"
 #: plugins/actions/actions.c:220
 #. TET-0160; needs-INL-review
 msgid "Restart"
-msgstr "Reinísia"
+msgstr "Reinisia"
 
 #: plugins/actions/actions.c:221
 #. TET-0160; needs-INL-review
 msgid "_Restart"
-msgstr "_Reinísia"
+msgstr "_Reinisia"
 
 #: plugins/actions/actions.c:228
 #. TET-0161; needs-INL-review
 msgid "Shut Down"
-msgstr "Desliga"
+msgstr "Dezliga"
 
 #: plugins/actions/actions.c:229
 #. TET-0161; needs-INL-review
 msgid "Shut _Down"
-msgstr "_Desliga"
+msgstr "_Dezliga"
 
 #: plugins/applicationsmenu/applicationsmenu-dialog.glade:23
 #: plugins/applicationsmenu/applicationsmenu.desktop.in.in:4
@@ -311,7 +311,7 @@ msgstr "Aplikasaun sira"
 #: plugins/directorymenu/directorymenu.c:466
 #. TET-0007; needs-INL-review
 msgid "_OK"
-msgstr "_Di'ak"
+msgstr "_OK"
 
 #: plugins/applicationsmenu/xfce4-popup-applicationsmenu.sh:30
 #: plugins/directorymenu/xfce4-popup-directorymenu.sh:30
@@ -384,7 +384,7 @@ msgstr "Avansadu"
 #: plugins/pager/pager-dialog.glade:48 plugins/pager/pager.desktop.in.in:4
 #. TET-0335; needs-INL-review
 msgid "Workspace Switcher"
-msgstr "Troka espasu traballu"
+msgstr "Troka espasu servisu"
 
 #: plugins/separator/separator-dialog.glade:156
 #. TET-0416; needs-INL-review
@@ -396,7 +396,7 @@ msgstr "_Habelar"
 #: plugins/showdesktop/showdesktop.desktop.in.in:4
 #. TET-0157; needs-INL-review
 msgid "Show Desktop"
-msgstr "Hatudu ambiente de traballu"
+msgstr "Hatudu ambiente servisu"
 
 #: plugins/systray/sn-dialog.c:416
 #. TET-0031; needs-INL-review
@@ -422,7 +422,7 @@ msgstr "Butaun janela"
 #: plugins/windowmenu/windowmenu.c:729
 #. TET-0087; needs-INL-review
 msgid "Desktop"
-msgstr "Ambiente de traballu"
+msgstr "Ambiente servisu"
 
 #: plugins/windowmenu/windowmenu-dialog.glade:23
 #. TET-0145; needs-INL-review

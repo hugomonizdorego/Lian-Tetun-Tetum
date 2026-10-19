@@ -13,7 +13,7 @@
 # Andi Chandler <andi@gowling.com>, 2023
 # 
 msgid ""
-msgstr "Project-Id-Version: mate-panel Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+msgstr "Project-Id-Version: mate-panel Tetun 0.3.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
 #: applets/clock/calendar-window.c:257 applets/clock/clock.ui:708
 #. TET-0424; needs-INL-review
@@ -123,7 +123,7 @@ msgstr "Ekrán"
 #: mate-panel/panel-applet-frame.c:959
 #. TET-0007; needs-INL-review
 msgid "_OK"
-msgstr "_Di'ak"
+msgstr "_OK"
 
 #: applets/fish/fish.ui:300
 #. TET-0075; needs-INL-review
@@ -140,7 +140,7 @@ msgstr "Área notifikasaun"
 #: applets/wncklet/workspace-switcher.c:725
 #. TET-0335; needs-INL-review
 msgid "Workspace Switcher"
-msgstr "Troka espasu traballu"
+msgstr "Troka espasu servisu"
 
 #: applets/wncklet/org.mate.panel.Wncklet.mate-panel-applet.desktop.in.in:36
 #: applets/wncklet/window-list.c:1042
@@ -151,13 +151,13 @@ msgstr "Lista janela"
 #: applets/wncklet/org.mate.panel.Wncklet.mate-panel-applet.desktop.in.in:49
 #. TET-0157; needs-INL-review
 msgid "Show Desktop"
-msgstr "Hatudu ambiente de traballu"
+msgstr "Hatudu ambiente servisu"
 
 #: applets/wncklet/window-list.ui:574
 #: applets/wncklet/workspace-switcher.ui:356
 #. TET-0334; needs-INL-review
 msgid "Workspaces"
-msgstr "Espasu traballu sira"
+msgstr "Espasu servisu sira"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:239
 #. TET-0075; needs-INL-review
@@ -209,7 +209,7 @@ msgstr "Sai husi sesaun..."
 #: mate-panel/panel-action-button.c:405
 #. TET-0161; needs-INL-review
 msgid "Shut Down..."
-msgstr "Desliga..."
+msgstr "Dezliga..."
 
 #: mate-panel/panel-addto.c:1019
 #. TET-0320; needs-INL-review
@@ -229,7 +229,7 @@ msgstr "_Apaga"
 #: mate-panel/panel-applet-frame.c:776 mate-panel/panel-applet-frame.c:781
 #. TET-0432; needs-INL-review
 msgid "_Reload"
-msgstr "_Karga fali"
+msgstr "_Karrega fali"
 
 #: mate-panel/panel-applet-frame.c:969 mate-panel/panel.c:1495
 #. TET-0023; needs-INL-review
@@ -254,7 +254,7 @@ msgstr "_Fatin:"
 #: mate-panel/panel-ditem-editor-dialog.ui:108
 #. TET-0007; needs-INL-review
 msgid "_Ok"
-msgstr "_Di'ak"
+msgstr "_OK"
 
 #: mate-panel/panel-ditem-editor-dialog.ui:163
 #. TET-0099; needs-INL-review
@@ -288,7 +288,7 @@ msgstr "Markadór sira"
 #. TET-0087; needs-INL-review
 msgctxt "Desktop Folder"
 msgid "Desktop"
-msgstr "Ambiente de traballu"
+msgstr "Ambiente servisu"
 
 #: mate-panel/panel-menu-items.c:1074
 #. TET-0343; needs-INL-review

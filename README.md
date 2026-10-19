@@ -1,12 +1,14 @@
 # Edukasaun OS — Tetun language pack
 
-**0.2.0 — community draft; linguistic review by INL/native speakers is pending.**
+**0.3.0 — community draft; linguistic review by INL/native speakers is pending.**
 
 A desktop-independent Tetun locale and GNU-licensed translation foundation for
 Edukasaun OS and Debian. This release contains 432 original draft UI terms,
-13 partial native gettext catalogs (1,553 translated message records), own
-gettext/Qt catalogs, an LXQt main-menu contribution, and reversible login tools.
-The source can be uploaded directly to a new GitHub repository.
+a complete draft translation of LXQt (57 Qt catalogs, 3,677 of 3,706 messages)
+with loader patches, 14 native gettext catalogs including Openbox, own
+gettext/Qt catalogs, and reversible login tools. 0.3.0 also corrects 45 spelling
+and grammar errors ([CORRECTIONS.md](docs/CORRECTIONS.md)) and adds an automatic
+checker (`scripts/check_tetun.py`) that runs with `make check`.
 
 It is not an official INL, ISO-certified or Debian archive language pack.
 Installing it does not translate every application or complete any desktop UI.
@@ -17,7 +19,7 @@ and datasets are not redistributed. See [sources](docs/SOURCES.md) and
 ## Install on Debian / Edukasaun OS
 
 ```sh
-sudo apt install ./eduka-language-pack-tet_0.2.0_all.deb
+sudo apt install ./eduka-language-pack-tet_0.3.0_all.deb
 eduka-tet demo
 eduka-tet doctor
 eduka-tet enable --user
@@ -74,32 +76,51 @@ translations. [Orthography](docs/ORTHOGRAPHY.md) explains the INL/DIT distinctio
 | GNOME / Cinnamon | Partial `gnome-shell`, `cinnamon`, `nemo` catalogs |
 | Xfce / MATE / LXDE | Partial panel and file-manager catalogs for each |
 | KDE | Partial Dolphin catalog; full Plasma/framework translations remain future work |
-| LXQt | 31/31 main-menu template records; optional liblxqt source patch, not applied by installer |
-| Other desktops / window managers | Shared locale and compatible application catalogs; no dedicated shell catalogs |
+| LXQt | Complete draft: panel and every plugin, config center, session, runner, notifications, power management, policykit, sudo, PCManFM-Qt, libfm-qt, QTerminal, LXImage-Qt, archiver, ScreenGrab, qps, pavucontrol-qt, ObConf-Qt. Needs the loader patches in `upstream/lxqt-patches` (see below) |
+| Openbox (LXQt's window manager) | `openbox` gettext catalog, 93/94 messages |
+| Other desktops / window managers | Shared locale; untranslated gettext text falls back to Portuguese via `LANGUAGE=tet:pt:en` |
 
 Exact source versions, hashes and coverage are in
-[data/native-manifest.json](data/native-manifest.json). Qt locale lookup can
+[data/native-manifest.json](data/native-manifest.json) and
+[data/lxqt-manifest.json](data/lxqt-manifest.json).
+
+### LXQt needs one small upstream fix
+
+Qt does not know the language `tet`, so stock LXQt asks for `*_C.qm` and stays
+in English even though the Tetun catalogs are installed. The patches in
+[`upstream/lxqt-patches`](upstream/lxqt-patches) make liblxqt and the LXQt
+applications use Qt's `QLocale`-aware loader, which finds `*_tet.qm`. They were
+compiled and tested here (English before, Tetun after, other languages
+unchanged) and apply to the LXQt 2.1 packages in Debian 13. Edukasaun OS must
+rebuild liblxqt (and the listed apps) with them; see
+[INTEGRATION.md](docs/INTEGRATION.md). Qt locale lookup can
 fall back to `C` for `tet`; explicit loading and upstream support are documented
 in [INTEGRATION.md](docs/INTEGRATION.md). No complete GUI session has been
 validated here.
 
 ## Build and develop
 
-On Debian, install build dependencies and run:
+The package follows the usual GNU and Debian conventions: `make` /
+`make check` / `make install PREFIX=... DESTDIR=...`, and a standard
+debhelper (`dh`, compat 13) `debian/` directory. On Debian / Edukasaun OS:
 
 ```sh
-sudo apt install python3 gettext locales dpkg-dev make
-make test
-make build
-make source
-# Conventional Debian binary build:
-dpkg-buildpackage -us -uc -A
+sudo apt install build-essential debhelper gettext locales python3 lintian
+make check                     # generate catalogs and run the test suite
+dpkg-buildpackage -us -uc      # .deb, .dsc and .tar.xz in the parent directory
+lintian ../eduka-language-pack-tet_*.changes
+sudo apt install ../eduka-language-pack-tet_0.3.0_all.deb
 ```
 
+`make deb` is a shortcut for an unsigned binary build. Without dpkg, install
+under any prefix with `sudo make install PREFIX=/usr/local`, then run
+`sudo eduka-tet compile-locale`.
+
 Optional real Qt runtime checks need `python3-pyqt5`. Builds are offline and do
-not require root. The package is `Architecture: all`, source format
-`3.0 (native)`, version `0.2.0`. Generated locale binaries are produced on the
-target system, not shipped across libc versions. [Portability](docs/PORTABILITY.md)
+not require root (`Rules-Requires-Root: no`). The package is `Architecture: all`,
+source format `3.0 (native)`, version `0.3.0`. Generated locale binaries are
+produced on the target system by `postinst`, not shipped across libc versions,
+and are removed again on `apt remove`/`apt purge`. [Portability](docs/PORTABILITY.md)
 explains source installation on other glibc-based GNU/Linux systems.
 
 Canonical editable data: `data/glossary.csv`, `data/native-templates.json` and
@@ -111,18 +132,14 @@ do not provide permission to bulk-import dictionaries.
 
 ## GitHub
 
-Extract the source ZIP, create an empty repository in your own GitHub account,
-then run in the source directory (replace the repository URL):
+Source: <https://github.com/hugomonizdorego/Lian-Tetun-Tetum>. The
+`.github/workflows/deb.yml` workflow builds the package in Debian 13 (trixie),
+runs the tests and lintian, performs an install/remove/purge check and uploads
+the `.deb` as a build artifact. See [VALIDATION.md](docs/VALIDATION.md) for
+actual tests and remaining acceptance work.
 
-```sh
-git init -b main
-git add .
-git commit -m "Tetun language pack 0.2.0"
-git remote add origin https://github.com/YOUR_ACCOUNT/eduka-language-pack-tet.git
-git push -u origin main
-```
+## License
 
-The workflow validates/builds in Debian 13 and publishes downloadable build
-artifacts. It is prepared but has not been run on GitHub in this session.
-See [VALIDATION.md](docs/VALIDATION.md) for actual tests and remaining acceptance
-work. A GitHub repository has not been created or published by this task.
+Code and original terminology: GNU GPL version 3 or later (see `LICENSE`).
+Native application catalogs keep their upstream GNU GPL/LGPL licenses; see
+`debian/copyright` and [per-file licensing](docs/LICENSING.md).

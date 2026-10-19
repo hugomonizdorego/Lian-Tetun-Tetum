@@ -1,0 +1,44 @@
+Description: Load Qt translations with the QLocale-aware QTranslator::load()
+ QLocale::system().name() is "C" for languages that are missing from Qt's
+ CLDR-derived locale tables, such as Tetun (tet, tet_TL). The QLocale overload
+ of QTranslator::load() walks QLocale::uiLanguages() instead, which honours
+ LANGUAGE, LC_ALL, LC_MESSAGES and LANG and their fallbacks (tet_TL -> tet,
+ pt_BR -> pt), so every catalog that exists is found. Behaviour for languages
+ Qt already knows is unchanged.
+Author: Edukasaun OS contributors
+Origin: other, https://github.com/hugomonizdorego/Lian-Tetun-Tetum
+Forwarded: not-yet
+Upstream-Commit: https://github.com/lxqt/lxqt-build-tools/commit/4d1ab7d3ee3bd528b6865b351cb93d0cf4404b3e
+License: BSD-3-Clause (same as lxqt-build-tools)
+---
+diff --git a/cmake/modules/Qt6TranslationLoader.cpp.in b/cmake/modules/Qt6TranslationLoader.cpp.in
+index 99b2d8c..cdfcb3c 100644
+--- a/cmake/modules/Qt6TranslationLoader.cpp.in
++++ b/cmake/modules/Qt6TranslationLoader.cpp.in
+@@ -12,20 +12,21 @@
+ 
+ static void loadQtTranslation()
+ {
+-    QString locale = QLocale::system().name();
++    // The QLocale overloads follow QLocale::uiLanguages() and its fallbacks, so
++    // languages missing from Qt's locale tables (e.g. Tetun, "tet") still work.
++    const QLocale locale = QLocale::system();
+     QTranslator *qtTranslator = new QTranslator(qApp);
+ 
+-    if (qtTranslator->load(QLatin1String("qt_") + locale, QLibraryInfo::path(QLibraryInfo::TranslationsPath))) {
++    if (qtTranslator->load(locale, QStringLiteral("qt"), QStringLiteral("_"), QLibraryInfo::path(QLibraryInfo::TranslationsPath))) {
+         qApp->installTranslator(qtTranslator);
+     } else {
+         delete qtTranslator;
+     }
+ 
+     QTranslator *appTranslator = new QTranslator(qApp);
+-    if (appTranslator->load(QString::fromLocal8Bit("@translations_dir@/@catalog_name@_%1.qm").arg(locale))) {
++    if (appTranslator->load(locale, QStringLiteral("@catalog_name@"), QStringLiteral("_"), QString::fromLocal8Bit("@translations_dir@"))) {
+         QCoreApplication::installTranslator(appTranslator);
+-    } else if (locale == QLatin1String("C") ||
+-                locale.startsWith(QLatin1String("en"))) {
++    } else {
+         // English is the default. It's translated anyway.
+         delete appTranslator;
+     }

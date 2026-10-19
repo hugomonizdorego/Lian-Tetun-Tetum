@@ -1,6 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Edukasaun OS Tetun Language Pack
-Source: Source release prepared for GitHub; repository URL to be set by maintainer.
+Upstream-Contact: Hugo Moniz do Rego <ideaofficial@fdsl.tl>
+Source: https://github.com/hugomonizdorego/Lian-Tetun-Tetum
 
 Files: *
 Copyright: 2026 Edukasaun OS contributors
@@ -17,17 +18,107 @@ Comment: Original project terminology is additionally offered under GPL-2+
  or LGPL-2+ for source-compatible native catalog contributions. This grant
  does not cover third-party material.
 
-Files: upstream/mainmenu_tet.ts upstream/liblxqt-2.1.0-tet-locale.patch
-       build/qt/mainmenu_tet.qm
+Files: lxqt/backlight_tet.ts
+       lxqt/colorpicker_tet.ts
+       lxqt/cpuload_tet.ts
+       lxqt/customcommand_tet.ts
+       lxqt/desktopswitch_tet.ts
+       lxqt/directorymenu_tet.ts
+       lxqt/dom_tet.ts
+       lxqt/fancymenu_tet.ts
+       lxqt/kbindicator_tet.ts
+       lxqt/libfm-qt_tet.ts
+       lxqt/liblxqt_tet.ts
+       lxqt/lxqt-about_tet.ts
+       lxqt/lxqt-admin-time_tet.ts
+       lxqt/lxqt-admin-user_tet.ts
+       lxqt/lxqt-config-appearance_tet.ts
+       lxqt/lxqt-config-brightness_tet.ts
+       lxqt/lxqt-config-cursor_tet.ts
+       lxqt/lxqt-config-file-associations_tet.ts
+       lxqt/lxqt-config-globalkeyshortcuts_tet.ts
+       lxqt/lxqt-config-input_tet.ts
+       lxqt/lxqt-config-locale_tet.ts
+       lxqt/lxqt-config-monitor_tet.ts
+       lxqt/lxqt-config-notificationd_tet.ts
+       lxqt/lxqt-config-powermanagement_tet.ts
+       lxqt/lxqt-config-session_tet.ts
+       lxqt/lxqt-config_tet.ts
+       lxqt/lxqt-leave_tet.ts
+       lxqt/lxqt-notificationd_tet.ts
+       lxqt/lxqt-openssh-askpass_tet.ts
+       lxqt/lxqt-panel_tet.ts
+       lxqt/lxqt-policykit-agent_tet.ts
+       lxqt/lxqt-powermanagement_tet.ts
+       lxqt/lxqt-runner_tet.ts
+       lxqt/lxqt-session_tet.ts
+       lxqt/lxqt-sudo_tet.ts
+       lxqt/mainmenu_tet.ts
+       lxqt/mount_tet.ts
+       lxqt/networkmonitor_tet.ts
+       lxqt/qeyes_tet.ts
+       lxqt/quicklaunch_tet.ts
+       lxqt/sensors_tet.ts
+       lxqt/showdesktop_tet.ts
+       lxqt/spacer_tet.ts
+       lxqt/statusnotifier_tet.ts
+       lxqt/sysstat_tet.ts
+       lxqt/taskbar_tet.ts
+       lxqt/volume_tet.ts
+       lxqt/worldclock_tet.ts
 Copyright: 2010-2011 Razor team
-           2013 LXQt team, Alexander Sokoloff, Luis Pereira
-           2026 Edukasaun OS contributors (original Tetun translations/changes)
+           2012-2026 LXQt team and contributors
+           2026 Edukasaun OS contributors (original Tetun translations)
 License: LGPL-2.1+
-Comment: Sources/contexts derive from lxqt-panel 2.1.4 and liblxqt 2.1.0.
- Original notices are retained; exact URLs/hashes are in upstream/provenance.json.
- The installer does not apply the optional source patch.
+Comment: Message IDs and contexts from the upstream English templates of the
+ LXQt core repositories (liblxqt, lxqt-panel, lxqt-config, lxqt-session, ...)
+ and libfm-qt; commits are listed in data/lxqt-manifest.json. No other
+ language's translation is reused.
 
-Files: native/gtk20.po build/locale/tet/LC_MESSAGES/gtk20.mo
+Files: lxqt/lximage-qt_tet.ts
+       lxqt/lxqt-archiver_tet.ts
+       lxqt/obconf-qt_tet.ts
+       lxqt/pavucontrol-qt_tet.ts
+       lxqt/pcmanfm-qt_tet.ts
+       lxqt/qps_tet.ts
+       lxqt/qterminal_tet.ts
+       lxqt/qtermwidget_tet.ts
+       lxqt/screengrab_tet.ts
+Copyright: 2009-2026 Hong Jen Yee (PCMan), LXQt team and contributors
+           2013-2026 QTerminal, QTermWidget, ScreenGrab, qps and ObConf-Qt authors
+           2026 Edukasaun OS contributors (original Tetun translations)
+License: GPL-2+
+Comment: Message IDs and contexts from the upstream English templates of
+ PCManFM-Qt, LXImage-Qt, LXQt Archiver, ObConf-Qt, pavucontrol-qt, qps,
+ QTerminal, QTermWidget and ScreenGrab (data/lxqt-manifest.json).
+
+Files: upstream/lxqt-patches/liblxqt-*.patch upstream/lxqt-patches/libfm-qt-*.patch
+Copyright: 2010-2026 LXQt team and contributors
+           2026 Edukasaun OS contributors
+License: LGPL-2.1+
+
+Files: upstream/lxqt-patches/lxqt-build-tools-tet-locale.patch
+Copyright: 2014 Luís Pereira
+           2026 Edukasaun OS contributors
+License: BSD-3-Clause
+
+Files: upstream/lxqt-patches/pcmanfm-qt-*.patch upstream/lxqt-patches/lximage-qt-*.patch
+       upstream/lxqt-patches/lxqt-archiver-*.patch upstream/lxqt-patches/obconf-qt-*.patch
+       upstream/lxqt-patches/pavucontrol-qt-*.patch upstream/lxqt-patches/qps-*.patch
+       upstream/lxqt-patches/qterminal-*.patch
+Copyright: 2009-2026 LXQt team and contributors
+           2026 Edukasaun OS contributors
+License: GPL-2+
+
+Files: native/openbox.po
+Copyright: 2003-2014 Dana Jansens, Mikael Magnusson and Openbox contributors
+           2026 Edukasaun OS contributors (original Tetun translations)
+License: GPL-2+
+Comment: Message IDs and c-format flags from Openbox po/pt.po (commit
+ ebfa7271302b3bc4b6d349b8e4aab4cf5f6c7a6d); the Portuguese translations are
+ not reused.
+
+Files: native/gtk20.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: LGPL-2+
@@ -41,7 +132,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  Bruce Cowan <bruce@bcowan.me.uk>, 2009, 2010, 2011.
  Philip Withnall <philip@tecnocode.co.uk>, 2010.
 
-Files: native/gtk30.po build/locale/tet/LC_MESSAGES/gtk30.mo
+Files: native/gtk30.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: LGPL-2+
@@ -56,7 +147,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  Zander Brown <zbrown@gnome.org>, 2019-2020.
  Bruce Cowan <bruce@bcowan.me.uk>, 2009-2023.
 
-Files: native/gtk40.po build/locale/tet/LC_MESSAGES/gtk40.mo
+Files: native/gtk40.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: LGPL-2+
@@ -72,7 +163,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  Bruce Cowan <bruce@bcowan.me.uk>, 2009-2025.
  Andi Chandler <andi@gowling.com>, 2024.
 
-Files: native/gnome-shell.po build/locale/tet/LC_MESSAGES/gnome-shell.mo
+Files: native/gnome-shell.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -88,7 +179,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  Andi Chandler <andi@gowling.com>, 2024.
  Bruce Cowan <bruce@bcowan.me.uk>, 2010-2025.
 
-Files: native/cinnamon.po build/locale/tet/LC_MESSAGES/cinnamon.mo
+Files: native/cinnamon.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -100,7 +191,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  This file is distributed under the same license as the linuxmint package.
  FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
 
-Files: native/nemo.po build/locale/tet/LC_MESSAGES/nemo.mo
+Files: native/nemo.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -112,7 +203,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  This file is distributed under the same license as the linuxmint package.
  FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 
-Files: native/xfce4-panel.po build/locale/tet/LC_MESSAGES/xfce4-panel.mo
+Files: native/xfce4-panel.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -128,7 +219,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  Xfce Bot <transifex@xfce.org>, 2025
  .
 
-Files: native/Thunar.po build/locale/tet/LC_MESSAGES/Thunar.mo
+Files: native/Thunar.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -145,7 +236,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  Andi Chandler <andi@gowling.com>, 2025
  .
 
-Files: native/lxpanel.po build/locale/tet/LC_MESSAGES/lxpanel.mo
+Files: native/lxpanel.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -157,7 +248,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  This file is distributed under the same license as the PACKAGE package.
  FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 
-Files: native/pcmanfm.po build/locale/tet/LC_MESSAGES/pcmanfm.mo
+Files: native/pcmanfm.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -169,7 +260,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  This file is distributed under the same license as the pcmanfm package.
  Steve Cook <yorvik.ubunto@gmail.com>, 2010.
 
-Files: native/mate-panel.po build/locale/tet/LC_MESSAGES/mate-panel.mo
+Files: native/mate-panel.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -187,7 +278,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  Andi Chandler <andi@gowling.com>, 2023
  .
 
-Files: native/caja.po build/locale/tet/LC_MESSAGES/caja.mo
+Files: native/caja.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -206,7 +297,7 @@ Comment: Exact upstream IDs/contexts; partial catalog. Native English
  Andi Chandler <andi@gowling.com>, 2023
  .
 
-Files: native/dolphin.po build/locale/tet/LC_MESSAGES/dolphin.mo
+Files: native/dolphin.po
 Copyright: Original upstream copyright notices retained below
            2026 Edukasaun OS contributors (original Tetun translations)
 License: GPL-2+
@@ -266,3 +357,28 @@ License: LGPL-2.1+
  .
  This library is distributed without any warranty; see LICENSES/LGPL-2.1.txt
  for full terms. On Debian the text is in /usr/share/common-licenses/LGPL-2.1.
+
+License: BSD-3-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE HOLDERS OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

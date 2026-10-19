@@ -9,7 +9,7 @@
 # Bruce Cowan <bruce@bcowan.me.uk>, 2009, 2010, 2011.
 # Philip Withnall <philip@tecnocode.co.uk>, 2010.
 msgid ""
-msgstr "Project-Id-Version: gtk20 Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+msgstr "Project-Id-Version: gtk20 Tetun 0.3.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
 #. Placeholder in --class=CLASS in --help output
 #: ../gdk/gdk.c:152
@@ -113,7 +113,7 @@ msgstr "_Loos:"
 #: ../gtk/gtkfilechooserbutton.c:65 ../gtk/gtkfilechooserdefault.c:1852
 #. TET-0087; needs-INL-review
 msgid "Desktop"
-msgstr "Ambiente de traballu"
+msgstr "Ambiente servisu"
 
 #: ../gtk/gtkfilechooserbutton.c:2024
 #. TET-0387; needs-INL-review
@@ -263,7 +263,7 @@ msgstr "_Tamañu:"
 #: ../gtk/gtkfontsel.c:532
 #. TET-0037; needs-INL-review
 msgid "_Preview:"
-msgstr "_Pré-vizualizasaun:"
+msgstr "_Previzualizasaun:"
 
 #: ../gtk/gtkimmulticontext.c:573
 #. TET-0388; needs-INL-review
@@ -446,7 +446,7 @@ msgstr "_Apaga"
 #. TET-0219; needs-INL-review
 msgctxt "Stock label"
 msgid "_Disconnect"
-msgstr "_Desliga ligasaun"
+msgstr "_Dezliga"
 
 #: ../gtk/gtkstock.c:337
 #. TET-0106; needs-INL-review
@@ -569,7 +569,7 @@ msgstr "_Lae"
 #. TET-0007; needs-INL-review
 msgctxt "Stock label"
 msgid "_OK"
-msgstr "_Di'ak"
+msgstr "_OK"
 
 #: ../gtk/gtkstock.c:398
 #. TET-0001; needs-INL-review
@@ -611,7 +611,7 @@ msgstr "_Refaz"
 #. TET-0018; needs-INL-review
 msgctxt "Stock label"
 msgid "_Refresh"
-msgstr "_Karga fali"
+msgstr "_Karrega fali"
 
 #: ../gtk/gtkstock.c:416
 #. TET-0022; needs-INL-review
@@ -683,7 +683,7 @@ msgstr "Volume"
 #: ../gtk/gtkvolumebutton.c:157
 #. TET-0326; needs-INL-review
 msgid "Muted"
-msgstr "La iha lian"
+msgstr "Silensiadu"
 
 #: ../modules/printbackends/cups/gtkprintbackendcups.c:815
 #: ../modules/printbackends/cups/gtkprintbackendcups.c:1025

@@ -12,7 +12,7 @@
 # Andi Chandler <andi@gowling.com>, 2024.
 #
 msgid ""
-msgstr "Project-Id-Version: gtk40 Tetun 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+msgstr "Project-Id-Version: gtk40 Tetun 0.3.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community draft\nLanguage-Team: Tetun (INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
 #: gdk/keynamesprivate.h:6864
 #. TET-0015; needs-INL-review
@@ -138,7 +138,7 @@ msgstr "Loke xave"
 #: gtk/deprecated/gtkvolumebutton.c:239
 #. TET-0326; needs-INL-review
 msgid "Muted"
-msgstr "La iha lian"
+msgstr "Silensiadu"
 
 #: gtk/gtkaboutdialog.c:127 gtk/ui/gtkaboutdialog.ui:173
 #: gtk/ui/gtkaboutdialog.ui:192
@@ -149,7 +149,7 @@ msgstr "Lisensa"
 #: gtk/gtkaboutdialog.c:1029
 #. TET-0073; needs-INL-review
 msgid "Website"
-msgstr "Sítio web"
+msgstr "Sítiu web"
 
 #: gtk/gtkaccessible.c:845
 #. TET-0244; needs-INL-review
@@ -426,7 +426,7 @@ msgstr "Para"
 #: gtk/print/gtkprintbackend.c:639 gtk/gtkwindow.c:6334
 #. TET-0007; needs-INL-review
 msgid "_OK"
-msgstr "_Di'ak"
+msgstr "_OK"
 
 #: gtk/gtkmessagedialog.c:177
 #. TET-0009; needs-INL-review
@@ -471,7 +471,7 @@ msgstr "Arkivu foin loke"
 #: gtk/gtkplacessidebar.c:1040
 #. TET-0087; needs-INL-review
 msgid "Desktop"
-msgstr "Ambiente de traballu"
+msgstr "Ambiente servisu"
 
 #: gtk/gtkplacessidebar.c:1068
 #. TET-0084; needs-INL-review
@@ -513,7 +513,7 @@ msgstr "_Monta"
 #: gtk/gtkplacessidebar.c:3291 gtk/gtkplacesview.c:1669
 #. TET-0109; needs-INL-review
 msgid "_Unmount"
-msgstr "_Desmonta"
+msgstr "_Dezmonta"
 
 #: gtk/gtkplacessidebar.c:3298
 #. TET-0110; needs-INL-review
@@ -550,7 +550,7 @@ msgstr "_Kansela"
 #: gtk/gtkplacesview.c:1664
 #. TET-0219; needs-INL-review
 msgid "_Disconnect"
-msgstr "_Desliga ligasaun"
+msgstr "_Dezliga"
 
 #: gtk/gtkplacesview.c:1675
 #. TET-0218; needs-INL-review
@@ -560,13 +560,13 @@ msgstr "_Liga"
 #: gtk/gtkplacesviewrow.c:471
 #. TET-0219; needs-INL-review
 msgid "Disconnect"
-msgstr "Desliga ligasaun"
+msgstr "Dezliga"
 
 #: gtk/gtkplacesviewrow.c:471 gtk/ui/gtkplacesviewrow.ui:53
 #: gtk/ui/gtksidebarrow.ui:54
 #. TET-0109; needs-INL-review
 msgid "Unmount"
-msgstr "Desmonta"
+msgstr "Dezmonta"
 
 #: gtk/print/gtkprintbackend.c:637
 #. TET-0265; needs-INL-review
@@ -584,7 +584,7 @@ msgstr "Imprime"
 #: gtk/print/gtkprintunixdialog.c:839
 #. TET-0037; needs-INL-review
 msgid "Pre_view"
-msgstr "_Pré-vizualizasaun"
+msgstr "_Previzualizasaun"
 
 #: gtk/print/gtkprintunixdialog.c:841
 #. TET-0036; needs-INL-review

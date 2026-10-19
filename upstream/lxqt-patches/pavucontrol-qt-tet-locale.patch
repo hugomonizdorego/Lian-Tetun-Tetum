@@ -1,0 +1,34 @@
+Description: Load Qt translations with the QLocale-aware QTranslator::load()
+ QLocale::system().name() is "C" for languages that are missing from Qt's
+ CLDR-derived locale tables, such as Tetun (tet, tet_TL). The QLocale overload
+ of QTranslator::load() walks QLocale::uiLanguages() instead, which honours
+ LANGUAGE, LC_ALL, LC_MESSAGES and LANG and their fallbacks (tet_TL -> tet,
+ pt_BR -> pt), so every catalog that exists is found. Behaviour for languages
+ Qt already knows is unchanged.
+Author: Edukasaun OS contributors
+Origin: other, https://github.com/hugomonizdorego/Lian-Tetun-Tetum
+Forwarded: not-yet
+Upstream-Commit: https://github.com/lxqt/pavucontrol-qt/commit/b1f230e3fbd59ce501439252a8dd052a4c4f598c
+License: GPL-2.0-or-later (same as pavucontrol-qt)
+---
+diff --git a/src/pavucontrol.cc b/src/pavucontrol.cc
+index c12022b..8aa10bd 100644
+--- a/src/pavucontrol.cc
++++ b/src/pavucontrol.cc
+@@ -805,13 +805,13 @@ int main(int argc, char *argv[]) {
+ 
+     app.setOrganizationName(QStringLiteral("pavucontrol-qt"));
+ 
+-    QString locale = QLocale::system().name();
++    const QLocale locale = QLocale::system();
+     QTranslator qtTranslator;
+-    if(qtTranslator.load(QStringLiteral("qt_") + locale, QLibraryInfo::path(QLibraryInfo::TranslationsPath)))
++    if(qtTranslator.load(locale, QStringLiteral("qt"), QStringLiteral("_"), QLibraryInfo::path(QLibraryInfo::TranslationsPath)))
+         qApp->installTranslator(&qtTranslator);
+ 
+     QTranslator appTranslator;
+-    if(appTranslator.load(QStringLiteral("pavucontrol-qt_") + locale, QStringLiteral(PAVUCONTROL_QT_DATA_DIR) + QStringLiteral("/translations")))
++    if(appTranslator.load(locale, QStringLiteral("pavucontrol-qt"), QStringLiteral("_"), QStringLiteral(PAVUCONTROL_QT_DATA_DIR) + QStringLiteral("/translations")))
+         qApp->installTranslator(&appTranslator);
+ 
+     QCommandLineParser parser;

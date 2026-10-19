@@ -16,8 +16,12 @@ Native desktop catalogs retain the inspected application's GNU license:
 GTK catalogs LGPL-2.0-or-later; the other supplied native gettext catalogs
 GPL-2.0-or-later. Their exact English message IDs/contexts and source notices are
 retained. The Tetun translations are original drafts under the matching catalog
-license. LXQt-derived files retain LGPL-2.1-or-later. `native-manifest.json` and
-`upstream/provenance.json` identify the upstream sources and hashes.
+license. LXQt-derived files retain their component's license: LGPL-2.1-or-later
+for LXQt core and libfm-qt, GPL-2.0-or-later for PCManFM-Qt, QTerminal,
+QTermWidget, LXImage-Qt, LXQt Archiver, ScreenGrab, qps, pavucontrol-qt and
+ObConf-Qt (`data/lxqt-manifest.json`). The Openbox catalog is GPL-2.0-or-later.
+The loader patches carry the license of the project they modify. `native-manifest.json`,
+`lxqt-manifest.json` and `upstream/provenance.json` identify the upstream sources and hashes.
 
 The supplied DIT and Hull dictionaries reserve copying/reproduction rights.
 They are reference-only and are absent from the binary and source release. A

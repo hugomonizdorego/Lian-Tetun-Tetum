@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 # Original AI-assisted draft; no third-party dictionary copied.
 msgid ""
-msgstr "Project-Id-Version: eduka-language-pack-tet 0.2.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community\nLanguage-Team: Tetun (community draft; INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+msgstr "Project-Id-Version: eduka-language-pack-tet 0.3.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-03 00:00+0000\nPO-Revision-Date: 2026-10-03 00:00+0000\nLast-Translator: Edukasaun OS community\nLanguage-Team: Tetun (community draft; INL review pending)\nLanguage: tet\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
 #. TET-0001: needs-INL-review
 msgid "Open"
@@ -29,7 +29,7 @@ msgstr "Aplika"
 
 #. TET-0007: needs-INL-review
 msgid "OK"
-msgstr "Di'ak"
+msgstr "OK"
 
 #. TET-0008: needs-INL-review
 msgid "Yes"
@@ -73,7 +73,7 @@ msgstr "Koko fali"
 
 #. TET-0018: needs-INL-review
 msgid "Refresh"
-msgstr "Karga fali"
+msgstr "Karrega fali"
 
 #. TET-0019: needs-INL-review
 msgid "Reset"
@@ -149,7 +149,7 @@ msgstr "Imprime"
 
 #. TET-0037: needs-INL-review
 msgid "Preview"
-msgstr "Pré-vizualizasaun"
+msgstr "Previzualizasaun"
 
 #. TET-0038: needs-INL-review
 msgid "Import"
@@ -181,7 +181,7 @@ msgstr "Simu"
 
 #. TET-0045: needs-INL-review
 msgid "Download"
-msgstr "Deskarga"
+msgstr "Deskarrega"
 
 #. TET-0046: needs-INL-review
 msgid "Upload"
@@ -293,7 +293,7 @@ msgstr "Direitu autór"
 
 #. TET-0073: needs-INL-review
 msgid "Website"
-msgstr "Sítio web"
+msgstr "Sítiu web"
 
 #. TET-0074: needs-INL-review
 msgid "Documentation"
@@ -349,7 +349,7 @@ msgstr "Pasta pesoál"
 
 #. TET-0087: needs-INL-review
 msgid "Desktop"
-msgstr "Ambiente de traballu"
+msgstr "Ambiente servisu"
 
 #. TET-0088: needs-INL-review
 msgid "Documents"
@@ -437,7 +437,7 @@ msgstr "Monta"
 
 #. TET-0109: needs-INL-review
 msgid "Unmount"
-msgstr "Desmonta"
+msgstr "Dezmonta"
 
 #. TET-0110: needs-INL-review
 msgid "Eject"
@@ -457,7 +457,7 @@ msgstr "Espasu livre"
 
 #. TET-0114: needs-INL-review
 msgid "Used Space"
-msgstr "Espasu uza"
+msgstr "Espasu uzadu"
 
 #. TET-0115: needs-INL-review
 msgid "File Manager"
@@ -473,11 +473,11 @@ msgstr "Hakerek hikas"
 
 #. TET-0118: needs-INL-review
 msgid "File not found"
-msgstr "Arkivu la hetan"
+msgstr "La hetan arkivu"
 
 #. TET-0119: needs-INL-review
 msgid "Permission denied"
-msgstr "Permisaun rejeitada"
+msgstr "La iha permisaun"
 
 #. TET-0120: needs-INL-review
 msgid "A file with this name already exists."
@@ -505,7 +505,7 @@ msgstr "Hasai husi favoritu sira"
 
 #. TET-0126: needs-INL-review
 msgid "Add to Desktop"
-msgstr "Aumenta ba ambiente de traballu"
+msgstr "Aumenta ba ambiente servisu"
 
 #. TET-0127: needs-INL-review
 msgid "Accessories"
@@ -533,7 +533,7 @@ msgstr "Programasaun"
 
 #. TET-0133: needs-INL-review
 msgid "Sound & Video"
-msgstr "Som no Vídeu"
+msgstr "Áudiu no Vídeu"
 
 #. TET-0134: needs-INL-review
 msgid "System Tools"
@@ -629,7 +629,7 @@ msgstr "Ekrán tomak"
 
 #. TET-0157: needs-INL-review
 msgid "Show Desktop"
-msgstr "Hatudu ambiente de traballu"
+msgstr "Hatudu ambiente servisu"
 
 #. TET-0158: needs-INL-review
 msgid "Lock Screen"
@@ -641,11 +641,11 @@ msgstr "Sai husi sesaun"
 
 #. TET-0160: needs-INL-review
 msgid "Restart"
-msgstr "Reinísia"
+msgstr "Reinisia"
 
 #. TET-0161: needs-INL-review
 msgid "Shut Down"
-msgstr "Desliga"
+msgstr "Dezliga"
 
 #. TET-0162: needs-INL-review
 msgid "Suspend"
@@ -665,7 +665,7 @@ msgstr "Bateria"
 
 #. TET-0166: needs-INL-review
 msgid "Charging"
-msgstr "Karrega bateria"
+msgstr "Karrega hela"
 
 #. TET-0167: needs-INL-review
 msgid "Display"
@@ -733,27 +733,27 @@ msgstr "Instala atualizasaun"
 
 #. TET-0183: needs-INL-review
 msgid "Updates Available"
-msgstr "Atualizasaun disponivel"
+msgstr "Atualizasaun disponível"
 
 #. TET-0184: needs-INL-review
 msgid "No Updates Available"
-msgstr "La iha atualizasaun disponivel"
+msgstr "La iha atualizasaun disponível"
 
 #. TET-0185: needs-INL-review
 msgid "Checking for updates..."
-msgstr "Verifika atualizasaun..."
+msgstr "Verifika hela atualizasaun..."
 
 #. TET-0186: needs-INL-review
 msgid "Downloading..."
-msgstr "Deskarga..."
+msgstr "Deskarrega hela..."
 
 #. TET-0187: needs-INL-review
 msgid "Installing..."
-msgstr "Instala..."
+msgstr "Instala hela..."
 
 #. TET-0188: needs-INL-review
 msgid "Updating..."
-msgstr "Atualiza..."
+msgstr "Atualiza hela..."
 
 #. TET-0189: needs-INL-review
 msgid "Completed"
@@ -769,15 +769,15 @@ msgstr "Atualizasaun falla."
 
 #. TET-0192: needs-INL-review
 msgid "Restart Required"
-msgstr "Presiza reinísia"
+msgstr "Presiza reinisia"
 
 #. TET-0193: needs-INL-review
 msgid "Restart Now"
-msgstr "Reinísia agora"
+msgstr "Reinisia agora"
 
 #. TET-0194: needs-INL-review
 msgid "Restart Later"
-msgstr "Reinísia depois"
+msgstr "Reinisia depois"
 
 #. TET-0195: needs-INL-review
 msgid "Critical Updates"
@@ -853,7 +853,7 @@ msgstr "Pendente"
 
 #. TET-0213: needs-INL-review
 msgid "Running"
-msgstr "Hala'o"
+msgstr "Hala'o hela"
 
 #. TET-0214: needs-INL-review
 msgid "Up to date"
@@ -877,7 +877,7 @@ msgstr "Liga"
 
 #. TET-0219: needs-INL-review
 msgid "Disconnect"
-msgstr "Desliga ligasaun"
+msgstr "Dezliga"
 
 #. TET-0220: needs-INL-review
 msgid "Connected"
@@ -897,7 +897,7 @@ msgstr "Iha ligasaun"
 
 #. TET-0224: needs-INL-review
 msgid "Wireless"
-msgstr "Rede sem fiu"
+msgstr "Rede laho fiu"
 
 #. TET-0225: needs-INL-review
 msgid "Wired"
@@ -921,11 +921,11 @@ msgstr "Proxy"
 
 #. TET-0230: needs-INL-review
 msgid "Share"
-msgstr "Partilla"
+msgstr "Fahe"
 
 #. TET-0231: needs-INL-review
 msgid "Sharing"
-msgstr "Partilla"
+msgstr "Fahe"
 
 #. TET-0232: needs-INL-review
 msgid "Signal Strength"
@@ -1021,7 +1021,7 @@ msgstr "Disiplina"
 
 #. TET-0255: needs-INL-review
 msgid "Microphone"
-msgstr "Mikrofóne"
+msgstr "Mikrofone"
 
 #. TET-0256: needs-INL-review
 msgid "Camera"
@@ -1085,15 +1085,15 @@ msgstr "Permitidu"
 
 #. TET-0271: needs-INL-review
 msgid "Block Website"
-msgstr "Blokeia sítio web"
+msgstr "Blokeia sítiu web"
 
 #. TET-0272: needs-INL-review
 msgid "Unblock Website"
-msgstr "Hasai blokeiu sítio web"
+msgstr "Hasai blokeiu sítiu web"
 
 #. TET-0273: needs-INL-review
 msgid "Blocked Websites"
-msgstr "Sítio web blokeadu"
+msgstr "Sítiu web blokeadu"
 
 #. TET-0274: needs-INL-review
 msgid "Filter"
@@ -1225,7 +1225,7 @@ msgstr "Testu orijinál"
 
 #. TET-0306: needs-INL-review
 msgid "Translated Text"
-msgstr "Testu tradús"
+msgstr "Testu tradusidu"
 
 #. TET-0307: needs-INL-review
 msgid "Character"
@@ -1249,11 +1249,11 @@ msgstr "Prontu"
 
 #. TET-0312: needs-INL-review
 msgid "Welcome to Edukasaun OS"
-msgstr "Benvindu ba Edukasaun OS"
+msgstr "Bemvindu ba Edukasaun OS"
 
 #. TET-0313: needs-INL-review
 msgid "Free and open-source software"
-msgstr "Software livre no ho kódigu fonte nakloke"
+msgstr "Software livre no kódigu nakloke"
 
 #. TET-0314: needs-INL-review
 msgid "Developed in Timor-Leste"
@@ -1305,11 +1305,11 @@ msgstr "Loke xave"
 
 #. TET-0326: needs-INL-review
 msgid "Muted"
-msgstr "La iha lian"
+msgstr "Silensiadu"
 
 #. TET-0327: needs-INL-review
 msgid "Unmute"
-msgstr "Ativa lian"
+msgstr "Ativa áudiu"
 
 #. TET-0328: needs-INL-review
 msgid "Airplane Mode"
@@ -1333,15 +1333,15 @@ msgstr "Vizaun jerál"
 
 #. TET-0333: needs-INL-review
 msgid "Workspace"
-msgstr "Espasu traballu"
+msgstr "Espasu servisu"
 
 #. TET-0334: needs-INL-review
 msgid "Workspaces"
-msgstr "Espasu traballu sira"
+msgstr "Espasu servisu sira"
 
 #. TET-0335: needs-INL-review
 msgid "Workspace Switcher"
-msgstr "Troka espasu traballu"
+msgstr "Troka espasu servisu"
 
 #. TET-0336: needs-INL-review
 msgid "Window List"
@@ -1489,7 +1489,7 @@ msgstr "Formatu"
 
 #. TET-0372: needs-INL-review
 msgid "Formatting"
-msgstr "Formata"
+msgstr "Formatasaun"
 
 #. TET-0373: needs-INL-review
 msgid "Root"
@@ -1593,7 +1593,7 @@ msgstr "Área notifikasaun"
 
 #. TET-0398: needs-INL-review
 msgid "Sound"
-msgstr "Lian"
+msgstr "Áudiu"
 
 #. TET-0399: needs-INL-review
 msgid "Themes"
@@ -1729,7 +1729,7 @@ msgstr "Halo kópia"
 
 #. TET-0432: needs-INL-review
 msgid "Reload"
-msgstr "Karga fali"
+msgstr "Karrega fali"
 
 #. Count-neutral Tetun phrase; one draft gettext plural form.
 #, python-format

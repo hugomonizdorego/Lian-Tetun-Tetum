@@ -1,3 +1,49 @@
+eduka-language-pack-tet (0.3.0) unstable; urgency=medium
+
+  * LXQt: complete draft Tetun translation of all LXQt components (57 Qt
+    catalogs, 3,677/3,706 messages) generated from the templates of LXQt
+    master and the 2.1.x releases in Debian 13; installed where each
+    component looks. New scripts/generate_lxqt.py and data/lxqt-tm.json.
+  * Add upstream/lxqt-patches: QLocale-aware QTranslator::load() for liblxqt,
+    lxqt-build-tools, libfm-qt, PCManFM-Qt, LXImage-Qt, QTerminal, qps,
+    pavucontrol-qt, LXQt Archiver and ObConf-Qt (Qt reports "tet" as "C").
+    Verified against Qt 6.4; replaces the old liblxqt raw-locale patch.
+  * eduka-tet enable --desktop lxqt now sets LANG/LANGUAGE/LC_* in
+    ~/.config/lxqt/session.conf [Environment] (reversible, journaled).
+  * Add an Openbox gettext catalog (93/94 messages).
+  * Correct 45 glossary entries (dez- prefix, accents, -iu endings,
+    Portuguese function words, progressive "hela", word order) and apply the
+    corrections to every catalog; see docs/CORRECTIONS.md.
+  * Fix 9 native catalog entries that dropped a trailing space.
+  * Add scripts/check_tetun.py (placeholders, accelerators, HTML tags,
+    punctuation and spelling rules), run by make check and the tests.
+  * QM compiler: accept single-form numerus messages.
+
+ -- Hugo Moniz do Rego <ideaofficial@fdsl.tl>  Mon, 12 Oct 2026 00:00:00 +0000
+
+eduka-language-pack-tet (0.2.1) unstable; urgency=medium
+
+  * Packaging rewritten to follow Debian Policy and debhelper conventions:
+    - debian/rules now uses dh with debhelper-compat 13 instead of a custom
+      dpkg-deb script; the upstream Makefile is the single install path.
+    - Documentation, examples and the manual page are installed with
+      dh_installdocs, dh_installexamples and dh_installman; license texts are
+      no longer duplicated in /usr/share/doc (see debian/copyright).
+    - Add Vcs-*, Multi-Arch: foreign and ${misc:Depends}; list the covered
+      desktops in the package description.
+    - Maintainer scripts handle every dpkg action, include #DEBHELPER#, and
+      remove the generated tet_TL.utf8 locale on remove as well as purge.
+      A failed locale compilation now warns instead of breaking dpkg.
+  * Install the .desktop file, icon and LXQt menu catalog from `make install`
+    too, so source installs match the Debian package.
+  * Mark bin/eduka-tet executable in git (tests failed on a fresh clone) and
+    stop writing Python bytecode under /usr/share.
+  * debian/copyright: set the real Source URL and drop build-only paths.
+  * Add .gitignore and a GitHub Actions workflow that builds the package and
+    runs lintian and an install/remove/purge test in Debian 13.
+
+ -- Hugo Moniz do Rego <ideaofficial@fdsl.tl>  Sun, 11 Oct 2026 00:00:00 +0000
+
 eduka-language-pack-tet (0.2.0) unstable; urgency=medium
 
   * Add 13 partial native GTK and desktop application catalogs with exact
